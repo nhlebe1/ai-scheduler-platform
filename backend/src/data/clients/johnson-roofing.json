@@ -1,0 +1,18 @@
+{
+  "id": "johnson-roofing",
+  "name": "Johnson Roofing",
+  "tagline": "Quality Roofing You Can Trust",
+  "brandColor": "#1e40af",
+  "brandColorLight": "#dbeafe",
+  "logoText": "JR",
+  "services": [
+    "Roof Inspection",
+    "Roof Repair",
+    "Full Roof Replacement",
+    "Gutter Cleaning & Repair",
+    "Emergency Tarping"
+  ],
+  "businessHours": "Monday–Friday, 8am–5pm",
+  "assistantName": "Riley",
+  "welcomeMessage": "Hi, thanks for contacting Johnson Roofing! I'm Riley, your scheduling assistant. I can get you booked for a free inspection in under 60 seconds — no phone call needed. Want to get started?"
+}

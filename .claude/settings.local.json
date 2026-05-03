@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(echo \"Backend PID: $!\")",
+      "Bash(curl -s http://localhost:3001/api/config/johnson-roofing)",
+      "Bash(curl -s http://localhost:3001/api/bookings)",
+      "Bash(curl -s -X POST http://localhost:3001/api/bookings -H 'Content-Type: application/json' -d '{\"client_id\":\"johnson-roofing\",\"name\":\"Jane Smith\",\"phone\":\"555-123-4567\",\"email\":\"jane@example.com\",\"service\":\"Roof Inspection\",\"address\":\"123 Main St, Springfield\",\"slot\":\"Monday, May 5 at 9:00 AM\"}')",
+      "Bash(curl -s -X POST http://localhost:3001/api/bookings -H 'Content-Type: application/json' -d '{\"client_id\":\"johnson-roofing\",\"name\":\"\",\"phone\":\"bad\",\"email\":\"notanemail\"}')",
+      "Bash(echo \"Frontend PID: $!\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -sv -X POST http://localhost:3001/api/bookings -H 'Content-Type: application/json' -d '{\"client_id\":\"johnson-roofing\",\"name\":\"Test\",\"phone\":\"555-000-0000\",\"email\":\"t@t.com\",\"service\":\"Roof Repair\",\"address\":\"1 Main St\",\"slot\":\"Monday, May 4 at 9:00 AM\"}')",
+      "Bash(curl -s -X POST http://localhost:3001/api/bookings -H 'Content-Type: application/json' -d '{\"client_id\":\"johnson-roofing\",\"name\":\"Test User\",\"phone\":\"555-000-0000\",\"email\":\"t@test.com\",\"service\":\"Roof Repair\",\"address\":\"1 Main St\",\"slot\":\"Monday, May 4 at 9:00 AM\"}')",
+      "Bash(node -e ' *)",
+      "Bash(pkill -f \"ts-node-dev\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "PowerShell(Stop-Process -Name node -Force -ErrorAction SilentlyContinue)",
+      "Bash(node /c/Users/Nick/OneDrive/Desktop/ai-scheduler-platform/backend/dist/index.js)",
+      "Bash(node -e \"const d=[];process.stdin.on\\('data',c=>d.push\\(c\\)\\);process.stdin.on\\('end',\\(\\)=>{const r=JSON.parse\\(d.join\\(''\\)\\);console.log\\('name:',r.name\\);}\\)\")"
+    ]
+  }
+}
