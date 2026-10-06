@@ -1,12 +1,65 @@
 {
-  "updated": "2026-10-06T19:00:00Z",
-  "checked": "2026-10-06T20:25:00Z",
-  "headline": "Suspected pneumonic plague death in Irkutsk Oblast. No plague found in contacts tested so far.",
+  "updated": "2026-10-06T21:00:00Z",
+  "checked": "2026-10-06T21:03:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/",
+  "shareUrl": "https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw",
+  "social": {
+    "x": ""
+  },
+  "headline": "Russia tells WHO no plague found in contacts. WHO rates the risk low for Russia, moderate to low for Irkutsk.",
   "status": {
     "level": "suspected",
     "label": "Suspected, unconfirmed",
-    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Rospotrebnadzor lists the cause as \"pneumonia of unknown etiology\". On 6 October officials said no plague had been detected in the contacts tested so far."
+    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested."
   },
+  "stage": {
+    "current": 2,
+    "since": "2026-10-02"
+  },
+  "ladder": [
+    {
+      "n": 1,
+      "label": "Reports",
+      "test": "Unverified reports or rumours of illness"
+    },
+    {
+      "n": 2,
+      "label": "Suspected case",
+      "test": "Officials or several credible outlets report a suspected case"
+    },
+    {
+      "n": 3,
+      "label": "Confirmed case",
+      "test": "Authorities or WHO confirm plague by laboratory test"
+    },
+    {
+      "n": 4,
+      "label": "Spread to others",
+      "test": "A confirmed case in someone infected by another person"
+    },
+    {
+      "n": 5,
+      "label": "Cluster",
+      "test": "Several linked confirmed cases"
+    },
+    {
+      "n": 6,
+      "label": "Global emergency",
+      "test": "WHO declares a Public Health Emergency of International Concern"
+    }
+  ],
+  "counters": [
+    {
+      "id": "since-death",
+      "label": "since the death",
+      "from": "2026-10-02"
+    },
+    {
+      "id": "no-new-cases",
+      "label": "without a new case",
+      "from": "2026-10-02"
+    }
+  ],
   "figures": [
     {
       "id": "deaths",
@@ -39,24 +92,187 @@
     {
       "id": "tested",
       "label": "Contacts tested so far",
-      "value": "60%",
-      "note": "No plague detected, officials said on 6 Oct",
-      "tone": "good"
+      "value": 60,
+      "note": "No dangerous pathogens found, Russia told WHO on 6 Oct",
+      "tone": "good",
+      "unit": "%"
     },
     {
       "id": "symptomatic",
       "label": "Contacts with plague symptoms",
       "value": 0,
-      "note": "Daily tests found 2 Covid-19 and 2 rhinovirus, nothing else",
+      "note": "None, according to Russian authorities and WHO",
       "tone": "good"
     }
   ],
+  "history": [
+    {
+      "date": "2026-10-02",
+      "values": {
+        "deaths": 1,
+        "confirmed": 0,
+        "contacts": 197,
+        "observed": 189,
+        "symptomatic": 0
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "values": {
+        "deaths": 1,
+        "confirmed": 0,
+        "contacts": 197,
+        "observed": 189,
+        "tested": 60,
+        "symptomatic": 0
+      }
+    }
+  ],
+  "risk": {
+    "by": "WHO initial risk assessment",
+    "date": "2026-10-06",
+    "scale": [
+      "Very low",
+      "Low",
+      "Moderate",
+      "High",
+      "Very high"
+    ],
+    "areas": [
+      {
+        "area": "Irkutsk Oblast",
+        "from": 1,
+        "to": 2,
+        "label": "Moderate to low"
+      },
+      {
+        "area": "Russia",
+        "from": 1,
+        "to": 1,
+        "label": "Low"
+      },
+      {
+        "area": "WHO European Region",
+        "from": 0,
+        "to": 0,
+        "label": "Very low"
+      }
+    ],
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/10/1168533"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"
+      }
+    ]
+  },
   "watch": {
     "label": "Incubation watch",
     "lastExposure": "2026-10-02",
     "incubationDays": 7,
     "explainer": "WHO puts plague incubation at 1–7 days. Contacts were last exposed on or before 2 October. If none fall ill by the end of this window, onward spread from this case becomes very unlikely."
   },
+  "claims": [
+    {
+      "claim": "The worker died of pneumonic plague",
+      "status": "unconfirmed",
+      "detail": "Media reports cite unnamed sources. Russian authorities list pneumonia of unknown etiology. WHO says no cause has been officially confirmed.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/04/europe/russia-laboratory-plague-accident-intl"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/europe/russia-plague-suspected-lab-worker-dies-200-medical-observation-rcna601559"
+        }
+      ]
+    },
+    {
+      "claim": "She broke a test tube of plague bacteria on 25 September",
+      "status": "disputed",
+      "detail": "Reported by the Siberian outlet Lyudi Baikala. Russian officials deny any lab accident.",
+      "sources": [
+        {
+          "name": "Ynet",
+          "url": "https://www.ynetnews.com/health_science/article/b18cfyyoge"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-plague-lab-death-pneumonia-of-unknown-origin/"
+        }
+      ]
+    },
+    {
+      "claim": "Plague has spread to her contacts",
+      "status": "no-evidence",
+      "detail": "Russia told WHO on 6 October that no dangerous pathogens were found in any contact tested and none have symptoms.",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168533"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"
+        }
+      ]
+    },
+    {
+      "claim": "Shelekhov District Hospital was put under quarantine",
+      "status": "confirmed",
+      "detail": "Announced by Irkutsk Governor Igor Kobzev on 2 October. Restrictions remain in place.",
+      "sources": [
+        {
+          "name": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"
+        }
+      ]
+    },
+    {
+      "claim": "Russia has shared information with WHO",
+      "status": "confirmed",
+      "detail": "Russian authorities briefed WHO on 6 October, according to WHO spokesperson Christian Lindmeier.",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168533"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Incubation window for contacts closes",
+      "date": "2026-10-09",
+      "status": "pending"
+    },
+    {
+      "label": "Test results for the remaining contacts",
+      "status": "pending",
+      "note": "About 40% were still untested on 6 Oct"
+    },
+    {
+      "label": "Official cause of death from expanded lab tests",
+      "status": "pending"
+    },
+    {
+      "label": "Quarantine lifted at Shelekhov District Hospital",
+      "status": "pending"
+    },
+    {
+      "label": "Updated WHO risk assessment",
+      "status": "pending"
+    },
+    {
+      "label": "Russia briefs WHO",
+      "date": "2026-10-06",
+      "status": "done"
+    }
+  ],
   "positions": [
     {
       "who": "Rospotrebnadzor",
@@ -76,7 +292,7 @@
       "who": "World Health Organization",
       "ru": "ВОЗ",
       "kind": "international",
-      "text": "Russia has not yet formally answered WHO's request for information. Earlier, WHO said that based on unofficial information the risk to the general population appears low.",
+      "text": "Russia has briefed WHO: no plague found in contacts and none have symptoms. WHO's initial risk assessment is moderate to low for Irkutsk, low for Russia and very low for Europe.",
       "date": "2026-10-06"
     },
     {
@@ -89,6 +305,7 @@
   ],
   "timeline": [
     {
+      "id": "2026-08-14-plague-bacterium-isolated-on-the",
       "date": "2026-08-14",
       "end": "2026-08-31",
       "kind": "background",
@@ -102,6 +319,7 @@
       ]
     },
     {
+      "id": "2026-09-25-test-tube-reportedly-broken-in",
       "date": "2026-09-25",
       "kind": "media",
       "title": "Test tube reportedly broken in the lab",
@@ -118,6 +336,7 @@
       ]
     },
     {
+      "id": "2026-09-29-worker-hospitalised-with-severe-pneumonia",
       "date": "2026-09-29",
       "kind": "official",
       "title": "Worker hospitalised with severe pneumonia",
@@ -130,6 +349,7 @@
       ]
     },
     {
+      "id": "2026-10-02-death-confirmed-shelekhov-hospital-quarantined",
       "date": "2026-10-02",
       "kind": "official",
       "title": "Death confirmed; Shelekhov hospital quarantined",
@@ -146,6 +366,7 @@
       ]
     },
     {
+      "id": "2026-10-04-rospotrebnadzor-pneumonia-of-unknown-etiology",
       "date": "2026-10-04",
       "kind": "official",
       "title": "Rospotrebnadzor: \"pneumonia of unknown etiology\"",
@@ -162,6 +383,7 @@
       ]
     },
     {
+      "id": "2026-10-04-who-in-contact-with-moscow",
       "date": "2026-10-04",
       "kind": "international",
       "title": "WHO in contact with Moscow; White House monitoring",
@@ -178,6 +400,7 @@
       ]
     },
     {
+      "id": "2026-10-05-eu-monitoring-very-closely-us",
       "date": "2026-10-05",
       "kind": "international",
       "title": "EU monitoring \"very closely\"; US offers help",
@@ -198,6 +421,7 @@
       ]
     },
     {
+      "id": "2026-10-05-regional-commission-repeats-unknown-aetiology",
       "date": "2026-10-05",
       "kind": "official",
       "title": "Regional commission repeats \"unknown aetiology\" finding",
@@ -214,6 +438,7 @@
       ]
     },
     {
+      "id": "2026-10-06-no-plague-found-in-contacts",
       "date": "2026-10-06",
       "kind": "official",
       "title": "No plague found in contacts tested so far",
@@ -230,18 +455,23 @@
       ]
     },
     {
+      "id": "2026-10-06-russia-tells-who-no-plague",
       "date": "2026-10-06",
       "kind": "international",
-      "title": "WHO still waiting on Russia's formal reply",
-      "body": "WHO says Russian authorities have not yet officially responded to its request for information. The US State Department says it is monitoring the case closely with the CDC.",
+      "title": "Russia tells WHO no plague found in contacts; WHO rates the risk",
+      "body": "Russian authorities told WHO that no dangerous pathogens were found in any contact tested and none have symptoms. WHO's first risk assessment: moderate to low for Irkutsk, low for Russia, very low for Europe. Earlier the same day WHO had said it was still waiting for a formal reply.",
       "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168533"
+        },
         {
           "name": "NBC News",
           "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"
         },
         {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/10/06/world/russian-plague-outbreak-what-we-know-intl"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/health/how-russia-and-the-world-are-responding-to-a-possible-case-of-pneumonic-plague-after-lab-worker-death"
         }
       ]
     }
@@ -253,7 +483,11 @@
       "region": "Shelekhov, Irkutsk Oblast",
       "role": "Where the worker died. Placed under quarantine.",
       "kind": "official",
-      "q": "Шелеховская районная больница, Шелехов"
+      "q": "Шелеховская районная больница, Шелехов",
+      "lat": 52.21,
+      "lon": 104.1,
+      "map": true,
+      "mapLabel": "Irkutsk area"
     },
     {
       "name": "Irkutsk Anti-Plague Research Institute",
@@ -261,7 +495,10 @@
       "region": "Irkutsk, Irkutsk Oblast",
       "role": "Her workplace. 12 contacts observed here.",
       "kind": "official",
-      "q": "Иркутский противочумный институт, улица Трилиссера 78, Иркутск"
+      "q": "Иркутский противочумный институт, улица Трилиссера 78, Иркутск",
+      "lat": 52.27,
+      "lon": 104.3,
+      "map": false
     },
     {
       "name": "Sailyugem natural plague focus",
@@ -269,7 +506,10 @@
       "region": "Kosh-Agach district, Altai Republic / Mongolia border",
       "role": "About 29,000 km² of steppe. High activity in 2026. Russia's last human cases (2014–2016) were in this area.",
       "kind": "background",
-      "q": "49.85,88.95"
+      "q": "49.85,88.95",
+      "lat": 49.85,
+      "lon": 88.95,
+      "map": false
     },
     {
       "name": "Tuva mountain plague focus",
@@ -277,9 +517,173 @@
       "region": "Mongun-Taiga district, Tuva Republic",
       "role": "Natural focus monitored every season. Marmots and gophers carry the bacterium.",
       "kind": "background",
-      "q": "50.27,90.13"
+      "q": "50.27,90.13",
+      "lat": 50.27,
+      "lon": 90.13,
+      "map": false
     }
   ],
+  "foci": {
+    "note": "Locations are approximate centres of each natural plague area, for orientation only.",
+    "sources": [
+      {
+        "name": "Rospotrebnadzor guidance MU 3.1.3.3395-16",
+        "url": "https://docs.cntd.ru/document/456042962"
+      },
+      {
+        "name": "SecurityLab",
+        "url": "https://www.securitylab.ru/blog/personal/Bitbox/362810.php"
+      }
+    ],
+    "items": [
+      {
+        "name": "Caspian sandy",
+        "ru": "Прикаспийский песчаный",
+        "lat": 45.6,
+        "lon": 46.6,
+        "group": "south"
+      },
+      {
+        "name": "Caspian north-west steppe",
+        "ru": "Прикаспийский Северо-Западный степной",
+        "lat": 46.4,
+        "lon": 44.2,
+        "group": "south"
+      },
+      {
+        "name": "Volga-Ural sandy",
+        "ru": "Волго-Уральский песчаный",
+        "lat": 47.1,
+        "lon": 47.6,
+        "group": "south"
+      },
+      {
+        "name": "Volga-Ural steppe",
+        "ru": "Волго-Уральский степной",
+        "lat": 49.0,
+        "lon": 46.8,
+        "group": "south"
+      },
+      {
+        "name": "Central Caucasus high-mountain",
+        "ru": "Центрально-Кавказский высокогорный",
+        "lat": 43.4,
+        "lon": 42.7,
+        "group": "south"
+      },
+      {
+        "name": "Terek-Sunzha low-mountain",
+        "ru": "Терско-Сунженский низкогорный",
+        "lat": 43.4,
+        "lon": 44.9,
+        "group": "south"
+      },
+      {
+        "name": "Dagestan plain-foothill",
+        "ru": "Дагестанский равнинно-предгорный",
+        "lat": 43.2,
+        "lon": 46.9,
+        "group": "south"
+      },
+      {
+        "name": "East Caucasus high-mountain",
+        "ru": "Восточно-Кавказский высокогорный",
+        "lat": 42.1,
+        "lon": 46.6,
+        "group": "south"
+      },
+      {
+        "name": "Altai mountain",
+        "ru": "Алтайский горный",
+        "lat": 49.9,
+        "lon": 88.6,
+        "note": "Includes the Sailyugem area on the Mongolian border. Russia's last human cases, 2014–2016.",
+        "label": "left"
+      },
+      {
+        "name": "Tuva mountain",
+        "ru": "Тувинский горный",
+        "lat": 50.4,
+        "lon": 90.5,
+        "label": "right"
+      },
+      {
+        "name": "Trans-Baikal steppe",
+        "ru": "Забайкальский степной",
+        "lat": 50.2,
+        "lon": 117.4,
+        "label": "right"
+      }
+    ]
+  },
+  "context": {
+    "stats": [
+      {
+        "value": "584",
+        "label": "plague deaths worldwide, 2010–2015",
+        "note": "Out of 3,248 reported cases",
+        "source": {
+          "name": "WHO via Public Health Agency of Canada",
+          "url": "https://www.canada.ca/en/public-health/services/diseases/plague/health-professionals-plague.html"
+        }
+      },
+      {
+        "value": "2,417",
+        "label": "cases in Madagascar's 2017 outbreak",
+        "note": "209 deaths; 77% were the pneumonic form",
+        "source": {
+          "name": "Epidemiology & Infection (WHO AFRO)",
+          "url": "https://www.cambridge.org/core/journals/epidemiology-and-infection/article/using-evidence-to-inform-response-to-the-2017-plague-outbreak-in-madagascar-a-view-from-the-who-african-regional-office/A10E864926C053916E62BBE64F079294"
+        }
+      },
+      {
+        "value": "11",
+        "label": "natural plague areas in Russia",
+        "note": "7 cross into Mongolia, Kazakhstan, China, Georgia or Azerbaijan",
+        "source": {
+          "name": "SecurityLab",
+          "url": "https://www.securitylab.ru/blog/personal/Bitbox/362810.php"
+        }
+      },
+      {
+        "value": "2016",
+        "label": "Russia's last confirmed human case",
+        "note": "A 10-year-old boy in Altai, bubonic, after skinning a marmot. He survived.",
+        "source": {
+          "name": "bne IntelliNews",
+          "url": "https://www.intellinews.com/black-death-hits-russia-it-never-really-went-away-473582/"
+        }
+      }
+    ],
+    "russiaHistory": [
+      {
+        "year": "2014",
+        "text": "Human bubonic case in Kosh-Agach district, Altai Republic, linked to a marmot."
+      },
+      {
+        "year": "2015",
+        "text": "Human bubonic case in Altai after dressing a marmot caught in the Elangash valley."
+      },
+      {
+        "year": "2016",
+        "text": "A 10-year-old boy in Kosh-Agach catches bubonic plague skinning a marmot. 17 contacts quarantined; he survives."
+      },
+      {
+        "year": "2026",
+        "text": "Sailyugem area on the Mongolian border shows high activity. In October, the suspected Irkutsk lab case."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "bne IntelliNews",
+        "url": "https://www.intellinews.com/black-death-hits-russia-it-never-really-went-away-473582/"
+      },
+      {
+        "name": "Problems of Particularly Dangerous Infections (2016)",
+        "url": "https://doaj.org/article/2ebe09f2e5314736b66eb10acce29738"
+      }
+    ]
+  },
   "facts": [
     {
       "q": "What is pneumonic plague?",
@@ -324,10 +728,9 @@
       "url": "https://www.who.int/news-room/fact-sheets/detail/plague"
     }
   ],
-  "shareUrl": "https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw",
   "card": {
     "title": "Suspected plague death in Siberia",
-    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Russia has not confirmed plague. No plague found in contacts tested so far.",
+    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Plague is not confirmed. Russia told WHO no plague was found in her contacts.",
     "stats": [
       "deaths",
       "contacts",
@@ -340,6 +743,6 @@
       "symptomatic": "Contacts with symptoms",
       "deaths": "Death"
     },
-    "sources": "Rospotrebnadzor, WHO, NBC, Moscow Times"
+    "sources": "WHO, UN News, Rospotrebnadzor, NBC"
   }
 }

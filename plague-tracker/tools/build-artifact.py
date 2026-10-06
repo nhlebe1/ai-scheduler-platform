@@ -3,8 +3,8 @@
     python3 plague-tracker/tools/build-artifact.py OUT_DIR
 
 Writes OUT_DIR/plague-watch.html (index.html without the document wrapper, which the
-Artifact host adds itself) and OUT_DIR/data.json. Publish plague-watch.html with
-data.json as a supporting file.
+Artifact host adds itself) plus OUT_DIR/data.json and OUT_DIR/map.json. Publish
+plague-watch.html with data.json and map.json as supporting files.
 """
 import os
 import re
@@ -22,5 +22,6 @@ keep += re.findall(r'<link rel="(?:preconnect|stylesheet)"[^>]*>', head)
 keep.append(re.search(r"<style>.*?</style>", head, re.S).group(0))
 with open(os.path.join(out, "plague-watch.html"), "w", encoding="utf-8") as f:
     f.write("\n".join(keep) + "\n" + body.strip() + "\n")
-shutil.copy(os.path.join(root, "data.json"), os.path.join(out, "data.json"))
-print("wrote", os.path.join(out, "plague-watch.html"), "and data.json")
+for name in ("data.json", "map.json"):
+    shutil.copy(os.path.join(root, name), os.path.join(out, name))
+print("wrote", os.path.join(out, "plague-watch.html"), "plus data.json and map.json")
