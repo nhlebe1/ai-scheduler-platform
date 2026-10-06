@@ -8,11 +8,11 @@ Change this file to change what the tracker follows; the schedule just runs it.
 - claude.ai copy: https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw
 - All content: `plague-tracker/data.json`
 
-## 0. Repo access (scheduled runs)
+## 0. Who runs this
 
-If the repo is not in your working directory, attach it first. The tool is deferred: load it with
-ToolSearch (`select:mcp__claude-code-remote__add_repo`), call it with owner `nhlebe1`, repo
-`ai-scheduler-platform`, access `push`, then run the clone command it returns.
+Scheduled updates run in a dedicated "Plague Watch maintainer" Claude session that was created with
+this repo checked out and push access to the branch. A routine wakes it every 4 hours. Fresh routine
+sessions can't push to this repo, so don't switch back to those.
 
 ## 1. Get the latest code
 
