@@ -27,3 +27,18 @@ folder as-is, no build step.
 1. Open the site in Chrome on the phone.
 2. Tap the ⋮ menu, then **Install app** (or **Add to Home screen**).
 3. Launch "Plague Watch" from the home screen. It opens full-screen and works offline with the last data it loaded.
+
+## Share publicly
+
+- `share/share-card-x.png`: 16:9 image to attach to posts on X and elsewhere
+- `share/og-image.png`: link-preview image (1200×630) used by the `og:image` tag
+- `share/post-copy.md`: ready-to-paste text for X, LinkedIn/Facebook and Reddit
+
+When you self-host:
+
+1. Set `shareUrl` in `data.json` to your site's address so the in-app Share button copies it.
+2. Make the `og:image` tag in `index.html` an absolute URL
+   (e.g. `https://your-site.example/share/og-image.png`). X and Facebook ignore relative image paths.
+
+No GitHub needed: drag the `plague-tracker/` folder onto Netlify Drop
+(https://app.netlify.com/drop) or Cloudflare Pages "Upload assets" to get an HTTPS URL in about a minute.

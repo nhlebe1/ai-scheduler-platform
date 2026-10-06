@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-06T09:00:00Z",
-  "headline": "Suspected pneumonic plague death in Irkutsk Oblast. Russian authorities have not confirmed plague.",
+  "updated": "2026-10-06T19:00:00Z",
+  "headline": "Suspected pneumonic plague death in Irkutsk Oblast. No plague found in contacts tested so far.",
   "status": {
     "level": "suspected",
     "label": "Suspected, unconfirmed",
-    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Rospotrebnadzor lists the cause as \"pneumonia of unknown etiology\" and says tests found no pathogen tied to her lab work."
+    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Rospotrebnadzor lists the cause as \"pneumonia of unknown etiology\". On 6 October officials said no plague had been detected in the contacts tested so far."
   },
   "figures": [
     {
@@ -36,6 +36,13 @@
       "tone": "watch"
     },
     {
+      "id": "tested",
+      "label": "Contacts tested so far",
+      "value": "60%",
+      "note": "No plague detected, officials said on 6 Oct",
+      "tone": "good"
+    },
+    {
       "id": "symptomatic",
       "label": "Contacts with plague symptoms",
       "value": 0,
@@ -54,8 +61,8 @@
       "who": "Rospotrebnadzor",
       "ru": "Роспотребнадзор",
       "kind": "official",
-      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. Situation in the region is stable.",
-      "date": "2026-10-04"
+      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. No plague detected in the 60% of contacts tested so far. Situation in the region is stable.",
+      "date": "2026-10-06"
     },
     {
       "who": "Irkutsk regional government",
@@ -68,8 +75,8 @@
       "who": "World Health Organization",
       "ru": "ВОЗ",
       "kind": "international",
-      "text": "No cause of death officially confirmed. Testing reportedly underway. Based on unofficial information, risk to the general population appears low.",
-      "date": "2026-10-04"
+      "text": "Russia has not yet formally answered WHO's request for information. Earlier, WHO said that based on unofficial information the risk to the general population appears low.",
+      "date": "2026-10-06"
     },
     {
       "who": "Media reports",
@@ -204,6 +211,38 @@
           "url": "https://www.cnbc.com/2026/10/05/russia-plague-suspected-case-irkutsk.html"
         }
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "official",
+      "title": "No plague found in contacts tested so far",
+      "body": "Russian officials say plague has not been detected among close contacts, with about 60% of the group tested. Testing found 2 Covid-19 and 2 rhinovirus cases and no other dangerous pathogens.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"
+        },
+        {
+          "name": "U.S. News",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-06/russia-says-no-plague-cases-detected-among-contacts-of-deceased-lab-worker"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "international",
+      "title": "WHO still waiting on Russia's formal reply",
+      "body": "WHO says Russian authorities have not yet officially responded to its request for information. The US State Department says it is monitoring the case closely with the CDC.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/06/world/russian-plague-outbreak-what-we-know-intl"
+        }
+      ]
     }
   ],
   "places": [
@@ -283,5 +322,6 @@
       "name": "WHO plague fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/plague"
     }
-  ]
+  ],
+  "shareUrl": "https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw"
 }

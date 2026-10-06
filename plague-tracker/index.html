@@ -6,6 +6,11 @@
 <title>Russia Plague Watch</title>
 <meta name="description" content="Tracks the suspected plague case in Irkutsk Oblast and plague activity in Russia, with dated, sourced updates.">
 <meta name="theme-color" content="#1d4e63">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Russia Plague Watch">
+<meta property="og:description" content="Sourced tracker of the suspected plague case in Irkutsk, Siberia: case counts, incubation watch and a dated timeline.">
+<meta property="og:image" content="share/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -117,6 +122,7 @@ h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
   align-items: center;
 }
 .refresh svg { width: 14px; height: 14px; }
+.actions { display: flex; gap: 8px; }
 .refresh[aria-busy="true"] svg { animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
@@ -326,10 +332,16 @@ details p { margin: 0 0 14px; max-width: 62ch; }
 <header class="top">
   <div class="top-inner">
     <p class="brand">Plague Watch<small>RU</small></p>
-    <button class="refresh" id="refresh" type="button" aria-label="Check for updates">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
-      Refresh
-    </button>
+    <div class="actions">
+      <button class="refresh" id="share" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+        Share
+      </button>
+      <button class="refresh" id="refresh" type="button" aria-label="Check for updates">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+        Refresh
+      </button>
+    </div>
     <div class="updated" id="updated">Loading latest data…</div>
   </div>
 </header>
@@ -381,6 +393,7 @@ details p { margin: 0 0 14px; max-width: 62ch; }
       <ul class="links" id="follow"></ul>
     </section>
     <section>
+      <p class="disclaimer">Compiled from official statements and news reports, each linked in the timeline. Independent; not affiliated with any government or health agency.</p>
       <p class="disclaimer">This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor.</p>
     </section>
   </div>
@@ -589,6 +602,16 @@ details p { margin: 0 0 14px; max-width: 62ch; }
   }
 
   $("refresh").addEventListener("click", () => load({ manual: true }));
+  $("share").addEventListener("click", async () => {
+    const url = (data && data.shareUrl) || location.href.split("#")[0];
+    const text = "Russia Plague Watch: a sourced tracker of the suspected plague case in Irkutsk, Siberia.";
+    if (navigator.share) {
+      try { await navigator.share({ title: "Russia Plague Watch", text, url }); return; }
+      catch (err) { if (err && err.name === "AbortError") return; }
+    }
+    try { await navigator.clipboard.writeText(url); toast("Link copied"); }
+    catch { toast("Copy this link: " + url); }
+  });
   $("filters").addEventListener("click", (ev) => {
     const b = ev.target.closest("button[data-filter]");
     if (!b) return;
