@@ -7,9 +7,10 @@
 <meta name="description" content="Tracks the suspected plague case in Irkutsk Oblast and plague activity in Russia, with dated, sourced updates.">
 <meta name="theme-color" content="#1d4e63">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://nhlebe1.github.io/ai-scheduler-platform/">
 <meta property="og:title" content="Russia Plague Watch">
 <meta property="og:description" content="Sourced tracker of the suspected plague case in Irkutsk, Siberia: case counts, incubation watch and a dated timeline.">
-<meta property="og:image" content="share/og-image.png">
+<meta property="og:image" content="https://nhlebe1.github.io/ai-scheduler-platform/share/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" type="image/png">
@@ -451,9 +452,10 @@ details p { margin: 0 0 14px; max-width: 62ch; }
 
   function renderHeader() {
     const u = new Date(data.updated);
-    const stale = Date.now() - u > 2 * DAY_MS;
+    const checked = data.checked || data.updated;
+    const stale = Date.now() - new Date(checked) > 2 * DAY_MS;
     const when = u.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" });
-    $("updated").innerHTML = `<span>Updated ${esc(when)} UTC · ${esc(ago(data.updated))}</span>` +
+    $("updated").innerHTML = `<span>Updated ${esc(when)} UTC</span><span>· Checked ${esc(ago(checked))}</span>` +
       (stale ? `<span class="stale">May be out of date</span>` : "");
   }
 
@@ -603,7 +605,9 @@ details p { margin: 0 0 14px; max-width: 62ch; }
 
   $("refresh").addEventListener("click", () => load({ manual: true }));
   $("share").addEventListener("click", async () => {
-    const url = (data && data.shareUrl) || location.href.split("#")[0];
+    // Inside the claude.ai viewer the page runs in a frame with its own address; share the public link instead.
+    const framed = window.top !== window.self;
+    const url = (framed && data && data.shareUrl) || location.href.split("#")[0];
     const text = "Russia Plague Watch: a sourced tracker of the suspected plague case in Irkutsk, Siberia.";
     if (navigator.share) {
       try { await navigator.share({ title: "Russia Plague Watch", text, url }); return; }

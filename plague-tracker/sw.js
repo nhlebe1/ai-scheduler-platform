@@ -1,6 +1,7 @@
-// Offline support: app shell from cache, situation data network-first.
-const CACHE = "plaguewatch-v1";
-const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
+// Offline support. Same-origin files are network-first so new versions show up right away;
+// the cached copy is used only when offline. Fonts are cache-first.
+const CACHE = "plaguewatch-v2";
+const SHELL = ["./", "index.html", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -19,19 +20,19 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
 
-  // Latest data when online, last saved copy when offline.
-  if (url.pathname.endsWith("/data.json")) {
+  if (url.origin === location.origin) {
     e.respondWith(
       fetch(req).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put("data.json", copy));
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(req, copy));
+        }
         return res;
-      }).catch(() => caches.match("data.json"))
+      }).catch(() => caches.match(req, { ignoreSearch: true }))
     );
     return;
   }
 
-  // Everything else (shell, icons, fonts): cache first, fill the cache on first use.
   e.respondWith(
     caches.match(req).then((hit) => hit || fetch(req).then((res) => {
       if (res.ok || res.type === "opaque") {

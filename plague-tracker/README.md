@@ -8,7 +8,9 @@ plague case in Irkutsk Oblast and plague activity in Russia.
 - **Places**: hospital, institute and natural plague foci, with Open in Maps links
 - **Learn**: plague basics and links to live coverage
 
-All content lives in `data.json`. To update the tracker, edit that file and redeploy.
+All content lives in `data.json`. A scheduled Claude job checks the news and updates it, following
+[MAINTAINING.md](MAINTAINING.md). Pushing to the branch redeploys the public site:
+https://nhlebe1.github.io/ai-scheduler-platform/
 
 ## Run locally
 
@@ -34,11 +36,10 @@ folder as-is, no build step.
 - `share/og-image.png`: link-preview image (1200×630) used by the `og:image` tag
 - `share/post-copy.md`: ready-to-paste text for X, LinkedIn/Facebook and Reddit
 
-When you self-host:
+`tools/render-share.mjs` redraws both images from `data.json`.
 
-1. Set `shareUrl` in `data.json` to your site's address so the in-app Share button copies it.
-2. Make the `og:image` tag in `index.html` an absolute URL
-   (e.g. `https://your-site.example/share/og-image.png`). X and Facebook ignore relative image paths.
+If you move the site to another address, update `og:url` and `og:image` in `index.html`
+(they must be absolute URLs for X and Facebook previews).
 
 No GitHub needed: drag the `plague-tracker/` folder onto Netlify Drop
 (https://app.netlify.com/drop) or Cloudflare Pages "Upload assets" to get an HTTPS URL in about a minute.

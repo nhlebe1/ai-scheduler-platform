@@ -1,5 +1,6 @@
 {
   "updated": "2026-10-06T19:00:00Z",
+  "checked": "2026-10-06T20:25:00Z",
   "headline": "Suspected pneumonic plague death in Irkutsk Oblast. No plague found in contacts tested so far.",
   "status": {
     "level": "suspected",
@@ -323,5 +324,22 @@
       "url": "https://www.who.int/news-room/fact-sheets/detail/plague"
     }
   ],
-  "shareUrl": "https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw"
+  "shareUrl": "https://claude.ai/artifact/UqWypVALyHdQjYRuMP6Hzw",
+  "card": {
+    "title": "Suspected plague death in Siberia",
+    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Russia has not confirmed plague. No plague found in contacts tested so far.",
+    "stats": [
+      "deaths",
+      "contacts",
+      "confirmed",
+      "symptomatic"
+    ],
+    "statLabels": {
+      "contacts": "Contacts monitored",
+      "confirmed": "Confirmed plague cases",
+      "symptomatic": "Contacts with symptoms",
+      "deaths": "Death"
+    },
+    "sources": "Rospotrebnadzor, WHO, NBC, Moscow Times"
+  }
 }

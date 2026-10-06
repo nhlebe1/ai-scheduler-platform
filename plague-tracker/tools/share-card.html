@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Share-card template. Filled from data.json by render-share.mjs. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=block">
+<style>
+:root { --bg:#10303e; --ink:#eef5f8; --muted:#9fbccb; --line:#2b5568; --crit:#ff8b80; --good:#72d09a; --amber:#f0b357; --cell:#1a4253; }
+* { box-sizing:border-box; margin:0; }
+html,body { width:100%; height:100%; }
+body { background:var(--bg); color:var(--ink); font-family:"Atkinson Hyperlegible",sans-serif; padding:56px 64px 48px; display:grid; grid-template-rows:auto auto 1fr auto; gap:22px; }
+.top { display:flex; justify-content:space-between; align-items:center; font:600 18px/1 "JetBrains Mono",monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.brand { color:var(--ink); display:flex; align-items:center; gap:14px; }
+.brand i { width:22px; height:22px; border-radius:50%; border:3px solid var(--ink); display:grid; place-items:center; }
+.brand i::after { content:""; width:7px; height:7px; border-radius:50%; background:var(--crit); }
+.chip[data-level="confirmed"] { background:#3a1d1b; color:var(--crit); }
+.chip[data-level="resolved"] { background:#16301f; color:var(--good); }
+.chip { display:inline-flex; gap:10px; align-items:center; background:#3a2c14; color:var(--amber); padding:8px 12px; border-radius:4px; font:700 16px/1 "JetBrains Mono",monospace; letter-spacing:.12em; text-transform:uppercase; justify-self:start; }
+.chip::before { content:""; width:9px; height:9px; border-radius:50%; background:currentColor; }
+h1 { font:800 64px/1.02 "Archivo",sans-serif; font-stretch:88%; letter-spacing:-.015em; margin-top:10px; }
+.sub { font-size:25px; line-height:1.35; color:var(--muted); margin-top:12px; max-width:38em; text-wrap:pretty; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); border-top:2px solid var(--ink); align-self:end; }
+.stat { padding:16px 18px 0 0; display:grid; gap:6px; }
+.stat + .stat { padding-left:18px; border-left:1px solid var(--line); }
+.stat b { font:800 60px/1 "Archivo",sans-serif; font-stretch:112%; font-variant-numeric:tabular-nums; }
+.stat span { font-size:18px; color:var(--muted); line-height:1.25; }
+.crit b { color:var(--crit); } .good b { color:var(--good); }
+.foot { white-space:nowrap; display:flex; justify-content:space-between; align-items:center; gap:24px; font:15px/1.3 "JetBrains Mono",monospace; color:var(--muted); }
+.watch { display:flex; align-items:center; gap:12px; color:var(--ink); font-weight:600; }
+.cells { display:flex; gap:4px; }
+.cells i { width:22px; height:22px; border-radius:3px; background:var(--cell); }
+.cells i.p { background:#1f5a3a; } .cells i.t { background:var(--ink); }
+</style></head><body>
+<div class="top"><span class="brand"><i></i>Plague Watch · RU</span><span id="updated"></span></div>
+<div>
+  <span class="chip" id="chip"></span>
+  <h1 id="title"></h1>
+  <p class="sub" id="sub"></p>
+</div>
+<div class="stats" id="stats"></div>
+<div class="foot">
+  <span class="watch"><span class="cells" id="cells"></span><span id="watch"></span></span>
+  <span id="sources"></span>
+</div>
+</body></html>
