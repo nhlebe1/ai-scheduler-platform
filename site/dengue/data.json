@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "slug": "dengue",
+    "title": "Dengue Tracker: Europe",
+    "short": "Dengue · Europe",
+    "description": "Independent, sourced tracker of locally acquired dengue in Europe in 2026: ECDC and national case counts, affected countries and clusters, the yearly trend since 2010, vaccines and a dated timeline.",
+    "postLead": "Dengue in Europe",
+    "postDay": false,
+    "figuresTitle": "2026 so far",
+    "hubFigures": [
+      "cases",
+      "countries",
+      "chik"
+    ],
+    "disclaimer": "This tracker summarises ECDC, Italy's Istituto Superiore di Sanità (ISS), Santé publique France and named news reports. It is not medical or travel advice. If you develop a fever after mosquito bites or after travel, see a doctor and say where you have been."
+  },
+  "updated": "2026-10-07T01:32:00Z",
+  "checked": "2026-10-07T01:32:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
+  "social": {
+    "x": ""
+  },
+  "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
+  "status": {
+    "level": "active",
+    "label": "Active · new local cases in Italy",
+    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 59 local cases by 29 September, mostly in outbreaks in the provinces of Livorno, Lecce and Milan; a cluster in Cartigliano (Vicenza) has since reached 8 cases, and Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+  },
+  "figures": [
+    {
+      "id": "cases",
+      "label": "Locally acquired cases",
+      "value": 65,
+      "note": "Italy 59 (ISS, 29 Sep) + France 6 (Santé publique France, 28 Sep). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "countries",
+      "label": "Countries with local cases",
+      "value": 2,
+      "note": "Italy and France (ECDC, 16 Sep; national data to 29 Sep)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "chik",
+      "label": "Local chikungunya cases (context)",
+      "value": 126,
+      "note": "France 125 in 19 episodes (Santé publique France, 28 Sep); Italy 1 (ISS, 29 Sep). A different virus spread by the same mosquito",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "record",
+      "label": "Local cases in 2024, the record year",
+      "value": 304,
+      "note": "Italy 213, France 83, Spain 8 (ECDC)",
+      "tone": "neutral"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-16",
+      "values": {
+        "cases": 42,
+        "countries": 2
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "values": {
+        "cases": 65,
+        "countries": 2,
+        "chik": 126
+      }
+    }
+  ],
+  "trend": {
+    "title": "Locally acquired dengue cases per year, mainland EU/EEA",
+    "unit": "Cases (ECDC)",
+    "note": "2026 is year to date from national reports (Italy 29 Sep, France 28 Sep). Excludes Madeira (Portugal), which had an outbreak in 2012 and 2 cases in 2025. Years with no ECDC entry had no reported local cases. Tap or hover a bar for its value.",
+    "labelHeader": "Year",
+    "valueHeader": "Local cases",
+    "highlight": "2026",
+    "series": [
+      {
+        "label": "2010",
+        "value": 12,
+        "note": "Croatia 10, France 2"
+      },
+      {
+        "label": "2011",
+        "value": 0
+      },
+      {
+        "label": "2012",
+        "value": 0,
+        "note": "mainland only; the Madeira outbreak is not included"
+      },
+      {
+        "label": "2013",
+        "value": 1,
+        "note": "France"
+      },
+      {
+        "label": "2014",
+        "value": 4,
+        "note": "France"
+      },
+      {
+        "label": "2015",
+        "value": 8,
+        "note": "France"
+      },
+      {
+        "label": "2016",
+        "value": 0
+      },
+      {
+        "label": "2017",
+        "value": 0
+      },
+      {
+        "label": "2018",
+        "value": 14,
+        "note": "France 8, Spain 6"
+      },
+      {
+        "label": "2019",
+        "value": 10,
+        "note": "France 9, Spain 1 (mosquito-borne only; ECDC's annual report counts 12 including a sexually transmitted and a lab-acquired case)"
+      },
+      {
+        "label": "2020",
+        "value": 23,
+        "note": "France 13, Italy 10"
+      },
+      {
+        "label": "2021",
+        "value": 2,
+        "note": "France"
+      },
+      {
+        "label": "2022",
+        "value": 71,
+        "note": "65 in France"
+      },
+      {
+        "label": "2023",
+        "value": 130,
+        "note": "Italy 82, France 45, Spain 3"
+      },
+      {
+        "label": "2024",
+        "value": 304,
+        "note": "record: Italy 213, France 83, Spain 8"
+      },
+      {
+        "label": "2025",
+        "value": 33,
+        "note": "France 29, Italy 4; plus 2 on Madeira (ECDC total 35)"
+      },
+      {
+        "label": "2026",
+        "value": 65,
+        "note": "year to date: Italy 59 (29 Sep), France 6 (28 Sep)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "ECDC: local dengue in the EU/EEA, previous years",
+        "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+      },
+      {
+        "name": "ECDC: seasonal dengue surveillance",
+        "url": "https://dengue-weekly.ecdc.europa.eu/"
+      },
+      {
+        "name": "ECDC annual report 2019",
+        "url": "https://www.ecdc.europa.eu/en/publications-data/dengue-annual-epidemiological-report-2019"
+      },
+      {
+        "name": "WHO Europe",
+        "url": "https://www.who.int/europe/news-room/events/item/2025/07/17/default-calendar/dengue-and-west-nile-virus--updates-from-the-who-european-region"
+      },
+      {
+        "name": "Istituto Superiore di Sanità",
+        "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+      },
+      {
+        "name": "Santé publique France bulletin, 30 Sep",
+        "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+      }
+    ]
+  },
+  "map": {
+    "title": "Locally acquired dengue in Europe, 2026",
+    "titleShort": "Where"
+  },
+  "regions": {
+    "title": "Locally acquired dengue cases by country, 2026",
+    "titleShort": "Countries with local cases",
+    "label": "Local cases",
+    "regionHeader": "Country",
+    "valueHeader": "Local cases",
+    "unitLabel": "locally acquired cases in 2026",
+    "bins": [
+      1,
+      5,
+      10,
+      25,
+      50
+    ],
+    "noneLabel": "No local cases reported",
+    "values": {
+      "Italy": 59,
+      "France": 6
+    },
+    "notes": {
+      "Italy": "ISS, 29 Sep. Outbreaks in Livorno, Lecce and Milan provinces. Since then, a cluster in Cartigliano (Vicenza) has reached 8 cases (local health authority, 2 Oct), and the National Blood Centre added Rome to its list of affected areas on 2 Oct.",
+      "France": "Santé publique France, 28 Sep. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
+    },
+    "asOf": "2026-09-29",
+    "note": "Latest national counts: Italy (ISS) to 29 Sep, France (Santé publique France) to 28 Sep. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
+    "sources": [
+      {
+        "name": "Istituto Superiore di Sanità",
+        "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+      },
+      {
+        "name": "Quotidiano Sanità",
+        "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-330-casi-da-inizio-anno-59-autoctoni-west-nile-sale-a-727-casi-e-54-decessi/"
+      },
+      {
+        "name": "Quotidiano Sanità (24 Sep)",
+        "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-salgono-a-312-i-casi-di-dengue-47-autoctoni-west-nile-a-quota-700-con-54-decessi/"
+      },
+      {
+        "name": "Santé publique France bulletin, 30 Sep",
+        "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+      },
+      {
+        "name": "ECDC threats report, week 38",
+        "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf"
+      },
+      {
+        "name": "ECDC: dengue worldwide overview",
+        "url": "https://www.ecdc.europa.eu/en/dengue-monthly"
+      },
+      {
+        "name": "TViWeb",
+        "url": "https://www.tviweb.it/cartigliano-salgono-a-otto-i-casi-autoctoni-di-dengue-un-anziano-ricoverato-in-ospedale/"
+      },
+      {
+        "name": "Italian National Blood Centre",
+        "url": "https://www.centronazionalesangue.it/dengue/"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "Dengue only happens in the tropics",
+      "status": "false",
+      "detail": "Mainland Europe has had locally acquired dengue in most years since 2010, spread by tiger mosquitoes after travellers bring the virus back. The record was 304 local cases in 2024, in Italy, France and Spain.",
+      "sources": [
+        {
+          "name": "ECDC: local dengue in the EU/EEA, previous years",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+        },
+        {
+          "name": "WHO Europe",
+          "url": "https://www.who.int/europe/news-room/events/item/2025/07/17/default-calendar/dengue-and-west-nile-virus--updates-from-the-who-european-region"
+        }
+      ]
+    },
+    {
+      "claim": "Dengue spreads from person to person",
+      "status": "false",
+      "detail": "It spreads through the bites of infected Aedes mosquitoes, not through coughs, touch or other casual contact. Rare exceptions include mother to baby, blood transfusion or organ donation and, very rarely, sex (ECDC recorded one such case in Spain in 2019). Italy defers some blood donors from affected areas as a precaution.",
+      "sources": [
+        {
+          "name": "WHO dengue fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+        },
+        {
+          "name": "ECDC annual report 2019",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/dengue-annual-epidemiological-report-2019"
+        },
+        {
+          "name": "Italian National Blood Centre",
+          "url": "https://www.centronazionalesangue.it/dengue/"
+        }
+      ]
+    },
+    {
+      "claim": "There is no vaccine against dengue",
+      "status": "false",
+      "detail": "Qdenga (TAK-003) has been authorised in the EU since December 2022 for people aged 4 and over. Advice on who should get it differs by country.",
+      "sources": [
+        {
+          "name": "European Medicines Agency: Qdenga",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qdenga"
+        },
+        {
+          "name": "Spanish Ministry of Health",
+          "url": "https://www.sanidad.gob.es/areas/sanidadExterior/laSaludTambienViaja/notasInformativas/docs/NI_ReemergenciaDENGUE-NuevaVacunaFrenteAlDengue-11Septiembre24.pdf"
+        }
+      ]
+    },
+    {
+      "claim": "Tiger mosquitoes are now everywhere in Europe",
+      "status": "false",
+      "detail": "ECDC's maps show the tiger mosquito (Aedes albopictus) established across much of southern Europe and spreading north, but not established in many northern countries. In 2026 only Italy and France have reported local dengue.",
+      "sources": [
+        {
+          "name": "ECDC mosquito maps",
+          "url": "https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/mosquito-maps"
+        },
+        {
+          "name": "ECDC news release",
+          "url": "https://www.ecdc.europa.eu/en/news-events/worsening-spread-mosquito-borne-disease-outbreaks-eueea-according-latest-ecdc-figures"
+        },
+        {
+          "name": "ECDC threats report, week 38",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf"
+        }
+      ]
+    },
+    {
+      "claim": "2026 is Europe's worst year for local dengue",
+      "status": "false",
+      "detail": "Not so far: 65 local cases by late September (Italy 59, France 6), against 304 in 2024 and 130 in 2023, ECDC data show.",
+      "sources": [
+        {
+          "name": "ECDC: local dengue in the EU/EEA, previous years",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+        },
+        {
+          "name": "Istituto Superiore di Sanità",
+          "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+        },
+        {
+          "name": "Santé publique France bulletin, 30 Sep",
+          "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+        }
+      ]
+    },
+    {
+      "claim": "The risk ends when summer does",
+      "status": "false",
+      "detail": "Cartigliano (Vicenza) has reported local cases since 25 September, and Italy's National Blood Centre added Rome to its affected areas on 2 October. In 2025 ECDC closed its season only after no new cases since late October, and it reports weekly until November this year.",
+      "sources": [
+        {
+          "name": "Italian National Blood Centre",
+          "url": "https://www.centronazionalesangue.it/dengue/"
+        },
+        {
+          "name": "TViWeb",
+          "url": "https://www.tviweb.it/cartigliano-salgono-a-otto-i-casi-autoctoni-di-dengue-un-anziano-ricoverato-in-ospedale/"
+        },
+        {
+          "name": "ECDC: seasonal dengue surveillance",
+          "url": "https://dengue-weekly.ecdc.europa.eu/"
+        },
+        {
+          "name": "ECDC threats report, week 38",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Next ECDC weekly threats report",
+      "status": "pending",
+      "note": "Published weekly, usually on Fridays. ECDC says it will report on dengue weekly until November"
+    },
+    {
+      "label": "Next ISS arbovirus bulletin (Italy)",
+      "status": "pending",
+      "note": "Weekly; the latest covered data to 29 Sep. Next date not announced"
+    },
+    {
+      "label": "Next Santé publique France bulletin",
+      "status": "pending",
+      "note": "Weekly during the enhanced surveillance season; the latest was dated 30 Sep"
+    },
+    {
+      "label": "End of the 2026 transmission season",
+      "status": "pending",
+      "note": "Usually by November as mosquito activity drops. In 2025 ECDC closed its season after no new cases since late October"
+    },
+    {
+      "label": "Italy passes its 2023 total of 82 local cases",
+      "status": "pending",
+      "note": "59 as of 29 Sep"
+    },
+    {
+      "label": "Italy reports its first local outbreaks of 2026",
+      "date": "2026-09-10",
+      "status": "done"
+    },
+    {
+      "label": "France reports its first local cases of 2026",
+      "date": "2026-07-23",
+      "status": "done"
+    }
+  ],
+  "positions": [
+    {
+      "who": "Istituto Superiore di Sanità (Italy)",
+      "kind": "official",
+      "date": "2026-10-01",
+      "text": "330 confirmed dengue cases from 1 January to 29 September: 59 locally acquired, the rest linked to travel abroad. No deaths."
+    },
+    {
+      "who": "Santé publique France",
+      "kind": "official",
+      "date": "2026-09-30",
+      "text": "6 locally acquired dengue cases in 4 episodes and 424 imported cases since 1 May. Also 125 local chikungunya cases in 19 episodes."
+    },
+    {
+      "who": "European Centre for Disease Prevention and Control (ECDC)",
+      "kind": "international",
+      "date": "2026-09-18",
+      "text": "As of 16 September, Italy (37 cases) and France (5) are the only EU/EEA countries with locally acquired dengue this year. Weekly reports continue until November."
+    },
+    {
+      "who": "Italian National Blood Centre",
+      "kind": "official",
+      "date": "2026-10-02",
+      "text": "Blood donors who stayed in Cartigliano or Rome are deferred for 28 days unless their donation is tested for dengue."
+    },
+    {
+      "who": "ULSS 7 Pedemontana (Veneto health authority)",
+      "kind": "official",
+      "date": "2026-10-02",
+      "text": "8 locally acquired cases in Cartigliano. One older patient is in hospital as a precaution; mosquito control has been extended."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2025-11-19-ecdc-closes-the-2025-season",
+      "date": "2025-11-19",
+      "kind": "international",
+      "title": "ECDC closes the 2025 season at 35 local cases",
+      "body": "France reported 29 locally acquired cases, Italy 4 and Portugal's Madeira 2. With no new cases since late October and cooler weather, ECDC ended its weekly dengue reports for the year.",
+      "sources": [
+        {
+          "name": "ECDC: seasonal dengue surveillance",
+          "url": "https://dengue-weekly.ecdc.europa.eu/"
+        },
+        {
+          "name": "ECDC: local dengue in the EU/EEA, previous years",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-01-france-starts-its-seasonal-surveillance",
+      "date": "2026-05-01",
+      "kind": "official",
+      "title": "France starts its seasonal surveillance of dengue and chikungunya",
+      "body": "Santé publique France begins enhanced surveillance of dengue, chikungunya and Zika in mainland France for the mosquito season. Its counts of imported cases run from this date.",
+      "sources": [
+        {
+          "name": "Santé publique France bulletin, 30 Sep",
+          "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+        },
+        {
+          "name": "Santé publique France: dengue data",
+          "url": "https://www.santepubliquefrance.fr/en/dengue/data-metropolitan-france"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-france-reports-its-first-local",
+      "date": "2026-07-23",
+      "kind": "official",
+      "title": "France reports its first local dengue cases of 2026",
+      "body": "Two unrelated locally acquired cases are confirmed in Occitanie: one in Carmaux (Tarn) and one in Hérault.",
+      "sources": [
+        {
+          "name": "Vidal",
+          "url": "https://www.vidal.fr/actualites/38120-moustique-tigre-premiers-cas-de-dengue-autochtones-recenses-cette-saison-en-france.html"
+        },
+        {
+          "name": "franceinfo",
+          "url": "https://la1ere.franceinfo.fr/dengue-un-cas-autochtone-signale-dans-l-hexagone-le-premier-de-la-saison-2026-1721629.html"
+        },
+        {
+          "name": "Outbreak News Today",
+          "url": "https://outbreaknewstoday.substack.com/p/france-local-transmission-of-dengue"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-france-4-local-cases-now",
+      "date": "2026-08-19",
+      "kind": "official",
+      "title": "France: 4 local cases, now including Dordogne",
+      "body": "Santé publique France counts 3 transmission episodes with 4 cases, in Tarn, Hérault and Dordogne (Nouvelle-Aquitaine), and 308 imported dengue cases since 1 May.",
+      "sources": [
+        {
+          "name": "Santé publique France bulletin, 19 Aug",
+          "url": "https://www.santepubliquefrance.fr/sites/default/files/2026-08/bullnat_arboviroses_20260819_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-france-reaches-5-cases-now",
+      "date": "2026-08-26",
+      "kind": "official",
+      "title": "France reaches 5 cases, now including Bouches-du-Rhône",
+      "body": "Bouches-du-Rhône (Provence-Alpes-Côte d'Azur) is added: France has 5 locally acquired cases across Tarn, Hérault, Dordogne and Bouches-du-Rhône.",
+      "sources": [
+        {
+          "name": "Santé publique France bulletin, 26 Aug",
+          "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/dengue/bulletin-national/chikungunya-dengue-zika-et-west-nile-en-france-hexagonale-bulletin-de-la-surveillance-renforcee-du"
+        },
+        {
+          "name": "NaTHNaC (UK)",
+          "url": "https://travelhealthpro.org.uk/outbreaks"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-italy-confirms-its-first-local",
+      "date": "2026-09-10",
+      "kind": "official",
+      "title": "Italy confirms its first local outbreaks of 2026",
+      "body": "The ISS counts 24 locally acquired cases by 8 September, up from 3 on 30 August, in outbreaks in Livorno province (Tuscany) and Lecce province (Puglia). The other 241 of 265 confirmed cases were linked to travel; 56% of those with a known place of infection had been in the Maldives.",
+      "sources": [
+        {
+          "name": "AgenSalute (ISS data)",
+          "url": "https://agensalute.it/2026/09/10/arbovirosi-265-casi-confermati-dengue-25-chikungunya-594-west-nile/"
+        },
+        {
+          "name": "Italpress",
+          "url": "https://www.italpress.com/nel-2026-registrati-in-italia-265-casi-di-dengue-594-i-contagi-di-west-nile-virus-e-25-di-chikungunya-da-inizio-monitoraggio/"
+        },
+        {
+          "name": "Biomedical CuE",
+          "url": "https://www.biomedicalcue.it/dengue-in-toscana-liss-conferma-un-focolaio-da-20-casi-nel-livornese"
+        },
+        {
+          "name": "Sanità Informazione",
+          "url": "https://www.sanitainformazione.it/virus-trasmessi-dalle-zanzare-iss-da-inizio-anno-227-casi-di-dengue-e-521-di-west-nile/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-ecdc-italy-37-and-france",
+      "date": "2026-09-18",
+      "kind": "international",
+      "title": "ECDC: Italy 37 and France 5 local cases",
+      "body": "As of 16 September. Italy added 13 cases in a week: 6 near Lecce, 5 near Livorno and 2 in a new cluster near Milan. France had no new cases. ECDC will report weekly until November.",
+      "sources": [
+        {
+          "name": "ECDC threats report, week 38",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-italy-reaches-47-local-cases",
+      "date": "2026-09-24",
+      "kind": "official",
+      "title": "Italy reaches 47 local cases in three outbreaks",
+      "body": "The ISS links them to outbreaks in the provinces of Livorno (28 cases), Lecce (13) and Milan (2); 4 cases have no known link. 312 dengue cases have been confirmed this year, with no deaths.",
+      "sources": [
+        {
+          "name": "Quotidiano Sanità (24 Sep)",
+          "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-salgono-a-312-i-casi-di-dengue-47-autoctoni-west-nile-a-quota-700-con-54-decessi/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_saluteebenessere/notizie/sanita/2026/09/24/iss-700-casi-di-west-nile-virus-312-di-dengue-e-28-di-chikungunya_71d8dacc-6d96-4d24-8282-85b3f510b8e9.html"
+        },
+        {
+          "name": "Sky TG24",
+          "url": "https://tg24.sky.it/salute-e-benessere/2026/09/24/dengue-casi-italia-focolai-mappa"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-first-local-case-in-cartigliano",
+      "date": "2026-09-25",
+      "kind": "official",
+      "title": "First local case in Cartigliano, Veneto",
+      "body": "A locally acquired case in Cartigliano (Vicenza) prompts mosquito control and blood-donation precautions. The local health authority reports two more cases on 29 September.",
+      "sources": [
+        {
+          "name": "Italian National Blood Centre",
+          "url": "https://www.centronazionalesangue.it/dengue/"
+        },
+        {
+          "name": "AgenSalute (ULSS 7)",
+          "url": "https://agensalute.it/2026/09/29/ulss-pedemontana-diagnosticati-2-nuovi-casi-dengue-cartigliano/"
+        },
+        {
+          "name": "Il Giornale di Vicenza",
+          "url": "https://www.ilgiornaledivicenza.it/territorio-vicentino/bassano/febbre-dengue-cartigliano-nuovi-casi-disinfestazione-1.13132382"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-france-6-local-dengue-cases",
+      "date": "2026-09-30",
+      "kind": "official",
+      "title": "France: 6 local dengue cases; local chikungunya at 125",
+      "body": "Santé publique France counts 4 dengue episodes with 6 cases and 424 imported dengue cases since 1 May. Separately (chikungunya, a different virus): 19 local episodes with 125 cases, including 6 in Nogent-sur-Marne (Val-de-Marne).",
+      "sources": [
+        {
+          "name": "Santé publique France bulletin, 30 Sep",
+          "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-italy-59-local-dengue-cases",
+      "date": "2026-10-01",
+      "kind": "official",
+      "title": "Italy: 59 local dengue cases, no deaths",
+      "body": "The ISS counts 330 confirmed dengue cases from 1 January to 29 September; 59 were locally acquired and the rest linked to travel. One of 28 chikungunya cases was also locally acquired.",
+      "sources": [
+        {
+          "name": "Istituto Superiore di Sanità",
+          "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+        },
+        {
+          "name": "Quotidiano Sanità",
+          "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-330-casi-da-inizio-anno-59-autoctoni-west-nile-sale-a-727-casi-e-54-decessi/"
+        },
+        {
+          "name": "AgenSIR",
+          "url": "https://www.agensir.it/quotidiano/2026/10/1/arbovirosi-iss-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-cartigliano-cluster-reaches-8-cases",
+      "date": "2026-10-02",
+      "kind": "official",
+      "title": "Cartigliano cluster reaches 8 cases; Rome added to affected areas",
+      "body": "The local health authority reports 8 locally acquired cases in Cartigliano; one older patient is in hospital as a precaution. Italy's National Blood Centre lists Rome as an area with local dengue from 2 October.",
+      "sources": [
+        {
+          "name": "TViWeb",
+          "url": "https://www.tviweb.it/cartigliano-salgono-a-otto-i-casi-autoctoni-di-dengue-un-anziano-ricoverato-in-ospedale/"
+        },
+        {
+          "name": "ANSA Veneto",
+          "url": "https://www.ansa.it/veneto/notizie/2026/10/01/salgono-a-sei-i-casi-di-virus-dengue-nel-vicentino_92e6e698-2287-4c2e-96e1-f04c8a671da6.html"
+        },
+        {
+          "name": "Italian National Blood Centre",
+          "url": "https://www.centronazionalesangue.it/dengue/"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Putting 2026 in context",
+    "stats": [
+      {
+        "value": "304",
+        "label": "local cases in 2024, the record year",
+        "note": "Italy 213, France 83, Spain 8",
+        "source": {
+          "name": "ECDC: local dengue in the EU/EEA, previous years",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+        }
+      },
+      {
+        "value": "271 of 330",
+        "label": "dengue cases in Italy this year were caught abroad",
+        "note": "ISS, 1 Jan to 29 Sep. No deaths",
+        "source": {
+          "name": "Istituto Superiore di Sanità",
+          "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+        }
+      },
+      {
+        "value": "56%",
+        "label": "of Italy's travel cases with a known origin were infected in the Maldives",
+        "note": "ISS data to 8 Sep",
+        "source": {
+          "name": "AgenSalute (ISS data)",
+          "url": "https://agensalute.it/2026/09/10/arbovirosi-265-casi-confermati-dengue-25-chikungunya-594-west-nile/"
+        }
+      },
+      {
+        "value": "4",
+        "label": "types of dengue virus",
+        "note": "A second infection with a different type raises the risk of severe dengue",
+        "source": {
+          "name": "WHO dengue fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+        }
+      }
+    ],
+    "historyTitle": "Local dengue in Europe: milestones",
+    "history": [
+      {
+        "year": "2010",
+        "text": "The first local cases in mainland Europe in recent times: 10 in Croatia and 2 in France."
+      },
+      {
+        "year": "2012",
+        "text": "An outbreak on Portugal's Madeira island, spread by Aedes aegypti rather than the tiger mosquito."
+      },
+      {
+        "year": "2020",
+        "text": "Italy's first local outbreak: 10 cases in Veneto, traced to a traveller returning from Indonesia."
+      },
+      {
+        "year": "2022",
+        "text": "71 local cases. France's 65 were more than it had recorded from 2010 to 2021 combined."
+      },
+      {
+        "year": "2023",
+        "text": "130 cases, including 82 in Italy around Lodi and Rome."
+      },
+      {
+        "year": "2024",
+        "text": "A record 304 cases: Italy 213, France 83, Spain 8."
+      },
+      {
+        "year": "2025",
+        "text": "35 cases: France 29, Italy 4 and Madeira 2."
+      },
+      {
+        "year": "2026",
+        "text": "65 cases by late September: Italy 59, France 6."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "ECDC: local dengue in the EU/EEA, previous years",
+        "url": "https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"
+      },
+      {
+        "name": "ECDC: seasonal dengue surveillance",
+        "url": "https://dengue-weekly.ecdc.europa.eu/"
+      },
+      {
+        "name": "WHO Europe",
+        "url": "https://www.who.int/europe/news-room/events/item/2025/07/17/default-calendar/dengue-and-west-nile-virus--updates-from-the-who-european-region"
+      },
+      {
+        "name": "Eurosurveillance (Italy 2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7502902/"
+      },
+      {
+        "name": "PMC review (Madeira 2012)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13418699/"
+      },
+      {
+        "name": "Santé publique France (2022)",
+        "url": "https://www.santepubliquefrance.fr/en/locally-transmitted-dengue-fever-mainland-france-2022-geographic-spread-and-increased-incidence"
+      },
+      {
+        "name": "Istituto Superiore di Sanità",
+        "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
+      },
+      {
+        "name": "Santé publique France bulletin, 30 Sep",
+        "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"
+      }
+    ],
+    "factsTitle": "About dengue"
+  },
+  "facts": [
+    {
+      "q": "How does dengue spread?",
+      "a": "Through the bite of an infected Aedes mosquito. In Europe this is mainly the tiger mosquito (Aedes albopictus), which bites during the day. A mosquito picks up the virus by biting an infected person, often a returning traveller, and can then pass it on. Dengue does not spread through casual contact."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "Most infections cause mild or no symptoms. When symptoms appear, usually 4 to 10 days after the bite, they include high fever, severe headache, pain behind the eyes, muscle and joint pain, nausea and rash, and typically last 2 to 7 days."
+    },
+    {
+      "q": "How serious is it?",
+      "a": "Most people recover within one to two weeks. Some develop severe dengue, which needs hospital care; the risk is higher with a second infection by a different virus type. There is no specific treatment. Italy has reported no dengue deaths this year."
+    },
+    {
+      "q": "Is there a vaccine?",
+      "a": "Yes. Qdenga (TAK-003) has been authorised in the EU since December 2022 for people aged 4 and over. Who is advised to get it differs by country."
+    },
+    {
+      "q": "Why are there local cases in Europe?",
+      "a": "Travellers return with the virus from places where dengue is common, and tiger mosquitoes established in much of southern Europe can spread it locally in warm months. Local spread in Europe has been seasonal, usually ending in late autumn."
+    }
+  ],
+  "follow": [
+    {
+      "name": "ECDC: seasonal dengue surveillance",
+      "url": "https://dengue-weekly.ecdc.europa.eu/"
+    },
+    {
+      "name": "ECDC: weekly threats reports",
+      "url": "https://www.ecdc.europa.eu/en/publications-and-data/monitoring/weekly-threats-reports"
+    },
+    {
+      "name": "ISS EpiCentro: arbovirus updates (Italian)",
+      "url": "https://www.epicentro.iss.it/arbovirosi/aggiornamenti"
+    },
+    {
+      "name": "Santé publique France: dengue in mainland France",
+      "url": "https://www.santepubliquefrance.fr/en/dengue/data-metropolitan-france"
+    },
+    {
+      "name": "NaTHNaC outbreak surveillance",
+      "url": "https://travelhealthpro.org.uk/outbreaks"
+    }
+  ],
+  "card": {
+    "title": "Local dengue in Europe: 65 cases",
+    "sub": "Italy 59 and France 6 so far in 2026, against a record 304 in 2024. A new cluster near Vicenza has reached 8 cases.",
+    "stats": [
+      "cases",
+      "countries",
+      "chik",
+      "record"
+    ],
+    "statLabels": {
+      "cases": "Local cases",
+      "countries": "Countries",
+      "chik": "Local chikungunya",
+      "record": "2024 record"
+    },
+    "sources": "ISS, Santé publique France, ECDC",
+    "foot": "National data as of 28–29 Sep · updated weekly"
+  },
+  "postExtra": "Only Italy and France have reported local cases so far."
+}

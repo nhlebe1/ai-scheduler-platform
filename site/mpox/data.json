@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "slug": "mpox",
+    "title": "Mpox Tracker: Africa & World",
+    "short": "Mpox · Africa & world",
+    "description": "Independent, sourced mpox tracker: WHO case counts for Africa, countries with active transmission, clade Ib spread in Europe and the US, vaccines, emergency status and a dated timeline.",
+    "postLead": "Mpox",
+    "postDay": false,
+    "figuresTitle": "Latest official counts",
+    "hubFigures": [
+      "cases6w",
+      "countries",
+      "europe"
+    ],
+    "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
+  },
+  "updated": "2026-10-07T01:32:00Z",
+  "checked": "2026-10-07T01:32:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
+  "social": {
+    "x": ""
+  },
+  "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
+  "status": {
+    "level": "active",
+    "label": "Active · no global emergency",
+    "summary": "WHO ended its global mpox emergency in September 2025, and Africa CDC lifted its continental emergency on 22 January 2026, but cases continue. WHO counted 1,153 confirmed cases and 7 deaths in 11 African countries in the six weeks to 16 August, 785 of them in Madagascar, where a clade Ib outbreak that began in December 2025 has passed 3,000 confirmed cases. Outside Africa, clade Ib is spreading locally in Europe, mostly among men who have sex with men, and CDC says sustained spread in the US is likely."
+  },
+  "stage": {
+    "title": "WHO and Africa CDC emergency status",
+    "current": 1,
+    "since": "2026-01-22"
+  },
+  "ladder": [
+    {
+      "n": 1,
+      "label": "No emergency",
+      "test": "Neither WHO nor Africa CDC has an mpox emergency in force"
+    },
+    {
+      "n": 2,
+      "label": "Continental emergency",
+      "test": "A Public Health Emergency of Continental Security declared by Africa CDC, as from August 2024 to January 2026"
+    },
+    {
+      "n": 3,
+      "label": "Global emergency",
+      "test": "A Public Health Emergency of International Concern declared by WHO, as from August 2024 to September 2025"
+    }
+  ],
+  "figures": [
+    {
+      "id": "cases6w",
+      "label": "Cases in Africa, last six weeks",
+      "value": 1153,
+      "note": "Confirmed, 6 Jul–16 Aug. Madagascar 785, Angola 184, Kenya 94 (WHO, published 14 Sep)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "countries",
+      "label": "African countries with active transmission",
+      "value": 11,
+      "note": "Confirmed cases in the six weeks to 16 Aug (WHO)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "cases",
+      "label": "Confirmed cases in Africa since Jan 2025",
+      "value": 52424,
+      "note": "35 countries, 1 Jan 2025 to 16 Aug 2026 (WHO, 14 Sep)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths in Africa since Jan 2025",
+      "value": 238,
+      "note": "Among confirmed cases, 1 Jan 2025 to 16 Aug 2026 (WHO); 7 in the latest six weeks",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "europe",
+      "label": "Clade I cases in the EU/EEA, past 12 months",
+      "value": 1083,
+      "note": "20 countries, Aug 2025–Jul 2026; 153 in July, 68 of them in Portugal (ECDC)",
+      "tone": "watch",
+      "upIsBad": true
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-01-18",
+      "values": {
+        "countries": 15
+      }
+    },
+    {
+      "date": "2026-02-15",
+      "values": {
+        "cases": 45726,
+        "deaths": 203
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "values": {
+        "countries": 17
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "values": {
+        "cases": 47683,
+        "deaths": 217
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "values": {
+        "cases": 48358,
+        "deaths": 220,
+        "countries": 11
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "values": {
+        "cases": 52424,
+        "deaths": 238,
+        "countries": 11
+      }
+    }
+  ],
+  "trend": {
+    "title": "Confirmed cases in Africa per six weeks",
+    "unit": "Six weeks to each WHO data cut-off",
+    "note": "Each bar is the six weeks before a WHO report's data cut-off: 7 Dec 2025–18 Jan, 1 Feb–15 Mar, 6 Apr–17 May and 6 Jul–16 Aug 2026. Weeks in between aren't shown. Tap or hover a bar for its value.",
+    "labelHeader": "Six weeks to",
+    "valueHeader": "Confirmed cases",
+    "series": [
+      {
+        "label": "18 Jan",
+        "value": 871,
+        "note": "15 countries, 5 deaths"
+      },
+      {
+        "label": "15 Mar",
+        "value": 907,
+        "note": "17 countries, 7 deaths"
+      },
+      {
+        "label": "17 May",
+        "value": 955,
+        "note": "11 countries, 5 deaths"
+      },
+      {
+        "label": "16 Aug",
+        "value": 1153,
+        "note": "11 countries, 7 deaths"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO situation report 62 (PDF)",
+        "url": "https://cdn.who.int/media/docs/default-source/documents/emergencies/multi-country-outbreak-of-mpox--external-situation-report_62.pdf"
+      },
+      {
+        "name": "WHO situation report 64",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--64---26-march-2026"
+      },
+      {
+        "name": "The Star (Kenya)",
+        "url": "https://www.the-star.co.ke/news/2026-03-28-kenya-leads-globally-in-mpox-deaths-says-who"
+      },
+      {
+        "name": "WHO situation report 66 (PDF)",
+        "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/multi-country-outbreak-of-mpox--external-situation-report_66.pdf"
+      },
+      {
+        "name": "WHO situation report 69",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--69---14-september-2026"
+      }
+    ]
+  },
+  "map": {
+    "title": "Confirmed mpox cases in Africa, 6 July–16 August 2026",
+    "titleShort": "Where"
+  },
+  "regions": {
+    "title": "Confirmed cases by country, 6 Jul–16 Aug 2026",
+    "titleShort": "Most cases in the latest six weeks",
+    "label": "Confirmed cases",
+    "regionHeader": "Country",
+    "valueHeader": "Confirmed cases",
+    "unitLabel": "confirmed cases, 6 Jul–16 Aug",
+    "bins": [
+      1,
+      25,
+      50,
+      100,
+      500
+    ],
+    "noneLabel": "Not tracked here",
+    "reportedLabel": "Other confirmed cases in 2026",
+    "values": {
+      "Madagascar": 785,
+      "Angola": 184,
+      "Kenya": 94,
+      "DR Congo": 41,
+      "Cameroon": 28
+    },
+    "reported": [
+      "South Africa",
+      "Comoros",
+      "Guinea",
+      "South Sudan",
+      "Burundi",
+      "Liberia"
+    ],
+    "notes": {
+      "Madagascar": "Clade Ib. Outbreak began in Dec 2025; 3,022 confirmed and 20 deaths by 23 Jul (health ministry).",
+      "Angola": "Second-most cases in Africa in this period (WHO).",
+      "Kenya": "Clade Ib. Kenya had 4 of Africa's 7 mpox deaths in the six weeks to 15 Mar (WHO).",
+      "DR Congo": "Clades Ia and Ib circulate. 288 confirmed in the six weeks to 15 Mar (WHO).",
+      "Cameroon": "Fifth-most cases in Africa in this period (WHO).",
+      "South Africa": "22 lab-confirmed by 22 Sep, 18 in the Western Cape; preliminary results point to clade Ib (Dept of Health).",
+      "Comoros": "Outbreak declared 23 Jan; 7 confirmed by 3 Feb, mostly linked to travel from Madagascar (UNICEF).",
+      "Guinea": "40 confirmed in the six weeks to 17 May (WHO).",
+      "South Sudan": "37 confirmed in the six weeks to 17 May (WHO).",
+      "Burundi": "34 confirmed in the six weeks to 15 Mar (WHO).",
+      "Liberia": "24 confirmed in the six weeks to 15 Mar (WHO)."
+    },
+    "asOf": "2026-08-16",
+    "note": "WHO's latest six-week count (situation report 69, published 14 Sep): 1,153 confirmed cases in 11 African countries between 6 July and 16 August. The five with the most cases are shown with counts; WHO's other six had fewer each. Lighter shading marks other countries with confirmed cases in 2026 in WHO, government or UNICEF reports. A consistent 2026 total for every country wasn't available, so other countries aren't tracked here.",
+    "sources": [
+      {
+        "name": "WHO situation report 69",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--69---14-september-2026"
+      },
+      {
+        "name": "NICD (South Africa)",
+        "url": "https://www.nicd.ac.za/mpox-updates/"
+      },
+      {
+        "name": "Ver Angola",
+        "url": "https://www.verangola.net/va/en/02026/Health/50120/Angola-is-the-African-country-with-the-second-highest-number-of-recent-mpox-cases-WHO-warns.htm"
+      },
+      {
+        "name": "WAM (Madagascar health ministry)",
+        "url": "https://www.wam.ae/en/article/c1dsjjn-madagascar-mpox-cases-top-3000-since-outbreak"
+      },
+      {
+        "name": "WHO situation report 66 (PDF)",
+        "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/multi-country-outbreak-of-mpox--external-situation-report_66.pdf"
+      },
+      {
+        "name": "The Star (Kenya)",
+        "url": "https://www.the-star.co.ke/news/2026-03-28-kenya-leads-globally-in-mpox-deaths-says-who"
+      },
+      {
+        "name": "South African Government",
+        "url": "https://www.gov.za/news/cabinet-statements/health-provides-update-mpox-cases-south-africa-23-sep-2026"
+      },
+      {
+        "name": "UNICEF Comoros flash update",
+        "url": "https://www.unicef.org/media/178706/file/Comoros-Humanitarian-Flash-Update-No.1-(Mpox-Outbreak)-3-February-2026.pdf.pdf"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "Mpox only spreads through sex",
+      "status": "false",
+      "detail": "Sexual contact is a common route, but mpox spreads through close contact of many kinds, including skin-to-skin contact, touching sores or contaminated items, and close face-to-face contact. UKHSA lists household spread of clade I in countries including Belgium, Germany, Ireland and the UK.",
+      "sources": [
+        {
+          "name": "WHO mpox fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mpox"
+        },
+        {
+          "name": "UK government (UKHSA)",
+          "url": "https://www.gov.uk/guidance/clade-i-mpox-affected-countries"
+        }
+      ]
+    },
+    {
+      "claim": "Mpox only affects gay men",
+      "status": "false",
+      "detail": "Anyone can catch mpox through close contact. In the EU/EEA, 89% of clade I cases in the 12 months to July with full information were men who have sex with men (ECDC), but WHO also rates the risk as moderate for sex workers and others with multiple casual partners, and household spread has been recorded.",
+      "sources": [
+        {
+          "name": "ECDC monthly mpox report",
+          "url": "https://mpox-monthly.ecdc.europa.eu/"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON595)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+        },
+        {
+          "name": "UK government (UKHSA)",
+          "url": "https://www.gov.uk/guidance/clade-i-mpox-affected-countries"
+        }
+      ]
+    },
+    {
+      "claim": "There is no vaccine for mpox",
+      "status": "false",
+      "detail": "Vaccines are in use. Africa CDC says more than 5 million doses were rolled out in 16 African countries between 2024 and January 2026, and Madagascar received another 30,000 doses from UNICEF in July 2026. CDC recommends two doses of the JYNNEOS vaccine for people at higher risk.",
+      "sources": [
+        {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/lifting-of-mpox-as-a-public-health-emergency-of-continental-security-phecs/"
+        },
+        {
+          "name": "WAM (Madagascar health ministry)",
+          "url": "https://www.wam.ae/en/article/c1dsjjn-madagascar-mpox-cases-top-3000-since-outbreak"
+        },
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "claim": "Mpox is \"the new COVID\"",
+      "status": "no-evidence",
+      "detail": "Mpox spreads mainly through close physical contact, such as skin-to-skin contact and sex, and most people recover. WHO rates the risk to the general population as low, and it ended its global mpox emergency in September 2025.",
+      "sources": [
+        {
+          "name": "WHO mpox fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mpox"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON595)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2025/9/5/mpox-no-longer-international-health-emergency-but-remains-concern-in-africa"
+        }
+      ]
+    },
+    {
+      "claim": "A new recombinant \"super strain\" is more dangerous",
+      "status": "no-evidence",
+      "detail": "WHO has reported a virus mixing clades Ib and IIb. In the first two cases, in the UK and India, illness was similar to other clades, neither patient was severely ill and no onward spread was found. WHO's overall risk assessment did not change.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON595)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+        },
+        {
+          "name": "EMPHNET EpiNews",
+          "url": "https://epinews.emphnet.net/en/news/mpox-recombinant-virus-with-genomic-elements-of-clades-ib-and-iib-global"
+        }
+      ]
+    },
+    {
+      "claim": "Clade Ib is spreading locally outside Africa",
+      "status": "confirmed",
+      "detail": "WHO reported community transmission in countries including Germany, Spain, Portugal, Switzerland and Thailand by May 2026. ECDC counted 1,083 clade I cases in the EU/EEA in the 12 months to July, and CDC says sustained spread in the US is likely.",
+      "sources": [
+        {
+          "name": "WHO situation report 66 (PDF)",
+          "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/multi-country-outbreak-of-mpox--external-situation-report_66.pdf"
+        },
+        {
+          "name": "ECDC monthly mpox report",
+          "url": "https://mpox-monthly.ecdc.europa.eu/"
+        },
+        {
+          "name": "CDC: clade I outbreaks",
+          "url": "https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Next WHO multi-country situation report",
+      "status": "pending",
+      "note": "Reports have come about monthly; report 69 was published 14 Sep. Next date not announced."
+    },
+    {
+      "label": "Next ECDC monthly mpox report",
+      "status": "pending",
+      "note": "Figures here are from ECDC's July data"
+    },
+    {
+      "label": "South Africa's final clade results for its two clusters",
+      "status": "pending",
+      "note": "Preliminary analysis points to clade Ib (23 Sep)"
+    },
+    {
+      "label": "CDC update on clade Ib spread in the US",
+      "status": "pending",
+      "note": "CDC said on 25 Sep that a transition to sustained spread is likely"
+    },
+    {
+      "label": "Madagascar's outbreak slows",
+      "status": "pending",
+      "note": "785 confirmed cases in the six weeks to 16 Aug (WHO)"
+    },
+    {
+      "label": "Africa CDC lifts the continental emergency",
+      "date": "2026-01-22",
+      "status": "done"
+    },
+    {
+      "label": "WHO ends the global emergency",
+      "date": "2025-09-05",
+      "status": "done"
+    }
+  ],
+  "positions": [
+    {
+      "who": "World Health Organization",
+      "kind": "international",
+      "date": "2026-09-14",
+      "text": "1,153 confirmed cases and 7 deaths in 11 African countries in the six weeks to 16 August, most in Madagascar and Angola. 52,424 confirmed cases and 238 deaths in 35 African countries since January 2025."
+    },
+    {
+      "who": "Africa CDC",
+      "kind": "international",
+      "date": "2026-01-22",
+      "text": "Lifted the continental emergency after confirmed cases fell 60% during 2025, while warning that mpox remains endemic in several settings and needs continued vigilance."
+    },
+    {
+      "who": "US CDC",
+      "kind": "official",
+      "date": "2026-09-25",
+      "text": "More than 60 confirmed clade I cases in at least 20 states. Presumed local spread in more than 10 jurisdictions indicates a likely transition to sustained clade Ib transmission. Risk to most people in the US remains low."
+    },
+    {
+      "who": "South Africa Department of Health",
+      "kind": "official",
+      "date": "2026-09-23",
+      "text": "22 laboratory-confirmed cases as of 22 September, 18 of them in the Western Cape. Preliminary analysis points to clade Ib in both clusters."
+    },
+    {
+      "who": "Madagascar Ministry of Public Health",
+      "kind": "official",
+      "date": "2026-07-23",
+      "text": "3,022 confirmed cases and 20 deaths since December 2025. Surveillance, testing and vaccination in affected districts have been stepped up."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2024-08-14-who-and-africa-cdc-declare",
+      "date": "2024-08-14",
+      "kind": "international",
+      "title": "WHO and Africa CDC declare mpox emergencies",
+      "body": "Africa CDC declares its first Public Health Emergency of Continental Security on 13 August. WHO declares a Public Health Emergency of International Concern the next day, as the newer clade Ib spreads from eastern DR Congo to neighbouring countries.",
+      "sources": [
+        {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/africa-cdc-declares-mpox-a-public-health-emergency-of-continental-security-mobilizing-resources-across-the-continent/"
+        },
+        {
+          "name": "ADF Magazine",
+          "url": "https://adf-magazine.com/2024/08/africa-cdc-who-declare-emergency-as-mpox-spreads/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2025/9/5/mpox-no-longer-international-health-emergency-but-remains-concern-in-africa"
+        }
+      ]
+    },
+    {
+      "id": "2025-09-05-who-ends-the-global-mpox",
+      "date": "2025-09-05",
+      "kind": "international",
+      "title": "WHO ends the global mpox emergency",
+      "body": "WHO's Director-General says mpox is no longer a Public Health Emergency of International Concern, citing sustained declines in DR Congo, Burundi, Sierra Leone and Uganda. Africa CDC's advisory group, which met on 2 September, recommends keeping the continental emergency.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2025/9/5/mpox-no-longer-international-health-emergency-but-remains-concern-in-africa"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/health/who-chief-says-mpox-outbreak-in-africa-is-no-longer-a-global-health-emergency"
+        },
+        {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/mpox-still-a-continental-emergency-africa-cdc-advisory-group-recommends/"
+        }
+      ]
+    },
+    {
+      "id": "2025-10-28-locally-acquired-clade-i-cases",
+      "date": "2025-10-28",
+      "kind": "international",
+      "title": "Locally acquired clade I cases in Europe and California",
+      "body": "Spain, the Netherlands, Italy and Portugal report clade I cases in men with no travel link, and ECDC urges renewed vigilance over local clade Ib transmission. California confirms three locally acquired clade I cases, all needing hospital care.",
+      "sources": [
+        {
+          "name": "Healthbeat",
+          "url": "https://www.healthbeat.org/2025/10/28/mpox-europe-local-transmission-california/"
+        },
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/news-events/local-transmission-clade-1b-mpox-cases-detected-eueea-ecdc-urges-renewed-vigilance"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/mpox/3rd-case-locally-acquired-clade-1-mpox-california-officials-warn-community-spread"
+        }
+      ]
+    },
+    {
+      "id": "2025-12-31-madagascar-declares-its-first-mpox",
+      "date": "2025-12-31",
+      "kind": "official",
+      "title": "Madagascar declares its first mpox outbreak",
+      "body": "The first case was detected on 17 December. Institut Pasteur de Madagascar confirmed clade Ib on 13 January, and 133 cases were laboratory-confirmed by 21 January. By March, Madagascar reports more confirmed cases than any other African country (WHO).",
+      "sources": [
+        {
+          "name": "UK government: outbreaks under monitoring",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-3-week-ending-18-january-2026"
+        },
+        {
+          "name": "WHO situation report 62 (PDF)",
+          "url": "https://cdn.who.int/media/docs/default-source/documents/emergencies/multi-country-outbreak-of-mpox--external-situation-report_62.pdf"
+        },
+        {
+          "name": "UNMC (Outbreak News Today)",
+          "url": "https://www.unmc.edu/healthsecurity/transmission/2026/01/14/madagascar-reports-1st-mpox-outbreak/"
+        },
+        {
+          "name": "WHO situation report 66 (PDF)",
+          "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/multi-country-outbreak-of-mpox--external-situation-report_66.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-13-india-reports-a-recombinant-clade",
+      "date": "2026-01-13",
+      "kind": "international",
+      "title": "India reports a recombinant clade Ib/IIb virus",
+      "body": "India notifies WHO of the second known case of a virus mixing clades Ib and IIb, after one in the UK. Neither patient was severely ill and no onward spread was found. WHO says the strain is likely more widespread than documented.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON595)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+        },
+        {
+          "name": "EMPHNET EpiNews",
+          "url": "https://epinews.emphnet.net/en/news/mpox-recombinant-virus-with-genomic-elements-of-clades-ib-and-iib-global"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-22-africa-cdc-lifts-the-continental",
+      "date": "2026-01-22",
+      "kind": "international",
+      "title": "Africa CDC lifts the continental emergency",
+      "body": "After 17 months, Africa CDC ends mpox's status as a Public Health Emergency of Continental Security. It says confirmed cases fell 60% between early and late 2025 and more than 5 million vaccine doses were rolled out in 16 countries, but mpox remains endemic in several settings.",
+      "sources": [
+        {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/lifting-of-mpox-as-a-public-health-emergency-of-continental-security-phecs/"
+        },
+        {
+          "name": "The New Times (Rwanda)",
+          "url": "https://www.newtimes.co.rw/article/32804/news/health/mpox-no-longer-a-public-health-emergency-in-africa/amp"
+        },
+        {
+          "name": "Nation (Kenya)",
+          "url": "https://www.nation.africa/kenya/health/africa-cdc-lifts-mpox-emergency-after-17-months-citing-60pc-drop-in-cases-5343040"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-23-comoros-declares-an-mpox-outbreak",
+      "date": "2026-01-23",
+      "kind": "official",
+      "title": "Comoros declares an mpox outbreak",
+      "body": "By 3 February, seven cases are confirmed: five imported, mostly linked to travel from Madagascar, and two acquired locally.",
+      "sources": [
+        {
+          "name": "UNICEF Comoros flash update",
+          "url": "https://www.unicef.org/media/178706/file/Comoros-Humanitarian-Flash-Update-No.1-(Mpox-Outbreak)-3-February-2026.pdf.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-03-26-who-907-cases-in-17",
+      "date": "2026-03-26",
+      "kind": "international",
+      "title": "WHO: 907 cases in 17 African countries in six weeks",
+      "body": "Between 1 February and 15 March, Madagascar (368), DR Congo (288) and Kenya (78) report the most confirmed cases. Kenya accounts for 4 of the 7 deaths.",
+      "sources": [
+        {
+          "name": "WHO situation report 64",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--64---26-march-2026"
+        },
+        {
+          "name": "The Star (Kenya)",
+          "url": "https://www.the-star.co.ke/news/2026-03-28-kenya-leads-globally-in-mpox-deaths-says-who"
+        },
+        {
+          "name": "People Daily",
+          "url": "https://peopledaily.digital/news/kenya-has-highest-mpox-death-toll-in-africa-with-4-of-7-deaths-says-who/amp"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-madagascar-passes-1-000-confirmed",
+      "date": "2026-04-30",
+      "kind": "international",
+      "title": "Madagascar passes 1,000 confirmed cases",
+      "body": "WHO reports 1,092 confirmed cases and three deaths in Madagascar as of 19 April. Colombia, Denmark, Ecuador and Singapore report clade Ib for the first time.",
+      "sources": [
+        {
+          "name": "WHO situation report 65",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--65---30-april-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-31-who-clade-ib-spreading-locally",
+      "date": "2026-05-31",
+      "kind": "international",
+      "title": "WHO: clade Ib spreading locally in nine countries outside Africa",
+      "body": "Colombia, Denmark, Germany, Pakistan, Portugal, Slovakia, Spain, Switzerland and Thailand report community transmission. Spain has counted 109 clade Ib cases, and Germany 74, 57 of them in 2026.",
+      "sources": [
+        {
+          "name": "WHO situation report 66",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--66---31-may-2026"
+        },
+        {
+          "name": "WHO situation report 66 (PDF)",
+          "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/multi-country-outbreak-of-mpox--external-situation-report_66.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-12-california-reports-a-rise-in",
+      "date": "2026-06-12",
+      "kind": "official",
+      "title": "California reports a rise in clade I introductions",
+      "body": "The state health department counts seven travel-related clade I cases in 2026, more than in 2024 and 2025 combined. Nationally, CDC had confirmed 25 travel-related clade I cases since November 2024.",
+      "sources": [
+        {
+          "name": "California Dept. of Public Health",
+          "url": "https://www.cdph.ca.gov/Programs/OPA/Pages/CAHAN/Increase-in-Introductions-of-Clade-I-Mpox-and-increases-in-Clade-II-Mpox-Within-California.aspx"
+        },
+        {
+          "name": "California Medical Association",
+          "url": "https://cmadocs.org/newsroom/news/view/ArticleId/51233/CDPH-alerts-providers-to-increase-in-travel-related-mpox-cases-rising-clade-II-activity"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-madagascar-passes-3-000-confirmed",
+      "date": "2026-07-23",
+      "kind": "official",
+      "title": "Madagascar passes 3,000 confirmed cases",
+      "body": "The health ministry reports 3,022 confirmed cases, 2,114 recoveries and 20 deaths since December. Toamasina province accounts for 40% of cases. A second batch of 30,000 vaccine doses arrived from UNICEF in early July.",
+      "sources": [
+        {
+          "name": "WAM (Madagascar health ministry)",
+          "url": "https://www.wam.ae/en/article/c1dsjjn-madagascar-mpox-cases-top-3000-since-outbreak"
+        },
+        {
+          "name": "The Star (Malaysia)",
+          "url": "https://www.thestar.com.my/news/world/2026/07/24/madagascar-mpox-cases-top-3000-since-outbreak-in-december-2025"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-who-1-153-cases-in",
+      "date": "2026-09-14",
+      "kind": "international",
+      "title": "WHO: 1,153 cases in 11 African countries in six weeks",
+      "body": "Between 6 July and 16 August, Madagascar (785), Angola (184), Kenya (94), DR Congo (41) and Cameroon (28) report the most confirmed cases; 7 people died. Since January 2025, 35 African countries have reported 52,424 confirmed cases and 238 deaths.",
+      "sources": [
+        {
+          "name": "WHO situation report 69",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--69---14-september-2026"
+        },
+        {
+          "name": "NICD (South Africa)",
+          "url": "https://www.nicd.ac.za/mpox-updates/"
+        },
+        {
+          "name": "Ver Angola",
+          "url": "https://www.verangola.net/va/en/02026/Health/50120/Angola-is-the-African-country-with-the-second-highest-number-of-recent-mpox-cases-WHO-warns.htm"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-south-africa-reports-22-cases",
+      "date": "2026-09-23",
+      "kind": "official",
+      "title": "South Africa reports 22 cases, likely clade Ib",
+      "body": "The health department counts 22 laboratory-confirmed cases as of 22 September: 18 in the Western Cape, 3 in Gauteng and 1 in KwaZulu-Natal. Thirteen of the Western Cape cases were confirmed since mid-August, and preliminary analysis points to clade Ib in both clusters.",
+      "sources": [
+        {
+          "name": "South African Government",
+          "url": "https://www.gov.za/news/cabinet-statements/health-provides-update-mpox-cases-south-africa-23-sep-2026"
+        },
+        {
+          "name": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-09-23-confirmed-mpox-cases-rise-to-22/"
+        },
+        {
+          "name": "EWN",
+          "url": "https://www.ewn.co.za/2026/09/18/sa-confirms-mpox-cases-rise-to-18"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-cdc-says-sustained-clade-ib",
+      "date": "2026-09-25",
+      "kind": "official",
+      "title": "CDC says sustained clade Ib spread in the US is likely",
+      "body": "CDC counts more than 60 confirmed clade I cases in at least 20 states since November 2024. Since August, more cases have had no travel link, and presumed local spread in more than 10 jurisdictions points to a likely transition to sustained transmission. CDC rates the risk to most people as low.",
+      "sources": [
+        {
+          "name": "CDC: clade I outbreaks",
+          "url": "https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"
+        },
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Putting it in context",
+    "stats": [
+      {
+        "value": "3,022",
+        "label": "confirmed cases in Madagascar since December 2025",
+        "note": "And 20 deaths, by 23 July 2026 (health ministry). Madagascar had 785 of Africa's 1,153 cases in WHO's latest six-week count.",
+        "source": {
+          "name": "WAM (Madagascar health ministry)",
+          "url": "https://www.wam.ae/en/article/c1dsjjn-madagascar-mpox-cases-top-3000-since-outbreak"
+        }
+      },
+      {
+        "value": "60%",
+        "label": "drop in confirmed cases in Africa during 2025",
+        "note": "Suspected cases fell 40% (Africa CDC)",
+        "source": {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/lifting-of-mpox-as-a-public-health-emergency-of-continental-security-phecs/"
+        }
+      },
+      {
+        "value": "5 million+",
+        "label": "vaccine doses rolled out in 16 African countries",
+        "note": "From 2024 to January 2026 (Africa CDC)",
+        "source": {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/lifting-of-mpox-as-a-public-health-emergency-of-continental-security-phecs/"
+        }
+      },
+      {
+        "value": "89%",
+        "label": "of EU/EEA clade I cases were men who have sex with men",
+        "note": "Aug 2025–Jul 2026, cases with complete information (ECDC)",
+        "source": {
+          "name": "ECDC monthly mpox report",
+          "url": "https://mpox-monthly.ecdc.europa.eu/"
+        }
+      }
+    ],
+    "historyTitle": "Mpox milestones",
+    "history": [
+      {
+        "year": "1970",
+        "text": "Mpox is first identified in a person, in what is now DR Congo."
+      },
+      {
+        "year": "2022",
+        "text": "Clade IIb spreads worldwide: more than 87,000 confirmed cases by May 2023. WHO's first mpox emergency runs from July 2022 to May 2023."
+      },
+      {
+        "year": "2023",
+        "text": "Clade Ib is identified in Kamituga, eastern DR Congo."
+      },
+      {
+        "year": "2024",
+        "text": "Africa CDC and WHO declare emergencies in August. Sweden reports the first clade Ib case outside Africa."
+      },
+      {
+        "year": "2025",
+        "text": "WHO ends its emergency in September. Local clade Ib spread is found in Europe, and locally acquired clade I cases in California, in October."
+      },
+      {
+        "year": "2026",
+        "text": "Africa CDC lifts its emergency in January. Madagascar's clade Ib outbreak passes 3,000 confirmed cases."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "WHO mpox fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/mpox"
+      },
+      {
+        "name": "CIDRAP",
+        "url": "https://www.cidrap.umn.edu/mpox/who-declares-end-mpox-public-health-emergency"
+      },
+      {
+        "name": "CDC Emerging Infectious Diseases",
+        "url": "https://wwwnc.cdc.gov/eid/article/31/8/24-1551_article"
+      },
+      {
+        "name": "Eurosurveillance via PMC (Sweden, 2024)",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11605805/"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/amp/news/2025/9/5/mpox-no-longer-international-health-emergency-but-remains-concern-in-africa"
+      },
+      {
+        "name": "Healthbeat",
+        "url": "https://www.healthbeat.org/2025/10/28/mpox-europe-local-transmission-california/"
+      },
+      {
+        "name": "Africa CDC",
+        "url": "https://africacdc.org/news-item/lifting-of-mpox-as-a-public-health-emergency-of-continental-security-phecs/"
+      },
+      {
+        "name": "WAM (Madagascar health ministry)",
+        "url": "https://www.wam.ae/en/article/c1dsjjn-madagascar-mpox-cases-top-3000-since-outbreak"
+      }
+    ],
+    "factsTitle": "About mpox"
+  },
+  "facts": [
+    {
+      "q": "What is clade Ib?",
+      "a": "A newer strain of clade I monkeypox virus, first identified in eastern DR Congo in 2023. Its genetic changes point to sustained spread between people, including through sexual contact, and it has since been found on several continents."
+    },
+    {
+      "q": "How does mpox spread?",
+      "a": "Through close contact with someone who has mpox: skin-to-skin contact including sex, touching sores or contaminated items such as bedding, and close face-to-face contact. It can also spread within households, including to children."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "A rash or sores, often with fever, headache, muscle aches, low energy and swollen lymph nodes. Symptoms usually start within a week of exposure but can take up to 21 days, and typically last two to four weeks."
+    },
+    {
+      "q": "How serious is it?",
+      "a": "Most people recover. In Africa, WHO counted 238 deaths among 52,424 confirmed cases from January 2025 to mid-August 2026. Young children, pregnant people and people with weakened immune systems, including from untreated HIV, are at higher risk of severe illness."
+    },
+    {
+      "q": "Is there a vaccine?",
+      "a": "Yes. WHO has listed two vaccines for use: MVA-BN, given in two doses and sold as Jynneos or Imvanex, and LC16m8. They are offered mainly to people at higher risk, such as contacts of cases and, in many countries, men who have sex with men with multiple partners."
+    }
+  ],
+  "follow": [
+    {
+      "name": "WHO: mpox situation reports",
+      "url": "https://www.who.int/emergencies/situations/mpox-outbreak"
+    },
+    {
+      "name": "WHO global mpox dashboard",
+      "url": "https://worldhealthorg.shinyapps.io/mpx_global/"
+    },
+    {
+      "name": "Africa CDC",
+      "url": "https://africacdc.org/"
+    },
+    {
+      "name": "ECDC: monthly mpox report",
+      "url": "https://mpox-monthly.ecdc.europa.eu/"
+    },
+    {
+      "name": "CDC: clade I outbreaks",
+      "url": "https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"
+    }
+  ],
+  "card": {
+    "title": "Mpox: Africa and beyond",
+    "sub": "1,153 confirmed cases in 11 African countries in the six weeks to 16 Aug, most in Madagascar. Clade Ib spreads locally in Europe and likely the US.",
+    "stats": [
+      "cases6w",
+      "countries",
+      "deaths",
+      "europe"
+    ],
+    "statLabels": {
+      "cases6w": "Cases, 6 weeks",
+      "countries": "Countries active",
+      "deaths": "Deaths since 2025",
+      "europe": "EU clade I, 12 mo"
+    },
+    "sources": "WHO, Africa CDC, ECDC, CDC",
+    "foot": "WHO data to 16 Aug · ECDC to 31 Jul"
+  },
+  "postExtra": "ECDC counted 1,083 clade I cases in the EU/EEA in the 12 months to July."
+}

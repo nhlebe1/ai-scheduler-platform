@@ -1,0 +1,910 @@
+{
+  "meta": {
+    "slug": "marburg",
+    "title": "Marburg Watch",
+    "short": "Marburg · Africa",
+    "description": "Independent, sourced Marburg tracker: any new cases in Africa, Uganda's isolated case in 2026, and the full record of Ethiopia's first outbreak (November 2025 to January 2026) with a dated timeline.",
+    "postLead": "Marburg watch",
+    "postDay": false,
+    "figuresTitle": "Ethiopia's outbreak: final count (WHO, 25 Jan 2026)",
+    "hubFigures": [
+      "cases",
+      "deaths",
+      "recovered"
+    ],
+    "disclaimer": "This tracker summarises reports from WHO, CDC, ECDC, UKHSA, Africa CDC and Ethiopia's Ministry of Health, and named news outlets. It is not medical or travel advice. If you develop a fever within 21 days of contact with someone who had Marburg, call a doctor before going to a clinic."
+  },
+  "updated": "2026-10-07T01:32:00Z",
+  "checked": "2026-10-07T01:32:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/marburg/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/marburg/",
+  "social": {
+    "x": ""
+  },
+  "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
+  "status": {
+    "level": "watch",
+    "label": "Watching · no new cases reported",
+    "summary": "Uganda notified WHO of a confirmed Marburg case in Kyegegwa district on 30 June 2026: a young child who had died, found through surveillance set up for Ebola. Africa CDC said no contacts had developed symptoms, and no further cases have been reported since. Ethiopia's first outbreak, confirmed in Jinka on 14 November 2025, was declared over on 26 January 2026 after 42 days without a new case. WHO counted 14 confirmed cases, 9 of whom died, plus 5 probable cases who all died. Headlines saying Ethiopia's death toll is climbing date from December 2025."
+  },
+  "counters": [
+    {
+      "id": "since-last-case",
+      "label": "since the last reported case, in Uganda",
+      "from": "2026-06-30",
+      "tone": "good"
+    },
+    {
+      "id": "since-over",
+      "label": "since Ethiopia's outbreak was declared over",
+      "from": "2026-01-26",
+      "tone": "good"
+    }
+  ],
+  "figures": [
+    {
+      "id": "cases",
+      "label": "Confirmed cases",
+      "value": 14,
+      "note": "Final count, WHO as of 25 Jan 2026. WHO also lists 5 probable cases (ECDC counted 3 as of 13 Jan).",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths among confirmed cases",
+      "value": 9,
+      "note": "64.3% of confirmed cases (WHO). All 5 probable cases also died.",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "recovered",
+      "label": "Recovered",
+      "value": 5,
+      "note": "Confirmed patients who survived (WHO Africa, 26 Jan 2026)",
+      "tone": "good"
+    },
+    {
+      "id": "contacts",
+      "label": "Contacts followed for 21 days",
+      "value": 857,
+      "note": "All completed monitoring (NICD, data to 25 Jan 2026). The health ministry cited 886 contacts monitored on 5 Jan (ECDC).",
+      "tone": "neutral"
+    },
+    {
+      "id": "healthworkers",
+      "label": "Health workers infected",
+      "value": 3,
+      "note": "2 died, 1 recovered (WHO Africa, 26 Jan 2026)",
+      "tone": "watch",
+      "upIsBad": true
+    }
+  ],
+  "history": [
+    {
+      "date": "2025-11-23",
+      "values": {
+        "cases": 10,
+        "deaths": 5
+      }
+    },
+    {
+      "date": "2025-11-30",
+      "values": {
+        "cases": 12,
+        "deaths": 8
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "values": {
+        "cases": 13,
+        "deaths": 8
+      }
+    },
+    {
+      "date": "2025-12-14",
+      "values": {
+        "cases": 14,
+        "deaths": 9
+      }
+    },
+    {
+      "date": "2025-12-21",
+      "values": {
+        "cases": 14,
+        "deaths": 9
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "values": {
+        "cases": 14,
+        "deaths": 9,
+        "recovered": 5,
+        "contacts": 857,
+        "healthworkers": 3
+      }
+    }
+  ],
+  "trend": {
+    "title": "Confirmed Marburg cases in Ethiopia",
+    "unit": "Cumulative, by report date (Nov 2025 to Jan 2026)",
+    "note": "Each bar is an official report; gaps between reports vary. The count stayed at 14 after the last confirmed case was reported on 12 December 2025. Tap or hover a bar for its value.",
+    "labelHeader": "Report date",
+    "valueHeader": "Confirmed cases",
+    "series": [
+      {
+        "label": "20 Nov",
+        "value": 6
+      },
+      {
+        "label": "23 Nov",
+        "value": 10
+      },
+      {
+        "label": "26 Nov",
+        "value": 11
+      },
+      {
+        "label": "30 Nov",
+        "value": 12
+      },
+      {
+        "label": "7 Dec",
+        "value": 13
+      },
+      {
+        "label": "14 Dec",
+        "value": 14
+      },
+      {
+        "label": "21 Dec",
+        "value": 14
+      },
+      {
+        "label": "25 Jan",
+        "value": 14,
+        "note": "final count"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO Disease Outbreak News (DON585)",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"
+      },
+      {
+        "name": "UKHSA week 47",
+        "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-47-week-ending-23-november-2025"
+      },
+      {
+        "name": "Daily Maverick (Reuters)",
+        "url": "https://www.dailymaverick.co.za/article/2025-11-26-ethiopia-says-death-toll-from-marburg-virus-outbreak-rises-to-6/"
+      },
+      {
+        "name": "UKHSA week 48",
+        "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-48-week-ending-30-november-2025"
+      },
+      {
+        "name": "UKHSA week 49",
+        "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-49-week-ending-7-december-2025"
+      },
+      {
+        "name": "UKHSA week 50",
+        "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-50-week-ending-14-december-2025"
+      },
+      {
+        "name": "UKHSA week 51",
+        "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-51-week-ending-21-december-2025"
+      },
+      {
+        "name": "WHO Disease Outbreak News (DON592)",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+      }
+    ]
+  },
+  "risk": {
+    "title": "WHO risk level for Ethiopia's outbreak, November 2025",
+    "by": "WHO assessment while the outbreak was active",
+    "date": "2025-11-20",
+    "scale": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very high"
+    ],
+    "areas": [
+      {
+        "area": "Ethiopia",
+        "from": 2,
+        "to": 2,
+        "label": "High"
+      },
+      {
+        "area": "Region",
+        "from": 1,
+        "to": 1,
+        "label": "Moderate"
+      },
+      {
+        "area": "Global",
+        "from": 0,
+        "to": 0,
+        "label": "Low"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO Disease Outbreak News (DON585)",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"
+      },
+      {
+        "name": "EAC Regional Coordination Centre",
+        "url": "https://rcc.eac.int/node/181"
+      }
+    ]
+  },
+  "map": {
+    "title": "Where Marburg cases were confirmed: Ethiopia (Nov 2025 to Jan 2026) and Uganda (June 2026)",
+    "titleShort": "Where",
+    "eventLabel": "Affected area"
+  },
+  "places": [
+    {
+      "name": "Kyegegwa district",
+      "region": "Western Uganda",
+      "role": "Where Uganda's isolated Marburg case was confirmed at the end of June 2026: a young child who had died. Africa CDC said no contacts developed symptoms.",
+      "q": "Kyegegwa, Uganda",
+      "lat": 0.5,
+      "lon": 31.05,
+      "map": true,
+      "mapLabel": "Kyegegwa",
+      "label": "right",
+      "kind": "official"
+    },
+    {
+      "name": "Jinka",
+      "region": "South Ethiopia Region",
+      "role": "Where the outbreak was confirmed on 14 November 2025. The first known patient was admitted to hospital here in late October.",
+      "q": "Jinka, Ethiopia",
+      "lat": 5.78,
+      "lon": 36.57,
+      "map": true,
+      "mapLabel": "Jinka",
+      "label": "right",
+      "kind": "official"
+    },
+    {
+      "name": "Malle woreda",
+      "region": "South Omo Zone, South Ethiopia Region",
+      "role": "Listed among the districts that reported cases in end-of-outbreak summaries.",
+      "q": "Malle, South Omo, Ethiopia",
+      "map": false,
+      "kind": "official"
+    },
+    {
+      "name": "Dasenech woreda",
+      "region": "South Omo Zone, South Ethiopia Region, bordering Kenya",
+      "role": "Listed among the affected districts by South Africa's NICD (data to 25 January 2026). Some other summaries name Arba Minch instead. Marker at Omorate, the district's main town.",
+      "q": "Omorate, Ethiopia",
+      "lat": 4.8,
+      "lon": 36.05,
+      "map": true,
+      "mapLabel": "Dasenech",
+      "label": "left",
+      "kind": "official"
+    },
+    {
+      "name": "Hawassa",
+      "region": "Sidama Region",
+      "role": "First confirmed case outside South Ethiopia Region, reported in late November 2025: a contact of an earlier case who had travelled to Jinka.",
+      "q": "Hawassa, Ethiopia",
+      "lat": 7.05,
+      "lon": 38.48,
+      "map": true,
+      "mapLabel": "Hawassa",
+      "label": "right",
+      "kind": "official"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Ethiopia's Marburg death toll is still climbing",
+      "status": "false",
+      "detail": "Headlines such as CIDRAP's 'Death toll climbs in Ethiopia's Marburg outbreak' date from early December 2025. The final count was 9 deaths among 14 confirmed cases, plus 5 probable cases who died, and the outbreak was declared over on 26 January 2026.",
+      "sources": [
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/marburg/death-toll-climbs-ethiopias-marburg-outbreak"
+        },
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON592)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+        }
+      ]
+    },
+    {
+      "claim": "Marburg has returned to Ethiopia in 2026",
+      "status": "no-evidence",
+      "detail": "This tracker found no official reports of Marburg cases in Ethiopia since the outbreak ended on 26 January 2026; the last confirmed case was reported on 12 December 2025. Uganda, not Ethiopia, reported a Marburg case in June 2026.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"
+        },
+        {
+          "name": "ECDC (week 3, 2026)",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-3-2026.pdf"
+        },
+        {
+          "name": "CNBC Africa (Reuters)",
+          "url": "https://www.cnbcafrica.com/2026/africa-cdc-says-uganda-found-isolated-marburg-case"
+        }
+      ]
+    },
+    {
+      "claim": "The virus in Ethiopia was a new strain",
+      "status": "false",
+      "detail": "Genetic analysis by the Ethiopian Public Health Institute found the same strain reported in earlier outbreaks in East Africa, WHO and UKHSA said.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-confirms-first-outbreak-marburg-virus-disease"
+        },
+        {
+          "name": "UKHSA week 50",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-50-week-ending-14-december-2025"
+        }
+      ]
+    },
+    {
+      "claim": "Marburg spread from Ethiopia to other countries",
+      "status": "false",
+      "detail": "CDC reported no cases linked to this outbreak outside Ethiopia. Africa CDC said it was working to prevent spread to neighbouring countries, mainly South Sudan and Kenya.",
+      "sources": [
+        {
+          "name": "CDC: Marburg in Ethiopia",
+          "url": "https://www.cdc.gov/marburg/situation-summary/index.html"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/africa/20251124/c62206ec7c9c472e8654600843688d4c/c.html"
+        }
+      ]
+    },
+    {
+      "claim": "There is an approved Marburg vaccine",
+      "status": "false",
+      "detail": "No Marburg vaccine or treatment is licensed. Ethiopia tested Sabin's investigational cAd3-Marburg vaccine in a Phase 2 trial; when the outbreak ended, 227 people were enrolled in one group and 340 in a second, randomised group.",
+      "sources": [
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/marburg/death-toll-climbs-ethiopias-marburg-outbreak"
+        },
+        {
+          "name": "Sabin Vaccine Institute",
+          "url": "https://www.sabin.org/resources/sabin-vaccine-institutes-investigational-marburg-vaccine-delivered-to-ethiopia-for-outbreak-response/"
+        },
+        {
+          "name": "Sabin: outbreak response",
+          "url": "https://www.sabin.org/vaccine-research-and-development/sabins-outbreak-response/"
+        }
+      ]
+    },
+    {
+      "claim": "Health workers were among those infected",
+      "status": "confirmed",
+      "detail": "Three health workers were infected; two died and one recovered, WHO says. WHO cited infections among health workers when it rated the risk in Ethiopia high.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON585)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Any new confirmed Marburg case",
+      "status": "pending",
+      "note": "Last reported: Uganda, 30 June 2026 (WHO, Africa CDC)"
+    },
+    {
+      "label": "Results of the cAd3-Marburg vaccine trial",
+      "status": "pending",
+      "note": "No date announced"
+    },
+    {
+      "label": "Source of the outbreak identified",
+      "status": "pending",
+      "note": "Not identified as of December 2025; fruit bats, the virus's natural host, were found in the area (UKHSA)"
+    },
+    {
+      "label": "Outbreak declared over",
+      "date": "2026-01-26",
+      "status": "done"
+    },
+    {
+      "label": "WHO internal review of its response",
+      "date": "2026-03-19",
+      "status": "done",
+      "note": "Held in Addis Ababa, 17–19 March"
+    },
+    {
+      "label": "90 days of enhanced surveillance",
+      "status": "done",
+      "note": "Began when the outbreak was declared over on 26 January (CDC). This tracker found no reports of new cases."
+    }
+  ],
+  "positions": [
+    {
+      "who": "Ethiopia Ministry of Health",
+      "kind": "official",
+      "date": "2026-01-26",
+      "text": "Declared the outbreak over after 42 days without a new case. 14 people were confirmed infected: 9 died and 5 recovered."
+    },
+    {
+      "who": "World Health Organization",
+      "kind": "international",
+      "date": "2026-01-26",
+      "text": "14 confirmed and 5 probable cases as of 25 January; all probable cases died. Three health workers were infected, two of whom died. The outbreak was contained in less than three months."
+    },
+    {
+      "who": "US CDC",
+      "kind": "international",
+      "date": "2025-12-22",
+      "text": "14 confirmed cases and 9 deaths. No cases linked to the outbreak outside Ethiopia; the risk to the US is low."
+    },
+    {
+      "who": "UK Health Security Agency",
+      "kind": "international",
+      "date": "2025-12-21",
+      "text": "No new confirmed cases in the past week. The source has not been identified, though fruit bats were found in the area. Risk to the UK public very low."
+    },
+    {
+      "who": "Africa CDC",
+      "kind": "international",
+      "date": "2025-11-23",
+      "text": "Coordinated efforts under way to prevent cross-border spread, mainly to South Sudan and Kenya."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2025-10-23-first-known-patient-admitted-to",
+      "date": "2025-10-23",
+      "kind": "background",
+      "title": "First known patient admitted to hospital in Jinka",
+      "body": "An adult from Jinka, later identified as the outbreak's first known case, is admitted to the town's general hospital with nausea and stomach cramps, according to South Africa's NICD. WHO says the outbreak began in October.",
+      "sources": [
+        {
+          "name": "NICD (South Africa)",
+          "url": "https://www.nicd.ac.za/an-update-on-the-marburg-virus-disease-outbreak-in-ethiopia-january-2026/"
+        },
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/ethiopia/news/rapid-response-strong-results-who-reviews-marburg-response-ethiopia"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-12-suspected-viral-haemorrhagic-fever-reported",
+      "date": "2025-11-12",
+      "kind": "official",
+      "title": "Suspected viral haemorrhagic fever reported in Jinka",
+      "body": "Ethiopia's health ministry and public health institute report 8 suspected cases of viral haemorrhagic fever in Jinka town, South Ethiopia Region.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON585)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"
+        },
+        {
+          "name": "UKHSA week 46",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-46-week-ending-16-november-2025"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-14-ethiopia-confirms-its-first-marburg",
+      "date": "2025-11-14",
+      "kind": "official",
+      "title": "Ethiopia confirms its first Marburg outbreak",
+      "body": "Tests at the Ethiopian Public Health Institute confirm Marburg virus, and the health ministry declares the country's first Marburg outbreak. Genetic analysis by the institute shows the same strain as in earlier East African outbreaks.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-confirms-first-outbreak-marburg-virus-disease"
+        },
+        {
+          "name": "Africa CDC",
+          "url": "https://africacdc.org/news-item/africa-cdc-statement-on-confirmed-marburg-virus-disease-in-jinka-southern-region-ethiopia/"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON592)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-20-who-rates-the-risk-high",
+      "date": "2025-11-20",
+      "kind": "international",
+      "title": "WHO rates the risk high in Ethiopia",
+      "body": "6 of 33 samples tested are confirmed, including 3 people who died. WHO rates the risk high nationally, moderate for the region and low globally, citing unsupervised burials and infections among health workers.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON585)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"
+        },
+        {
+          "name": "EAC Regional Coordination Centre",
+          "url": "https://rcc.eac.int/node/181"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-23-10-confirmed-cases-and-5",
+      "date": "2025-11-23",
+      "kind": "official",
+      "title": "10 confirmed cases and 5 deaths",
+      "body": "The health ministry reports two more confirmed infections. Africa CDC says it is working to prevent spread across the borders, mainly to South Sudan and Kenya.",
+      "sources": [
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/africa/20251124/c62206ec7c9c472e8654600843688d4c/c.html"
+        },
+        {
+          "name": "All India Radio",
+          "url": "https://www.newsonair.gov.in/ethiopia-death-toll-from-marburg-virus-disease-outbreak-rises-to-5/"
+        },
+        {
+          "name": "UKHSA week 47",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-47-week-ending-23-november-2025"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-26-death-toll-rises-to-six",
+      "date": "2025-11-26",
+      "kind": "official",
+      "title": "Death toll rises to six",
+      "body": "Of 11 people with confirmed infection, 6 have died and 5 are being treated, the health ministry says.",
+      "sources": [
+        {
+          "name": "Daily Maverick (Reuters)",
+          "url": "https://www.dailymaverick.co.za/article/2025-11-26-ethiopia-says-death-toll-from-marburg-virus-outbreak-rises-to-6/"
+        },
+        {
+          "name": "Africanews",
+          "url": "https://www.africanews.com/2025/11/26/marburg-outbreak-worsens-in-ethiopia-as-death-toll-rises-to-six/"
+        }
+      ]
+    },
+    {
+      "id": "2025-11-30-deaths-reach-eight-first-case",
+      "date": "2025-11-30",
+      "kind": "official",
+      "title": "Deaths reach eight; first case in Hawassa",
+      "body": "12 confirmed cases and 8 deaths; 3 patients have recovered and 349 contacts are being followed. A case is confirmed in Hawassa, Sidama region: a contact of an earlier case who had travelled to Jinka. CIDRAP reports these figures under the headline 'Death toll climbs in Ethiopia's Marburg outbreak'.",
+      "sources": [
+        {
+          "name": "UKHSA week 48",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-48-week-ending-30-november-2025"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/marburg/death-toll-climbs-ethiopias-marburg-outbreak"
+        },
+        {
+          "name": "NICD (South Africa)",
+          "url": "https://www.nicd.ac.za/update-on-marburg-virus-disease-outbreak-in-ethiopia-beyond-our-borders/"
+        }
+      ]
+    },
+    {
+      "id": "2025-12-04-vaccine-trial-begins-cdc-alerts",
+      "date": "2025-12-04",
+      "kind": "international",
+      "title": "Vaccine trial begins; CDC alerts US clinicians",
+      "body": "Sabin Vaccine Institute sends more than 640 doses of its investigational cAd3-Marburg vaccine for a Phase 2 trial, sponsored by Ethiopia's health ministry, at three health facilities. CDC issues a health advisory.",
+      "sources": [
+        {
+          "name": "Sabin Vaccine Institute",
+          "url": "https://www.sabin.org/resources/sabin-vaccine-institutes-investigational-marburg-vaccine-delivered-to-ethiopia-for-outbreak-response/"
+        },
+        {
+          "name": "CDC health advisory",
+          "url": "https://www.cdc.gov/han/php/notices/han00525.html"
+        },
+        {
+          "name": "CDC",
+          "url": "https://www.cdc.gov/locs/php/messages/12-04-2025-cdc-issues-alert-marburg-virus-disease-outbreak-ethiopia.html"
+        }
+      ]
+    },
+    {
+      "id": "2025-12-14-last-confirmed-patient-dies-42",
+      "date": "2025-12-14",
+      "kind": "official",
+      "title": "Last confirmed patient dies; 42-day countdown begins",
+      "body": "The 14th and last confirmed case was reported on 12 December, bringing the total to 14 cases and 9 deaths. WHO's 42-day countdown to declaring the outbreak over starts on 14 December, after the death of the last confirmed patient.",
+      "sources": [
+        {
+          "name": "UKHSA week 50",
+          "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-50-week-ending-14-december-2025"
+        },
+        {
+          "name": "ECDC (week 3, 2026)",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-3-2026.pdf"
+        },
+        {
+          "name": "ECDC (week 5, 2026)",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-5-2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2025-12-22-cdc-no-cases-outside-ethiopia",
+      "date": "2025-12-22",
+      "kind": "international",
+      "title": "CDC: no cases outside Ethiopia",
+      "body": "CDC counts 14 confirmed cases and 9 deaths. No cases linked to the outbreak have been reported outside Ethiopia, and the risk to the US is low. CDC's most likely scenario was an outbreak of fewer than 30 cases.",
+      "sources": [
+        {
+          "name": "CDC: Marburg in Ethiopia",
+          "url": "https://www.cdc.gov/marburg/situation-summary/index.html"
+        },
+        {
+          "name": "CDC scenario assessment",
+          "url": "https://www.cdc.gov/cfa-qualitative-assessments/php/data-research/marburgethiopia2025-scenarioassessment.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-05-health-ministry-21-days-without",
+      "date": "2026-01-05",
+      "kind": "official",
+      "title": "Health ministry: 21 days without a new case",
+      "body": "The ministry says no new case has been detected for 21 days and all contacts of the last patients have completed follow-up. About 3,800 people had been tested since November.",
+      "sources": [
+        {
+          "name": "ECDC (week 2, 2026)",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-2.pdf"
+        },
+        {
+          "name": "Dawan Africa",
+          "url": "https://www.dawan.africa/news/ethiopia-declares-victory-over-marburg-virus"
+        },
+        {
+          "name": "Ethiopian News Agency",
+          "url": "https://www.ena.et/web/eng/w/eng_8187498"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-26-ethiopia-declares-its-first-marburg",
+      "date": "2026-01-26",
+      "kind": "official",
+      "title": "Ethiopia declares its first Marburg outbreak over",
+      "body": "After 42 days without a new case, the health ministry declares the outbreak over, less than three months after it was confirmed. WHO counts 14 confirmed cases, of whom 9 died and 5 recovered, plus 5 probable cases who all died. Three health workers were infected; two died. Enhanced surveillance continues for 90 days.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"
+        },
+        {
+          "name": "WHO Disease Outbreak News (DON592)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+        },
+        {
+          "name": "AP via WTOP",
+          "url": "https://wtop.com/world/2026/01/ethiopia-declares-the-end-of-its-first-marburg-virus-outbreak/"
+        },
+        {
+          "name": "CDC (archived situation summary)",
+          "url": "https://archive.cdc.gov/www_cdc_gov/marburg/situation-summary/index_1782238314.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-03-17-who-reviews-its-marburg-response",
+      "date": "2026-03-17",
+      "kind": "international",
+      "title": "WHO reviews its Marburg response in Ethiopia",
+      "body": "WHO Ethiopia holds an internal review in Addis Ababa from 17 to 19 March. WHO notes early delays in detection and infections among health workers, and says its surge teams helped contain the outbreak quickly.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/ethiopia/news/rapid-response-strong-results-who-reviews-marburg-response-ethiopia"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-uganda-reports-a-marburg-case",
+      "date": "2026-06-30",
+      "kind": "international",
+      "title": "Uganda reports a Marburg case in Kyegegwa",
+      "body": "Uganda notifies WHO of a confirmed Marburg case in Kyegegwa district, found through surveillance set up for Ebola. Africa CDC says the patient, a young child, had died and no contacts had symptoms. In mid-July WHO said it was still seeking updates from Uganda.",
+      "sources": [
+        {
+          "name": "CNBC Africa (Reuters)",
+          "url": "https://www.cnbcafrica.com/2026/africa-cdc-says-uganda-found-isolated-marburg-case"
+        },
+        {
+          "name": "The Star (Kenya)",
+          "url": "https://www.the-star.co.ke/news/2026-07-03-who-confirms-marburg-virus-case-in-uganda"
+        },
+        {
+          "name": "STAT",
+          "url": "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/"
+        },
+        {
+          "name": "STAT (16 Jul)",
+          "url": "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Putting it in context",
+    "stats": [
+      {
+        "value": "64%",
+        "label": "of confirmed patients died",
+        "note": "9 of 14 confirmed cases (64.3%); all 5 probable cases also died",
+        "source": {
+          "name": "WHO Disease Outbreak News (DON592)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+        }
+      },
+      {
+        "value": "24–88%",
+        "label": "death rate in past Marburg outbreaks",
+        "note": "Range across previous outbreaks",
+        "source": {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/marburg/death-toll-climbs-ethiopias-marburg-outbreak"
+        }
+      },
+      {
+        "value": "21 days",
+        "label": "of monitoring for each contact",
+        "note": "Marburg's longest incubation period. An outbreak ends after 42 days, two such periods, without a new case.",
+        "source": {
+          "name": "NICD (South Africa)",
+          "url": "https://www.nicd.ac.za/an-update-on-the-marburg-virus-disease-outbreak-in-ethiopia-january-2026/"
+        }
+      },
+      {
+        "value": "640+",
+        "label": "investigational vaccine doses sent",
+        "note": "Sabin's cAd3-Marburg vaccine, for a Phase 2 trial from December 2025. No Marburg vaccine is licensed.",
+        "source": {
+          "name": "Sabin Vaccine Institute",
+          "url": "https://www.sabin.org/resources/sabin-vaccine-institutes-investigational-marburg-vaccine-delivered-to-ethiopia-for-outbreak-response/"
+        }
+      }
+    ],
+    "historyTitle": "Marburg outbreaks in Africa, selected",
+    "history": [
+      {
+        "year": "2004–05",
+        "text": "Angola's outbreak, centred on Uíge province, is the largest Marburg outbreak on record."
+      },
+      {
+        "year": "2023",
+        "text": "Equatorial Guinea and Tanzania (Kagera region) report their first Marburg outbreaks."
+      },
+      {
+        "year": "2024",
+        "text": "Rwanda's outbreak, detected in September, is declared over on 20 December after 42 days without a new case."
+      },
+      {
+        "year": "2025",
+        "text": "A second outbreak in Kagera, Tanzania. Genome sequencing compares its virus with the 2023 one."
+      },
+      {
+        "year": "2025–26",
+        "text": "Ethiopia's first outbreak: 14 confirmed cases and 9 deaths in South Ethiopia and Sidama regions. Declared over on 26 January 2026."
+      },
+      {
+        "year": "2026",
+        "text": "Uganda notifies WHO of a Marburg case in Kyegegwa district on 30 June, found through Ebola surveillance."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "CDC: history of Marburg outbreaks",
+        "url": "https://www.cdc.gov/marburg/outbreaks/index.html"
+      },
+      {
+        "name": "CDC Emerging Infectious Diseases",
+        "url": "https://wwwnc.cdc.gov/eid/article/32/1/25-1314_article"
+      },
+      {
+        "name": "Nature Medicine",
+        "url": "https://www.nature.com/articles/s41591-025-04163-y"
+      },
+      {
+        "name": "WHO Africa",
+        "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"
+      },
+      {
+        "name": "CNBC Africa (Reuters)",
+        "url": "https://www.cnbcafrica.com/2026/africa-cdc-says-uganda-found-isolated-marburg-case"
+      }
+    ],
+    "factsTitle": "About Marburg"
+  },
+  "facts": [
+    {
+      "q": "What is Marburg virus disease?",
+      "a": "A severe, often fatal viral haemorrhagic fever in the same virus family as Ebola. Fruit bats are the natural host: people can catch it from bats and then pass it to others. Past outbreaks have killed between 24% and 88% of patients."
+    },
+    {
+      "q": "How does it spread between people?",
+      "a": "Through direct contact with the blood or other body fluids of someone who is sick with Marburg or has died of it, or with surfaces and materials contaminated by those fluids. Health workers and people who handle the bodies of those who died are at particular risk."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "Illness starts suddenly with high fever, severe headache and extreme tiredness, often followed by vomiting, diarrhoea and stomach pain. Some patients bleed. Symptoms can appear up to 21 days after infection."
+    },
+    {
+      "q": "Is there a vaccine or treatment?",
+      "a": "None is licensed. Early supportive care, such as fluids and treatment of symptoms, improves survival. During the outbreak Ethiopia ran a trial of Sabin's investigational cAd3-Marburg vaccine, and the US sent doses of an investigational vaccine and treatment."
+    },
+    {
+      "q": "When is an outbreak declared over?",
+      "a": "After 42 days, two full 21-day incubation periods, with no new case following the recovery or safe burial of the last patient. Ethiopia's countdown began on 14 December 2025, and the outbreak was declared over on 26 January 2026."
+    }
+  ],
+  "follow": [
+    {
+      "name": "WHO Disease Outbreak News: Marburg in Ethiopia",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+    },
+    {
+      "name": "CDC: Marburg in Ethiopia",
+      "url": "https://www.cdc.gov/marburg/situation-summary/index.html"
+    },
+    {
+      "name": "CDC: history of Marburg outbreaks",
+      "url": "https://www.cdc.gov/marburg/outbreaks/index.html"
+    },
+    {
+      "name": "WHO Africa: Ethiopia news",
+      "url": "https://www.afro.who.int/countries/ethiopia/news"
+    },
+    {
+      "name": "CIDRAP Marburg news",
+      "url": "https://www.cidrap.umn.edu/marburg"
+    }
+  ],
+  "card": {
+    "title": "Marburg Watch",
+    "sub": "No further cases reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended in January: 14 confirmed cases, 9 deaths.",
+    "stats": [
+      "cases",
+      "deaths",
+      "recovered",
+      "contacts"
+    ],
+    "statLabels": {
+      "cases": "Ethiopia: cases",
+      "deaths": "Ethiopia: deaths",
+      "recovered": "Recovered",
+      "contacts": "Contacts followed"
+    },
+    "sources": "WHO, Africa CDC, ECDC, UKHSA",
+    "foot": "Ethiopia: final WHO count, 25 Jan 2026"
+  },
+  "postExtra": "WHO also counted 5 probable cases in Ethiopia, all fatal."
+}

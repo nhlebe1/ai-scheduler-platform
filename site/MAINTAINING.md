@@ -27,7 +27,7 @@ git pull --ff-only origin claude/plague-tracker-pixel-app-8eidzx
 ## 2. Research what changed since each tracker's `checked` time
 
 Source priority:
-1. Official: national health agencies (CDC, Rospotrebnadzor, DRC Ministry of Health, Uganda MoH), WHO (Disease Outbreak News, AFRO bulletins), ECDC, Africa CDC, state and regional health departments
+1. Official: national health agencies (CDC, Rospotrebnadzor, DRC Ministry of Health, Uganda MoH, Italy's ISS, Santé publique France, Ethiopia and Madagascar health ministries), WHO (Disease Outbreak News, situation reports, AFRO bulletins), ECDC, Africa CDC, UNICEF, state and regional health departments
 2. Major outlets: Reuters, AP, AFP, BBC, NBC, CNN, CNBC, ABC, CBS, CIDRAP, STAT, Health Policy Watch, The Moscow Times, Meduza, Euronews, RFE/RL
 3. Social media and single anonymous sources: only as "Media report", only when a major outlet carries them
 
@@ -37,6 +37,10 @@ Per-tracker search starters:
 - **plague**: `Irkutsk plague`, `Russia plague contacts`, `WHO Russia plague`, `чума Иркутск`, `Роспотребнадзор чума`, `чума Алтай Тыва`
 - **measles**: `CDC measles cases 2026`, `measles outbreak <state> 2026`, `measles death 2026`, `measles elimination status United States`. CDC updates its national count on Wednesdays.
 - **ebola**: `Ebola Bundibugyo DRC cases`, `WHO Ebola Democratic Republic of the Congo situation report`, `Ebola Uganda 2026`, `Africa CDC Ebola`, `Ebola vaccine trial Bundibugyo`
+- **mpox**: `WHO mpox multi-country external situation report`, `mpox Madagascar cases`, `Africa CDC mpox`, `ECDC mpox monthly clade I`, `CDC clade I mpox United States`. WHO and ECDC publish about monthly; the Africa figures are WHO's six-week counts, so replace all of them together from one report.
+- **cholera**: `WHO multi-country cholera situation report`, `WHO Weekly Epidemiological Record cholera`, `ECDC cholera worldwide overview`, `NCDC cholera Nigeria`, `cholera DR Congo`, `Afghanistan acute watery diarrhoea WHO`. WHO's global totals come monthly; country totals in `regions` carry their own dates in each note.
+- **dengue**: `dengue autoctono ISS bollettino`, `dengue autochtone Santé publique France`, `ECDC locally acquired dengue Europe`, `chikungunya autoctono`, `Vicenza dengue`. Italy (ISS) and France (Santé publique France) update weekly through the season, which ends with the first cold weather (usually November).
+- **marburg**: `Marburg virus`, `Marburg WHO Disease Outbreak News`, `Africa CDC Marburg`, `Marburg Uganda`, `Marburg Ethiopia`. No outbreak is active. If one is confirmed, set `status` to `confirmed`, add a timeline entry, and put the new outbreak's numbers in `figures` (keep Ethiopia's record in the timeline and context).
 
 ## 3. Edit `site/<slug>/data.json`
 
@@ -44,7 +48,7 @@ Rules that protect credibility:
 - Every new fact needs a source link. Numbers need an official statement or two independent outlets.
 - Attribute claims ("officials said", "media report"). Never state a disputed claim as fact.
 - Do not name patients or people who died unless they are public figures.
-- Never call something an epidemic, outbreak or pandemic unless WHO or national authorities do. (Measles and Ebola outbreaks are officially called outbreaks; that's fine.)
+- Never call something an epidemic, outbreak or pandemic unless WHO or national authorities do. (The measles, Ebola, mpox, cholera, dengue and Marburg outbreaks named on the site are officially called outbreaks; that's fine.)
 - No speculation, no fear language, no medical advice beyond the disclaimer.
 - Keep the existing JSON shape. Valid `kind` values: `official`, `international`, `media`, `background`.
 

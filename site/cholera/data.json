@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "slug": "cholera",
+    "title": "Cholera Tracker: Global",
+    "short": "Cholera · Global",
+    "description": "Independent, sourced tracker of cholera worldwide in 2026: WHO case and death counts, countries reporting cases, how this year compares with 2025, WHO's risk level and a dated timeline.",
+    "postLead": "Cholera worldwide",
+    "postDay": false,
+    "figuresTitle": "Reported to WHO",
+    "hubFigures": [
+      "cases",
+      "deaths",
+      "countries"
+    ],
+    "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
+  },
+  "updated": "2026-10-07T01:32:00Z",
+  "checked": "2026-10-07T01:32:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
+  "social": {
+    "x": ""
+  },
+  "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
+  "status": {
+    "level": "slowing",
+    "label": "Slowing · below 2025's pace",
+    "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
+  },
+  "figures": [
+    {
+      "id": "cases",
+      "label": "Cases in 2026 so far",
+      "value": 275284,
+      "note": "Cholera and acute watery diarrhoea, 1 Jan–30 Aug (WHO, 2 Oct). 43% fewer than a year earlier.",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths in 2026 so far",
+      "value": 2601,
+      "note": "1 Jan–30 Aug (WHO, 2 Oct). 58% fewer than a year earlier.",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "countries",
+      "label": "Countries with cases in 2026",
+      "value": 28,
+      "note": "In four WHO regions, 1 Jan–30 Aug (WHO, 2 Oct)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "cases2025",
+      "label": "Cases reported in 2025",
+      "value": 451499,
+      "note": "Full year, 47 countries (WHO annual report, 29 Sep). Fewer cases than in 2024.",
+      "tone": "neutral",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths2025",
+      "label": "Deaths reported in 2025",
+      "value": 7870,
+      "note": "The most since 1999, up 30% on 2024 (WHO annual report, 29 Sep)",
+      "tone": "critical",
+      "upIsBad": true
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-26",
+      "values": {
+        "cases": 79740,
+        "deaths": 1010,
+        "countries": 22
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "values": {
+        "cases": 114829,
+        "deaths": 1318,
+        "countries": 23
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "values": {
+        "cases": 163031,
+        "deaths": 1686,
+        "countries": 26
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "values": {
+        "cases": 275284,
+        "deaths": 2601,
+        "countries": 28
+      }
+    }
+  ],
+  "trend": {
+    "title": "Cholera cases reported to WHO in 2026",
+    "unit": "Running total since 1 January, by end of each WHO reporting period",
+    "note": "Each bar is the running total in a WHO monthly update; July's isn't shown. Includes acute watery diarrhoea. Tap or hover a bar for its value.",
+    "labelHeader": "Data to",
+    "valueHeader": "Cases since 1 Jan",
+    "highlight": "30 Aug",
+    "series": [
+      {
+        "label": "26 Apr",
+        "value": 79740
+      },
+      {
+        "label": "31 May",
+        "value": 114829
+      },
+      {
+        "label": "28 Jun",
+        "value": 163031
+      },
+      {
+        "label": "30 Aug",
+        "value": 275284,
+        "note": "latest WHO update"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO epidemiological update #37",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--37--29-may-2026"
+      },
+      {
+        "name": "WHO epidemiological update #38",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--38--30-june-2026"
+      },
+      {
+        "name": "WHO Weekly Epidemiological Record (June data)",
+        "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-31"
+      },
+      {
+        "name": "WHO Weekly Epidemiological Record (2 Oct)",
+        "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+      }
+    ]
+  },
+  "risk": {
+    "title": "WHO risk level",
+    "by": "WHO global risk assessment",
+    "date": "2026-06-30",
+    "scale": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very high"
+    ],
+    "areas": [
+      {
+        "area": "Global",
+        "from": 3,
+        "to": 3,
+        "label": "Very high"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO epidemiological update #38",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--38--30-june-2026"
+      }
+    ]
+  },
+  "map": {
+    "title": "Cholera cases reported in 2026, by country",
+    "titleShort": "Where"
+  },
+  "regions": {
+    "title": "Cholera cases reported in 2026, by country",
+    "titleShort": "Countries with the most cases",
+    "label": "Cases",
+    "regionHeader": "Country",
+    "valueHeader": "Cases in 2026",
+    "unitLabel": "cases in 2026",
+    "bins": [
+      1,
+      1000,
+      5000,
+      20000,
+      50000
+    ],
+    "noneLabel": "No 2026 figure tracked here",
+    "reportedLabel": "Cases reported in 2026, total not tracked here",
+    "values": {
+      "Afghanistan": 102469,
+      "Nigeria": 69263,
+      "DR Congo": 44773,
+      "Mozambique": 7698,
+      "Angola": 5903,
+      "Yemen": 5443,
+      "Pakistan": 4353,
+      "Somalia": 2657,
+      "Malawi": 2615,
+      "Burundi": 1578,
+      "Cameroon": 331,
+      "Chad": 167
+    },
+    "reported": [
+      "South Sudan",
+      "Sudan",
+      "Central African Republic",
+      "Haiti",
+      "Republic of the Congo"
+    ],
+    "notes": {
+      "Afghanistan": "WHO Afghanistan, January–August (Pajhwok, 27 Sep): acute watery diarrhoea with dehydration, which WHO counts with cholera. 18,329 cases and 4 deaths in August. ECDC: 45 deaths by 20 Jul.",
+      "Nigeria": "WHO, 1 Jan–30 Aug. ECDC counted 50,290 cases and 338 deaths by 9 Aug. NCDC reports more than 65,000 suspected cases in 35 states, most in Borno.",
+      "DR Congo": "WHO, 1 Jan–30 Aug. UNICEF reported more than 30,400 cases and nearly 700 deaths in August.",
+      "Mozambique": "ECDC, 1 Jan–9 Aug. 65 deaths.",
+      "Angola": "ECDC, 1 Jan–9 Aug. 120 deaths.",
+      "Yemen": "ECDC, 1 Jan–29 Jun. 7 deaths.",
+      "Pakistan": "ECDC, 1 Jan–6 Jul.",
+      "Somalia": "ECDC, 1 Jan–9 Aug. 1 death. Covers the whole country, including the area the map labels Somaliland.",
+      "Malawi": "ECDC, 1 Jan–14 Jun. 5 deaths.",
+      "Burundi": "ECDC, 1 Jan–9 Aug. 4 deaths.",
+      "Cameroon": "ECDC, 1 Jan–12 Jul. 12 deaths.",
+      "Chad": "ECDC, 1 Jan–9 Aug. 13 deaths.",
+      "South Sudan": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
+      "Sudan": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
+      "Central African Republic": "ECDC reports new cholera deaths between 27 Jul and 26 Aug. Children under 10 account for 44% of reported cases (UNICEF, August).",
+      "Haiti": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
+      "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August."
+    },
+    "note": "Latest sourced 2026 total for each country; dates vary. Nigeria and DR Congo are from WHO's August update (to 30 Aug) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
+    "sources": [
+      {
+        "name": "WHO Weekly Epidemiological Record (2 Oct)",
+        "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+      },
+      {
+        "name": "Pajhwok (WHO Afghanistan data)",
+        "url": "https://pajhwok.com/2026/09/27/major-infectious-diseases-decline-in-afghanistan-in-august-who/"
+      },
+      {
+        "name": "ECDC: cholera worldwide overview",
+        "url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"
+      },
+      {
+        "name": "Premium Times (NCDC)",
+        "url": "https://www.premiumtimesng.com/news/top-news/906045-ncdc-warns-nigerians-as-cholera-cases-surpass-65000-in-2026.html"
+      },
+      {
+        "name": "UNICEF (August)",
+        "url": "https://www.unicef.org/press-releases/cholera-spreads-across-borders-west-and-central-africa-unicef-calls-urgent-action"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "Cholera is a disease of the past",
+      "status": "false",
+      "detail": "47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025, the most deaths since 1999. 28 countries reported cases in the first eight months of 2026.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        },
+        {
+          "name": "The Guardian Nigeria",
+          "url": "https://guardian.ng/features/health/global-cholera-deaths-hit-26-year-high"
+        },
+        {
+          "name": "WHO Weekly Epidemiological Record (2 Oct)",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+        }
+      ]
+    },
+    {
+      "claim": "Reported cholera cases are higher in 2026 than in 2025",
+      "status": "false",
+      "detail": "WHO counts 43% fewer cases and 58% fewer deaths from 1 January to 30 August 2026 than in the same months of 2025. Large outbreaks continue in Afghanistan, Nigeria and DR Congo.",
+      "sources": [
+        {
+          "name": "WHO Weekly Epidemiological Record (2 Oct)",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+        }
+      ]
+    },
+    {
+      "claim": "Official counts capture every cholera case",
+      "status": "false",
+      "detail": "WHO says its figures reflect surveillance reports, not the actual burden, which is estimated to be substantially higher because many cases go unreported.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        },
+        {
+          "name": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/health/cholera-remains-a-challenge-deaths-increased-by-30-in-2025-who"
+        }
+      ]
+    },
+    {
+      "claim": "Antibiotics are the main treatment for cholera",
+      "status": "false",
+      "detail": "Most patients recover with prompt oral rehydration solution, which replaces lost fluids and salts. WHO advises antibiotics for severely ill patients, alongside intravenous fluids, and does not recommend mass antibiotic use.",
+      "sources": [
+        {
+          "name": "WHO cholera fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cholera"
+        }
+      ]
+    },
+    {
+      "claim": "A handful of countries account for most cholera cases and deaths",
+      "status": "confirmed",
+      "detail": "WHO says seven countries (Angola, Bangladesh, DR Congo, Nigeria, South Sudan, Sudan and Yemen) accounted for about 90% of the cases and deaths reported in 2025.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        },
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/node/2595928/amp"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Next WHO monthly update (September data)",
+      "status": "pending",
+      "note": "Now published in WHO's Weekly Epidemiological Record; the August update came out on 2 Oct. Date not announced."
+    },
+    {
+      "label": "2026 passes 300,000 reported cases",
+      "status": "pending",
+      "note": "275,284 by 30 Aug (WHO)"
+    },
+    {
+      "label": "Nigeria passes 70,000 cases",
+      "status": "pending",
+      "note": "69,263 by 30 Aug (WHO). NCDC reports more than 65,000 suspected cases in 35 states, most in Borno."
+    },
+    {
+      "label": "Afghanistan's decline continues",
+      "status": "pending",
+      "note": "August cases fell 23.6% from July (WHO)"
+    },
+    {
+      "label": "WHO's annual report on 2025",
+      "date": "2026-09-29",
+      "status": "done"
+    },
+    {
+      "label": "WHO update with August data",
+      "date": "2026-10-02",
+      "status": "done"
+    }
+  ],
+  "positions": [
+    {
+      "who": "World Health Organization",
+      "kind": "international",
+      "date": "2026-10-02",
+      "text": "275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier. In June it rated the global risk very high."
+    },
+    {
+      "who": "WHO Afghanistan",
+      "kind": "international",
+      "date": "2026-09-27",
+      "text": "18,329 cases of acute watery diarrhoea with dehydration and 4 deaths in August, down 23.6% from July; 102,469 cases so far this year, as reported by Pajhwok."
+    },
+    {
+      "who": "European Centre for Disease Prevention and Control",
+      "kind": "international",
+      "date": "2026-08-26",
+      "text": "212,857 cases, including 1,943 deaths, reported worldwide since 1 January. Nigeria reported the most new cases and deaths in the past month."
+    },
+    {
+      "who": "UNICEF",
+      "kind": "international",
+      "date": "2026-08-12",
+      "text": "Cholera is spreading across borders in West and Central Africa; urgent action is needed to protect millions of children."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2026-01-27-who-s-global-cholera-reports",
+      "date": "2026-01-27",
+      "kind": "international",
+      "title": "WHO's global cholera reports become monthly updates",
+      "body": "After 32 external situation reports, WHO's reports on the multi-country cholera situation continue in 2026 as monthly epidemiological updates.",
+      "sources": [
+        {
+          "name": "WHO epidemiological update #33",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--33--27-january-2026"
+        },
+        {
+          "name": "WHO external situation report #32",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--external-situation-report--32--26-november-2025"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-29-who-79-740-cases-and",
+      "date": "2026-05-29",
+      "kind": "international",
+      "title": "WHO: 79,740 cases and 1,010 deaths by late April",
+      "body": "WHO's monthly update counts cholera and acute watery diarrhoea cases in 22 countries from 1 January to 26 April. April's 20,100 new cases were 20% more than March's.",
+      "sources": [
+        {
+          "name": "WHO epidemiological update #37",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--37--29-may-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-who-may-cases-up-43",
+      "date": "2026-06-30",
+      "kind": "international",
+      "title": "WHO: May cases up 43%; global risk very high",
+      "body": "WHO counts 114,829 cases and 1,318 deaths in 23 countries from 1 January to 31 May, including 29,610 new cases in May. It rates the global risk very high, with about 1 billion people at risk.",
+      "sources": [
+        {
+          "name": "WHO epidemiological update #38",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--38--30-june-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-11-unicef-cholera-is-spreading-across",
+      "date": "2026-08-11",
+      "kind": "international",
+      "title": "UNICEF: cholera is spreading across borders in West and Central Africa",
+      "body": "UNICEF says outbreaks are accelerating in six countries: DR Congo, the Republic of the Congo, Nigeria, Chad, Cameroon and the Central African Republic. It reports more than 50,000 cases and 338 deaths in Nigeria this year, and more than 30,400 cases and nearly 700 deaths in DR Congo. The same strain is circulating in Chad, Cameroon and Nigeria around Lake Chad. UNICEF asks for $15 million for the next six months.",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/08/1168125"
+        },
+        {
+          "name": "UNICEF",
+          "url": "https://www.unicef.org/press-releases/cholera-spreads-across-borders-west-and-central-africa-unicef-calls-urgent-action"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-ecdc-212-857-cases-worldwide",
+      "date": "2026-08-26",
+      "kind": "international",
+      "title": "ECDC: 212,857 cases worldwide this year",
+      "body": "ECDC's monthly overview counts 212,857 cases, including 1,943 deaths, since 1 January. Nigeria reported the most new cases (41,296) and deaths (242) in the month to 26 August.",
+      "sources": [
+        {
+          "name": "ECDC: cholera worldwide overview",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-afghanistan-s-acute-watery-diarrhoea",
+      "date": "2026-09-27",
+      "kind": "international",
+      "title": "Afghanistan's acute watery diarrhoea cases fall in August",
+      "body": "WHO reports 18,329 cases of acute watery diarrhoea with dehydration and 4 deaths in August, 23.6% fewer cases than July's 23,985. Afghanistan has recorded 102,469 such cases this year.",
+      "sources": [
+        {
+          "name": "Pajhwok (WHO Afghanistan data)",
+          "url": "https://pajhwok.com/2026/09/27/major-infectious-diseases-decline-in-afghanistan-in-august-who/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-who-2025-had-the-most",
+      "date": "2026-09-29",
+      "kind": "international",
+      "title": "WHO: 2025 had the most cholera deaths since 1999",
+      "body": "47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025. Deaths rose 30% although fewer cases were reported, and seven countries accounted for about 90% of cases and deaths. WHO says the true burden is substantially higher.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        },
+        {
+          "name": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/health/cholera-remains-a-challenge-deaths-increased-by-30-in-2025-who"
+        },
+        {
+          "name": "The Guardian Nigeria",
+          "url": "https://guardian.ng/features/health/global-cholera-deaths-hit-26-year-high"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-who-275-284-cases-and",
+      "date": "2026-10-02",
+      "kind": "international",
+      "title": "WHO: 275,284 cases and 2,601 deaths in 28 countries",
+      "body": "WHO's August update, now published in its Weekly Epidemiological Record, covers 1 January to 30 August: 43% fewer cases and 58% fewer deaths than a year earlier. August's 41,915 new cases were 25% fewer than July's. Nigeria (69,263) and DR Congo (44,773) report the most cases in Africa.",
+      "sources": [
+        {
+          "name": "WHO Weekly Epidemiological Record (2 Oct)",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Putting it in context",
+    "stats": [
+      {
+        "value": "~90%",
+        "label": "of 2025's reported cases and deaths were in seven countries",
+        "note": "Angola, Bangladesh, DR Congo, Nigeria, South Sudan, Sudan and Yemen",
+        "source": {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        }
+      },
+      {
+        "value": "58%",
+        "label": "rise in cholera deaths in WHO's African Region in 2025",
+        "note": "Cases there rose 34% on 2024",
+        "source": {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+        }
+      },
+      {
+        "value": "1 billion",
+        "label": "people at risk of cholera",
+        "note": "WHO estimate, June 2026",
+        "source": {
+          "name": "WHO epidemiological update #38",
+          "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--38--30-june-2026"
+        }
+      },
+      {
+        "value": "43%",
+        "label": "fewer cases reported in January–August 2026 than a year earlier",
+        "note": "Deaths: 58% fewer. Reported figures understate the true burden.",
+        "source": {
+          "name": "WHO Weekly Epidemiological Record (2 Oct)",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+        }
+      }
+    ],
+    "historyTitle": "Cholera reported to WHO",
+    "history": [
+      {
+        "year": "2023",
+        "text": "WHO issues regular external situation reports on the multi-country cholera outbreak; the sixth comes out in September."
+      },
+      {
+        "year": "2025",
+        "text": "47 countries report 451,499 cases and 7,870 deaths to WHO, the highest death toll since 1999. Seven countries account for about 90%."
+      },
+      {
+        "year": "2026",
+        "text": "WHO's reports become monthly epidemiological updates in January and move into its Weekly Epidemiological Record in July. By 30 August, 28 countries report 275,284 cases and 2,601 deaths."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "WHO external situation report #6",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--external-situation-report--6---6-september-2023"
+      },
+      {
+        "name": "WHO",
+        "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"
+      },
+      {
+        "name": "WHO epidemiological update #33",
+        "url": "https://www.who.int/publications/m/item/multi-country-outbreak-of-cholera--epidemiological-update--33--27-january-2026"
+      },
+      {
+        "name": "WHO Weekly Epidemiological Record (2 Oct)",
+        "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+      }
+    ],
+    "factsTitle": "About cholera"
+  },
+  "facts": [
+    {
+      "q": "How does cholera spread?",
+      "a": "Through food or water contaminated with the faeces of an infected person. It spreads where safe water and sanitation are lacking; WHO links recent surges to conflict, climate change and inequality."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "Sudden, profuse watery diarrhoea, sometimes with vomiting, which can cause severe dehydration within hours. Most infected people have mild or no symptoms. Symptoms usually begin 12 hours to 5 days after infection."
+    },
+    {
+      "q": "How is it treated?",
+      "a": "Most people recover with prompt oral rehydration solution, which replaces lost fluids and salts. Severely dehydrated patients need intravenous fluids and antibiotics. Untreated, severe cholera can kill within hours."
+    },
+    {
+      "q": "Is there a vaccine?",
+      "a": "Yes. Oral cholera vaccines are used in outbreaks and in high-risk areas, alongside safe water and sanitation, which WHO calls critical to preventing cholera."
+    },
+    {
+      "q": "Why do the counts include acute watery diarrhoea?",
+      "a": "Many countries report suspected cases without testing each one, and some, such as Afghanistan, report acute watery diarrhoea with dehydration. WHO's monthly figures combine cholera and acute watery diarrhoea, and WHO says reported numbers understate the true burden."
+    }
+  ],
+  "follow": [
+    {
+      "name": "WHO: global cholera situation",
+      "url": "https://www.who.int/emergencies/situations/cholera-upsurge"
+    },
+    {
+      "name": "WHO Weekly Epidemiological Record (monthly cholera update)",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+    },
+    {
+      "name": "ECDC: cholera worldwide overview",
+      "url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"
+    },
+    {
+      "name": "Global Task Force on Cholera Control",
+      "url": "https://www.gtfcc.org/about-cholera/cholera-situation/"
+    },
+    {
+      "name": "WHO cholera fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cholera"
+    }
+  ],
+  "card": {
+    "title": "Cholera 2026: 275,284 cases so far",
+    "sub": "2,601 deaths in 28 countries by 30 Aug, 43% fewer cases than a year earlier. 2025 had the most cholera deaths since 1999.",
+    "stats": [
+      "cases",
+      "deaths",
+      "countries",
+      "deaths2025"
+    ],
+    "statLabels": {
+      "cases": "Cases in 2026",
+      "deaths": "Deaths in 2026",
+      "countries": "Countries",
+      "deaths2025": "Deaths in 2025"
+    },
+    "sources": "WHO, ECDC, UNICEF",
+    "foot": "WHO data to 30 Aug · updated monthly"
+  },
+  "postExtra": "Afghanistan, Nigeria and DR Congo report the most cases."
+}

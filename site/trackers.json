@@ -102,6 +102,147 @@
       ]
     },
     {
+      "slug": "mpox",
+      "url": "mpox/",
+      "title": "Mpox Tracker: Africa & World",
+      "short": "Mpox · Africa & world",
+      "description": "Independent, sourced mpox tracker: WHO case counts for Africa, countries with active transmission, clade Ib spread in Europe and the US, vaccines, emergency status and a dated timeline.",
+      "status": {
+        "level": "active",
+        "label": "Active · no global emergency",
+        "summary": "WHO ended its global mpox emergency in September 2025, and Africa CDC lifted its continental emergency on 22 January 2026, but cases continue. WHO counted 1,153 confirmed cases and 7 deaths in 11 African countries in the six weeks to 16 August, 785 of them in Madagascar, where a clade Ib outbreak that began in December 2025 has passed 3,000 confirmed cases. Outside Africa, clade Ib is spreading locally in Europe, mostly among men who have sex with men, and CDC says sustained spread in the US is likely."
+      },
+      "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
+      "updated": "2026-10-07T01:32:00Z",
+      "checked": "2026-10-07T01:32:00Z",
+      "figures": [
+        {
+          "label": "Cases in Africa, last six weeks",
+          "value": 1153,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "African countries with active transmission",
+          "value": 11,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Clade I cases in the EU/EEA, past 12 months",
+          "value": 1083,
+          "unit": "",
+          "tone": "watch"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-09-25",
+          "title": "CDC says sustained clade Ib spread in the US is likely",
+          "id": "2026-09-25-cdc-says-sustained-clade-ib"
+        },
+        {
+          "date": "2026-09-23",
+          "title": "South Africa reports 22 cases, likely clade Ib",
+          "id": "2026-09-23-south-africa-reports-22-cases"
+        }
+      ]
+    },
+    {
+      "slug": "cholera",
+      "url": "cholera/",
+      "title": "Cholera Tracker: Global",
+      "short": "Cholera · Global",
+      "description": "Independent, sourced tracker of cholera worldwide in 2026: WHO case and death counts, countries reporting cases, how this year compares with 2025, WHO's risk level and a dated timeline.",
+      "status": {
+        "level": "slowing",
+        "label": "Slowing · below 2025's pace",
+        "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
+      },
+      "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
+      "updated": "2026-10-07T01:32:00Z",
+      "checked": "2026-10-07T01:32:00Z",
+      "figures": [
+        {
+          "label": "Cases in 2026 so far",
+          "value": 275284,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Deaths in 2026 so far",
+          "value": 2601,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Countries with cases in 2026",
+          "value": 28,
+          "unit": "",
+          "tone": "watch"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-10-02",
+          "title": "WHO: 275,284 cases and 2,601 deaths in 28 countries",
+          "id": "2026-10-02-who-275-284-cases-and"
+        },
+        {
+          "date": "2026-09-29",
+          "title": "WHO: 2025 had the most cholera deaths since 1999",
+          "id": "2026-09-29-who-2025-had-the-most"
+        }
+      ]
+    },
+    {
+      "slug": "dengue",
+      "url": "dengue/",
+      "title": "Dengue Tracker: Europe",
+      "short": "Dengue · Europe",
+      "description": "Independent, sourced tracker of locally acquired dengue in Europe in 2026: ECDC and national case counts, affected countries and clusters, the yearly trend since 2010, vaccines and a dated timeline.",
+      "status": {
+        "level": "active",
+        "label": "Active · new local cases in Italy",
+        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 59 local cases by 29 September, mostly in outbreaks in the provinces of Livorno, Lecce and Milan; a cluster in Cartigliano (Vicenza) has since reached 8 cases, and Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+      },
+      "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
+      "updated": "2026-10-07T01:32:00Z",
+      "checked": "2026-10-07T01:32:00Z",
+      "figures": [
+        {
+          "label": "Locally acquired cases",
+          "value": 65,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Countries with local cases",
+          "value": 2,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Local chikungunya cases (context)",
+          "value": 126,
+          "unit": "",
+          "tone": "watch"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-10-02",
+          "title": "Cartigliano cluster reaches 8 cases; Rome added to affected areas",
+          "id": "2026-10-02-cartigliano-cluster-reaches-8-cases"
+        },
+        {
+          "date": "2026-10-01",
+          "title": "Italy: 59 local dengue cases, no deaths",
+          "id": "2026-10-01-italy-59-local-dengue-cases"
+        }
+      ]
+    },
+    {
       "slug": "plague",
       "url": "plague/",
       "title": "Russia Plague Watch",
@@ -145,6 +286,53 @@
           "date": "2026-10-06",
           "title": "Russia tells WHO no plague found in contacts; WHO rates the risk",
           "id": "2026-10-06-russia-tells-who-no-plague"
+        }
+      ]
+    },
+    {
+      "slug": "marburg",
+      "url": "marburg/",
+      "title": "Marburg Watch",
+      "short": "Marburg · Africa",
+      "description": "Independent, sourced Marburg tracker: any new cases in Africa, Uganda's isolated case in 2026, and the full record of Ethiopia's first outbreak (November 2025 to January 2026) with a dated timeline.",
+      "status": {
+        "level": "watch",
+        "label": "Watching · no new cases reported",
+        "summary": "Uganda notified WHO of a confirmed Marburg case in Kyegegwa district on 30 June 2026: a young child who had died, found through surveillance set up for Ebola. Africa CDC said no contacts had developed symptoms, and no further cases have been reported since. Ethiopia's first outbreak, confirmed in Jinka on 14 November 2025, was declared over on 26 January 2026 after 42 days without a new case. WHO counted 14 confirmed cases, 9 of whom died, plus 5 probable cases who all died. Headlines saying Ethiopia's death toll is climbing date from December 2025."
+      },
+      "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
+      "updated": "2026-10-07T01:32:00Z",
+      "checked": "2026-10-07T01:32:00Z",
+      "figures": [
+        {
+          "label": "Confirmed cases",
+          "value": 14,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Deaths among confirmed cases",
+          "value": 9,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Recovered",
+          "value": 5,
+          "unit": "",
+          "tone": "good"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-06-30",
+          "title": "Uganda reports a Marburg case in Kyegegwa",
+          "id": "2026-06-30-uganda-reports-a-marburg-case"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "WHO reviews its Marburg response in Ethiopia",
+          "id": "2026-03-17-who-reviews-its-marburg-response"
         }
       ]
     }

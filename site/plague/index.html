@@ -317,6 +317,8 @@ main {
 .m-region:hover, .m-region:focus-visible { stroke: var(--ink); stroke-width: 2; outline: none; }
 .regions-map .m-russia { display: none; }
 .lg-swatch { width: 14px; height: 10px; border-radius: 2px; display: inline-block; border: 1px solid var(--line); }
+.m-hatch-bg { fill: var(--land); } .m-hatch { fill: var(--seq-3); }
+.lg-hatch { background: repeating-linear-gradient(45deg, var(--seq-3) 0 2px, var(--land) 2px 5px); }
 .rtable { width: 100%; border-collapse: collapse; font-size: 14px; }
 .rtable th { text-align: left; font: 600 10.5px/1.2 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 6px 0; border-bottom: 2px solid var(--ink); }
 .rtable td { padding: 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -1052,7 +1054,7 @@ details p { margin: 0 0 14px; max-width: 68ch; }
       const label = hiEdge ? `${num(edge)}–${num(hiEdge - 1)}` : `${num(edge)}+`;
       return `<span><i class="lg-swatch" style="background:var(--seq-${i + 1})"></i>${esc(label)}</span>`;
     });
-    if (R.reported && R.reported.length) parts.push(`<span><i class="lg-swatch" style="background:var(--seq-1);opacity:.55"></i>${esc(R.reportedLabel || "Cases reported, count not tracked")}</span>`);
+    if (R.reported && R.reported.length) parts.push(`<span><i class="lg-swatch lg-hatch"></i>${esc(R.reportedLabel || "Cases reported, count not tracked")}</span>`);
     return parts.join("") + `<span><i class="lg-swatch" style="background:var(--land)"></i>${esc(R.noneLabel || "None reported")}</span>`;
   }
   function regionRows(limit) {
@@ -1157,6 +1159,10 @@ details p { margin: 0 0 14px; max-width: 68ch; }
       hosts.forEach((host) => {
         const which = host.dataset.map;
         let s = `<svg viewBox="0 0 ${m.width} ${m.height}" role="group" aria-label="${esc((data.map && data.map.title) || "Map")}" class="${m.kind === "regions" ? "regions-map" : ""}">`;
+        if (R && R.reported && R.reported.length) {
+          const hs = (m.width / 110).toFixed(1);
+          s += `<defs><pattern id="hatch-${which}" width="${hs}" height="${hs}" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="m-hatch-bg" width="${hs}" height="${hs}"/><rect class="m-hatch" width="${(hs * 0.4).toFixed(1)}" height="${hs}"/></pattern></defs>`;
+        }
         s += `<rect class="m-water" width="${m.width}" height="${m.height}"/>`;
         if (m.others) s += `<path class="m-other" d="${m.others}"/>`;
         if (m.focus || m.russia) s += `<path class="m-russia" d="${m.focus || m.russia}"/>`;
@@ -1165,8 +1171,9 @@ details p { margin: 0 0 14px; max-width: 68ch; }
             const v = R && R.values ? R.values[g.id] : undefined;
             let b = R ? regionBin(v, R) : 0;
             let extra = "";
-            if (!b && R && R.reported && R.reported.includes(g.id)) { b = 1; extra = ' style="opacity:.55"'; }
-            s += `<path class="m-region ${b ? "s" + b : "has-0"}" d="${g.d}" data-region="${esc(g.id)}" tabindex="0" role="button" aria-label="${esc(g.id)}"${extra}></path>`;
+            const rep = !b && R && R.reported && R.reported.includes(g.id);
+            if (rep) extra = ` style="fill:url(#hatch-${which})"`;
+            s += `<path class="m-region ${b ? "s" + b : rep ? "rep" : "has-0"}" d="${g.d}" data-region="${esc(g.id)}" tabindex="0" role="button" aria-label="${esc(g.id)}"${extra}></path>`;
           }
         }
         for (const l of m.lakes || []) s += `<path class="m-lake" d="${l.d}"/>`;

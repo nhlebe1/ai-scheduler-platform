@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dengue Tracker: Europe</title>
+  <subtitle>Independent, sourced tracker of locally acquired dengue in Europe in 2026: ECDC and national case counts, affected countries and clusters, the yearly trend since 2010, vaccines and a dated timeline.</subtitle>
+  <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/"/>
+  <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/feed.xml"/>
+  <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/</id>
+  <updated>2026-10-07T01:32:00Z</updated>
+  <author><name>Dengue Tracker: Europe</name></author>
+  <entry>
+    <title>Cartigliano cluster reaches 8 cases; Rome added to affected areas</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-02-cartigliano-cluster-reaches-8-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-02-cartigliano-cluster-reaches-8-cases</id>
+    <updated>2026-10-02T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The local health authority reports 8 locally acquired cases in Cartigliano; one older patient is in hospital as a precaution. Italy's National Blood Centre lists Rome as an area with local dengue from 2 October.</summary>
+    <content type="html">&lt;p&gt;The local health authority reports 8 locally acquired cases in Cartigliano; one older patient is in hospital as a precaution. Italy's National Blood Centre lists Rome as an area with local dengue from 2 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.tviweb.it/cartigliano-salgono-a-otto-i-casi-autoctoni-di-dengue-un-anziano-ricoverato-in-ospedale/"&gt;TViWeb&lt;/a&gt;, &lt;a href="https://www.ansa.it/veneto/notizie/2026/10/01/salgono-a-sei-i-casi-di-virus-dengue-nel-vicentino_92e6e698-2287-4c2e-96e1-f04c8a671da6.html"&gt;ANSA Veneto&lt;/a&gt;, &lt;a href="https://www.centronazionalesangue.it/dengue/"&gt;Italian National Blood Centre&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Italy: 59 local dengue cases, no deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-01-italy-59-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-01-italy-59-local-dengue-cases</id>
+    <updated>2026-10-01T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS counts 330 confirmed dengue cases from 1 January to 29 September; 59 were locally acquired and the rest linked to travel. One of 28 chikungunya cases was also locally acquired.</summary>
+    <content type="html">&lt;p&gt;The ISS counts 330 confirmed dengue cases from 1 January to 29 September; 59 were locally acquired and the rest linked to travel. One of 28 chikungunya cases was also locally acquired.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"&gt;Istituto Superiore di Sanità&lt;/a&gt;, &lt;a href="https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-330-casi-da-inizio-anno-59-autoctoni-west-nile-sale-a-727-casi-e-54-decessi/"&gt;Quotidiano Sanità&lt;/a&gt;, &lt;a href="https://www.agensir.it/quotidiano/2026/10/1/arbovirosi-iss-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile/"&gt;AgenSIR&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France: 6 local dengue cases; local chikungunya at 125</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-30-france-6-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-30-france-6-local-dengue-cases</id>
+    <updated>2026-09-30T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Santé publique France counts 4 dengue episodes with 6 cases and 424 imported dengue cases since 1 May. Separately (chikungunya, a different virus): 19 local episodes with 125 cases, including 6 in Nogent-sur-Marne (Val-de-Marne).</summary>
+    <content type="html">&lt;p&gt;Santé publique France counts 4 dengue episodes with 6 cases and 424 imported dengue cases since 1 May. Separately (chikungunya, a different virus): 19 local episodes with 125 cases, including 6 in Nogent-sur-Marne (Val-de-Marne).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"&gt;Santé publique France bulletin, 30 Sep&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>First local case in Cartigliano, Veneto</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-25-first-local-case-in-cartigliano"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-25-first-local-case-in-cartigliano</id>
+    <updated>2026-09-25T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>A locally acquired case in Cartigliano (Vicenza) prompts mosquito control and blood-donation precautions. The local health authority reports two more cases on 29 September.</summary>
+    <content type="html">&lt;p&gt;A locally acquired case in Cartigliano (Vicenza) prompts mosquito control and blood-donation precautions. The local health authority reports two more cases on 29 September.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.centronazionalesangue.it/dengue/"&gt;Italian National Blood Centre&lt;/a&gt;, &lt;a href="https://agensalute.it/2026/09/29/ulss-pedemontana-diagnosticati-2-nuovi-casi-dengue-cartigliano/"&gt;AgenSalute (ULSS 7)&lt;/a&gt;, &lt;a href="https://www.ilgiornaledivicenza.it/territorio-vicentino/bassano/febbre-dengue-cartigliano-nuovi-casi-disinfestazione-1.13132382"&gt;Il Giornale di Vicenza&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Italy reaches 47 local cases in three outbreaks</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-24-italy-reaches-47-local-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-24-italy-reaches-47-local-cases</id>
+    <updated>2026-09-24T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS links them to outbreaks in the provinces of Livorno (28 cases), Lecce (13) and Milan (2); 4 cases have no known link. 312 dengue cases have been confirmed this year, with no deaths.</summary>
+    <content type="html">&lt;p&gt;The ISS links them to outbreaks in the provinces of Livorno (28 cases), Lecce (13) and Milan (2); 4 cases have no known link. 312 dengue cases have been confirmed this year, with no deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-salgono-a-312-i-casi-di-dengue-47-autoctoni-west-nile-a-quota-700-con-54-decessi/"&gt;Quotidiano Sanità (24 Sep)&lt;/a&gt;, &lt;a href="https://www.ansa.it/canale_saluteebenessere/notizie/sanita/2026/09/24/iss-700-casi-di-west-nile-virus-312-di-dengue-e-28-di-chikungunya_71d8dacc-6d96-4d24-8282-85b3f510b8e9.html"&gt;ANSA&lt;/a&gt;, &lt;a href="https://tg24.sky.it/salute-e-benessere/2026/09/24/dengue-casi-italia-focolai-mappa"&gt;Sky TG24&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC: Italy 37 and France 5 local cases</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-18-ecdc-italy-37-and-france"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-18-ecdc-italy-37-and-france</id>
+    <updated>2026-09-18T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>As of 16 September. Italy added 13 cases in a week: 6 near Lecce, 5 near Livorno and 2 in a new cluster near Milan. France had no new cases. ECDC will report weekly until November.</summary>
+    <content type="html">&lt;p&gt;As of 16 September. Italy added 13 cases in a week: 6 near Lecce, 5 near Livorno and 2 in a new cluster near Milan. France had no new cases. ECDC will report weekly until November.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf"&gt;ECDC threats report, week 38&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Italy confirms its first local outbreaks of 2026</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-10-italy-confirms-its-first-local"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-10-italy-confirms-its-first-local</id>
+    <updated>2026-09-10T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS counts 24 locally acquired cases by 8 September, up from 3 on 30 August, in outbreaks in Livorno province (Tuscany) and Lecce province (Puglia). The other 241 of 265 confirmed cases were linked to travel; 56% of those with a known place of infection had been in the Maldives.</summary>
+    <content type="html">&lt;p&gt;The ISS counts 24 locally acquired cases by 8 September, up from 3 on 30 August, in outbreaks in Livorno province (Tuscany) and Lecce province (Puglia). The other 241 of 265 confirmed cases were linked to travel; 56% of those with a known place of infection had been in the Maldives.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://agensalute.it/2026/09/10/arbovirosi-265-casi-confermati-dengue-25-chikungunya-594-west-nile/"&gt;AgenSalute (ISS data)&lt;/a&gt;, &lt;a href="https://www.italpress.com/nel-2026-registrati-in-italia-265-casi-di-dengue-594-i-contagi-di-west-nile-virus-e-25-di-chikungunya-da-inizio-monitoraggio/"&gt;Italpress&lt;/a&gt;, &lt;a href="https://www.biomedicalcue.it/dengue-in-toscana-liss-conferma-un-focolaio-da-20-casi-nel-livornese"&gt;Biomedical CuE&lt;/a&gt;, &lt;a href="https://www.sanitainformazione.it/virus-trasmessi-dalle-zanzare-iss-da-inizio-anno-227-casi-di-dengue-e-521-di-west-nile/"&gt;Sanità Informazione&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France reaches 5 cases, now including Bouches-du-Rhône</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-08-26-france-reaches-5-cases-now"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-08-26-france-reaches-5-cases-now</id>
+    <updated>2026-08-26T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Bouches-du-Rhône (Provence-Alpes-Côte d'Azur) is added: France has 5 locally acquired cases across Tarn, Hérault, Dordogne and Bouches-du-Rhône.</summary>
+    <content type="html">&lt;p&gt;Bouches-du-Rhône (Provence-Alpes-Côte d'Azur) is added: France has 5 locally acquired cases across Tarn, Hérault, Dordogne and Bouches-du-Rhône.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/dengue/bulletin-national/chikungunya-dengue-zika-et-west-nile-en-france-hexagonale-bulletin-de-la-surveillance-renforcee-du"&gt;Santé publique France bulletin, 26 Aug&lt;/a&gt;, &lt;a href="https://travelhealthpro.org.uk/outbreaks"&gt;NaTHNaC (UK)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France: 4 local cases, now including Dordogne</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-08-19-france-4-local-cases-now"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-08-19-france-4-local-cases-now</id>
+    <updated>2026-08-19T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Santé publique France counts 3 transmission episodes with 4 cases, in Tarn, Hérault and Dordogne (Nouvelle-Aquitaine), and 308 imported dengue cases since 1 May.</summary>
+    <content type="html">&lt;p&gt;Santé publique France counts 3 transmission episodes with 4 cases, in Tarn, Hérault and Dordogne (Nouvelle-Aquitaine), and 308 imported dengue cases since 1 May.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.santepubliquefrance.fr/sites/default/files/2026-08/bullnat_arboviroses_20260819_0.pdf"&gt;Santé publique France bulletin, 19 Aug&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France reports its first local dengue cases of 2026</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-07-23-france-reports-its-first-local"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-07-23-france-reports-its-first-local</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Two unrelated locally acquired cases are confirmed in Occitanie: one in Carmaux (Tarn) and one in Hérault.</summary>
+    <content type="html">&lt;p&gt;Two unrelated locally acquired cases are confirmed in Occitanie: one in Carmaux (Tarn) and one in Hérault.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.vidal.fr/actualites/38120-moustique-tigre-premiers-cas-de-dengue-autochtones-recenses-cette-saison-en-france.html"&gt;Vidal&lt;/a&gt;, &lt;a href="https://la1ere.franceinfo.fr/dengue-un-cas-autochtone-signale-dans-l-hexagone-le-premier-de-la-saison-2026-1721629.html"&gt;franceinfo&lt;/a&gt;, &lt;a href="https://outbreaknewstoday.substack.com/p/france-local-transmission-of-dengue"&gt;Outbreak News Today&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France starts its seasonal surveillance of dengue and chikungunya</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-05-01-france-starts-its-seasonal-surveillance"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-05-01-france-starts-its-seasonal-surveillance</id>
+    <updated>2026-05-01T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Santé publique France begins enhanced surveillance of dengue, chikungunya and Zika in mainland France for the mosquito season. Its counts of imported cases run from this date.</summary>
+    <content type="html">&lt;p&gt;Santé publique France begins enhanced surveillance of dengue, chikungunya and Zika in mainland France for the mosquito season. Its counts of imported cases run from this date.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"&gt;Santé publique France bulletin, 30 Sep&lt;/a&gt;, &lt;a href="https://www.santepubliquefrance.fr/en/dengue/data-metropolitan-france"&gt;Santé publique France: dengue data&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC closes the 2025 season at 35 local cases</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2025-11-19-ecdc-closes-the-2025-season"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2025-11-19-ecdc-closes-the-2025-season</id>
+    <updated>2025-11-19T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>France reported 29 locally acquired cases, Italy 4 and Portugal's Madeira 2. With no new cases since late October and cooler weather, ECDC ended its weekly dengue reports for the year.</summary>
+    <content type="html">&lt;p&gt;France reported 29 locally acquired cases, Italy 4 and Portugal's Madeira 2. With no new cases since late October and cooler weather, ECDC ended its weekly dengue reports for the year.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://dengue-weekly.ecdc.europa.eu/"&gt;ECDC: seasonal dengue surveillance&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/all-topics-z/dengue/surveillance-and-disease-data/autochthonous-transmission-dengue-virus-eueea-previous-years"&gt;ECDC: local dengue in the EU/EEA, previous years&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

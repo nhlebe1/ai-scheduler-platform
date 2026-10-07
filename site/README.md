@@ -7,7 +7,11 @@ Independent, sourced outbreak trackers, published at https://nhlebe1.github.io/a
 |---|---|---|
 | US Measles | `measles/` | 2026 US measles cases by state, outbreaks, year-over-year trend |
 | Ebola · DR Congo | `ebola/` | The Bundibugyo Ebola outbreak in DR Congo and neighbours |
+| Mpox | `mpox/` | WHO counts for Africa, countries with active transmission, clade Ib spread in Europe and the US |
+| Cholera | `cholera/` | 2026 cholera cases and deaths worldwide, by country (WHO, ECDC) |
+| Dengue · Europe | `dengue/` | Locally acquired dengue and chikungunya in Europe this season |
 | Russia Plague Watch | `plague/` | The suspected plague case in Irkutsk and Russia's natural plague areas |
+| Marburg Watch | `marburg/` | Any new Marburg cases in Africa, and the record of Ethiopia's 2025–26 outbreak |
 
 Each tracker is the same app (`app.html`) driven by its own `data.json`. Sections appear only when
 their data exists: live countdown, escalation ladder, case counts with day-over-day changes, trend

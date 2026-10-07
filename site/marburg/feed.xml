@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Marburg Watch</title>
+  <subtitle>Independent, sourced Marburg tracker: any new cases in Africa, Uganda's isolated case in 2026, and the full record of Ethiopia's first outbreak (November 2025 to January 2026) with a dated timeline.</subtitle>
+  <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/"/>
+  <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/feed.xml"/>
+  <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/</id>
+  <updated>2026-10-07T01:32:00Z</updated>
+  <author><name>Marburg Watch</name></author>
+  <entry>
+    <title>Uganda reports a Marburg case in Kyegegwa</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-06-30-uganda-reports-a-marburg-case"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-06-30-uganda-reports-a-marburg-case</id>
+    <updated>2026-06-30T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Uganda notifies WHO of a confirmed Marburg case in Kyegegwa district, found through surveillance set up for Ebola. Africa CDC says the patient, a young child, had died and no contacts had symptoms. In mid-July WHO said it was still seeking updates from Uganda.</summary>
+    <content type="html">&lt;p&gt;Uganda notifies WHO of a confirmed Marburg case in Kyegegwa district, found through surveillance set up for Ebola. Africa CDC says the patient, a young child, had died and no contacts had symptoms. In mid-July WHO said it was still seeking updates from Uganda.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cnbcafrica.com/2026/africa-cdc-says-uganda-found-isolated-marburg-case"&gt;CNBC Africa (Reuters)&lt;/a&gt;, &lt;a href="https://www.the-star.co.ke/news/2026-07-03-who-confirms-marburg-virus-case-in-uganda"&gt;The Star (Kenya)&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/"&gt;STAT&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/"&gt;STAT (16 Jul)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO reviews its Marburg response in Ethiopia</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-03-17-who-reviews-its-marburg-response"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-03-17-who-reviews-its-marburg-response</id>
+    <updated>2026-03-17T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>WHO Ethiopia holds an internal review in Addis Ababa from 17 to 19 March. WHO notes early delays in detection and infections among health workers, and says its surge teams helped contain the outbreak quickly.</summary>
+    <content type="html">&lt;p&gt;WHO Ethiopia holds an internal review in Addis Ababa from 17 to 19 March. WHO notes early delays in detection and infections among health workers, and says its surge teams helped contain the outbreak quickly.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://afro.who.int/countries/ethiopia/news/rapid-response-strong-results-who-reviews-marburg-response-ethiopia"&gt;WHO Africa&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ethiopia declares its first Marburg outbreak over</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-01-26-ethiopia-declares-its-first-marburg"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-01-26-ethiopia-declares-its-first-marburg</id>
+    <updated>2026-01-26T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>After 42 days without a new case, the health ministry declares the outbreak over, less than three months after it was confirmed. WHO counts 14 confirmed cases, of whom 9 died and 5 recovered, plus 5 probable cases who all died. Three health workers were infected; two died. Enhanced surveillance continues for 90 days.</summary>
+    <content type="html">&lt;p&gt;After 42 days without a new case, the health ministry declares the outbreak over, less than three months after it was confirmed. WHO counts 14 confirmed cases, of whom 9 died and 5 recovered, plus 5 probable cases who all died. Three health workers were infected; two died. Enhanced surveillance continues for 90 days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.afro.who.int/countries/ethiopia/news/ethiopia-declares-end-first-ever-marburg-virus-disease-outbreak"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"&gt;WHO Disease Outbreak News (DON592)&lt;/a&gt;, &lt;a href="https://wtop.com/world/2026/01/ethiopia-declares-the-end-of-its-first-marburg-virus-outbreak/"&gt;AP via WTOP&lt;/a&gt;, &lt;a href="https://archive.cdc.gov/www_cdc_gov/marburg/situation-summary/index_1782238314.html"&gt;CDC (archived situation summary)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Health ministry: 21 days without a new case</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-01-05-health-ministry-21-days-without"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2026-01-05-health-ministry-21-days-without</id>
+    <updated>2026-01-05T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ministry says no new case has been detected for 21 days and all contacts of the last patients have completed follow-up. About 3,800 people had been tested since November.</summary>
+    <content type="html">&lt;p&gt;The ministry says no new case has been detected for 21 days and all contacts of the last patients have completed follow-up. About 3,800 people had been tested since November.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-2.pdf"&gt;ECDC (week 2, 2026)&lt;/a&gt;, &lt;a href="https://www.dawan.africa/news/ethiopia-declares-victory-over-marburg-virus"&gt;Dawan Africa&lt;/a&gt;, &lt;a href="https://www.ena.et/web/eng/w/eng_8187498"&gt;Ethiopian News Agency&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CDC: no cases outside Ethiopia</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-22-cdc-no-cases-outside-ethiopia"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-22-cdc-no-cases-outside-ethiopia</id>
+    <updated>2025-12-22T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>CDC counts 14 confirmed cases and 9 deaths. No cases linked to the outbreak have been reported outside Ethiopia, and the risk to the US is low. CDC's most likely scenario was an outbreak of fewer than 30 cases.</summary>
+    <content type="html">&lt;p&gt;CDC counts 14 confirmed cases and 9 deaths. No cases linked to the outbreak have been reported outside Ethiopia, and the risk to the US is low. CDC's most likely scenario was an outbreak of fewer than 30 cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/marburg/situation-summary/index.html"&gt;CDC: Marburg in Ethiopia&lt;/a&gt;, &lt;a href="https://www.cdc.gov/cfa-qualitative-assessments/php/data-research/marburgethiopia2025-scenarioassessment.html"&gt;CDC scenario assessment&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Last confirmed patient dies; 42-day countdown begins</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-14-last-confirmed-patient-dies-42"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-14-last-confirmed-patient-dies-42</id>
+    <updated>2025-12-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The 14th and last confirmed case was reported on 12 December, bringing the total to 14 cases and 9 deaths. WHO's 42-day countdown to declaring the outbreak over starts on 14 December, after the death of the last confirmed patient.</summary>
+    <content type="html">&lt;p&gt;The 14th and last confirmed case was reported on 12 December, bringing the total to 14 cases and 9 deaths. WHO's 42-day countdown to declaring the outbreak over starts on 14 December, after the death of the last confirmed patient.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-50-week-ending-14-december-2025"&gt;UKHSA week 50&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-3-2026.pdf"&gt;ECDC (week 3, 2026)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-5-2026.pdf"&gt;ECDC (week 5, 2026)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Vaccine trial begins; CDC alerts US clinicians</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-04-vaccine-trial-begins-cdc-alerts"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-12-04-vaccine-trial-begins-cdc-alerts</id>
+    <updated>2025-12-04T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Sabin Vaccine Institute sends more than 640 doses of its investigational cAd3-Marburg vaccine for a Phase 2 trial, sponsored by Ethiopia's health ministry, at three health facilities. CDC issues a health advisory.</summary>
+    <content type="html">&lt;p&gt;Sabin Vaccine Institute sends more than 640 doses of its investigational cAd3-Marburg vaccine for a Phase 2 trial, sponsored by Ethiopia's health ministry, at three health facilities. CDC issues a health advisory.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.sabin.org/resources/sabin-vaccine-institutes-investigational-marburg-vaccine-delivered-to-ethiopia-for-outbreak-response/"&gt;Sabin Vaccine Institute&lt;/a&gt;, &lt;a href="https://www.cdc.gov/han/php/notices/han00525.html"&gt;CDC health advisory&lt;/a&gt;, &lt;a href="https://www.cdc.gov/locs/php/messages/12-04-2025-cdc-issues-alert-marburg-virus-disease-outbreak-ethiopia.html"&gt;CDC&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Deaths reach eight; first case in Hawassa</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-30-deaths-reach-eight-first-case"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-30-deaths-reach-eight-first-case</id>
+    <updated>2025-11-30T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>12 confirmed cases and 8 deaths; 3 patients have recovered and 349 contacts are being followed. A case is confirmed in Hawassa, Sidama region: a contact of an earlier case who had travelled to Jinka. CIDRAP reports these figures under the headline 'Death toll climbs in Ethiopia's Marburg outbreak'.</summary>
+    <content type="html">&lt;p&gt;12 confirmed cases and 8 deaths; 3 patients have recovered and 349 contacts are being followed. A case is confirmed in Hawassa, Sidama region: a contact of an earlier case who had travelled to Jinka. CIDRAP reports these figures under the headline 'Death toll climbs in Ethiopia's Marburg outbreak'.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-48-week-ending-30-november-2025"&gt;UKHSA week 48&lt;/a&gt;, &lt;a href="https://www.cidrap.umn.edu/marburg/death-toll-climbs-ethiopias-marburg-outbreak"&gt;CIDRAP&lt;/a&gt;, &lt;a href="https://www.nicd.ac.za/update-on-marburg-virus-disease-outbreak-in-ethiopia-beyond-our-borders/"&gt;NICD (South Africa)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Death toll rises to six</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-26-death-toll-rises-to-six"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-26-death-toll-rises-to-six</id>
+    <updated>2025-11-26T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Of 11 people with confirmed infection, 6 have died and 5 are being treated, the health ministry says.</summary>
+    <content type="html">&lt;p&gt;Of 11 people with confirmed infection, 6 have died and 5 are being treated, the health ministry says.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.dailymaverick.co.za/article/2025-11-26-ethiopia-says-death-toll-from-marburg-virus-outbreak-rises-to-6/"&gt;Daily Maverick (Reuters)&lt;/a&gt;, &lt;a href="https://www.africanews.com/2025/11/26/marburg-outbreak-worsens-in-ethiopia-as-death-toll-rises-to-six/"&gt;Africanews&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>10 confirmed cases and 5 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-23-10-confirmed-cases-and-5"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-23-10-confirmed-cases-and-5</id>
+    <updated>2025-11-23T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The health ministry reports two more confirmed infections. Africa CDC says it is working to prevent spread across the borders, mainly to South Sudan and Kenya.</summary>
+    <content type="html">&lt;p&gt;The health ministry reports two more confirmed infections. Africa CDC says it is working to prevent spread across the borders, mainly to South Sudan and Kenya.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://english.news.cn/africa/20251124/c62206ec7c9c472e8654600843688d4c/c.html"&gt;Xinhua&lt;/a&gt;, &lt;a href="https://www.newsonair.gov.in/ethiopia-death-toll-from-marburg-virus-disease-outbreak-rises-to-5/"&gt;All India Radio&lt;/a&gt;, &lt;a href="https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-47-week-ending-23-november-2025"&gt;UKHSA week 47&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO rates the risk high in Ethiopia</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-20-who-rates-the-risk-high"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-20-who-rates-the-risk-high</id>
+    <updated>2025-11-20T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>6 of 33 samples tested are confirmed, including 3 people who died. WHO rates the risk high nationally, moderate for the region and low globally, citing unsupervised burials and infections among health workers.</summary>
+    <content type="html">&lt;p&gt;6 of 33 samples tested are confirmed, including 3 people who died. WHO rates the risk high nationally, moderate for the region and low globally, citing unsupervised burials and infections among health workers.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"&gt;WHO Disease Outbreak News (DON585)&lt;/a&gt;, &lt;a href="https://rcc.eac.int/node/181"&gt;EAC Regional Coordination Centre&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ethiopia confirms its first Marburg outbreak</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-14-ethiopia-confirms-its-first-marburg"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-14-ethiopia-confirms-its-first-marburg</id>
+    <updated>2025-11-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Tests at the Ethiopian Public Health Institute confirm Marburg virus, and the health ministry declares the country's first Marburg outbreak. Genetic analysis by the institute shows the same strain as in earlier East African outbreaks.</summary>
+    <content type="html">&lt;p&gt;Tests at the Ethiopian Public Health Institute confirm Marburg virus, and the health ministry declares the country's first Marburg outbreak. Genetic analysis by the institute shows the same strain as in earlier East African outbreaks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.afro.who.int/countries/ethiopia/news/ethiopia-confirms-first-outbreak-marburg-virus-disease"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://africacdc.org/news-item/africa-cdc-statement-on-confirmed-marburg-virus-disease-in-jinka-southern-region-ethiopia/"&gt;Africa CDC&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"&gt;WHO Disease Outbreak News (DON592)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Suspected viral haemorrhagic fever reported in Jinka</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-12-suspected-viral-haemorrhagic-fever-reported"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-11-12-suspected-viral-haemorrhagic-fever-reported</id>
+    <updated>2025-11-12T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Ethiopia's health ministry and public health institute report 8 suspected cases of viral haemorrhagic fever in Jinka town, South Ethiopia Region.</summary>
+    <content type="html">&lt;p&gt;Ethiopia's health ministry and public health institute report 8 suspected cases of viral haemorrhagic fever in Jinka town, South Ethiopia Region.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON585"&gt;WHO Disease Outbreak News (DON585)&lt;/a&gt;, &lt;a href="https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2025/outbreaks-under-monitoring-week-46-week-ending-16-november-2025"&gt;UKHSA week 46&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>First known patient admitted to hospital in Jinka</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-10-23-first-known-patient-admitted-to"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/marburg/#2025-10-23-first-known-patient-admitted-to</id>
+    <updated>2025-10-23T12:00:00Z</updated>
+    <category term="background"/>
+    <summary>An adult from Jinka, later identified as the outbreak's first known case, is admitted to the town's general hospital with nausea and stomach cramps, according to South Africa's NICD. WHO says the outbreak began in October.</summary>
+    <content type="html">&lt;p&gt;An adult from Jinka, later identified as the outbreak's first known case, is admitted to the town's general hospital with nausea and stomach cramps, according to South Africa's NICD. WHO says the outbreak began in October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.nicd.ac.za/an-update-on-the-marburg-virus-disease-outbreak-in-ethiopia-january-2026/"&gt;NICD (South Africa)&lt;/a&gt;, &lt;a href="https://afro.who.int/countries/ethiopia/news/rapid-response-strong-results-who-reviews-marburg-response-ethiopia"&gt;WHO Africa&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>
