@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
   },
-  "updated": "2026-10-06T21:00:00Z",
-  "checked": "2026-10-07T18:50:00Z",
+  "updated": "2026-10-07T20:15:00Z",
+  "checked": "2026-10-07T20:15:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "Russia tells WHO no plague found in contacts. WHO rates the risk low for Russia, moderate to low for Irkutsk.",
+  "headline": "WHO says it cannot yet complete a full risk assessment and is waiting for Russia to name the pathogen. Russia says no plague found.",
   "status": {
     "level": "suspected",
     "label": "Suspected, unconfirmed",
-    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested."
+    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment."
   },
   "stage": {
     "current": 2,
@@ -281,6 +281,11 @@
       "status": "pending"
     },
     {
+      "label": "Russia answers WHO's questions on the pathogen and the second-employee reports",
+      "status": "pending",
+      "note": "WHO said it was waiting to hear back on 7 Oct"
+    },
+    {
       "label": "Quarantine lifted at Shelekhov District Hospital",
       "status": "pending"
     },
@@ -313,8 +318,8 @@
       "who": "World Health Organization",
       "ru": "ВОЗ",
       "kind": "international",
-      "text": "Russia has briefed WHO: no plague found in contacts and none have symptoms. WHO's initial risk assessment is moderate to low for Irkutsk, low for Russia and very low for Europe.",
-      "date": "2026-10-06"
+      "text": "WHO says it cannot yet conduct a full risk assessment and has asked Russia for the pathogen, test results and contact details, and about media reports of a second employee with pneumonia. Its initial assessment: moderate to low for Irkutsk, low for Russia, very low for Europe.",
+      "date": "2026-10-07"
     },
     {
       "who": "Media reports",
@@ -493,6 +498,23 @@
         {
           "name": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/health/how-russia-and-the-world-are-responding-to-a-possible-case-of-pneumonic-plague-after-lab-worker-death"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-who-asks-russia-for-pathogen-and-contact-details",
+      "date": "2026-10-07",
+      "kind": "international",
+      "title": "WHO asks Russia for the pathogen, test results and contact details",
+      "body": "WHO Director-General Tedros said WHO does not yet have the full picture and cannot conduct a full risk assessment. WHO has asked Russia about the pathogen behind the pneumonia, the lab tests, the contacts and their health, and about media reports of a second employee with pneumonia of undetermined cause. Those reports have not been confirmed by local officials. WHO's initial assessment stands: moderate to low for Irkutsk, low for Russia, very low for Europe. WHO said it has seen no evidence of plague spreading.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/07/world/russia-suspected-plague-case-who-intl"
+        },
+        {
+          "name": "The Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/oct/7/who-seeks-clarity-russia-suspected-plague-death-possible-second-case/"
         }
       ]
     }
@@ -758,7 +780,7 @@
   ],
   "card": {
     "title": "Suspected plague death in Siberia",
-    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Plague is not confirmed. Russia told WHO no plague was found in her contacts.",
+    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Plague is not confirmed. WHO is waiting for Russia to name the pathogen.",
     "stats": [
       "deaths",
       "contacts",
@@ -771,7 +793,7 @@
       "symptomatic": "Contacts with symptoms",
       "deaths": "Death"
     },
-    "sources": "WHO, UN News, Rospotrebnadzor, NBC"
+    "sources": "WHO, CNN, Washington Times, UN News"
   },
   "postExtra": "197 contacts monitored, 0 with symptoms.",
   "map": {

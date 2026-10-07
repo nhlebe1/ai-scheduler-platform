@@ -1,6 +1,4 @@
-Russia has told WHO no plague was found in contacts of the Irkutsk lab worker who died on 2 Oct. WHO's first risk assessment: moderate to low for Irkutsk, low for Russia, very low for Europe.
-
-Incubation window closes 9 Oct. Live tracker:
+WHO says it can't yet complete a full risk assessment of the Irkutsk lab worker's death and is waiting for Russia to name the pathogen. Russia says no plague was found. Plague is unconfirmed. Initial WHO risk: low for Russia.
 https://nhlebe1.github.io/ai-scheduler-platform/plague/
 
-Sources: UN News (WHO spokesperson Christian Lindmeier, 6 Oct), NBC News.
+Sources: CNN and The Washington Times (7 Oct, WHO Director-General Tedros).

@@ -251,11 +251,11 @@
       "status": {
         "level": "suspected",
         "label": "Suspected, unconfirmed",
-        "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested."
+        "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment."
       },
-      "headline": "Russia tells WHO no plague found in contacts. WHO rates the risk low for Russia, moderate to low for Irkutsk.",
-      "updated": "2026-10-06T21:00:00Z",
-      "checked": "2026-10-07T18:50:00Z",
+      "headline": "WHO says it cannot yet complete a full risk assessment and is waiting for Russia to name the pathogen. Russia says no plague found.",
+      "updated": "2026-10-07T20:15:00Z",
+      "checked": "2026-10-07T20:15:00Z",
       "figures": [
         {
           "label": "Deaths",
@@ -278,14 +278,14 @@
       ],
       "latest": [
         {
-          "date": "2026-10-06",
-          "title": "No plague found in contacts tested so far",
-          "id": "2026-10-06-no-plague-found-in-contacts"
+          "date": "2026-10-07",
+          "title": "WHO asks Russia for the pathogen, test results and contact details",
+          "id": "2026-10-07-who-asks-russia-for-pathogen-and-contact-details"
         },
         {
           "date": "2026-10-06",
-          "title": "Russia tells WHO no plague found in contacts; WHO rates the risk",
-          "id": "2026-10-06-russia-tells-who-no-plague"
+          "title": "No plague found in contacts tested so far",
+          "id": "2026-10-06-no-plague-found-in-contacts"
         }
       ]
     },
