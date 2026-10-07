@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Russia Plague Watch</title>
-  <subtitle>Independent, sourced updates on the suspected plague case in Irkutsk, Russia.</subtitle>
-  <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
-  <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
-  <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
+  <subtitle>Independent, sourced tracker of the suspected plague case in Irkutsk, Siberia: live incubation countdown, case counts, WHO risk level, claim check and a dated timeline.</subtitle>
+  <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/"/>
+  <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/plague/feed.xml"/>
+  <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/</id>
   <updated>2026-10-06T21:00:00Z</updated>
   <author><name>Russia Plague Watch</name></author>
   <entry>
     <title>No plague found in contacts tested so far</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-06-no-plague-found-in-contacts"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-06-no-plague-found-in-contacts</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-06-no-plague-found-in-contacts"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-06-no-plague-found-in-contacts</id>
     <updated>2026-10-06T12:00:00Z</updated>
     <category term="official"/>
     <summary>Russian officials say plague has not been detected among close contacts, with about 60% of the group tested. Testing found 2 Covid-19 and 2 rhinovirus cases and no other dangerous pathogens.</summary>
@@ -18,8 +18,8 @@
   </entry>
   <entry>
     <title>Russia tells WHO no plague found in contacts; WHO rates the risk</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-06-russia-tells-who-no-plague"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-06-russia-tells-who-no-plague</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-06-russia-tells-who-no-plague"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-06-russia-tells-who-no-plague</id>
     <updated>2026-10-06T12:00:00Z</updated>
     <category term="international"/>
     <summary>Russian authorities told WHO that no dangerous pathogens were found in any contact tested and none have symptoms. WHO's first risk assessment: moderate to low for Irkutsk, low for Russia, very low for Europe. Earlier the same day WHO had said it was still waiting for a formal reply.</summary>
@@ -27,8 +27,8 @@
   </entry>
   <entry>
     <title>EU monitoring "very closely"; US offers help</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-05-eu-monitoring-very-closely-us"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-05-eu-monitoring-very-closely-us</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-05-eu-monitoring-very-closely-us"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-05-eu-monitoring-very-closely-us</id>
     <updated>2026-10-05T12:00:00Z</updated>
     <category term="international"/>
     <summary>The European Commission says it is ready to coordinate a response among member states if needed. Secretary of State Marco Rubio says it is "not cause for alarm, but it is cause for focus". President Trump says the US is "willing to help".</summary>
@@ -36,8 +36,8 @@
   </entry>
   <entry>
     <title>Regional commission repeats "unknown aetiology" finding</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-05-regional-commission-repeats-unknown-aetiology"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-05-regional-commission-repeats-unknown-aetiology</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-05-regional-commission-repeats-unknown-aetiology"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-05-regional-commission-repeats-unknown-aetiology</id>
     <updated>2026-10-05T12:00:00Z</updated>
     <category term="official"/>
     <summary>Officials say the health situation in Irkutsk Oblast is stable. Quarantine measures at the Shelekhov hospital remain in place.</summary>
@@ -45,8 +45,8 @@
   </entry>
   <entry>
     <title>Rospotrebnadzor: "pneumonia of unknown etiology"</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-04-rospotrebnadzor-pneumonia-of-unknown-etiology"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-04-rospotrebnadzor-pneumonia-of-unknown-etiology</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-04-rospotrebnadzor-pneumonia-of-unknown-etiology"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-04-rospotrebnadzor-pneumonia-of-unknown-etiology</id>
     <updated>2026-10-04T12:00:00Z</updated>
     <category term="official"/>
     <summary>The agency says the situation is stable, lab analysis found no pathogen linked to her work, and daily testing of contacts found only 2 Covid-19 and 2 rhinovirus cases.</summary>
@@ -54,8 +54,8 @@
   </entry>
   <entry>
     <title>WHO in contact with Moscow; White House monitoring</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-04-who-in-contact-with-moscow"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-04-who-in-contact-with-moscow</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-04-who-in-contact-with-moscow"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-04-who-in-contact-with-moscow</id>
     <updated>2026-10-04T12:00:00Z</updated>
     <category term="international"/>
     <summary>WHO says it is working to verify the event and that risk to the general population appears low. The White House says it is monitoring reports of a suspected case.</summary>
@@ -63,8 +63,8 @@
   </entry>
   <entry>
     <title>Death confirmed; Shelekhov hospital quarantined</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined</id>
     <updated>2026-10-02T12:00:00Z</updated>
     <category term="official"/>
     <summary>She dies overnight on 1–2 October. Governor Igor Kobzev cites a suspected "particularly dangerous infection". Rospotrebnadzor head Anna Popova flies in for an emergency commission. 197 contacts are identified and 189 hospitalised for observation. Kobzev says none have symptoms and all tests are negative.</summary>
@@ -72,8 +72,8 @@
   </entry>
   <entry>
     <title>Worker hospitalised with severe pneumonia</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-09-29-worker-hospitalised-with-severe-pneumonia"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-09-29-worker-hospitalised-with-severe-pneumonia</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-29-worker-hospitalised-with-severe-pneumonia"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-29-worker-hospitalised-with-severe-pneumonia</id>
     <updated>2026-09-29T12:00:00Z</updated>
     <category term="official"/>
     <summary>The 28-year-old employee of the Irkutsk Anti-Plague Research Institute of Siberia and the Far East is admitted to hospital in Shelekhov.</summary>
@@ -81,8 +81,8 @@
   </entry>
   <entry>
     <title>Test tube reportedly broken in the lab</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-09-25-test-tube-reportedly-broken-in"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-09-25-test-tube-reportedly-broken-in</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-25-test-tube-reportedly-broken-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-25-test-tube-reportedly-broken-in</id>
     <updated>2026-09-25T12:00:00Z</updated>
     <category term="media"/>
     <summary>According to media reports, the worker broke a test tube containing Yersinia pestis while handling live samples. Russian officials deny a lab accident.</summary>
@@ -90,8 +90,8 @@
   </entry>
   <entry>
     <title>Plague bacterium isolated on the Russia–Mongolia border</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/#2026-08-14-plague-bacterium-isolated-on-the"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/#2026-08-14-plague-bacterium-isolated-on-the</id>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-08-14-plague-bacterium-isolated-on-the"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-08-14-plague-bacterium-isolated-on-the</id>
     <updated>2026-08-14T12:00:00Z</updated>
     <category term="background"/>
     <summary>Joint Russian and Mongolian teams isolate a Yersinia pestis culture near Sagaan-Uul, confirming high activity in the Sailyugem natural plague focus. Rospotrebnadzor says there is no direct threat to people.</summary>

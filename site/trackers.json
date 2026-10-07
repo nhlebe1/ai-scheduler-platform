@@ -1,0 +1,58 @@
+{
+  "site": {
+    "name": "Outbreak Ledger",
+    "tagline": "Independent, sourced outbreak trackers. Every claim linked.",
+    "social": {
+      "x": ""
+    }
+  },
+  "trackers": [
+    {
+      "slug": "plague",
+      "url": "plague/",
+      "title": "Russia Plague Watch",
+      "short": "Plague · Russia",
+      "description": "Independent, sourced tracker of the suspected plague case in Irkutsk, Siberia: live incubation countdown, case counts, WHO risk level, claim check and a dated timeline.",
+      "status": {
+        "level": "suspected",
+        "label": "Suspected, unconfirmed",
+        "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested."
+      },
+      "headline": "Russia tells WHO no plague found in contacts. WHO rates the risk low for Russia, moderate to low for Irkutsk.",
+      "updated": "2026-10-06T21:00:00Z",
+      "checked": "2026-10-06T21:15:00Z",
+      "figures": [
+        {
+          "label": "Deaths",
+          "value": 1,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Contacts identified",
+          "value": 197,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Confirmed plague cases",
+          "value": 0,
+          "unit": "",
+          "tone": "neutral"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-10-06",
+          "title": "No plague found in contacts tested so far",
+          "id": "2026-10-06-no-plague-found-in-contacts"
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Russia tells WHO no plague found in contacts; WHO rates the risk",
+          "id": "2026-10-06-russia-tells-who-no-plague"
+        }
+      ]
+    }
+  ]
+}

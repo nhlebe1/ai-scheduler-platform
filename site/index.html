@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Outbreak Ledger</title>
+<meta name="description" content="Independent, sourced outbreak trackers: measles in the US, Ebola in DR Congo, the suspected plague case in Russia. Every claim linked.">
+<meta name="theme-color" content="#1d4e63">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nhlebe1.github.io/ai-scheduler-platform/">
+<meta property="og:title" content="Outbreak Ledger">
+<meta property="og:description" content="Independent, sourced outbreak trackers. Every claim linked.">
+<meta property="og:image" content="https://nhlebe1.github.io/ai-scheduler-platform/measles/share/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/atom+xml" title="Outbreak Ledger updates" href="feed.xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a front page for the trackers. Masthead, one card per tracker (status first), then a combined wire of recent updates. */
+:root {
+  --bg: #e9eef1; --surface: #f7f9fa; --sunk: #dfe6eb; --ink: #14212b; --muted: #566774; --line: #cbd5dc;
+  --accent: #1d4e63; --crit: #b3261e; --warn: #8a5100; --good: #2b7a4b;
+  --crit-bg: #f7e1df; --warn-bg: #f6ead6; --good-bg: #dcefe3;
+  --font-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Roboto Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151a; --surface: #162028; --sunk: #111a21; --ink: #e4ebef; --muted: #93a4b0; --line: #2a3843;
+    --accent: #7cbcd6; --crit: #ff8b80; --warn: #f0b357; --good: #72d09a;
+    --crit-bg: #3a1d1b; --warn-bg: #3a2c14; --good-bg: #16301f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151a; --surface: #162028; --sunk: #111a21; --ink: #e4ebef; --muted: #93a4b0; --line: #2a3843;
+  --accent: #7cbcd6; --crit: #ff8b80; --warn: #f0b357; --good: #72d09a;
+  --crit-bg: #3a1d1b; --warn-bg: #3a2c14; --good-bg: #16301f; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.5 var(--font-body); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+p { margin: 0; }
+.eyebrow { font: 600 11px/1.2 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: #1d4e63; color: #f2f7f9; }
+.top-inner { max-width: 1120px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; margin-right: auto; }
+.brand svg { width: 22px; height: 22px; }
+.brand b { font: 800 19px/1 var(--font-display); font-stretch: 112%; letter-spacing: -.01em; }
+.top a { color: #f2f7f9; font: 600 14px/1 var(--font-body); text-decoration: none; padding: 8px 10px; border-radius: 6px; }
+.top a:hover { background: rgba(255,255,255,.12); }
+main { max-width: 1120px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 48px; display: grid; gap: 32px; }
+.mast { display: grid; gap: 10px; max-width: 760px; }
+.mast h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.02; font-weight: 800; font-stretch: 92%; letter-spacing: -.02em; }
+.mast p { color: var(--muted); font-size: 17px; max-width: 60ch; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.tracker {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px;
+  display: grid; gap: 12px; align-content: start; text-decoration: none; color: inherit; position: relative;
+}
+.tracker:hover { border-color: var(--muted); }
+.tracker h2 { font-size: 22px; line-height: 1.1; font-weight: 760; font-stretch: 95%; }
+.tracker .head { display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+.chip { display: inline-flex; align-items: center; gap: 7px; font: 700 10.5px/1 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; padding: 6px 9px; border-radius: 4px; background: var(--warn-bg); color: var(--warn); }
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.chip[data-level="confirmed"], .chip[data-level="growing"] { background: var(--crit-bg); color: var(--crit); }
+.chip[data-level="resolved"], .chip[data-level="slowing"] { background: var(--good-bg); color: var(--good); }
+.tracker .headline { font-size: 15.5px; }
+.figs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; border-top: 2px solid var(--ink); padding-top: 10px; }
+.fig { display: grid; gap: 2px; min-width: 0; }
+.fig b { font: 800 clamp(22px, 3.2vw, 30px)/1 var(--font-display); font-stretch: 105%; }
+.fig[data-tone="critical"] b { color: var(--crit); }
+.fig span { font-size: 12px; color: var(--muted); line-height: 1.25; }
+.meta { font: 12px/1.4 var(--font-mono); color: var(--muted); display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.open { font-weight: 700; color: var(--accent); }
+.tracker a.stretch::after { content: ""; position: absolute; inset: 0; border-radius: 12px; }
+.wire { list-style: none; margin: 0; padding: 0; display: grid; }
+.wire li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+.wire time { font: 600 12.5px/1.5 var(--font-mono); color: var(--muted); }
+.wire .src { font: 600 10.5px/1 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 3px; }
+.wire a { color: var(--ink); text-decoration: none; font-weight: 700; }
+.wire a:hover { text-decoration: underline; }
+.two { display: grid; gap: 24px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 10px; align-content: start; }
+.card ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.small { font-size: 13px; color: var(--muted); }
+.foot { max-width: 1120px; margin: 0 auto; padding: 0 16px 32px; font-size: 13px; color: var(--muted); display: flex; gap: 6px 16px; flex-wrap: wrap; }
+@media (min-width: 900px) { .two { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <span class="brand"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#f2f7f9" stroke-width="2.2"/><circle cx="12" cy="12" r="5" fill="none" stroke="#f2f7f9" stroke-width="2.2"/><circle cx="12" cy="12" r="2.2" fill="#ff8b80"/></svg><b id="site-name">Outbreak Ledger</b></span>
+    <a href="feed.xml" target="_blank" rel="noopener">RSS</a>
+    <a id="follow-x" href="#" target="_blank" rel="noopener" hidden>Follow</a>
+  </div>
+</header>
+<main>
+  <section class="mast">
+    <p class="eyebrow">Independent outbreak trackers</p>
+    <h1>Every number sourced. Every claim checked.</h1>
+    <p id="tagline">Live trackers for the outbreaks in the news, updated several times a day from official statements and named news outlets.</p>
+  </section>
+
+  <section aria-labelledby="trackers-title" style="display:grid;gap:12px">
+    <h2 class="eyebrow" id="trackers-title">Trackers</h2>
+    <div class="grid" id="grid"><p class="small">Loading trackers…</p></div>
+  </section>
+
+  <section class="two">
+    <div style="display:grid;gap:8px">
+      <h2 class="eyebrow">Latest across all trackers</h2>
+      <ul class="wire" id="wire"></ul>
+    </div>
+    <aside class="card">
+      <h2 class="eyebrow">How these trackers work</h2>
+      <ul>
+        <li>Every fact links to an official statement or a named news outlet.</li>
+        <li>Numbers need an official source or two independent reports.</li>
+        <li>Claims that officials dispute are labelled, never stated as fact.</li>
+        <li>Each tracker shows when it was last checked.</li>
+      </ul>
+      <p class="small">Independent. Not affiliated with any government, health agency or news organisation. Not medical advice.</p>
+    </aside>
+  </section>
+</main>
+<footer class="foot"><span id="foot-name">Outbreak Ledger</span><a href="feed.xml" target="_blank" rel="noopener">RSS feed (all trackers)</a><a href="trackers.json" target="_blank" rel="noopener">Data</a></footer>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const num = (v) => (typeof v === "number" ? v.toLocaleString("en-GB") : v);
+  const short = (iso) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB", { timeZone: "UTC", day: "numeric", month: "short" });
+  function ago(iso) {
+    const mins = Math.round((Date.now() - new Date(iso)) / 6e4);
+    if (mins < 60) return Math.max(mins, 0) + " min ago";
+    const h = Math.round(mins / 60);
+    return h < 48 ? h + " h ago" : Math.round(h / 24) + " days ago";
+  }
+  fetch("trackers.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+    const s = d.site || {};
+    if (s.name) { $("site-name").textContent = s.name; $("foot-name").textContent = s.name; document.title = s.name; }
+    if (s.social && s.social.x) { const x = s.social.x.replace(/^@/, ""); $("follow-x").href = "https://x.com/" + encodeURIComponent(x); $("follow-x").textContent = "Follow @" + x; $("follow-x").hidden = false; }
+    $("grid").innerHTML = d.trackers.map((t) =>
+      `<article class="tracker"><div class="head"><span class="eyebrow">${esc(t.short)}</span><span class="chip" data-level="${esc(t.status.level)}">${esc(t.status.label)}</span></div>` +
+      `<h2><a class="stretch" href="${esc(t.url)}" style="color:inherit;text-decoration:none">${esc(t.title)}</a></h2>` +
+      `<p class="headline">${esc(t.headline)}</p>` +
+      (t.figures.length ? `<div class="figs">${t.figures.map((f) => `<div class="fig" data-tone="${esc(f.tone)}"><b>${esc(num(f.value))}${esc(f.unit || "")}</b><span>${esc(f.label)}</span></div>`).join("")}</div>` : "") +
+      `<div class="meta"><span>Checked ${esc(ago(t.checked))}</span><span class="open">Open tracker →</span></div></article>`).join("");
+    const wire = d.trackers.flatMap((t) => t.latest.map((e) => ({ ...e, t }))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8);
+    $("wire").innerHTML = wire.map((e) => `<li><time datetime="${esc(e.date)}">${esc(short(e.date))}</time><span><span class="src">${esc(e.t.short)}</span><a href="${esc(e.t.url)}#${esc(e.id)}">${esc(e.title)}</a></span></li>`).join("");
+  }).catch(() => { $("grid").innerHTML = `<p class="small">Couldn't load the trackers. Check your connection and reload.</p>`; });
+  if ("serviceWorker" in navigator && /^https:|^http:\/\/localhost/.test(location.href)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

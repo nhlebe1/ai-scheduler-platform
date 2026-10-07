@@ -1,11 +1,11 @@
-name: Deploy Plague Watch
+name: Deploy Outbreak Ledger
 
-# Publishes plague-tracker/ to GitHub Pages whenever it changes.
+# Publishes site/ to GitHub Pages whenever it changes.
 # One-time setup: Settings → Pages → Build and deployment → Source: "GitHub Actions".
 on:
   push:
     branches: [main, claude/plague-tracker-pixel-app-8eidzx]
-    paths: ["plague-tracker/**", ".github/workflows/plague-watch-pages.yml"]
+    paths: ["site/**", ".github/workflows/plague-watch-pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -28,6 +28,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: plague-tracker
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

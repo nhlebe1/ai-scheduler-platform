@@ -1,0 +1,7 @@
+{
+  "name": "Outbreak Ledger",
+  "tagline": "Independent, sourced outbreak trackers. Every claim linked.",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/",
+  "social": { "x": "" },
+  "trackers": ["measles", "ebola", "plague"]
+}

@@ -10,8 +10,8 @@ body { background:var(--bg); color:var(--ink); font-family:"Atkinson Hyperlegibl
 .brand { color:var(--ink); display:flex; align-items:center; gap:14px; }
 .brand i { width:22px; height:22px; border-radius:50%; border:3px solid var(--ink); display:grid; place-items:center; }
 .brand i::after { content:""; width:7px; height:7px; border-radius:50%; background:var(--crit); }
-.chip[data-level="confirmed"] { background:#3a1d1b; color:var(--crit); }
-.chip[data-level="resolved"] { background:#16301f; color:var(--good); }
+.chip[data-level="confirmed"], .chip[data-level="growing"] { background:#3a1d1b; color:var(--crit); }
+.chip[data-level="resolved"], .chip[data-level="slowing"] { background:#16301f; color:var(--good); }
 .chip { display:inline-flex; gap:10px; align-items:center; background:#3a2c14; color:var(--amber); padding:8px 12px; border-radius:4px; font:700 16px/1 "JetBrains Mono",monospace; letter-spacing:.12em; text-transform:uppercase; justify-self:start; }
 .chip::before { content:""; width:9px; height:9px; border-radius:50%; background:currentColor; }
 h1 { font:800 64px/1.02 "Archivo",sans-serif; font-stretch:88%; letter-spacing:-.015em; margin-top:10px; }
@@ -28,7 +28,7 @@ h1 { font:800 64px/1.02 "Archivo",sans-serif; font-stretch:88%; letter-spacing:-
 .cells i { width:22px; height:22px; border-radius:3px; background:var(--cell); }
 .cells i.p { background:#1f5a3a; } .cells i.t { background:var(--ink); }
 </style></head><body>
-<div class="top"><span class="brand"><i></i>Plague Watch · RU</span><span id="updated"></span></div>
+<div class="top"><span class="brand"><i></i><span id="brand"></span></span><span id="updated"></span></div>
 <div>
   <span class="chip" id="chip"></span>
   <h1 id="title"></h1>

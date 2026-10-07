@@ -1,8 +1,23 @@
 {
+  "meta": {
+    "slug": "plague",
+    "title": "Russia Plague Watch",
+    "short": "Plague · Russia",
+    "description": "Independent, sourced tracker of the suspected plague case in Irkutsk, Siberia: live incubation countdown, case counts, WHO risk level, claim check and a dated timeline.",
+    "postLead": "Irkutsk plague watch",
+    "postDay": true,
+    "figuresTitle": "Case count",
+    "hubFigures": [
+      "deaths",
+      "contacts",
+      "confirmed"
+    ],
+    "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
+  },
   "updated": "2026-10-06T21:00:00Z",
   "checked": "2026-10-06T21:15:00Z",
-  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/",
-  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
     "x": ""
   },
@@ -57,7 +72,8 @@
     {
       "id": "no-new-cases",
       "label": "without a new case",
-      "from": "2026-10-02"
+      "from": "2026-10-02",
+      "tone": "good"
     }
   ],
   "figures": [
@@ -66,14 +82,16 @@
       "label": "Deaths",
       "value": 1,
       "note": "Lab worker, died 1–2 Oct",
-      "tone": "critical"
+      "tone": "critical",
+      "upIsBad": true
     },
     {
       "id": "confirmed",
       "label": "Confirmed plague cases",
       "value": 0,
       "note": "None confirmed by Russian authorities",
-      "tone": "neutral"
+      "tone": "neutral",
+      "upIsBad": true
     },
     {
       "id": "contacts",
@@ -95,14 +113,16 @@
       "value": 60,
       "note": "No dangerous pathogens found, Russia told WHO on 6 Oct",
       "tone": "good",
-      "unit": "%"
+      "unit": "%",
+      "display": "meter"
     },
     {
       "id": "symptomatic",
       "label": "Contacts with plague symptoms",
       "value": 0,
       "note": "None, according to Russian authorities and WHO",
-      "tone": "good"
+      "tone": "good",
+      "upIsBad": true
     }
   ],
   "history": [
@@ -173,7 +193,8 @@
     "label": "Incubation watch",
     "lastExposure": "2026-10-02",
     "incubationDays": 7,
-    "explainer": "WHO puts plague incubation at 1–7 days. Contacts were last exposed on or before 2 October. If none fall ill by the end of this window, onward spread from this case becomes very unlikely."
+    "explainer": "WHO puts plague incubation at 1–7 days. Contacts were last exposed on or before 2 October. If none fall ill by the end of this window, onward spread from this case becomes very unlikely.",
+    "closedNote": "The window has closed with no symptomatic contacts reported."
   },
   "claims": [
     {
@@ -614,7 +635,11 @@
         "lon": 117.4,
         "label": "right"
       }
-    ]
+    ],
+    "title": "Russia's 11 natural plague areas",
+    "groupLabels": {
+      "south": "plague areas, Caucasus & Caspian"
+    }
   },
   "context": {
     "stats": [
@@ -655,7 +680,18 @@
         }
       }
     ],
-    "russiaHistory": [
+    "historySources": [
+      {
+        "name": "bne IntelliNews",
+        "url": "https://www.intellinews.com/black-death-hits-russia-it-never-really-went-away-473582/"
+      },
+      {
+        "name": "Problems of Particularly Dangerous Infections (2016)",
+        "url": "https://doaj.org/article/2ebe09f2e5314736b66eb10acce29738"
+      }
+    ],
+    "statsTitle": "How rare is plague?",
+    "history": [
       {
         "year": "2014",
         "text": "Human bubonic case in Kosh-Agach district, Altai Republic, linked to a marmot."
@@ -673,16 +709,8 @@
         "text": "Sailyugem area on the Mongolian border shows high activity. In October, the suspected Irkutsk lab case."
       }
     ],
-    "historySources": [
-      {
-        "name": "bne IntelliNews",
-        "url": "https://www.intellinews.com/black-death-hits-russia-it-never-really-went-away-473582/"
-      },
-      {
-        "name": "Problems of Particularly Dangerous Infections (2016)",
-        "url": "https://doaj.org/article/2ebe09f2e5314736b66eb10acce29738"
-      }
-    ]
+    "historyTitle": "Plague in Russia, recent years",
+    "factsTitle": "About plague"
   },
   "facts": [
     {
@@ -744,5 +772,12 @@
       "deaths": "Death"
     },
     "sources": "WHO, UN News, Rospotrebnadzor, NBC"
+  },
+  "postExtra": "197 contacts monitored, 0 with symptoms.",
+  "map": {
+    "title": "Russia: the case and the country's natural plague areas",
+    "titleShort": "Where",
+    "eventLabel": "Suspected case",
+    "focusLabel": "Natural plague area (approx.)"
   }
 }

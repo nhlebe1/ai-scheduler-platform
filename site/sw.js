@@ -1,7 +1,7 @@
 // Offline support. Same-origin files are network-first so new versions show up right away;
 // the cached copy is used only when offline. Fonts are cache-first.
-const CACHE = "plaguewatch-v3";
-const SHELL = ["./", "index.html", "data.json", "map.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
+const CACHE = "ledger-v1";
+const SHELL = ["./", "index.html", "trackers.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

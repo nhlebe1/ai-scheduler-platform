@@ -1,0 +1,1402 @@
+<!doctype html>
+<html lang="en" data-tracker="{{SLUG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<meta name="theme-color" content="#1d4e63">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{URL}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:image" content="{{IMAGE}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/atom+xml" title="{{TITLE}} updates" href="feed.xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="../icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a surveillance instrument panel. Sticky status strip; Today is a two-column board on desktop
+   (story left, numbers right) that collapses to one prioritised column on phones; bottom tabs on phones. */
+:root {
+  --bg: #e9eef1;
+  --surface: #f7f9fa;
+  --sunk: #dfe6eb;
+  --ink: #14212b;
+  --muted: #566774;
+  --line: #cbd5dc;
+  --accent: #1d4e63;
+  --accent-ink: #f2f7f9;
+  --crit: #b3261e;
+  --warn: #8a5100;
+  --good: #2b7a4b;
+  --crit-bg: #f7e1df;
+  --warn-bg: #f6ead6;
+  --good-bg: #dcefe3;
+  --k-official: #2a78d6;
+  --k-international: #eb6834;
+  --k-media: #1baf7a;
+  --k-background: #8796a2;
+  --water: #d3dee6;
+  --land: #ffffff;
+  --land-other: #edf1f4;
+  --border-map: #7a8f9c;
+  --border-other: #c2ccd3;
+  --seq-1: #cde2fb; --seq-2: #86b6ef; --seq-3: #3987e5; --seq-4: #1c5cab; --seq-5: #0d366b;
+  --bar: #9aa8b3; --bar-hi: #2a78d6;
+  --font-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Roboto Mono", monospace;
+  --nav-h: 64px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151a; --surface: #162028; --sunk: #111a21; --ink: #e4ebef; --muted: #93a4b0; --line: #2a3843;
+    --accent: #7cbcd6; --accent-ink: #0e151a;
+    --crit: #ff8b80; --warn: #f0b357; --good: #72d09a;
+    --crit-bg: #3a1d1b; --warn-bg: #3a2c14; --good-bg: #16301f;
+    --k-official: #3987e5; --k-international: #d95926; --k-media: #199e70; --k-background: #7d8d99;
+    --water: #0b1218; --land: #22303b; --land-other: #18232c; --border-map: #5d7484; --border-other: #2a3843;
+    --seq-1: #133a66; --seq-2: #1c5cab; --seq-3: #2a78d6; --seq-4: #5598e7; --seq-5: #9ec5f4; --bar: #4f6170; --bar-hi: #3987e5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151a; --surface: #162028; --sunk: #111a21; --ink: #e4ebef; --muted: #93a4b0; --line: #2a3843;
+  --accent: #7cbcd6; --accent-ink: #0e151a;
+  --crit: #ff8b80; --warn: #f0b357; --good: #72d09a;
+  --crit-bg: #3a1d1b; --warn-bg: #3a2c14; --good-bg: #16301f;
+  --k-official: #3987e5; --k-international: #d95926; --k-media: #199e70; --k-background: #7d8d99;
+  --water: #0b1218; --land: #22303b; --land-other: #18232c; --border-map: #5d7484; --border-other: #2a3843;
+  --seq-1: #133a66; --seq-2: #1c5cab; --seq-3: #2a78d6; --seq-4: #5598e7; --seq-5: #9ec5f4; --bar: #4f6170; --bar-hi: #3987e5;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.5 var(--font-body);
+  -webkit-text-size-adjust: 100%;
+}
+a { color: var(--accent); text-underline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+p { margin: 0; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.eyebrow {
+  font: 600 11px/1.2 var(--font-mono);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+.card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.small { font-size: 13px; color: var(--muted); }
+.srcs { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13px; }
+.srcs::before { content: "Sources"; font: 600 10.5px/1.9 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+/* Header */
+.top {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: #1d4e63;
+  color: #f2f7f9;
+}
+.top-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; margin-right: auto; }
+:root .brand { color: inherit; }
+.brand-mark { width: 22px; height: 22px; flex: none; }
+.brand b { font: 800 19px/1 var(--font-display); font-stretch: 112%; letter-spacing: -.01em; }
+.brand > span { white-space: nowrap; }
+.brand small { font: 500 11px/1 var(--font-mono); letter-spacing: .1em; opacity: .75; }
+.top-tabs { display: none; gap: 4px; }
+.top-tabs a { color: #cfe2ea; text-decoration: none; font: 600 14px/1 var(--font-body); padding: 9px 12px; border-radius: 6px; }
+.top-tabs a[aria-current="page"] { background: rgba(255,255,255,.14); color: #fff; }
+.actions { display: flex; gap: 8px; }
+.pill-btn {
+  appearance: none;
+  border: 1px solid rgba(242,247,249,.55);
+  background: transparent;
+  color: #f2f7f9;
+  font: 600 13px/1 var(--font-body);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  text-decoration: none;
+}
+:root .pill-btn { color: #f2f7f9; }
+.pill-btn svg { width: 14px; height: 14px; }
+.pill-btn[aria-busy="true"] svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-inline: 16px;
+  padding-block: 20px calc(var(--nav-h) + 28px + env(safe-area-inset-bottom, 0px));
+}
+.view { display: flex; flex-direction: column; gap: 20px; }
+
+/* Today: one prioritised column on phones, two columns on desktop */
+.board { display: flex; flex-direction: column; gap: 20px; }
+.board .col { display: contents; }
+.o-clock { order: 1; } .o-numbers { order: 2; } .o-ladder { order: 3; } .o-risk { order: 4; } .o-map { order: 5; }
+.o-trend { order: 3; } .o-regions { order: 6; }
+.o-claims { order: 6; } .o-watchlist { order: 7; } .o-latest { order: 8; } .o-positions { order: 9; }
+
+/* Hero */
+.hero { display: grid; gap: 14px; padding-block: 4px 8px; }
+.hero .tracker-name { color: var(--ink); }
+.hero-tags { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: 700 11.5px/1 var(--font-mono);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+.chip[data-level="confirmed"] { background: var(--crit-bg); color: var(--crit); }
+.chip[data-level="resolved"] { background: var(--good-bg); color: var(--good); }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.chip.plain { background: var(--sunk); color: var(--ink); }
+.chip.plain::before { display: none; }
+.hero h1 { font-size: clamp(26px, 5.4vw, 44px); line-height: 1.08; font-weight: 760; font-stretch: 90%; letter-spacing: -.015em; max-width: 26ch; }
+.hero .summary { color: var(--muted); max-width: 68ch; }
+.counters { display: flex; gap: 28px; flex-wrap: wrap; }
+.counter { display: grid; gap: 2px; }
+.counter b { font: 800 clamp(44px, 9vw, 64px)/0.95 var(--font-display); font-stretch: 105%; letter-spacing: -.02em; }
+.counter span { font-size: 14px; color: var(--muted); }
+.counter[data-tone="good"] b { color: var(--good); }
+.hero-meta { display: flex; gap: 6px 14px; flex-wrap: wrap; align-items: center; font: 12.5px/1.4 var(--font-mono); color: var(--muted); }
+.stale { background: var(--warn-bg); color: var(--warn); padding: 1px 6px; border-radius: 3px; font-weight: 600; }
+.ghost-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font: 600 13px/1 var(--font-body);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.ghost-btn:hover { border-color: var(--muted); }
+
+/* Since your last visit */
+.visit { border-left: 4px solid var(--accent); }
+.visit ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.visit .up-to-date { color: var(--muted); }
+
+/* Countdown */
+.clock-face { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.clock-digits { font: 600 clamp(30px, 6vw, 40px)/1 var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.clock-digits small { font-size: .45em; color: var(--muted); margin: 0 6px 0 2px; letter-spacing: 0; }
+.days { display: grid; grid-template-columns: repeat(var(--n, 7), 1fr); gap: 4px; }
+.day {
+  height: 36px;
+  border-radius: 4px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  display: grid;
+  place-items: center;
+  font: 600 11px/1.1 var(--font-mono);
+  color: var(--muted);
+  text-align: center;
+}
+.day[data-state="past"] { background: var(--good-bg); border-color: transparent; color: var(--good); }
+.day[data-state="today"] { background: var(--ink); border-color: transparent; color: var(--surface); }
+.clock-foot { display: flex; justify-content: space-between; font: 12px/1.3 var(--font-mono); color: var(--muted); gap: 8px; flex-wrap: wrap; }
+
+/* Ladder */
+.ladder { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, 1fr); gap: 0; position: relative; }
+.ladder li { display: grid; justify-items: center; gap: 6px; text-align: center; position: relative; padding-top: 2px; }
+.ladder li::before {
+  content: ""; position: absolute; top: 15px; left: -50%; width: 100%; height: 2px; background: var(--line); z-index: 0;
+}
+.ladder li:first-child::before { display: none; }
+.ladder li[data-state="past"]::before, .ladder li[data-state="now"]::before { background: var(--ink); }
+.ladder .dot {
+  width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; position: relative; z-index: 1;
+  font: 700 12px/1 var(--font-mono); background: var(--surface); border: 2px solid var(--line); color: var(--muted);
+}
+.ladder [data-state="past"] .dot { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.ladder [data-state="now"] .dot { background: var(--warn); border-color: var(--warn); color: var(--surface); box-shadow: 0 0 0 5px var(--warn-bg); }
+.ladder .lbl { font-size: 11.5px; line-height: 1.2; color: var(--muted); max-width: 9ch; }
+.ladder [data-state="now"] .lbl { color: var(--ink); font-weight: 700; }
+.ladder-note { display: grid; gap: 4px; font-size: 14px; }
+.ladder-note b { font-weight: 700; }
+
+/* Numbers */
+.ledger { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.ledger li {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr) auto;
+  gap: 2px 12px;
+  align-items: baseline;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+}
+.ledger .dot { width: 10px; height: 10px; border-radius: 2px; background: var(--k-background); align-self: center; }
+.ledger [data-tone="critical"] .dot { background: var(--crit); }
+.ledger [data-tone="watch"] .dot { background: var(--warn); }
+.ledger [data-tone="good"] .dot { background: var(--good); }
+.ledger .lbl { font-weight: 700; min-width: 0; }
+.ledger .val { font: 800 28px/1 var(--font-display); font-stretch: 108%; font-variant-numeric: tabular-nums; text-align: right; }
+.ledger [data-tone="critical"] .val { color: var(--crit); }
+.ledger .note { grid-column: 2 / 3; font-size: 13px; color: var(--muted); }
+.ledger .delta { grid-column: 3 / 4; font: 11.5px/1.3 var(--font-mono); color: var(--muted); text-align: right; white-space: nowrap; }
+.ledger .delta[data-dir="up-bad"] { color: var(--crit); }
+.meter { display: grid; gap: 6px; }
+.meter-track { height: 10px; border-radius: 5px; background: var(--good-bg); overflow: hidden; }
+.meter-fill { height: 100%; background: var(--good); border-radius: 5px; }
+.meter-legend { display: flex; justify-content: space-between; font: 12px/1.3 var(--font-mono); color: var(--muted); gap: 8px; }
+
+/* Risk */
+.risk { display: grid; gap: 12px; }
+.risk-row { display: grid; grid-template-columns: minmax(0, 9.5em) minmax(0, 1fr); gap: 6px 12px; align-items: center; }
+.risk-row .area { font-weight: 700; font-size: 14px; }
+.risk-track { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; }
+.risk-track i { height: 12px; background: var(--sunk); border-radius: 2px; }
+.risk-track i.on { background: var(--ink); }
+.risk-row .lvl { grid-column: 2; font: 12px/1.2 var(--font-mono); color: var(--muted); }
+.risk-scale { display: grid; grid-template-columns: minmax(0, 9.5em) minmax(0, 1fr); gap: 12px; }
+.risk-scale div { display: flex; justify-content: space-between; font: 10.5px/1 var(--font-mono); color: var(--muted); grid-column: 2; }
+
+/* Map */
+.map-wrap { position: relative; border-radius: 8px; overflow: hidden; background: var(--water); }
+.map-wrap svg { display: block; width: 100%; height: auto; }
+.m-water { fill: var(--water); }
+.m-other { fill: var(--land-other); stroke: var(--border-other); stroke-width: .7; }
+.m-russia { fill: var(--land); stroke: var(--border-map); stroke-width: 1; }
+.m-lake { fill: var(--water); }
+.m-label { fill: var(--ink); font-family: var(--font-body); font-weight: 700; paint-order: stroke; stroke: var(--land); stroke-width: 3px; stroke-linejoin: round; }
+.m-label.soft { fill: var(--muted); font-weight: 400; font-style: italic; stroke: var(--water); }
+.m-focus { fill: var(--surface); stroke: var(--k-background); stroke-width: 2; }
+.m-event { fill: var(--crit); stroke: var(--land); stroke-width: 2; }
+.m-pulse { fill: none; stroke: var(--crit); stroke-width: 2; transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+@keyframes pulse { from { transform: scale(1); opacity: .9; } to { transform: scale(3.2); opacity: 0; } }
+.mk { cursor: pointer; }
+.m-region { stroke: var(--surface); stroke-width: .8; cursor: pointer; fill: var(--land); }
+.m-region.has-0 { fill: var(--land); }
+.m-region.s1 { fill: var(--seq-1); } .m-region.s2 { fill: var(--seq-2); } .m-region.s3 { fill: var(--seq-3); }
+.m-region.s4 { fill: var(--seq-4); } .m-region.s5 { fill: var(--seq-5); }
+.m-region:hover, .m-region:focus-visible { stroke: var(--ink); stroke-width: 2; outline: none; }
+.regions-map .m-russia { display: none; }
+.lg-swatch { width: 14px; height: 10px; border-radius: 2px; display: inline-block; border: 1px solid var(--line); }
+.rtable { width: 100%; border-collapse: collapse; font-size: 14px; }
+.rtable th { text-align: left; font: 600 10.5px/1.2 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 6px 0; border-bottom: 2px solid var(--ink); }
+.rtable td { padding: 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.rtable td.num, .rtable th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.rtable td .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: baseline; }
+.rtable .bar { display: block; height: 4px; border-radius: 2px; background: var(--seq-3); margin-top: 4px; }
+.trend svg { display: block; width: 100%; height: auto; overflow: visible; }
+.trend .t-bar { fill: var(--bar); }
+.trend .t-bar.hi { fill: var(--bar-hi); }
+.trend .t-hit { fill: transparent; cursor: default; }
+.trend .t-hit:hover + .t-bar, .trend .t-hit:focus + .t-bar { fill: var(--ink); }
+.trend .t-grid { stroke: var(--line); stroke-width: 1; }
+.trend .t-axis { stroke: var(--muted); stroke-width: 1; }
+.trend text { fill: var(--muted); font: 11px var(--font-mono); }
+.trend text.t-val { fill: var(--ink); font-weight: 600; }
+.trend-readout { font: 13px/1.4 var(--font-mono); color: var(--ink); min-height: 1.4em; }
+.trend details summary { padding: 6px 0; font-size: 13px; }
+.trend details:first-of-type { border-top: 0; }
+.compact .mk.focus text, .compact .m-label.soft.cluster { display: none; }
+.mk:focus { outline: none; }
+.mk:focus-visible .m-focus, .mk:focus-visible .m-event { stroke: var(--accent); stroke-width: 3; }
+.map-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); align-items: center; }
+.map-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.lg-event { width: 11px; height: 11px; border-radius: 50%; background: var(--crit); }
+.lg-focus { width: 11px; height: 11px; border-radius: 50%; border: 2px solid var(--k-background); background: var(--surface); }
+.map-info { background: var(--sunk); border-radius: 8px; padding: 12px 14px; display: grid; gap: 4px; font-size: 14px; }
+.map-info b { font-size: 15px; }
+
+/* Claims */
+.claims { list-style: none; margin: 0; padding: 0; display: grid; }
+.claims li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+.claims li:first-child { border-top: 0; padding-top: 0; }
+.verdict {
+  grid-row: span 3;
+  align-self: start;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  width: 78px;
+  font: 700 10px/1.1 var(--font-mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--muted);
+}
+.verdict i {
+  width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
+  font: 800 15px/1 var(--font-body); font-style: normal; background: var(--sunk); color: var(--ink);
+}
+.verdict[data-s="confirmed"] i { background: var(--ink); color: var(--surface); }
+.verdict[data-s="unconfirmed"] i, .verdict[data-s="disputed"] i { background: var(--warn-bg); color: var(--warn); }
+.verdict[data-s="no-evidence"] i { background: var(--good-bg); color: var(--good); }
+.verdict[data-s="denied"] i, .verdict[data-s="false"] i { background: var(--crit-bg); color: var(--crit); }
+.claims .claim { font-weight: 700; }
+.claims .detail { font-size: 14px; color: var(--muted); }
+
+/* Watchlist */
+.wl { list-style: none; margin: 0; padding: 0; display: grid; }
+.wl li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 2px 10px; padding: 10px 0; border-top: 1px solid var(--line); align-items: start; }
+.wl li:first-child { border-top: 0; padding-top: 0; }
+.wl .box { width: 18px; height: 18px; border-radius: 4px; border: 2px solid var(--muted); margin-top: 2px; display: grid; place-items: center; font: 800 12px/1 var(--font-body); }
+.wl [data-status="done"] .box { background: var(--good); border-color: var(--good); color: var(--surface); }
+.wl [data-status="done"] .what { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+.wl .what { font-weight: 700; font-size: 15px; }
+.wl .when { font: 12px/1.3 var(--font-mono); color: var(--muted); text-align: right; white-space: nowrap; }
+.wl .when b { display: block; color: var(--ink); }
+.wl .note { grid-column: 2 / -1; font-size: 13px; color: var(--muted); }
+
+/* Kind chips */
+.kind {
+  font: 600 10.5px/1 var(--font-mono);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+.kind::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--k-background); }
+.kind[data-kind="official"]::before { background: var(--k-official); }
+.kind[data-kind="international"]::before { background: var(--k-international); }
+.kind[data-kind="media"]::before { background: var(--k-media); }
+
+/* Positions */
+.positions { display: grid; gap: 14px; }
+.position { border-left: 3px solid var(--k-background); padding: 2px 0 2px 12px; display: grid; gap: 4px; }
+.position[data-kind="official"] { border-color: var(--k-official); }
+.position[data-kind="international"] { border-color: var(--k-international); }
+.position[data-kind="media"] { border-color: var(--k-media); }
+.position h3 { font-size: 16px; font-weight: 700; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.position h3 .ru { font: 400 13px/1 var(--font-body); color: var(--muted); }
+.position p { font-size: 15px; }
+
+/* Timeline */
+.filters { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.filters button {
+  appearance: none; flex: none; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font: 600 13px/1 var(--font-body); padding: 8px 12px; border-radius: 999px; cursor: pointer;
+}
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tl { list-style: none; margin: 0; padding: 0; display: grid; }
+.tl li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 80px; }
+.tl li.flash { animation: flash 2.2s ease-out; }
+@keyframes flash { from { background: var(--warn-bg); } to { background: transparent; } }
+.tl time { font: 600 13px/1.25 var(--font-mono); padding-top: 2px; }
+.tl time span { display: block; color: var(--muted); font-weight: 400; font-size: 11px; }
+.tl .entry { display: grid; gap: 6px; min-width: 0; }
+.tl h3 { font-size: 18px; font-weight: 700; line-height: 1.25; font-stretch: 96%; }
+.tl p { font-size: 15px; max-width: 70ch; }
+.tl .meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.tl .row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.new { font: 700 10px/1 var(--font-mono); letter-spacing: .1em; background: var(--crit); color: var(--surface); padding: 3px 5px; border-radius: 3px; }
+.link-btn { appearance: none; background: none; border: 0; padding: 0; font: 600 13px/1.4 var(--font-body); color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.latest { list-style: none; margin: 0; padding: 0; display: grid; }
+.latest li { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); }
+.latest li:first-child { border-top: 0; padding-top: 0; }
+.latest time { font: 600 12px/1.4 var(--font-mono); color: var(--muted); }
+.latest a { font-weight: 700; color: var(--ink); text-decoration: none; }
+.latest a:hover { text-decoration: underline; }
+
+/* Places & foci lists */
+.places { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); }
+.place { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.place h3 { font-size: 17px; font-weight: 700; }
+.place .ru { color: var(--muted); font-size: 13px; }
+.place .region { font: 12px/1.4 var(--font-mono); color: var(--muted); }
+.place p { margin: 4px 0 6px; font-size: 15px; }
+.maps { font-weight: 700; font-size: 14px; justify-self: start; }
+.foci { list-style: none; margin: 0; padding: 0; columns: 2 260px; column-gap: 24px; }
+.foci li { break-inside: avoid; padding: 8px 0; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.foci .ru { font-size: 13px; color: var(--muted); }
+
+/* Context */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 6px; align-content: start; }
+.tile b { font: 800 40px/1 var(--font-display); font-stretch: 105%; }
+.tile .lbl { font-weight: 700; }
+.tile .note { font-size: 13px; color: var(--muted); }
+.tile a { font-size: 12px; }
+.years { list-style: none; margin: 0; padding: 0; display: grid; }
+.years li { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.years b { font: 700 15px/1.4 var(--font-mono); }
+details { border-bottom: 1px solid var(--line); }
+details:first-of-type { border-top: 2px solid var(--ink); }
+summary { cursor: pointer; padding: 14px 0; font-weight: 700; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; font: 400 20px/1 var(--font-mono); color: var(--muted); }
+details[open] summary::after { content: "−"; }
+details p { margin: 0 0 14px; max-width: 68ch; }
+.links { list-style: none; margin: 0; padding: 0; display: grid; }
+.links a { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; font-weight: 700; }
+.links a::after { content: "↗"; font-family: var(--font-mono); color: var(--muted); }
+.prose { display: grid; gap: 10px; max-width: 68ch; }
+.prose ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.two { display: grid; gap: 20px; }
+.foot { max-width: 1120px; margin: 0 auto; padding: 0 16px calc(var(--nav-h) + 24px + env(safe-area-inset-bottom, 0px)); font-size: 13px; color: var(--muted); display: flex; gap: 6px 16px; flex-wrap: wrap; }
+
+/* Bottom tabs (phones) */
+.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.tabs-inner { max-width: 720px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); height: var(--nav-h); }
+.tabs a { display: grid; place-items: center; align-content: center; gap: 3px; text-decoration: none; color: var(--muted); font: 600 12px/1 var(--font-body); }
+:root .tabs a { color: var(--muted); }
+.tabs svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+:root .tabs a[aria-current="page"] { color: var(--ink); }
+.tabs a[aria-current="page"] svg { stroke-width: 2.4; }
+
+.toast {
+  position: fixed; left: 50%; bottom: calc(var(--nav-h) + 16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 6; max-width: calc(100% - 32px);
+}
+.loading { color: var(--muted); padding: 32px 0; }
+
+@media (min-width: 900px) {
+  .top-tabs { display: flex; }
+  .tabs { display: none; }
+  main { padding-block: 28px 40px; }
+  .foot { padding-bottom: 32px; }
+  .toast { bottom: 24px; }
+  .board { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+  .board .col { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+  .two { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; }
+}
+@media (max-width: 480px) {
+  #refresh span { display: none; }
+  .brand small { display: none; }
+}
+@media (max-width: 420px) {
+  .ladder .lbl { font-size: 10.5px; }
+  .verdict { width: 64px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .m-pulse { animation: none; opacity: 0; }
+  .pill-btn[aria-busy="true"] svg { animation: none; }
+  .tl li.flash { animation: none; background: var(--warn-bg); }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="../" aria-label="{{SITE_NAME}}: all trackers">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#f2f7f9" stroke-width="2.2"/><circle cx="12" cy="12" r="5" fill="none" stroke="#f2f7f9" stroke-width="2.2"/><circle cx="12" cy="12" r="2.2" fill="#ff8b80"/></svg>
+      <span><b>{{SITE_NAME}}</b> <small>{{SHORT}}</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="Sections">
+      <a href="#today" data-tab="today">Today</a>
+      <a href="#timeline" data-tab="timeline">Timeline</a>
+      <a href="#map" data-tab="map">Map</a>
+      <a href="#context" data-tab="context">Context</a>
+    </nav>
+    <div class="actions">
+      <a class="pill-btn" id="follow-x" href="#" target="_blank" rel="noopener" hidden>Follow</a>
+      <button class="pill-btn" id="share" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+        Share
+      </button>
+      <button class="pill-btn" id="refresh" type="button" aria-label="Check for updates">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+        <span>Refresh</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="loading" id="loading">Loading the latest situation report…</div>
+
+  <!-- TODAY -->
+  <div class="view" id="view-today" hidden>
+    <section class="hero" aria-labelledby="headline">
+      <p class="eyebrow tracker-name" id="tracker-title"></p>
+      <div class="hero-tags">
+        <span class="chip" id="status-chip"></span>
+        <span class="chip plain" id="stage-chip"></span>
+      </div>
+      <div class="counters" id="counters"></div>
+      <h1 id="headline"></h1>
+      <p class="summary" id="summary"></p>
+      <div class="hero-meta">
+        <span id="hero-updated"></span>
+        <button class="ghost-btn" id="copy-post" type="button">Copy today's update</button>
+      </div>
+    </section>
+
+    <section class="card visit" id="visit" aria-label="Changes since your last visit" hidden></section>
+
+    <div class="board">
+      <div class="col">
+        <section class="card o-clock" aria-labelledby="clock-title" id="clock"></section>
+        <section class="card o-trend trend" aria-labelledby="trend-title" id="trend-card" hidden>
+          <div class="card-head"><h2 class="eyebrow" id="trend-title"></h2><span class="small" id="trend-unit"></span></div>
+          <div id="trend"></div>
+        </section>
+        <section class="card o-ladder" aria-labelledby="ladder-title" id="ladder-card">
+          <div class="card-head"><h2 class="eyebrow" id="ladder-title">Escalation stage</h2><span class="small" id="ladder-since"></span></div>
+          <ol class="ladder" id="ladder"></ol>
+          <div class="ladder-note" id="ladder-note"></div>
+        </section>
+        <section class="card o-map" aria-labelledby="map-title-today" id="map-card">
+          <div class="card-head"><h2 class="eyebrow" id="map-title-today">Where</h2><a class="small" href="#map">Open full map</a></div>
+          <div class="map-wrap" data-map="today"></div>
+          <div class="map-legend" data-legend="today"></div>
+          <div class="map-info" data-info="today" hidden></div>
+        </section>
+        <section class="card o-claims" aria-labelledby="claims-title" id="claims-card">
+          <h2 class="eyebrow" id="claims-title">Claim check</h2>
+          <ul class="claims" id="claims"></ul>
+        </section>
+        <section class="card o-latest" aria-labelledby="latest-title" id="latest-card">
+          <div class="card-head"><h2 class="eyebrow" id="latest-title">Latest updates</h2><a class="small" href="#timeline" id="all-updates">Full timeline</a></div>
+          <ol class="latest" id="latest"></ol>
+        </section>
+      </div>
+      <div class="col">
+        <section class="card o-numbers" aria-labelledby="fig-title">
+          <h2 class="eyebrow" id="fig-title">Case count</h2>
+          <ul class="ledger" id="ledger"></ul>
+          <div class="meter" id="meter"></div>
+        </section>
+        <section class="card o-regions" aria-labelledby="regions-title-today" id="regions-card-today" hidden>
+          <div class="card-head"><h2 class="eyebrow" id="regions-title-today"></h2><a class="small" href="#map">All</a></div>
+          <table class="rtable" id="regions-today"></table>
+        </section>
+        <section class="card o-risk" aria-labelledby="risk-title">
+          <div class="card-head"><h2 class="eyebrow" id="risk-title">WHO risk level</h2><span class="small" id="risk-date"></span></div>
+          <div class="risk" id="risk"></div>
+        </section>
+        <section class="card o-watchlist" aria-labelledby="wl-title" id="wl-card">
+          <h2 class="eyebrow" id="wl-title">What to watch</h2>
+          <ul class="wl" id="watchlist"></ul>
+        </section>
+        <section class="card o-positions" aria-labelledby="pos-title" id="pos-card">
+          <h2 class="eyebrow" id="pos-title">Who says what</h2>
+          <div class="positions" id="positions"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="view" id="view-timeline" hidden>
+    <section class="two">
+      <div style="display:grid;gap:12px;min-width:0">
+        <h2 class="eyebrow">Timeline · newest first</h2>
+        <div class="filters" id="filters" role="toolbar" aria-label="Filter by source"></div>
+        <ol class="tl" id="timeline"></ol>
+      </div>
+      <aside class="card" aria-label="How to read the timeline">
+        <h2 class="eyebrow">Source types</h2>
+        <div class="prose small">
+          <p><span class="kind" data-kind="official">Official</span> Russian federal or regional authorities.</p>
+          <p><span class="kind" data-kind="international">International</span> WHO, UN, EU and foreign governments.</p>
+          <p><span class="kind" data-kind="media">Media report</span> Claims reported by news outlets but not confirmed by authorities.</p>
+          <p><span class="kind" data-kind="background">Background</span> Context that predates the case.</p>
+          <p>Every entry links to its sources. Tap "Copy link" on any entry to share that exact update.</p>
+        </div>
+      </aside>
+    </section>
+  </div>
+
+  <!-- MAP -->
+  <div class="view" id="view-map" hidden>
+    <section class="card" aria-labelledby="map-title">
+      <div class="card-head"><h2 class="eyebrow" id="map-title"></h2></div>
+      <div class="map-wrap" data-map="full"></div>
+      <div class="map-legend" data-legend="full"></div>
+      <div class="map-info" data-info="full" hidden></div>
+    </section>
+    <section class="card" id="regions-card" hidden>
+      <div class="card-head"><h2 class="eyebrow" id="regions-title"></h2><span class="small" id="regions-asof"></span></div>
+      <table class="rtable" id="regions-table"></table>
+      <p class="small" id="regions-note"></p>
+      <div class="srcs" id="regions-srcs"></div>
+    </section>
+    <section id="places-card">
+      <h2 class="eyebrow" style="margin-bottom:12px">Places in this story</h2>
+      <ul class="places" id="places"></ul>
+    </section>
+    <section class="card" id="foci-card">
+      <h2 class="eyebrow" id="foci-title"></h2>
+      <p class="small" id="foci-note"></p>
+      <ul class="foci" id="foci"></ul>
+      <div class="srcs" id="foci-srcs"></div>
+    </section>
+  </div>
+
+  <!-- CONTEXT -->
+  <div class="view" id="view-context" hidden>
+    <section style="display:grid;gap:12px" id="tiles-card">
+      <h2 class="eyebrow" id="tiles-title"></h2>
+      <div class="tiles" id="tiles"></div>
+    </section>
+    <section class="two">
+      <div class="card" id="years-card">
+        <h2 class="eyebrow" id="years-title"></h2>
+        <ul class="years" id="years"></ul>
+        <div class="srcs" id="years-srcs"></div>
+      </div>
+      <div class="card">
+        <h2 class="eyebrow">How this tracker works</h2>
+        <div class="prose">
+          <ul>
+            <li>Every fact links to an official statement or a named news outlet.</li>
+            <li>Numbers need an official source or two independent reports.</li>
+            <li>Claims that officials dispute are labelled, never stated as fact.</li>
+            <li>Sources are checked every few hours. The header shows when.</li>
+          </ul>
+          <p class="small">Independent. Not affiliated with any government, health agency or news organisation.</p>
+        </div>
+      </div>
+    </section>
+    <section id="facts-card">
+      <h2 class="eyebrow" id="facts-title"></h2>
+      <div id="facts"></div>
+    </section>
+    <section class="two">
+      <div>
+        <h2 class="eyebrow">Follow live coverage</h2>
+        <ul class="links" id="follow"></ul>
+      </div>
+      <div>
+        <h2 class="eyebrow">Get updates</h2>
+        <ul class="links">
+          <li><a href="feed.xml" target="_blank" rel="noopener">RSS / Atom feed</a></li>
+          <li><a href="data.json" target="_blank" rel="noopener">Open data (JSON)</a></li>
+        </ul>
+      </div>
+    </section>
+    <p class="small" style="max-width:68ch" id="disclaimer"></p>
+  </div>
+</main>
+
+<footer class="foot" id="foot"></footer>
+
+<nav class="tabs" aria-label="Sections">
+  <div class="tabs-inner">
+    <a href="#today" data-tab="today"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>Today</a>
+    <a href="#timeline" data-tab="timeline"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4v16"/><circle cx="6" cy="7" r="1.6"/><circle cx="6" cy="13" r="1.6"/><path d="M10 7h9M10 13h7M10 18h9"/></svg>Timeline</a>
+    <a href="#map" data-tab="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11a6.5 6.5 0 0 1 13 0c0 4.9-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>Map</a>
+    <a href="#context" data-tab="context"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v6"/><circle cx="12" cy="7.6" r=".6" fill="currentColor"/></svg>Context</a>
+  </div>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+(() => {
+  const SLUG = document.documentElement.dataset.tracker || "tracker";
+  const TABS = ["today", "timeline", "map", "context"];
+  const ALIASES = { overview: "today", places: "map", learn: "context" };
+  const KIND_LABEL = { official: "Official", international: "International", media: "Media report", background: "Background" };
+  const VERDICT = {
+    confirmed: ["✓", "Confirmed"], unconfirmed: ["?", "Unconfirmed"], disputed: ["!", "Disputed"],
+    "no-evidence": ["∅", "No evidence"], denied: ["✕", "Denied"], false: ["✕", "False"],
+  };
+  const VISIT_KEY = "ledger.visit." + SLUG;
+  const DAY_MS = 864e5;
+  const $ = (id) => document.getElementById(id);
+  let data = null, mapData = null, mapPromise = null, filter = "all", visit = null, clockTimer = null, firstRender = true;
+
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const day = (iso) => new Date(iso + "T00:00:00Z");
+  const fmt = (d, opts) => d.toLocaleDateString("en-GB", { timeZone: "UTC", ...opts });
+  const short = (iso) => fmt(day(iso), { day: "numeric", month: "short" });
+  const todayUTC = () => { const n = new Date(); return Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate()); };
+  const daysSince = (iso) => Math.max(0, Math.floor((todayUTC() - day(iso)) / DAY_MS));
+  const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
+  const num = (v) => (typeof v === "number" ? v.toLocaleString("en-GB") : v);
+  const fmtVal = (f) => num(f.value) + (f.unit || "");
+  const srcLinks = (list) => (list || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("");
+  const isFramed = (() => { try { return window.top !== window.self; } catch { return true; } })();
+  const meta = () => (data && data.meta) || {};
+  const baseUrl = () => (isFramed && data && data.shareUrl) || location.href.split("#")[0];
+  const show = (id, on) => { const el = $(id); if (el) el.hidden = !on; };
+
+  function ago(iso) {
+    const mins = Math.round((Date.now() - new Date(iso)) / 6e4);
+    if (mins < 1) return "just now";
+    if (mins < 60) return mins + " min ago";
+    const h = Math.round(mins / 60);
+    if (h < 48) return h + " h ago";
+    return Math.round(h / 24) + " days ago";
+  }
+  function toast(msg) {
+    const t = $("toast");
+    t.textContent = msg;
+    t.hidden = false;
+    clearTimeout(toast.timer);
+    toast.timer = setTimeout(() => { t.hidden = true; }, 3200);
+  }
+  async function copy(text, done) {
+    try { await navigator.clipboard.writeText(text); toast(done); }
+    catch { toast("Copy this: " + text); }
+  }
+
+  /* ---------- Visit tracking: what changed since this viewer last saw new data ---------- */
+  function snapshot(d) {
+    const figures = {};
+    for (const f of d.figures) figures[f.id] = fmtVal(f);
+    return { at: new Date().toISOString(), updated: d.updated, stage: d.stage ? d.stage.current : null, figures, entries: d.timeline.map((e) => e.id) };
+  }
+  function trackVisit(d) {
+    const stored = store.get(VISIT_KEY);
+    const cur = snapshot(d);
+    if (!stored || !stored.cur) visit = { prev: null, cur };
+    else if (stored.cur.updated !== d.updated) visit = { prev: stored.cur, cur };
+    else visit = stored;
+    store.set(VISIT_KEY, visit);
+  }
+  const isNewEntry = (e) => !!(visit && visit.prev && !visit.prev.entries.includes(e.id));
+
+  /* ---------- Today ---------- */
+  function renderHero() {
+    $("tracker-title").textContent = meta().title || "";
+    const chip = $("status-chip");
+    chip.dataset.level = data.status.level;
+    chip.textContent = data.status.label;
+    const st = data.stage, lad = data.ladder || [];
+    const step = lad.find((s) => s.n === (st && st.current));
+    $("stage-chip").textContent = step ? `Stage ${step.n} of ${lad.length}: ${step.label}` : "";
+    $("stage-chip").hidden = !step;
+    $("counters").innerHTML = (data.counters || []).map((c) => {
+      const n = daysSince(c.from);
+      return `<div class="counter"${c.tone ? ` data-tone="${esc(c.tone)}"` : ""}><b>${n}</b><span>${esc(n === 1 ? "day" : "days")} ${esc(c.label)}</span></div>`;
+    }).join("");
+    $("headline").textContent = data.headline;
+    $("summary").textContent = data.status.summary;
+    renderUpdated();
+  }
+
+  function renderUpdated() {
+    const checked = data.checked || data.updated;
+    const stale = Date.now() - new Date(checked) > 2 * DAY_MS;
+    const when = new Date(data.updated).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" });
+    const html = `Updated ${esc(when)} UTC · checked ${esc(ago(checked))}` + (stale ? ` <span class="stale">May be out of date</span>` : "");
+    $("hero-updated").innerHTML = html;
+    $("foot").innerHTML = `<span>${esc(meta().title || "")} · independent, sourced tracker</span><span>Updated ${esc(when)} UTC · checked ${esc(ago(checked))}</span><a href="../">All trackers</a><a href="feed.xml" target="_blank" rel="noopener">RSS</a><a href="data.json" target="_blank" rel="noopener">Data</a>`;
+  }
+
+  function renderVisit() {
+    const el = $("visit");
+    if (!visit || !visit.prev) { el.hidden = true; return; }
+    const p = visit.prev, items = [];
+    const fresh = data.timeline.filter(isNewEntry).sort((a, b) => b.date.localeCompare(a.date));
+    for (const e of fresh.slice(0, 4)) items.push(`<li><a href="#${esc(e.id)}">${esc(e.title)}</a> <span class="small">${esc(short(e.date))}</span></li>`);
+    if (fresh.length > 4) items.push(`<li>and ${fresh.length - 4} more in the <a href="#timeline">timeline</a></li>`);
+    for (const f of data.figures) {
+      const before = p.figures[f.id], now = fmtVal(f);
+      if (before === undefined) items.push(`<li>New figure: <b>${esc(f.label)}</b> ${esc(now)}</li>`);
+      else if (before !== now) items.push(`<li><b>${esc(f.label)}</b>: ${esc(before)} → ${esc(now)}</li>`);
+    }
+    if (data.stage && p.stage !== null && p.stage !== data.stage.current) {
+      const s = (data.ladder || []).find((x) => x.n === data.stage.current);
+      items.push(`<li><b>Stage changed</b>: ${esc(p.stage)} → ${esc(data.stage.current)}${s ? " (" + esc(s.label) + ")" : ""}</li>`);
+    }
+    const seen = new Date(p.at).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    el.innerHTML = `<div class="card-head"><h2 class="eyebrow">Since your last visit</h2><span class="small">You last saw an update on ${esc(seen)}</span></div>` +
+      (items.length ? `<ul>${items.join("")}</ul>` : `<p class="up-to-date">Sources were re-checked; nothing material changed.</p>`);
+    el.hidden = false;
+  }
+
+  function windowEnd() {
+    const w = data.watch;
+    return new Date(+day(w.lastExposure) + (w.incubationDays + 1) * DAY_MS); // end of the last day, UTC
+  }
+  function renderClock() {
+    const w = data.watch;
+    show("clock", !!w);
+    clearInterval(clockTimer);
+    if (!w) return;
+    const start = day(w.lastExposure), end = windowEnd();
+    const n = Math.floor((todayUTC() - start) / DAY_MS);
+    let cells = "";
+    for (let i = 1; i <= w.incubationDays; i++) {
+      const d = new Date(+start + i * DAY_MS);
+      const state = i < n ? "past" : i === n ? "today" : "future";
+      cells += `<div class="day" data-state="${state}" title="${esc(fmt(d, { weekday: "long", day: "numeric", month: "long" }))}">${esc(fmt(d, { weekday: "narrow" }))}<br>${d.getUTCDate()}</div>`;
+    }
+    const closed = Date.now() >= end;
+    $("clock").innerHTML =
+      `<div class="card-head"><h2 class="eyebrow" id="clock-title">${esc(w.label)}</h2><span class="small">${closed ? "Closed" : n >= 1 ? `Day ${Math.min(n, w.incubationDays)} of ${w.incubationDays}` : "Not started"}</span></div>` +
+      `<div class="clock-face"><div class="clock-digits" id="clock-digits" aria-live="off"></div><span class="small" id="clock-caption"></span></div>` +
+      `<div class="days" style="--n:${w.incubationDays}" role="img" aria-label="Window from ${esc(fmt(start, { day: "numeric", month: "long" }))} to the end of ${esc(fmt(new Date(+end - DAY_MS), { day: "numeric", month: "long" }))}">${cells}</div>` +
+      `<div class="clock-foot"><span>Last exposure ${esc(short(w.lastExposure))}</span><span>Closes end of ${esc(fmt(new Date(+end - DAY_MS), { weekday: "short", day: "numeric", month: "short" }))} UTC</span></div>` +
+      `<p class="small">${esc(w.explainer)}${closed && w.closedNote ? " " + esc(w.closedNote) : ""}</p>`;
+    tickClock();
+    if (!closed) clockTimer = setInterval(tickClock, 1000);
+  }
+  function tickClock() {
+    const el = $("clock-digits");
+    if (!el || !data || !data.watch) return;
+    let ms = +windowEnd() - Date.now();
+    if (ms <= 0) { el.textContent = "Closed"; $("clock-caption").textContent = ""; clearInterval(clockTimer); return; }
+    const d = Math.floor(ms / DAY_MS); ms -= d * DAY_MS;
+    const h = Math.floor(ms / 36e5); ms -= h * 36e5;
+    const m = Math.floor(ms / 6e4); ms -= m * 6e4;
+    const s = Math.floor(ms / 1e3);
+    const p = (x) => String(x).padStart(2, "0");
+    el.innerHTML = `${d}<small>d</small>${p(h)}<small>h</small>${p(m)}<small>m</small>${p(s)}<small>s</small>`;
+    $("clock-caption").textContent = "until the window closes";
+  }
+
+  function renderLadder() {
+    const lad = data.ladder || [], cur = data.stage ? data.stage.current : 0;
+    show("ladder-card", lad.length > 0 && !!data.stage);
+    if (!lad.length) return;
+    $("ladder-title").textContent = (data.stage && data.stage.title) || "Escalation stage";
+    $("ladder").innerHTML = lad.map((s) => {
+      const state = s.n < cur ? "past" : s.n === cur ? "now" : "next";
+      return `<li data-state="${state}" title="${esc(s.test)}"><span class="dot">${s.n}</span><span class="lbl">${esc(s.label)}</span></li>`;
+    }).join("");
+    $("ladder").style.gridTemplateColumns = `repeat(${lad.length}, 1fr)`;
+    const now = lad.find((s) => s.n === cur), next = lad.find((s) => s.n === cur + 1);
+    $("ladder-since").textContent = data.stage && data.stage.since ? "Since " + short(data.stage.since) : "";
+    $("ladder-note").innerHTML =
+      (now ? `<p><b>Now: ${esc(now.label)}.</b> ${esc(now.test)}.</p>` : "") +
+      (next ? `<p class="small"><b>Next stage would be ${esc(next.label.toLowerCase())}:</b> ${esc(next.test.charAt(0).toLowerCase() + next.test.slice(1))}.</p>` : "");
+  }
+
+  function deltaFor(f) {
+    const id = f.id;
+    const hist = (data.history || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+    const withId = hist.filter((h) => h.values && h.values[id] !== undefined);
+    if (!withId.length) return null;
+    const last = withId[withId.length - 1];
+    const prev = withId.length > 1 ? withId[withId.length - 2] : null;
+    if (!prev) return { text: hist.length > 1 && hist[0] !== last ? "New" : "", dir: "" };
+    const diff = last.values[id] - prev.values[id];
+    if (!diff) return { text: "No change since " + short(prev.date), dir: "" };
+    return { text: (diff > 0 ? "▲ +" : "▼ ") + num(Math.abs(diff)) + " since " + short(prev.date), dir: diff > 0 && f.upIsBad ? "up-bad" : "" };
+  }
+  function renderNumbers() {
+    const ledger = data.figures.filter((f) => f.display !== "meter");
+    $("fig-title").textContent = meta().figuresTitle || "Key numbers";
+    $("ledger").innerHTML = ledger.map((f) => {
+      const d = deltaFor(f);
+      return `<li data-tone="${esc(f.tone)}"><span class="dot" aria-hidden="true"></span><span class="lbl">${esc(f.label)}</span>` +
+        `<span class="val">${esc(fmtVal(f))}</span><span class="note">${esc(f.note)}</span>` +
+        (d && d.text ? `<span class="delta" data-dir="${d.dir}">${esc(d.text)}</span>` : "") + `</li>`;
+    }).join("");
+    const t = data.figures.find((f) => f.display === "meter" && typeof f.value === "number");
+    if (t) {
+      $("meter").innerHTML = `<div class="card-head"><span class="lbl" style="font-weight:700">${esc(t.label)}</span><span class="mono" style="font-weight:600">${esc(fmtVal(t))}</span></div>` +
+        `<div class="meter-track" role="img" aria-label="${esc(t.label)}: ${esc(fmtVal(t))}"><div class="meter-fill" style="width:${Math.max(0, Math.min(100, t.value))}%"></div></div>` +
+        `<div class="meter-legend"><span>${esc(t.note)}</span></div>`;
+      $("meter").hidden = false;
+    } else $("meter").hidden = true;
+  }
+
+  function renderRisk() {
+    const r = data.risk;
+    const card = $("risk").closest("section");
+    if (!r) { card.hidden = true; return; }
+    card.hidden = false;
+    $("risk-title").textContent = r.title || "WHO risk level";
+    $("risk-date").textContent = short(r.date);
+    $("risk").innerHTML = r.areas.map((a) =>
+      `<div class="risk-row"><span class="area">${esc(a.area)}</span>` +
+      `<span class="risk-track" role="img" aria-label="${esc(a.area)}: ${esc(a.label)}">${r.scale.map((_, i) => `<i class="${i >= a.from && i <= a.to ? "on" : ""}"></i>`).join("")}</span>` +
+      `<span class="lvl">${esc(a.label)}</span></div>`).join("") +
+      `<div class="risk-scale"><div><span>${esc(r.scale[0])}</span><span>${esc(r.scale[r.scale.length - 1])}</span></div></div>` +
+      `<p class="small">${esc(r.by)}, ${esc(short(r.date))}.</p><div class="srcs">${srcLinks(r.sources)}</div>`;
+  }
+
+  /* Trend: one series of bars, the highlighted bar in the accent, the rest recessive. */
+  function renderTrend() {
+    const t = data.trend;
+    show("trend-card", !!(t && t.series && t.series.length));
+    if (!t || !t.series || !t.series.length) return;
+    $("trend-title").textContent = t.title;
+    $("trend-unit").textContent = t.unit || "";
+    const W = 640, H = 230, L = 46, R = 8, T = 22, B = 26;
+    const vals = t.series.map((p) => p.value);
+    const maxV = Math.max(...vals);
+    const step = (() => { const raw = maxV / 4, mag = 10 ** Math.floor(Math.log10(raw)); const m = raw / mag; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10) * mag; })();
+    const top = Math.ceil(maxV / step) * step;
+    const y = (v) => T + (H - T - B) * (1 - v / top);
+    const n = t.series.length, slot = (W - L - R) / n, bw = Math.max(2, slot - 2);
+    const hi = t.highlight != null ? String(t.highlight) : String(t.series[n - 1].label);
+    const every = Math.ceil(n / 9);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.title)}">`;
+    for (let v = 0; v <= top; v += step) s += `<line class="t-grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${esc(num(v))}</text>`;
+    t.series.forEach((p, i) => {
+      const x = L + i * slot + 1, h = Math.max(0, y(0) - y(p.value)), isHi = String(p.label) === hi;
+      const r = Math.min(4, bw / 2, h);
+      const d = `M${x} ${y(0)}V${y(0) - h + r}Q${x} ${y(0) - h} ${x + r} ${y(0) - h}H${x + bw - r}Q${x + bw} ${y(0) - h} ${x + bw} ${y(0) - h + r}V${y(0)}Z`;
+      s += `<rect class="t-hit" x="${L + i * slot}" y="${T}" width="${slot}" height="${H - T - B}" tabindex="0" data-i="${i}"><title>${esc(p.label)}: ${esc(num(p.value))}</title></rect>`;
+      s += `<path class="t-bar${isHi ? " hi" : ""}" d="${d}"/>`;
+      if (i % every === 0 || isHi || i === n - 1) s += `<text x="${x + bw / 2}" y="${H - 8}" text-anchor="middle">${esc(p.label)}</text>`;
+      if (isHi || p.value === maxV) s += `<text class="t-val" x="${x + bw / 2}" y="${y(p.value) - 6}" text-anchor="middle">${esc(num(p.value))}</text>`;
+    });
+    s += `<line class="t-axis" x1="${L}" x2="${W - R}" y1="${y(0)}" y2="${y(0)}"/></svg>`;
+    $("trend").innerHTML = s +
+      `<div class="trend-readout" id="trend-readout" aria-live="polite">${esc(t.note || "")}</div>` +
+      `<details><summary>Show as table</summary><table class="rtable"><thead><tr><th>${esc(t.labelHeader || "Period")}</th><th class="num">${esc(t.valueHeader || "Value")}</th></tr></thead><tbody>` +
+      t.series.map((p) => `<tr><td>${esc(p.label)}</td><td class="num">${esc(num(p.value))}</td></tr>`).join("") + `</tbody></table></details>` +
+      `<div class="srcs">${srcLinks(t.sources)}</div>`;
+    const readout = $("trend-readout");
+    $("trend").querySelectorAll(".t-hit").forEach((el) => {
+      const p = t.series[+el.dataset.i];
+      const say = () => { readout.textContent = `${p.label}: ${num(p.value)}${p.note ? " · " + p.note : ""}`; };
+      el.addEventListener("mouseenter", say); el.addEventListener("focus", say);
+      el.addEventListener("mouseleave", () => { readout.textContent = t.note || ""; });
+    });
+  }
+
+  function renderClaims() {
+    const c = data.claims || [];
+    show("claims-card", c.length > 0);
+    $("claims").innerHTML = c.map((x) => {
+      const [icon, label] = VERDICT[x.status] || ["?", x.status];
+      return `<li><span class="verdict" data-s="${esc(x.status)}"><i aria-hidden="true">${icon}</i>${esc(label)}</span>` +
+        `<span class="claim">${esc(x.claim)}</span><span class="detail">${esc(x.detail)}</span><span class="srcs">${srcLinks(x.sources)}</span></li>`;
+    }).join("");
+  }
+
+  function renderWatchlist() {
+    const items = (data.watchlist || []).slice().sort((a, b) => (a.status === "done") - (b.status === "done") || (a.date || "9999").localeCompare(b.date || "9999"));
+    show("wl-card", items.length > 0);
+    $("watchlist").innerHTML = items.map((w) => {
+      let when = "";
+      if (w.date) {
+        const dd = Math.round((day(w.date) - todayUTC()) / DAY_MS);
+        const rel = w.status === "done" ? "" : dd > 1 ? `in ${dd} days` : dd === 1 ? "tomorrow" : dd === 0 ? "today" : "";
+        when = `<b>${esc(fmt(day(w.date), { weekday: "short", day: "numeric", month: "short" }))}</b>${esc(rel)}`;
+      }
+      return `<li data-status="${esc(w.status)}"><span class="box" aria-hidden="true">${w.status === "done" ? "✓" : ""}</span>` +
+        `<span class="what">${esc(w.label)}<span class="sr-only">${w.status === "done" ? " (done)" : ""}</span></span><span class="when">${when}</span>` +
+        (w.note ? `<span class="note">${esc(w.note)}</span>` : "") + `</li>`;
+    }).join("");
+  }
+
+  function renderLatest() {
+    const items = data.timeline.slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 4);
+    show("latest-card", items.length > 0);
+    $("latest").innerHTML = items.map((e) =>
+      `<li><time datetime="${esc(e.date)}">${esc(short(e.date))}</time><span><a href="#${esc(e.id)}">${esc(e.title)}</a>${isNewEntry(e) ? ' <span class="new">NEW</span>' : ""}</span></li>`).join("");
+    $("all-updates").textContent = `Full timeline (${data.timeline.length})`;
+  }
+
+  function renderPositions() {
+    const p = data.positions || [];
+    show("pos-card", p.length > 0);
+    $("positions").innerHTML = p.map((x) =>
+      `<article class="position" data-kind="${esc(x.kind)}">` +
+      `<span class="kind" data-kind="${esc(x.kind)}">${esc(KIND_LABEL[x.kind] || x.kind)} · ${esc(short(x.date))}</span>` +
+      `<h3>${esc(x.who)} ${x.ru ? `<span class="ru">${esc(x.ru)}</span>` : ""}</h3><p>${esc(x.text)}</p></article>`).join("");
+  }
+
+  /* ---------- Regions (choropleth data) ---------- */
+  function regionBin(v, R) {
+    if (R.mode === "flag") return v ? 4 : 0;
+    if (typeof v !== "number" || v <= 0) return 0;
+    const bins = R.bins || [1, 10, 50, 100, 500];
+    let b = 0;
+    bins.forEach((edge, i) => { if (v >= edge) b = i + 1; });
+    return Math.min(5, b);
+  }
+  function regionLegend(R) {
+    if (R.mode === "flag") return `<span><i class="lg-swatch" style="background:var(--seq-4)"></i>${esc(R.flagLabel || "Affected")}</span><span><i class="lg-swatch" style="background:var(--land)"></i>${esc(R.noneLabel || "Not affected")}</span>`;
+    const bins = R.bins || [1, 10, 50, 100, 500];
+    const parts = bins.map((edge, i) => {
+      const hiEdge = bins[i + 1];
+      const label = hiEdge ? `${num(edge)}–${num(hiEdge - 1)}` : `${num(edge)}+`;
+      return `<span><i class="lg-swatch" style="background:var(--seq-${i + 1})"></i>${esc(label)}</span>`;
+    });
+    if (R.reported && R.reported.length) parts.push(`<span><i class="lg-swatch" style="background:var(--seq-1);opacity:.55"></i>${esc(R.reportedLabel || "Cases reported, count not tracked")}</span>`);
+    return parts.join("") + `<span><i class="lg-swatch" style="background:var(--land)"></i>${esc(R.noneLabel || "None reported")}</span>`;
+  }
+  function regionRows(limit) {
+    const R = data.regions;
+    const rows = Object.entries(R.values || {}).map(([id, v]) => ({ id, v, note: (R.notes || {})[id] }))
+      .sort((a, b) => (typeof b.v === "number" ? b.v : 0) - (typeof a.v === "number" ? a.v : 0) || a.id.localeCompare(b.id));
+    const max = Math.max(1, ...rows.map((r) => (typeof r.v === "number" ? r.v : 0)));
+    const head = `<thead><tr><th>${esc(R.regionHeader || "Region")}</th><th class="num">${esc(R.valueHeader || R.label || "Value")}</th></tr></thead>`;
+    const body = rows.slice(0, limit || rows.length).map((r) => {
+      const val = R.mode === "flag" ? (r.v ? "Yes" : "No") : num(r.v);
+      const bar = typeof r.v === "number" ? `<span class="bar" style="width:${Math.max(2, (r.v / max) * 100)}%"></span>` : "";
+      return `<tr><td>${esc(r.id)}${r.note ? `<div class="small">${esc(r.note)}</div>` : ""}${bar}</td><td class="num">${esc(val)}</td></tr>`;
+    }).join("");
+    return head + `<tbody>${body}</tbody>`;
+  }
+  function renderRegions() {
+    const R = data.regions;
+    const on = !!(R && R.values && Object.keys(R.values).length);
+    show("regions-card", on);
+    show("regions-card-today", on && R.mode !== "flag");
+    if (!on) return;
+    $("regions-title").textContent = R.title || "By region";
+    $("regions-title-today").textContent = R.titleShort || R.title || "By region";
+    $("regions-asof").textContent = R.asOf ? "As of " + short(R.asOf) : "";
+    $("regions-table").innerHTML = regionRows();
+    $("regions-today").innerHTML = regionRows(R.todayLimit || 5);
+    $("regions-note").textContent = R.note || "";
+    $("regions-srcs").innerHTML = srcLinks(R.sources);
+  }
+
+  /* ---------- Timeline ---------- */
+  function renderFilters() {
+    const kinds = ["all", ...new Set(data.timeline.map((e) => e.kind))];
+    $("filters").innerHTML = kinds.map((k) => {
+      const n = k === "all" ? data.timeline.length : data.timeline.filter((e) => e.kind === k).length;
+      return `<button type="button" data-filter="${esc(k)}" aria-pressed="${k === filter}">${k === "all" ? "All" : esc(KIND_LABEL[k] || k)} · ${n}</button>`;
+    }).join("");
+  }
+  function renderTimeline() {
+    const items = data.timeline.map((e, i) => ({ ...e, i }))
+      .filter((e) => filter === "all" || e.kind === filter)
+      .sort((a, b) => b.date.localeCompare(a.date) || b.i - a.i);
+    if (!items.length) { $("timeline").innerHTML = `<li class="small">No entries of this type yet.</li>`; return; }
+    $("timeline").innerHTML = items.map((e) => {
+      const d = day(e.date);
+      const sub = e.end ? `<span>to ${esc(short(e.end))}</span>` : `<span>${esc(fmt(d, { weekday: "short" }))}</span>`;
+      return `<li id="${esc(e.id)}"><time datetime="${esc(e.date)}">${esc(short(e.date))}${sub}</time>` +
+        `<div class="entry"><div class="meta"><span class="kind" data-kind="${esc(e.kind)}">${esc(KIND_LABEL[e.kind] || e.kind)}</span>${isNewEntry(e) ? '<span class="new">NEW</span>' : ""}</div>` +
+        `<h3>${esc(e.title)}</h3><p>${esc(e.body)}</p><div class="srcs">${srcLinks(e.sources)}</div>` +
+        `<div class="row-actions"><button class="link-btn" type="button" data-copy-entry="${esc(e.id)}">Copy link</button><button class="link-btn" type="button" data-share-entry="${esc(e.id)}">Share as post</button></div></div></li>`;
+    }).join("");
+  }
+  const entryPost = (e) => `${e.title} (${short(e.date)}). Sourced timeline:`;
+
+  /* ---------- Map ---------- */
+  function projector(p) {
+    if (!p) return null;
+    const r = Math.PI / 180;
+    if (p.type === "equirect") {
+      const c = Math.cos(p.lat0 * r);
+      return (lon, lat) => [(lon - p.lon0) * c * p.k + p.tx, -lat * p.k + p.ty];
+    }
+    const n = (Math.sin(p.lat1 * r) + Math.sin(p.lat2 * r)) / 2;
+    const C = Math.cos(p.lat1 * r) ** 2 + 2 * n * Math.sin(p.lat1 * r);
+    const rho0 = Math.sqrt(C - 2 * n * Math.sin(p.lat0 * r)) / n;
+    return (lon, lat) => {
+      if (lon < -20) lon += 360;
+      const rho = Math.sqrt(C - 2 * n * Math.sin(lat * r)) / n;
+      const t = n * (lon - p.lon0) * r;
+      return [rho * Math.sin(t) * p.k + p.tx, -(rho0 - rho * Math.cos(t)) * p.k + p.ty];
+    };
+  }
+  function loadMap() {
+    if (!mapPromise) mapPromise = fetch("map.json").then((r) => { if (!r.ok) throw new Error(); return r.json(); }).then((m) => (mapData = m)).catch(() => { mapPromise = null; return null; });
+    return mapPromise;
+  }
+  function markerList() {
+    const out = [];
+    for (const p of data.places || []) if (p.map && p.lat != null) out.push({ type: "event", lat: p.lat, lon: p.lon, label: p.mapLabel || p.name, place: p, side: p.label || "above" });
+    for (const f of (data.foci && data.foci.items) || []) out.push({ type: "focus", lat: f.lat, lon: f.lon, label: f.group ? "" : f.name, focus: f, side: f.label || "right" });
+    return out.sort((a, b) => (a.type === "event") - (b.type === "event")); // case marker drawn last, on top
+  }
+  function renderMapChrome() {
+    const mp = data.map;
+    document.querySelectorAll('[data-tab="map"]').forEach((a) => { a.hidden = !mp; });
+    show("map-card", !!mp);
+    if (!mp) return;
+    $("map-title").textContent = mp.title || "Map";
+    $("map-title-today").textContent = mp.titleShort || "Where";
+    const legend = data.regions ? regionLegend(data.regions)
+      : `<span><i class="lg-event"></i>${esc(mp.eventLabel || "Case location")}</span>` + (data.foci ? `<span><i class="lg-focus"></i>${esc(mp.focusLabel || "Natural focus (approx.)")}</span>` : "");
+    document.querySelectorAll("[data-legend]").forEach((el) => { el.innerHTML = legend + (el.dataset.legend === "full" ? `<span>Tap the map for details</span>` : ""); });
+  }
+  function drawMaps() {
+    if (!data || !data.map) return;
+    const hosts = document.querySelectorAll("[data-map]");
+    loadMap().then((m) => {
+      if (!m) { hosts.forEach((h) => { h.innerHTML = `<p class="small" style="padding:16px">The map couldn't load. Check your connection and tap Refresh.</p>`; }); return; }
+      const P = projector(m.projection);
+      const marks = P ? markerList() : [];
+      const R = data.regions;
+      hosts.forEach((host) => {
+        const which = host.dataset.map;
+        let s = `<svg viewBox="0 0 ${m.width} ${m.height}" role="group" aria-label="${esc((data.map && data.map.title) || "Map")}" class="${m.kind === "regions" ? "regions-map" : ""}">`;
+        s += `<rect class="m-water" width="${m.width}" height="${m.height}"/>`;
+        if (m.others) s += `<path class="m-other" d="${m.others}"/>`;
+        if (m.focus || m.russia) s += `<path class="m-russia" d="${m.focus || m.russia}"/>`;
+        if (m.regions) {
+          for (const g of m.regions) {
+            const v = R && R.values ? R.values[g.id] : undefined;
+            let b = R ? regionBin(v, R) : 0;
+            let extra = "";
+            if (!b && R && R.reported && R.reported.includes(g.id)) { b = 1; extra = ' style="opacity:.55"'; }
+            s += `<path class="m-region ${b ? "s" + b : "has-0"}" d="${g.d}" data-region="${esc(g.id)}" tabindex="0" role="button" aria-label="${esc(g.id)}"${extra}></path>`;
+          }
+        }
+        for (const l of m.lakes || []) s += `<path class="m-lake" d="${l.d}"/>`;
+        if (P) for (const l of m.labels || []) {
+          const [x, y] = P(l.lon, l.lat);
+          s += `<text class="m-label soft" data-size="11" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" text-anchor="middle">${esc(l.text)}</text>`;
+        }
+        const groups = (data.foci && data.foci.groupLabels) || {};
+        for (const [grp, label] of Object.entries(groups)) {
+          const inGroup = marks.filter((k) => k.type === "focus" && k.focus.group === grp);
+          if (!inGroup.length) continue;
+          const xs = inGroup.map((k) => P(k.lon, k.lat));
+          const cx = Math.max(...xs.map((p) => p[0])), cy = Math.min(...xs.map((p) => p[1]));
+          s += `<text class="m-label soft cluster" data-size="11" data-x="${cx + 8}" data-y="${cy - 10}" text-anchor="start">${inGroup.length} ${esc(label)}</text>`;
+        }
+        marks.forEach((k, i) => {
+          const [x, y] = P(k.lon, k.lat);
+          const name = k.type === "event" ? k.place.name : k.focus.name;
+          s += `<g class="mk ${k.type}" tabindex="0" role="button" aria-label="${esc(name)}" data-i="${i}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}">`;
+          if (k.type === "event") s += `<circle class="m-pulse" r="6"/><circle class="m-event" r="6"/>`;
+          else s += `<circle class="m-focus" r="${k.focus.group ? 3.5 : 5}"/>`;
+          if (k.label) {
+            const pos = { left: [-10, 4, "end"], right: [10, 4, "start"], above: [0, -13, "middle"], below: [0, 20, "middle"] }[k.side] || [10, 4, "start"];
+            s += `<text class="m-label" data-size="${k.type === "event" ? 13 : 11.5}" x="${pos[0]}" y="${pos[1]}" text-anchor="${pos[2]}">${esc(k.label)}</text>`;
+          }
+          s += `</g>`;
+        });
+        s += `</svg>`;
+        host.innerHTML = s;
+        host._marks = marks;
+        host._which = which;
+        rescale(host, m);
+      });
+    });
+  }
+  function rescale(host, m) {
+    const svg = host.querySelector("svg");
+    if (!svg || !host.clientWidth) return;
+    const u = m.width / host.clientWidth; // SVG units per CSS pixel
+    svg.classList.toggle("compact", host.clientWidth < 560); // small maps: details on tap, not labels
+    svg.querySelectorAll(".mk").forEach((g) => g.setAttribute("transform", `translate(${g.dataset.x} ${g.dataset.y}) scale(${u})`));
+    svg.querySelectorAll("text[data-x]").forEach((t) => { t.setAttribute("x", t.dataset.x); t.setAttribute("y", t.dataset.y); t.style.fontSize = (+t.dataset.size * u) + "px"; t.style.strokeWidth = (3 * u) + "px"; });
+    svg.querySelectorAll(".mk text").forEach((t) => { t.style.fontSize = t.dataset.size + "px"; });
+    svg.querySelectorAll(".m-region").forEach((p) => { p.style.strokeWidth = (0.8 * u) + "px"; });
+  }
+  function infoBox(host) { return document.querySelector(`[data-info="${host._which}"]`); }
+  function showMarker(host, i) {
+    const k = host._marks && host._marks[i];
+    const info = infoBox(host);
+    if (!k || !info) return;
+    if (k.type === "event") {
+      const p = k.place;
+      info.innerHTML = `<span class="kind" data-kind="official">${esc((data.map && data.map.eventLabel) || "Case location")}</span><b>${esc(p.name)}</b><span class="small">${p.ru ? esc(p.ru) + " · " : ""}${esc(p.region)}</span><span>${esc(p.role)}</span>` +
+        `<a class="maps" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.q)}" target="_blank" rel="noopener">Open in Maps ↗</a>`;
+    } else {
+      const f = k.focus;
+      info.innerHTML = `<span class="kind" data-kind="background">${esc((data.map && data.map.focusLabel) || "Natural focus (approx.)")}</span><b>${esc(f.name)}</b>${f.ru ? `<span class="small">${esc(f.ru)}</span>` : ""}${f.note ? `<span>${esc(f.note)}</span>` : ""}`;
+    }
+    info.hidden = false;
+  }
+  function showRegion(host, id) {
+    const info = infoBox(host), R = data.regions;
+    if (!info || !R) return;
+    const v = R.values ? R.values[id] : undefined;
+    let line;
+    if (R.mode === "flag") line = v ? (R.flagLabel || "Affected") : (R.noneLabel || "Not affected");
+    else if (typeof v === "number") line = `${num(v)} ${R.unitLabel || ""}`.trim();
+    else if (R.reported && R.reported.includes(id)) line = R.reportedLabel || "Cases reported, count not tracked";
+    else line = R.noneLabel || "None reported";
+    const note = (R.notes || {})[id];
+    info.innerHTML = `<b>${esc(id)}</b><span>${esc(line)}</span>${note ? `<span class="small">${esc(note)}</span>` : ""}${R.asOf ? `<span class="small">As of ${esc(short(R.asOf))}</span>` : ""}`;
+    info.hidden = false;
+  }
+
+  function renderMapTab() {
+    const pl = data.places || [];
+    show("places-card", pl.length > 0);
+    $("places").innerHTML = pl.map((p) =>
+      `<li class="place"><span class="kind" data-kind="${esc(p.kind)}">${esc(KIND_LABEL[p.kind] || p.kind)}</span>` +
+      `<h3>${esc(p.name)}</h3>${p.ru ? `<span class="ru">${esc(p.ru)}</span>` : ""}<span class="region">${esc(p.region)}</span>` +
+      `<p>${esc(p.role)}</p><a class="maps" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.q)}" target="_blank" rel="noopener">Open in Maps ↗</a></li>`).join("");
+    const f = data.foci;
+    show("foci-card", !!(f && f.items && f.items.length));
+    if (!f) return;
+    $("foci-title").textContent = f.title || "Natural foci";
+    $("foci-note").textContent = f.note || "";
+    $("foci").innerHTML = f.items.map((x) => `<li><b>${esc(x.name)}</b>${x.ru ? `<span class="ru">${esc(x.ru)}</span>` : ""}${x.note ? `<span class="small">${esc(x.note)}</span>` : ""}</li>`).join("");
+    $("foci-srcs").innerHTML = srcLinks(f.sources);
+  }
+
+  /* ---------- Context ---------- */
+  function renderContext() {
+    const c = data.context || {};
+    const stats = c.stats || [], hist = c.history || c.russiaHistory || [];
+    show("tiles-card", stats.length > 0);
+    $("tiles-title").textContent = c.statsTitle || "Context";
+    $("tiles").innerHTML = stats.map((t) =>
+      `<div class="tile"><b>${esc(t.value)}</b><span class="lbl">${esc(t.label)}</span><span class="note">${esc(t.note)}</span>` +
+      (t.source ? `<a href="${esc(t.source.url)}" target="_blank" rel="noopener">${esc(t.source.name)}</a>` : "") + `</div>`).join("");
+    show("years-card", hist.length > 0);
+    $("years-title").textContent = c.historyTitle || "Recent history";
+    $("years").innerHTML = hist.map((y) => `<li><b>${esc(y.year)}</b><span>${esc(y.text)}</span></li>`).join("");
+    $("years-srcs").innerHTML = srcLinks(c.historySources);
+    const facts = data.facts || [];
+    show("facts-card", facts.length > 0);
+    $("facts-title").textContent = c.factsTitle || "Basics";
+    $("facts").innerHTML = facts.map((f, i) => `<details${i === 0 ? " open" : ""}><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("");
+    $("follow").innerHTML = (data.follow || []).map((l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a></li>`).join("");
+    $("disclaimer").textContent = meta().disclaimer || "This tracker summarises public reporting and official statements. It is not medical advice.";
+    const x = data.social && data.social.x;
+    $("follow-x").hidden = !x;
+    if (x) { $("follow-x").href = "https://x.com/" + encodeURIComponent(x.replace(/^@/, "")); $("follow-x").textContent = "Follow @" + x.replace(/^@/, ""); }
+  }
+
+  /* ---------- App shell ---------- */
+  function renderAll() {
+    renderHero(); renderVisit(); renderClock(); renderTrend(); renderLadder(); renderNumbers(); renderRisk();
+    renderRegions(); renderClaims(); renderWatchlist(); renderLatest(); renderPositions();
+    renderFilters(); renderTimeline(); renderMapChrome(); renderMapTab(); renderContext();
+    $("loading").hidden = true;
+    route(firstRender);
+    firstRender = false;
+    drawMaps();
+  }
+
+  function route(navigated) {
+    if (!data) return;
+    let raw = decodeURIComponent(location.hash.slice(1));
+    raw = ALIASES[raw] || raw;
+    let tab = TABS.includes(raw) ? raw : "today", entry = null;
+    if (tab === "map" && !data.map) tab = "today";
+    if (!TABS.includes(raw) && data.timeline.some((e) => e.id === raw)) { tab = "timeline"; entry = raw; }
+    for (const t of TABS) $("view-" + t).hidden = t !== tab;
+    document.querySelectorAll("[data-tab]").forEach((a) => {
+      if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    if (entry && navigated) {
+      if (filter !== "all") { filter = "all"; renderFilters(); renderTimeline(); }
+      const li = document.getElementById(entry);
+      if (li) { li.scrollIntoView({ block: "start" }); li.classList.remove("flash"); void li.offsetWidth; li.classList.add("flash"); }
+    } else if (navigated) scrollTo(0, 0);
+    if (tab === "today" || tab === "map") requestAnimationFrame(() => document.querySelectorAll("[data-map]").forEach((h) => mapData && rescale(h, mapData)));
+  }
+
+  async function load({ manual = false, quiet = false } = {}) {
+    const btn = $("refresh");
+    btn.setAttribute("aria-busy", "true");
+    try {
+      const res = await fetch("data.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const next = await res.json();
+      const changed = !data || data.updated !== next.updated;
+      const before = data;
+      data = next;
+      if (changed || manual) { trackVisit(data); renderAll(); }
+      else renderUpdated();
+      const fresh = data.timeline.filter(isNewEntry).length;
+      if (manual) toast(changed ? (fresh ? `${plural(fresh, "new update")}` : "Data refreshed") : "Already up to date");
+      else if (before && changed) toast("New update: " + data.headline.slice(0, 80) + (data.headline.length > 80 ? "…" : ""));
+      else if (!before && fresh && !quiet) toast(`${plural(fresh, "new update")} since your last visit`);
+    } catch (err) {
+      if (data) { if (manual) toast("Couldn't reach the server. Showing saved data."); }
+      else $("loading").textContent = "Couldn't load the situation report. Check your connection, then tap Refresh.";
+    } finally {
+      btn.removeAttribute("aria-busy");
+    }
+  }
+
+  function todaysPost() {
+    const m = meta();
+    const c0 = (data.counters || [])[0];
+    const lead = m.postLead ? `${m.postLead}${c0 && m.postDay ? `, day ${daysSince(c0.from)}` : ""}: ` : "";
+    let text = `${lead}${data.headline}`;
+    if (data.postExtra && (text + " " + data.postExtra).length <= 250) text += " " + data.postExtra;
+    if (data.watch && Date.now() < +windowEnd()) {
+      const extra = ` ${data.watch.label} ends ${fmt(new Date(+windowEnd() - DAY_MS), { day: "numeric", month: "short" })}.`;
+      if ((text + extra).length <= 250) text += extra;
+    }
+    return text + "\n" + baseUrl();
+  }
+
+  document.addEventListener("click", (ev) => {
+    const t = ev.target;
+    const mk = t.closest && t.closest(".mk");
+    if (mk) { showMarker(mk.closest("[data-map]"), +mk.dataset.i); return; }
+    const rg = t.closest && t.closest(".m-region");
+    if (rg) { showRegion(rg.closest("[data-map]"), rg.dataset.region); return; }
+    const f = t.closest && t.closest("button[data-filter]");
+    if (f) { filter = f.dataset.filter; renderFilters(); renderTimeline(); return; }
+    const ce = t.closest && t.closest("[data-copy-entry]");
+    if (ce) { copy(baseUrl() + "#" + ce.dataset.copyEntry, "Link copied"); return; }
+    const se = t.closest && t.closest("[data-share-entry]");
+    if (se) {
+      const e = data.timeline.find((x) => x.id === se.dataset.shareEntry);
+      const url = baseUrl() + "#" + e.id, text = entryPost(e);
+      if (navigator.share && !isFramed) navigator.share({ text, url }).catch(() => {});
+      else copy(text + " " + url, "Post text copied");
+    }
+  });
+  document.addEventListener("mouseover", (ev) => {
+    const rg = ev.target.closest && ev.target.closest(".m-region");
+    if (rg && matchMedia("(hover: hover)").matches) showRegion(rg.closest("[data-map]"), rg.dataset.region);
+  });
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key !== "Enter" && ev.key !== " ") return;
+    const mk = ev.target.closest && ev.target.closest(".mk");
+    if (mk) { ev.preventDefault(); showMarker(mk.closest("[data-map]"), +mk.dataset.i); return; }
+    const rg = ev.target.closest && ev.target.closest(".m-region");
+    if (rg) { ev.preventDefault(); showRegion(rg.closest("[data-map]"), rg.dataset.region); }
+  });
+  $("refresh").addEventListener("click", () => load({ manual: true }));
+  $("copy-post").addEventListener("click", () => copy(todaysPost(), "Update copied. Paste it into your post."));
+  $("share").addEventListener("click", async () => {
+    const url = baseUrl();
+    const text = `${meta().title || "Tracker"}: ${meta().description || ""}`.trim();
+    if (navigator.share && !isFramed) {
+      try { await navigator.share({ title: meta().title, text, url }); return; }
+      catch (err) { if (err && err.name === "AbortError") return; }
+    }
+    copy(url, "Link copied");
+  });
+  addEventListener("hashchange", () => route(true));
+  addEventListener("resize", () => { if (mapData) document.querySelectorAll("[data-map]").forEach((h) => rescale(h, mapData)); });
+  setInterval(() => { if (data && document.visibilityState === "visible") renderUpdated(); }, 60000);
+  setInterval(() => { if (data && document.visibilityState === "visible") load({ quiet: true }); }, 10 * 60000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && data) { renderUpdated(); load({ quiet: true }); } });
+
+  load();
+
+  if ("serviceWorker" in navigator && /^https:|^http:\/\/localhost/.test(location.href)) {
+    navigator.serviceWorker.register("../sw.js", { scope: "../" }).catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>

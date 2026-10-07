@@ -1,8 +1,8 @@
 {
-  "name": "Russia Plague Watch",
-  "short_name": "Plague Watch",
-  "description": "Tracks the suspected plague case in Irkutsk Oblast and plague activity in Russia.",
-  "start_url": "./#overview",
+  "name": "Outbreak Ledger",
+  "short_name": "Outbreaks",
+  "description": "Independent, sourced outbreak trackers. Every claim linked.",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#e9eef1",
