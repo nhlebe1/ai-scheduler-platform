@@ -3,3 +3,4 @@ dist/
 backend/bookings.db
 *.db
 .env
+__pycache__/
