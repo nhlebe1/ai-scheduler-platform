@@ -1,6 +1,4 @@
-DR Congo's Ebola outbreak: 8,442 confirmed cases and 4,080 deaths, the second-largest on record (CDC, 2 Oct). Kenya confirmed its first imported case on 5 Oct; the patient died.
-
-No licensed vaccine for this strain. Live tracker:
+DR Congo's Ebola outbreak: 8,603 confirmed cases and 4,148 deaths as of 4 Oct (CDC, ECDC). It remains the second-largest on record. No licensed vaccine for this strain; Kenya confirmed one imported case on 5 Oct. Live tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: CDC (2 Oct), WHO Africa and Citizen Digital (5 Oct).
+Sources: CDC and ECDC (4 Oct), WHO Africa (5 Oct).

@@ -20,7 +20,7 @@
       },
       "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
       "updated": "2026-10-07T03:00:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -63,21 +63,21 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 63 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,442 confirmed cases and 4,080 deaths as of 2 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 63 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,603 confirmed cases and 4,148 deaths in DR Congo as of 4 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
       },
-      "headline": "DR Congo's Ebola outbreak passes 8,400 confirmed cases and 4,000 deaths. Kenya reports its first imported case.",
-      "updated": "2026-10-07T03:00:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "headline": "DR Congo's Ebola outbreak passes 8,600 confirmed cases and 4,100 deaths. Kenya reports its first imported case.",
+      "updated": "2026-10-07T18:50:00Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 8442,
+          "value": 8603,
           "unit": "",
           "tone": "critical"
         },
         {
           "label": "Confirmed deaths",
-          "value": 4080,
+          "value": 4148,
           "unit": "",
           "tone": "critical"
         },
@@ -95,9 +95,9 @@
           "id": "2026-10-05-kenya-s-first-imported-case"
         },
         {
-          "date": "2026-10-02",
-          "title": "CDC: 8,442 cases and 4,080 deaths",
-          "id": "2026-10-02-cdc-8-442-cases-and"
+          "date": "2026-10-04",
+          "title": "CDC and ECDC: 8,603 cases and 4,148 deaths",
+          "id": "2026-10-04-cdc-and-ecdc-report-8-603"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -255,7 +255,7 @@
       },
       "headline": "Russia tells WHO no plague found in contacts. WHO rates the risk low for Russia, moderate to low for Irkutsk.",
       "updated": "2026-10-06T21:00:00Z",
-      "checked": "2026-10-07T16:07:05Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Deaths",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-07T06:42:46Z",
+      "checked": "2026-10-07T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-07T03:00:00Z</updated>
+  <updated>2026-10-07T18:50:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
   <entry>
     <title>Kenya's first imported case dies in Nairobi</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.</summary>
     <content type="html">&lt;p&gt;A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"&gt;Citizen Digital&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CDC and ECDC: 8,603 cases and 4,148 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-04-cdc-and-ecdc-report-8-603"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-04-cdc-and-ecdc-report-8-603</id>
+    <updated>2026-10-04T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>DR Congo's confirmed total reaches 8,603 cases, including 4,148 deaths, with data to 4 October. ECDC notes that DR Congo's figures are under continuous review and may be revised.</summary>
+    <content type="html">&lt;p&gt;DR Congo's confirmed total reaches 8,603 cases, including 4,148 deaths, with data to 4 October. ECDC notes that DR Congo's figures are under continuous review and may be revised.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>CDC: 8,442 cases and 4,080 deaths</title>
