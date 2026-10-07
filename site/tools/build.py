@@ -6,7 +6,7 @@ For each tracker listed in site/site.json it:
   - validates <slug>/data.json (tools/check.py) and stops on problems
   - writes <slug>/index.html from app.html, filling in the page title, description and preview tags
   - writes <slug>/feed.xml (Atom) from the timeline
-Then it writes trackers.json (read by the hub page) and feed.xml (all trackers combined).
+Then it writes trackers.json (read by the hub page), feed.xml (all trackers combined) and sitemap.xml.
 """
 import html
 import json
@@ -101,7 +101,13 @@ def main():
     newest = max((t["updated"] for t in hub), default="1970-01-01T00:00:00Z")
     with open(os.path.join(SITE, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(feed(site["name"], site["tagline"], base, newest, combined[:40]))
-    print("trackers.json and feed.xml written")
+    urls = [(base, newest)] + [(base + t["slug"] + "/", t["updated"]) for t in hub]
+    with open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        for loc, mod in urls:
+            f.write(f"  <url><loc>{escape(loc)}</loc><lastmod>{escape(mod[:10])}</lastmod><changefreq>daily</changefreq></url>\n")
+        f.write("</urlset>\n")
+    print("trackers.json, feed.xml and sitemap.xml written")
     return 1 if failed else 0
 
 

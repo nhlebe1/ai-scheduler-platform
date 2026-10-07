@@ -10,9 +10,11 @@ Change this file to change what the trackers follow; the schedule just runs it.
 
 ## 0. Who runs this
 
-A dedicated "Plague Watch maintainer" Claude session has this repo checked out with push access.
-Routines wake it on a schedule and say which trackers to update. Fresh routine sessions can't push
-to this repo, so don't switch back to those.
+Routines on the owner's account wake the main Claude Code session that built the site (it has this repo
+checked out with push access). That session hands each update to a Sonnet subagent following this
+playbook, then checks the subagent's commit before telling the owner about anything material.
+Fresh routine sessions can't push to this repo, and other sessions rightly ignore instructions relayed
+between sessions, so keep updates in that main session.
 
 ## 1. Get the latest code
 
