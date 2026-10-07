@@ -14,18 +14,20 @@ const slug = process.argv[2];
 if (!slug) { console.error("usage: node site/tools/render-share.mjs <slug>"); process.exit(1); }
 const root = join(site, slug);
 const data = JSON.parse(readFileSync(join(root, "data.json"), "utf8"));
-const siteName = JSON.parse(readFileSync(join(site, "site.json"), "utf8")).name;
+const siteJson = JSON.parse(readFileSync(join(site, "site.json"), "utf8"));
+const siteName = siteJson.name;
+const handle = ((siteJson.social || {}).x || "").replace(/^@/, "");
 const exe = "/opt/pw-browsers/chromium";
 const browser = await chromium.launch(existsSync(exe) ? { executablePath: exe } : {});
 
-function fill([data, siteName]) {
+function fill([data, siteName, handle]) {
   const DAY = 864e5;
   const day = (iso) => new Date(iso + "T00:00:00Z");
   const fmt = (d, o) => d.toLocaleDateString("en-GB", { timeZone: "UTC", ...o });
   const $ = (id) => document.getElementById(id);
   const card = data.card;
   $("brand").textContent = siteName + " · " + data.meta.short;
-  $("updated").textContent = "Updated " + fmt(new Date(data.updated), { day: "numeric", month: "short", year: "numeric" });
+  $("updated").textContent = "Updated " + fmt(new Date(data.updated), { day: "numeric", month: "short", year: "numeric" }) + (handle ? " · @" + handle : "");
   $("chip").textContent = data.status.label;
   $("chip").dataset.level = data.status.level;
   $("title").textContent = card.title;
@@ -63,7 +65,7 @@ function fill([data, siteName]) {
 for (const [w, h, scale, name] of [[1200, 675, 2, "share-card-x.png"], [1200, 630, 1, "og-image.png"]]) {
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: scale });
   await page.goto(pathToFileURL(join(site, "tools", "share-card.html")).href, { waitUntil: "networkidle" });
-  await page.evaluate(fill, [data, siteName]);
+  await page.evaluate(fill, [data, siteName, handle]);
   await page.evaluate(() => document.fonts.ready);
   const fits = await page.evaluate(() => document.documentElement.scrollHeight <= innerHeight);
   if (!fits) console.warn(`warning: ${name} content overflows; shorten card.title or card.sub in data.json`);
