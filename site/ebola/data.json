@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "slug": "ebola",
+    "title": "Ebola Tracker: DR Congo",
+    "short": "Ebola · DR Congo",
+    "description": "Independent, sourced tracker of the Bundibugyo Ebola outbreak in DR Congo: confirmed cases and deaths, affected provinces, spread to other countries, vaccines, WHO risk and a dated timeline.",
+    "postLead": "Ebola in DR Congo",
+    "postDay": false,
+    "figuresTitle": "Outbreak so far",
+    "hubFigures": [
+      "cases",
+      "deaths",
+      "provinces"
+    ],
+    "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
+  },
+  "updated": "2026-10-07T03:00:00Z",
+  "checked": "2026-10-07T03:00:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
+  "social": {
+    "x": ""
+  },
+  "headline": "DR Congo's Ebola outbreak passes 8,400 confirmed cases and 4,000 deaths. Kenya reports its first imported case.",
+  "status": {
+    "level": "growing",
+    "label": "Growing · global health emergency",
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 63 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,442 confirmed cases and 4,080 deaths as of 2 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+  },
+  "counters": [
+    {
+      "id": "since-declared",
+      "label": "since the outbreak was declared",
+      "from": "2026-05-15"
+    }
+  ],
+  "figures": [
+    {
+      "id": "cases",
+      "label": "Confirmed cases",
+      "value": 8442,
+      "note": "DR Congo, CDC as of 2 Oct",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths",
+      "label": "Confirmed deaths",
+      "value": 4080,
+      "note": "48.1% of confirmed cases have died (WHO, 23 Sep)",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "provinces",
+      "label": "Provinces affected",
+      "value": 7,
+      "note": "63 health zones in 7 of 26 provinces (WHO, 23 Sep)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "countries",
+      "label": "Other countries with cases",
+      "value": 3,
+      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (1, died 5 Oct)",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "vaccinated",
+      "label": "Frontline workers vaccinated",
+      "value": 7366,
+      "note": "In Ervebo trials, late Sep (Africa CDC briefing). Protection against this strain is unproven.",
+      "tone": "good"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-23",
+      "values": {
+        "cases": 7890,
+        "deaths": 3799,
+        "provinces": 7
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "values": {
+        "cases": 8067,
+        "deaths": 3901
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "values": {
+        "cases": 8224,
+        "deaths": 3982
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "values": {
+        "cases": 8442,
+        "deaths": 4080,
+        "provinces": 7
+      }
+    }
+  ],
+  "trend": {
+    "title": "Confirmed cases in DR Congo",
+    "unit": "Cumulative, by report date",
+    "note": "Each bar is an official report; gaps between reports vary. Tap or hover a bar for its value.",
+    "labelHeader": "Report date",
+    "valueHeader": "Confirmed cases",
+    "series": [
+      {
+        "label": "6 Jun",
+        "value": 515
+      },
+      {
+        "label": "12 Jun",
+        "value": 676
+      },
+      {
+        "label": "17 Jun",
+        "value": 896
+      },
+      {
+        "label": "1 Jul",
+        "value": 1460
+      },
+      {
+        "label": "15 Jul",
+        "value": 2124
+      },
+      {
+        "label": "30 Jul",
+        "value": 3605
+      },
+      {
+        "label": "12 Aug",
+        "value": 4665
+      },
+      {
+        "label": "21 Aug",
+        "value": 5458
+      },
+      {
+        "label": "26 Aug",
+        "value": 5794
+      },
+      {
+        "label": "7 Sep",
+        "value": 6757
+      },
+      {
+        "label": "23 Sep",
+        "value": 7890
+      },
+      {
+        "label": "29 Sep",
+        "value": 8224
+      },
+      {
+        "label": "2 Oct",
+        "value": 8442
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO Disease Outbreak News",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news"
+      },
+      {
+        "name": "CDC MMWR",
+        "url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7535e1.htm"
+      },
+      {
+        "name": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+      },
+      {
+        "name": "CDC: current situation",
+        "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+      }
+    ]
+  },
+  "watch": {
+    "label": "Kenya contact watch",
+    "lastExposure": "2026-10-05",
+    "incubationDays": 21,
+    "explainer": "Ebola's incubation period is 2 to 21 days. Contacts of Kenya's imported case were last exposed by 5 October at the latest. If none fall ill within 21 days, Kenya is clear of this introduction.",
+    "closedNote": "The 21-day follow-up period has ended."
+  },
+  "risk": {
+    "title": "WHO risk level",
+    "by": "WHO risk assessment",
+    "date": "2026-09-23",
+    "scale": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very high"
+    ],
+    "areas": [
+      {
+        "area": "DR Congo",
+        "from": 3,
+        "to": 3,
+        "label": "Very high"
+      },
+      {
+        "area": "Neighbouring countries",
+        "from": 2,
+        "to": 2,
+        "label": "High"
+      },
+      {
+        "area": "Rest of Africa",
+        "from": 0,
+        "to": 0,
+        "label": "Low"
+      },
+      {
+        "area": "Global",
+        "from": 0,
+        "to": 0,
+        "label": "Low"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WHO Disease Outbreak News (DON618)",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+      },
+      {
+        "name": "Gazette NG",
+        "url": "https://gazettengr.com/risk-of-ebola-spread-in-drc-very-high-says-who/"
+      }
+    ]
+  },
+  "map": {
+    "title": "DR Congo: provinces with confirmed Ebola cases",
+    "titleShort": "Where",
+    "eventLabel": "Where it began"
+  },
+  "regions": {
+    "mode": "flag",
+    "title": "Provinces with confirmed cases",
+    "flagLabel": "Province with confirmed cases",
+    "noneLabel": "No confirmed cases reported",
+    "regionHeader": "Province",
+    "valueHeader": "Cases confirmed",
+    "values": {
+      "Ituri": true,
+      "Nord-Kivu": true,
+      "Sud-Kivu": true,
+      "Haut-Uélé": true,
+      "Tshopo": true,
+      "Bas-Uélé": true,
+      "Sud-Ubangi": true
+    },
+    "notes": {
+      "Ituri": "Epicentre. Declared 15 May (Mongbwalu, Rwampara, Bunia).",
+      "Nord-Kivu": "Since late May. Cases rising in recent weeks.",
+      "Sud-Kivu": "Since late May.",
+      "Haut-Uélé": "Since late June or early July. Dungu, on the South Sudan border, added by 23 Sep.",
+      "Tshopo": "Since late June or early July.",
+      "Bas-Uélé": "Since early August.",
+      "Sud-Ubangi": "Since 10 Sep. First province in western DR Congo."
+    },
+    "asOf": "2026-09-23",
+    "note": "Per-province case counts aren't published regularly; this map shows which provinces have confirmed cases.",
+    "sources": [
+      {
+        "name": "WHO Disease Outbreak News (DON618)",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+      },
+      {
+        "name": "WHO DON617",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+      },
+      {
+        "name": "WHO DON614",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+      },
+      {
+        "name": "CDC: current situation",
+        "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+      }
+    ]
+  },
+  "places": [
+    {
+      "name": "Bunia and Mongbwalu, Ituri",
+      "region": "Ituri province, north-eastern DR Congo",
+      "role": "Where the first known cases fell ill in late April. Ituri remains the epicentre.",
+      "q": "Bunia, Democratic Republic of the Congo",
+      "lat": 1.57,
+      "lon": 30.25,
+      "map": true,
+      "mapLabel": "Bunia",
+      "label": "left",
+      "kind": "official"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "There is a vaccine for this Ebola strain",
+      "status": "false",
+      "detail": "No vaccine is licensed for Bundibugyo virus. Ervebo, licensed for Zaire Ebola, is being tested in trials; whether it protects against Bundibugyo is unknown.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON618)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+        },
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        },
+        {
+          "name": "MSF",
+          "url": "https://www.msf.org/msf-launches-ebola-vaccination-study-among-drc-frontline-workers"
+        }
+      ]
+    },
+    {
+      "claim": "This is the largest Ebola outbreak ever",
+      "status": "false",
+      "detail": "It is the largest ever in DR Congo and the second-largest on record. The 2014–2016 West Africa outbreak had about 28,600 cases and 11,325 deaths.",
+      "sources": [
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        },
+        {
+          "name": "CDC: history of Ebola outbreaks",
+          "url": "https://www.cdc.gov/ebola/outbreaks/index.html"
+        },
+        {
+          "name": "WHO DON614",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+        }
+      ]
+    },
+    {
+      "claim": "Ebola has reached the US",
+      "status": "false",
+      "detail": "CDC reports no confirmed US cases as of 2 October. Two US citizens infected in DR Congo were treated in Germany and recovered.",
+      "sources": [
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        },
+        {
+          "name": "WHO DON617",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+        }
+      ]
+    },
+    {
+      "claim": "Ebola spreads through the air like measles or flu",
+      "status": "false",
+      "detail": "It spreads through direct contact with the body fluids of a sick person or someone who died of it. People are not contagious before they have symptoms.",
+      "sources": [
+        {
+          "name": "CDC health advisory",
+          "url": "https://www.cdc.gov/han/php/notices/han00530.html"
+        }
+      ]
+    },
+    {
+      "claim": "Ebola has spread to Kenya",
+      "status": "confirmed",
+      "detail": "Kenya confirmed one imported case on 5 October; the patient, who had travelled from DR Congo via Kampala, died. No local spread has been reported.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"
+        },
+        {
+          "name": "Citizen Digital",
+          "url": "https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"
+        }
+      ]
+    },
+    {
+      "claim": "Official counts capture every case",
+      "status": "false",
+      "detail": "Modelling cited by WHO's Emergency Committee suggests true infections may be three to four times the reported count. Africa CDC says contact tracing reaches only about a quarter of expected contacts.",
+      "sources": [
+        {
+          "name": "WHO Emergency Committee report",
+          "url": "https://www.who.int/news/item/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://cidrap.umn.edu/ebola/dr-congo-ebola-cases-grow-deaths-top-4000-officials-struggle-ascertain-numbers-trends"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "US entry restrictions expire unless extended",
+      "date": "2026-10-11",
+      "status": "pending",
+      "note": "Earlier orders were extended in 30-day steps"
+    },
+    {
+      "label": "Kenya contacts finish 21-day follow-up",
+      "date": "2026-10-26",
+      "status": "pending"
+    },
+    {
+      "label": "Outbreak passes 10,000 confirmed cases",
+      "status": "pending",
+      "note": "8,442 as of 2 Oct"
+    },
+    {
+      "label": "Next WHO Disease Outbreak News report",
+      "status": "pending",
+      "note": "Recent reports came about every two weeks; next not announced"
+    },
+    {
+      "label": "Third WHO Emergency Committee meeting",
+      "status": "pending",
+      "note": "Not announced; recommendations issued 24 Aug normally run three months"
+    },
+    {
+      "label": "Uganda declared Ebola-free",
+      "date": "2026-08-27",
+      "status": "done"
+    },
+    {
+      "label": "Vaccination of health workers begins",
+      "date": "2026-08-27",
+      "status": "done"
+    }
+  ],
+  "positions": [
+    {
+      "who": "World Health Organization",
+      "kind": "international",
+      "date": "2026-09-23",
+      "text": "7,890 confirmed cases and 3,799 deaths in 63 health zones across 7 provinces. Risk very high in DR Congo, high for neighbouring countries, low globally. Still a Public Health Emergency of International Concern."
+    },
+    {
+      "who": "US CDC",
+      "kind": "international",
+      "date": "2026-10-02",
+      "text": "8,442 confirmed cases and 4,080 deaths; the second-largest Ebola outbreak on record, spreading faster than earlier ones. No US cases."
+    },
+    {
+      "who": "DR Congo government",
+      "kind": "official",
+      "date": "2026-09-26",
+      "text": "8,067 confirmed cases and 3,901 deaths in 63 health zones of 7 provinces, as reported by AP."
+    },
+    {
+      "who": "Kenya Ministry of Health",
+      "kind": "official",
+      "date": "2026-10-05",
+      "text": "Confirmed Kenya's first imported Bundibugyo case; the patient died. Contacts are being traced and followed."
+    },
+    {
+      "who": "Africa CDC",
+      "kind": "international",
+      "date": "2026-09-17",
+      "text": "The outbreak remains a Public Health Emergency of Continental Security, declared on 18 May."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2026-04-24-first-known-case-falls-ill",
+      "date": "2026-04-24",
+      "kind": "background",
+      "title": "First known case falls ill in Bunia",
+      "body": "A health worker who later died in Bunia, Ituri province, is the earliest known case. Investigators believe the outbreak started in the Mongbwalu mining area.",
+      "sources": [
+        {
+          "name": "WHO DON602",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-05-who-alerted-to-a-deadly",
+      "date": "2026-05-05",
+      "kind": "international",
+      "title": "WHO alerted to a deadly unknown illness in Ituri",
+      "body": "Reports describe a high-mortality illness in Mongbwalu health zone, including four health workers who died within four days.",
+      "sources": [
+        {
+          "name": "WHO DON603",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-15-dr-congo-and-uganda-declare",
+      "date": "2026-05-15",
+      "kind": "official",
+      "title": "DR Congo and Uganda declare a Bundibugyo Ebola outbreak",
+      "body": "The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.",
+      "sources": [
+        {
+          "name": "WHO DON603",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"
+        },
+        {
+          "name": "WHO DON602",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-who-declares-a-global-health",
+      "date": "2026-05-17",
+      "kind": "international",
+      "title": "WHO declares a global health emergency",
+      "body": "The WHO Director-General declares a Public Health Emergency of International Concern, the first time this was done before convening an Emergency Committee.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-africa-cdc-declares-a-continental",
+      "date": "2026-05-18",
+      "kind": "international",
+      "title": "Africa CDC declares a continental emergency; US restricts entry",
+      "body": "Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.",
+      "sources": [
+        {
+          "name": "Africa CDC",
+          "url": "https://africa.com/africa-centres-for-disease-control-and-prevention-africa-cdc-declares-the-ongoing-bundibugyo-ebola-outbreak-a-public-health-emergency-of-continental-security/"
+        },
+        {
+          "name": "STAT",
+          "url": "https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-us-518-million-response-plan",
+      "date": "2026-06-05",
+      "kind": "international",
+      "title": "US$518 million response plan launched",
+      "body": "Africa CDC and WHO launch a joint continental plan covering June to November 2026.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-france-reports-an-imported-case",
+      "date": "2026-06-24",
+      "kind": "international",
+      "title": "France reports an imported case",
+      "body": "An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.",
+      "sources": [
+        {
+          "name": "WHO DON612",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-first-treatment-trial-for-bundibugyo",
+      "date": "2026-07-02",
+      "kind": "international",
+      "title": "First treatment trial for Bundibugyo Ebola begins",
+      "body": "The PARTNERS trial enrols its first patient, testing an antibody treatment and remdesivir.",
+      "sources": [
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-largest-ebola-outbreak-in-dr",
+      "date": "2026-07-30",
+      "kind": "international",
+      "title": "Largest Ebola outbreak in DR Congo's history",
+      "body": "With 3,605 confirmed cases in DR Congo, the outbreak passes the 2018–2020 North Kivu outbreak.",
+      "sources": [
+        {
+          "name": "WHO DON614",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-who-keeps-the-global-emergency",
+      "date": "2026-08-18",
+      "kind": "international",
+      "title": "WHO keeps the global emergency in place",
+      "body": "WHO's Emergency Committee meets for the second time. Modelling it cites suggests true infections may be three to four times the reported count.",
+      "sources": [
+        {
+          "name": "WHO Emergency Committee report",
+          "url": "https://www.who.int/news/item/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-27-vaccination-of-health-workers-begins",
+      "date": "2026-08-27",
+      "kind": "official",
+      "title": "Vaccination of health workers begins; Uganda declared Ebola-free",
+      "body": "DR Congo starts giving Ervebo, a vaccine licensed for a different Ebola species, to health workers in trials. WHO and Africa CDC confirm the end of Uganda's outbreak after 42 days without cases.",
+      "sources": [
+        {
+          "name": "AP via ABC News",
+          "url": "https://abcnews.com/Health/wireStory/congo-begins-vaccinations-fight-fastest-growing-ebola-outbreak-136017272"
+        },
+        {
+          "name": "WHO Africa",
+          "url": "https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-outbreak-reaches-a-seventh-province",
+      "date": "2026-09-10",
+      "kind": "official",
+      "title": "Outbreak reaches a seventh province, Sud-Ubangi",
+      "body": "A death in Bulu health zone marks the first spread to western DR Congo.",
+      "sources": [
+        {
+          "name": "AP via Local10",
+          "url": "https://www.local10.com/health/2026/09/11/ebola-outbreak-in-congo-spreads-to-a-7th-province/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-19-frontline-worker-vaccine-study-launched",
+      "date": "2026-09-19",
+      "kind": "international",
+      "title": "Frontline worker vaccine study launched in Bunia",
+      "body": "MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.",
+      "sources": [
+        {
+          "name": "MSF",
+          "url": "https://www.msf.org/msf-launches-ebola-vaccination-study-among-drc-frontline-workers"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-who-7-890-cases-3",
+      "date": "2026-09-23",
+      "kind": "international",
+      "title": "WHO: 7,890 cases, 3,799 deaths in 63 health zones",
+      "body": "The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.",
+      "sources": [
+        {
+          "name": "WHO Disease Outbreak News (DON618)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-g20-pledges-more-than-us",
+      "date": "2026-09-30",
+      "kind": "international",
+      "title": "G20 pledges more than US$470 million",
+      "body": "New pledges at the G20 foreign ministers' meeting include US$267 million from the US.",
+      "sources": [
+        {
+          "name": "Social News XYZ",
+          "url": "https://www.socialnews.xyz/2026/09/30/g20-mobilises-470-million-to-fight-ebola/"
+        },
+        {
+          "name": "Health Policy Watch",
+          "url": "https://healthpolicy-watch.news/almost-3-billion-raised-for-drcs-ebola-outbreak-as-focus-shifts-to-nord-kivu/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-msf-health-worker-evacuated-to",
+      "date": "2026-10-01",
+      "kind": "media",
+      "title": "MSF health worker evacuated to the Netherlands",
+      "body": "A Medecins Sans Frontieres staff member infected in DR Congo is admitted to Leiden University Medical Center.",
+      "sources": [
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "name": "Cyprus Mail (Reuters)",
+          "url": "https://cyprus-mail.com/2026/10/01/msf-staff-member-tests-positive-for-ebola-in-congo-aid-organisation-says"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-cdc-8-442-cases-and",
+      "date": "2026-10-02",
+      "kind": "international",
+      "title": "CDC: 8,442 cases and 4,080 deaths",
+      "body": "CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.",
+      "sources": [
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-kenya-s-first-imported-case",
+      "date": "2026-10-05",
+      "kind": "official",
+      "title": "Kenya's first imported case dies in Nairobi",
+      "body": "A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"
+        },
+        {
+          "name": "Citizen Digital",
+          "url": "https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Putting it in context",
+    "stats": [
+      {
+        "value": "48%",
+        "label": "of confirmed cases have died",
+        "note": "Crude fatality rate, WHO, 23 Sep",
+        "source": {
+          "name": "WHO Disease Outbreak News (DON618)",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+        }
+      },
+      {
+        "value": "28,600",
+        "label": "cases in West Africa, 2014–2016",
+        "note": "The largest Ebola outbreak on record; 11,325 deaths",
+        "source": {
+          "name": "CDC: history of Ebola outbreaks",
+          "url": "https://www.cdc.gov/ebola/outbreaks/index.html"
+        }
+      },
+      {
+        "value": "131",
+        "label": "cases in the first Bundibugyo outbreak",
+        "note": "Uganda, 2007; 42 deaths",
+        "source": {
+          "name": "CDC: history of Ebola outbreaks",
+          "url": "https://www.cdc.gov/ebola/outbreaks/index.html"
+        }
+      },
+      {
+        "value": "2–21",
+        "label": "days from infection to symptoms",
+        "note": "An outbreak ends after 42 days with no new cases",
+        "source": {
+          "name": "CDC health advisory",
+          "url": "https://www.cdc.gov/han/php/notices/han00530.html"
+        }
+      }
+    ],
+    "historyTitle": "Bundibugyo Ebola outbreaks",
+    "history": [
+      {
+        "year": "2007",
+        "text": "Bundibugyo virus is first identified in Bundibugyo District, Uganda: 131 cases and 42 deaths."
+      },
+      {
+        "year": "2012",
+        "text": "Second known outbreak, around Isiro in north-eastern DR Congo."
+      },
+      {
+        "year": "2026",
+        "text": "The largest Bundibugyo outbreak by far: more than 8,400 confirmed cases in DR Congo, plus cases in Uganda, France and Kenya."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "CDC: history of Ebola outbreaks",
+        "url": "https://www.cdc.gov/ebola/outbreaks/index.html"
+      },
+      {
+        "name": "CDC Emerging Infectious Diseases",
+        "url": "https://wwwnc.cdc.gov/eid/article/16/12/10-0627_article"
+      }
+    ],
+    "factsTitle": "About Ebola"
+  },
+  "facts": [
+    {
+      "q": "How does Ebola spread?",
+      "a": "Through direct contact with the blood or body fluids of a person who is sick with or has died from Ebola, or with contaminated objects. It does not spread through the air, and people are not contagious before symptoms start."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "Fever, fatigue, muscle pain, headache and sore throat, followed by vomiting, diarrhoea, rash and in some cases bleeding. Symptoms appear 2 to 21 days after infection, usually within 4 to 10."
+    },
+    {
+      "q": "Is there a treatment?",
+      "a": "There is no licensed treatment for Bundibugyo virus. Early supportive care improves survival. A trial testing an antibody treatment and remdesivir began in July 2026."
+    },
+    {
+      "q": "Is there a vaccine?",
+      "a": "Not for this strain. Ervebo protects against Zaire Ebola; trials in DR Congo are testing whether it helps against Bundibugyo, starting with health and frontline workers."
+    },
+    {
+      "q": "What does Bundibugyo mean?",
+      "a": "It is one of several Ebola virus species, named after the district in Uganda where it was first identified in 2007. Fruit bats are the suspected natural host."
+    }
+  ],
+  "follow": [
+    {
+      "name": "WHO Disease Outbreak News",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    {
+      "name": "CDC: Ebola current situation",
+      "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+    },
+    {
+      "name": "ECDC: Ebola in DR Congo and Uganda",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+    },
+    {
+      "name": "WHO Africa weekly situation reports",
+      "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation"
+    },
+    {
+      "name": "CIDRAP Ebola news",
+      "url": "https://www.cidrap.umn.edu/ebola"
+    }
+  ],
+  "card": {
+    "title": "Ebola in DR Congo: 8,442 cases",
+    "sub": "The second-largest Ebola outbreak on record. 4,080 deaths in 7 provinces. Kenya reports its first imported case.",
+    "stats": [
+      "cases",
+      "deaths",
+      "provinces",
+      "countries"
+    ],
+    "statLabels": {
+      "cases": "Confirmed cases",
+      "deaths": "Confirmed deaths",
+      "provinces": "Provinces",
+      "countries": "Other countries"
+    },
+    "sources": "WHO, CDC, ECDC, Africa CDC"
+  },
+  "postExtra": "63 health zones in 7 provinces. No licensed vaccine for this strain."
+}

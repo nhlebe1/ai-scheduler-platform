@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "slug": "measles",
+    "title": "US Measles Tracker",
+    "short": "Measles · US",
+    "description": "Independent, sourced tracker of the 2026 US measles surge: CDC case counts, cases by state, outbreaks, deaths, elimination status and a dated timeline.",
+    "postLead": "US measles",
+    "postDay": false,
+    "figuresTitle": "2026 so far (CDC)",
+    "hubFigures": [
+      "cases",
+      "jurisdictions",
+      "deaths"
+    ],
+    "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
+  },
+  "updated": "2026-10-07T03:00:00Z",
+  "checked": "2026-10-07T03:00:00Z",
+  "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
+  "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
+  "social": {
+    "x": ""
+  },
+  "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
+  "status": {
+    "level": "growing",
+    "label": "Growing · most since 1991",
+    "summary": "CDC counted 3,887 confirmed cases in 47 jurisdictions as of 1 October, up 228 in a week, and 95% are linked to outbreaks. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+  },
+  "stage": {
+    "title": "US elimination status",
+    "current": 3,
+    "since": "2026-01-16"
+  },
+  "ladder": [
+    {
+      "n": 1,
+      "label": "Eliminated",
+      "test": "No chain of spread lasting 12 months or more (US status since 2000)"
+    },
+    {
+      "n": 2,
+      "label": "Large outbreaks",
+      "test": "Outbreaks of hundreds of cases, as in 2019 and 2025"
+    },
+    {
+      "n": 3,
+      "label": "Under review",
+      "test": "PAHO reviews whether one chain of spread has lasted 12 months or more"
+    },
+    {
+      "n": 4,
+      "label": "Elimination lost",
+      "test": "PAHO's regional commission rules that measles spreads continuously in the US again"
+    }
+  ],
+  "counters": [
+    {
+      "id": "since-west-texas",
+      "label": "since the West Texas outbreak began",
+      "from": "2025-01-20"
+    }
+  ],
+  "figures": [
+    {
+      "id": "cases",
+      "label": "Confirmed cases",
+      "value": 3887,
+      "note": "CDC, as of 1 Oct",
+      "tone": "critical",
+      "upIsBad": true
+    },
+    {
+      "id": "jurisdictions",
+      "label": "Jurisdictions with cases",
+      "value": 47,
+      "note": "45 states, New York City and Washington, DC",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "outbreaks",
+      "label": "New outbreaks in 2026",
+      "value": 42,
+      "note": "95% of cases are linked to outbreaks",
+      "tone": "watch",
+      "upIsBad": true
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths (CDC count)",
+      "value": 2,
+      "note": "Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
+      "tone": "critical",
+      "upIsBad": true
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-10",
+      "values": {
+        "cases": 3294
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "values": {
+        "cases": 3471
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "values": {
+        "cases": 3659
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "values": {
+        "cases": 3887,
+        "jurisdictions": 47,
+        "outbreaks": 42,
+        "deaths": 2
+      }
+    }
+  ],
+  "trend": {
+    "title": "US measles cases per year",
+    "unit": "Confirmed cases",
+    "note": "2026 is year to date (1 Oct). Tap or hover a bar for its value.",
+    "labelHeader": "Year",
+    "valueHeader": "Cases",
+    "highlight": "2026",
+    "series": [
+      {
+        "label": "2010",
+        "value": 63
+      },
+      {
+        "label": "2011",
+        "value": 220
+      },
+      {
+        "label": "2012",
+        "value": 55
+      },
+      {
+        "label": "2013",
+        "value": 189
+      },
+      {
+        "label": "2014",
+        "value": 667
+      },
+      {
+        "label": "2015",
+        "value": 188
+      },
+      {
+        "label": "2016",
+        "value": 86
+      },
+      {
+        "label": "2017",
+        "value": 120
+      },
+      {
+        "label": "2018",
+        "value": 375
+      },
+      {
+        "label": "2019",
+        "value": 1274
+      },
+      {
+        "label": "2020",
+        "value": 13
+      },
+      {
+        "label": "2021",
+        "value": 49
+      },
+      {
+        "label": "2022",
+        "value": 121
+      },
+      {
+        "label": "2023",
+        "value": 58
+      },
+      {
+        "label": "2024",
+        "value": 285
+      },
+      {
+        "label": "2025",
+        "value": 2289
+      },
+      {
+        "label": "2026",
+        "value": 3887,
+        "note": "year to date"
+      }
+    ],
+    "sources": [
+      {
+        "name": "CDC data slide set",
+        "url": "https://www.cdc.gov/measles/downloads/measlesdataandstatsslideset.pdf"
+      },
+      {
+        "name": "CDC MMWR",
+        "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6115a1.htm"
+      },
+      {
+        "name": "MSK Library (CDC data)",
+        "url": "https://libguides.mskcc.org/measles/US"
+      },
+      {
+        "name": "USAFacts",
+        "url": "https://usafacts.org/answers/how-many-measles-cases-are-there-in-the-us/country/united-states/"
+      },
+      {
+        "name": "Contagion Live",
+        "url": "https://www.contagionlive.com/view/measles-update-october-2-2026"
+      }
+    ]
+  },
+  "map": {
+    "title": "Measles cases by state, 2026",
+    "titleShort": "By state"
+  },
+  "regions": {
+    "title": "Cases by state, 2026",
+    "titleShort": "States with the most cases",
+    "label": "Cases",
+    "regionHeader": "State",
+    "valueHeader": "Cases",
+    "unitLabel": "cases in 2026",
+    "bins": [
+      1,
+      50,
+      100,
+      200,
+      500
+    ],
+    "noneLabel": "Not tracked here",
+    "values": {
+      "Pennsylvania": 1004,
+      "South Carolina": 670,
+      "Utah": 535,
+      "Wisconsin": 214,
+      "Texas": 192,
+      "Virginia": 177,
+      "Florida": 141,
+      "Ohio": 122,
+      "Arizona": 110,
+      "New York": 108,
+      "California": 48,
+      "Washington": 45,
+      "North Dakota": 38
+    },
+    "notes": {
+      "Pennsylvania": "State health dept, 5 Oct. 198 hospitalised, 5 deaths.",
+      "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
+      "Utah": "CDC map, 1 Oct.",
+      "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
+      "Texas": "State health dept, 16 Sep.",
+      "Virginia": "State health dept, 9 Jul. Outbreak declared over 18 Aug.",
+      "Florida": "Confirmed cases, July.",
+      "Ohio": "State health dept, about 9 Sep.",
+      "Arizona": "CDC, 10 Sep.",
+      "New York": "Governor's office, 3 Oct. Includes 7 in New York City.",
+      "California": "CDC, 23 Jul.",
+      "Washington": "CDC, 23 Jul.",
+      "North Dakota": "CDC, 23 Jul."
+    },
+    "note": "Latest sourced count for each state; dates vary (see each state). 45 states have reported cases this year; states not listed aren't tracked here yet.",
+    "sources": [
+      {
+        "name": "Pennsylvania Dept. of Health",
+        "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"
+      },
+      {
+        "name": "Newsweek",
+        "url": "https://www.newsweek.com/map-shows-us-measles-cases-new-york-declares-emergency-12529018"
+      },
+      {
+        "name": "FOX 9 (Wisconsin DHS)",
+        "url": "https://www.fox9.com/news/measles-wisconsin-outbreak-now-has-over-200-confirmed-cases"
+      },
+      {
+        "name": "Texas DSHS",
+        "url": "https://www.dshs.texas.gov/vaccine-preventable-diseases/vaccine-preventable-disease-conditions/measles-rubeola/measles-rubeola/measles-rubeola-data"
+      },
+      {
+        "name": "Virginia Dept. of Health",
+        "url": "https://www.vdh.virginia.gov/measles/"
+      },
+      {
+        "name": "WMBF News",
+        "url": "https://www.wmbfnews.com/2026/10/06/670-measles-cases-reported-south-carolina-this-year-second-highest-us/"
+      },
+      {
+        "name": "WYSU (Ohio)",
+        "url": "https://wysu.org/ohio-news/2026-09-09/measles-outbreak-grows-in-northeast-ohio"
+      },
+      {
+        "name": "New York Governor's office",
+        "url": "https://www.governor.ny.gov/news/governor-hochul-declares-state-disaster-emergency-response-ongoing-measles-outbreak"
+      },
+      {
+        "name": "CIDRAP",
+        "url": "https://www.cidrap.umn.edu/measles/us-measles-cases-approach-3300-over-1000-more-all-last-year"
+      },
+      {
+        "name": "Becker's Hospital Review",
+        "url": "https://www.beckershospitalreview.com/quality/public-health/10-states-with-most-measles-cases-in-2026/"
+      },
+      {
+        "name": "WFLA",
+        "url": "https://www.wfla.com/news/florida-ranks-5-for-u-s-measles-cases-in-2026-cdc-report/"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "Most 2026 cases are in vaccinated people",
+      "status": "false",
+      "detail": "94% of cases were unvaccinated or had unknown vaccination status as of 4 September, CDC data show. In Pennsylvania, more than 99% of cases were unvaccinated.",
+      "sources": [
+        {
+          "name": "Reuters via GV Wire",
+          "url": "https://gvwire.com/2026/09/04/us-cdc-records-more-than-3100-measles-cases-so-far-in-2026/"
+        },
+        {
+          "name": "Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-one-thousand-cases-20261005.html"
+        }
+      ]
+    },
+    {
+      "claim": "The US has already lost its measles elimination status",
+      "status": "unconfirmed",
+      "detail": "Not yet. PAHO postponed its review to November 2026 at the US's request. Many experts expect the status to be lost.",
+      "sources": [
+        {
+          "name": "PAHO",
+          "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/03/02/health/us-measles-elimination-status-paho-meeting-delay"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/measles/measles-milestones-us-closes-4000-cases-pennsylvania-nears-1000"
+        }
+      ]
+    },
+    {
+      "claim": "Pennsylvania has had five measles deaths this year",
+      "status": "confirmed",
+      "detail": "Confirmed by the state health department. CDC's national count is two because it only counts deaths confirmed through death certificates.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/healthcare/6118137-cdc-updates-measles-death-tally/"
+        }
+      ]
+    },
+    {
+      "claim": "2026 is the worst US measles year since 1991",
+      "status": "confirmed",
+      "detail": "2026 passed 2025's total of 2,289 in July. The 3,887 cases counted by 1 October are the most since 1991's 9,643.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        },
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/business-and-practice/us-measles-infections-surpass-2025-total-to-reach-35-year-high"
+        },
+        {
+          "name": "PubMed (MMWR 1991 data)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1470100/"
+        }
+      ]
+    },
+    {
+      "claim": "Two doses of MMR vaccine are about 97% effective",
+      "status": "confirmed",
+      "detail": "CDC: one dose is about 93% effective and two doses about 97%.",
+      "sources": [
+        {
+          "name": "CDC",
+          "url": "https://www.cdc.gov/measles/vaccines/index.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "label": "Next weekly CDC update",
+      "date": "2026-10-09",
+      "status": "pending",
+      "note": "CDC publishes on Fridays (data as of Thursday). Expected date, not announced."
+    },
+    {
+      "label": "US passes 4,000 cases",
+      "status": "pending",
+      "note": "3,887 as of 1 Oct"
+    },
+    {
+      "label": "New York's disaster emergency expires unless extended",
+      "date": "2026-11-04",
+      "status": "pending"
+    },
+    {
+      "label": "PAHO decides on US elimination status",
+      "status": "pending",
+      "note": "November 2026; exact date not announced"
+    },
+    {
+      "label": "Pennsylvania outbreak declared over",
+      "status": "pending",
+      "note": "Requires 42 days with no new cases"
+    },
+    {
+      "label": "CDC and Pennsylvania death counts reconciled",
+      "status": "pending"
+    }
+  ],
+  "positions": [
+    {
+      "who": "CDC",
+      "kind": "official",
+      "date": "2026-10-02",
+      "text": "3,887 confirmed cases in 47 jurisdictions and 2 deaths so far in 2026. Two MMR doses are about 97% effective."
+    },
+    {
+      "who": "Pennsylvania Department of Health",
+      "kind": "official",
+      "date": "2026-10-05",
+      "text": "1,004 cases in 39 counties, 198 hospitalised and 5 deaths. More than 99% of cases were unvaccinated."
+    },
+    {
+      "who": "New York Governor Kathy Hochul",
+      "kind": "official",
+      "date": "2026-10-05",
+      "text": "State disaster emergency through 4 November. Pharmacists, paramedics and midwives may now give vaccines."
+    },
+    {
+      "who": "Pan American Health Organization",
+      "kind": "international",
+      "date": "2026-03-02",
+      "text": "Review of US elimination status moved to its November 2026 meeting, at the US's request."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "2026-01-16-paho-schedules-a-review-of",
+      "date": "2026-01-16",
+      "kind": "international",
+      "title": "PAHO schedules a review of US measles elimination status",
+      "body": "The Pan American Health Organization announces a special session to review whether the US and Mexico still meet the bar for measles elimination.",
+      "sources": [
+        {
+          "name": "PAHO",
+          "url": "https://www.paho.org/en/news/16-1-2026-measles-elimination-status-united-states-and-mexico"
+        }
+      ]
+    },
+    {
+      "id": "2026-01-20-one-year-since-the-west",
+      "date": "2026-01-20",
+      "kind": "background",
+      "title": "One year since the West Texas outbreak began",
+      "body": "The outbreak that began in West Texas on 20 January 2025 marks a year with US cases reported every week. Elimination is lost if one chain of spread lasts 12 months or more.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/01/20/health/us-measles-outbreak-one-year"
+        },
+        {
+          "name": "PAHO",
+          "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
+        }
+      ]
+    },
+    {
+      "id": "2026-02-27-us-passes-1-000-cases",
+      "date": "2026-02-27",
+      "kind": "official",
+      "title": "US passes 1,000 cases for 2026",
+      "body": "CDC counts 1,136 confirmed cases as of 26 February, the third time since 2000 that the country has passed 1,000 in a year.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/02/27/health/measles-thousand-cases-deaths"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-surpasses-1000-measles-cases-3rd-time-26/story?id=130558921"
+        }
+      ]
+    },
+    {
+      "id": "2026-03-02-paho-postpones-the-elimination-review",
+      "date": "2026-03-02",
+      "kind": "international",
+      "title": "PAHO postpones the elimination review to November",
+      "body": "At the US's request, PAHO moves the review to its regular November 2026 meeting while genome sequencing continues.",
+      "sources": [
+        {
+          "name": "PAHO",
+          "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/03/02/health/us-measles-elimination-status-paho-meeting-delay"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-27-south-carolina-s-outbreak-declared",
+      "date": "2026-04-27",
+      "kind": "official",
+      "title": "South Carolina's outbreak declared over",
+      "body": "South Carolina ends its Upstate outbreak after 997 cases, 670 of them in 2026, and no deaths.",
+      "sources": [
+        {
+          "name": "SC Daily Gazette",
+          "url": "https://scdailygazette.com/2026/04/27/nations-largest-measles-outbreak-is-over-sc-health-officials-say/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-us-passes-2-000-cases",
+      "date": "2026-06-05",
+      "kind": "official",
+      "title": "US passes 2,000 cases for the second year running",
+      "body": "CDC counts 2,030 confirmed cases.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-measles-cases-surpass-2000-2nd-year-row/story?id=133618006"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-24-2026-overtakes-2025-the-most",
+      "date": "2026-07-24",
+      "kind": "official",
+      "title": "2026 overtakes 2025: the most cases since 1991",
+      "body": "CDC counts 2,318 cases as of 23 July, above all of 2025 (2,289) and the highest total since 1991.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        },
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/business-and-practice/us-measles-infections-surpass-2025-total-to-reach-35-year-high"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-25-pennsylvania-reports-its-first-two",
+      "date": "2026-08-25",
+      "kind": "official",
+      "title": "Pennsylvania reports its first two measles deaths",
+      "body": "Two infants in Lancaster County die of measles-associated illness, the state health department says.",
+      "sources": [
+        {
+          "name": "TimesLIVE (Reuters)",
+          "url": "https://www.timeslive.co.za/news/world/2026-08-25-two-dead-from-measles-in-pennsylvania-state-health-department-says/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-04-us-passes-3-000-cases",
+      "date": "2026-09-04",
+      "kind": "official",
+      "title": "US passes 3,000 cases",
+      "body": "CDC counts 3,134 cases, 38 outbreaks and 248 hospitalisations. 94% of cases were unvaccinated or had unknown vaccination status.",
+      "sources": [
+        {
+          "name": "Reuters via GV Wire",
+          "url": "https://gvwire.com/2026/09/04/us-cdc-records-more-than-3100-measles-cases-so-far-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-pennsylvania-confirms-two-more-deaths",
+      "date": "2026-09-15",
+      "kind": "official",
+      "title": "Pennsylvania confirms two more deaths",
+      "body": "Deaths in Jefferson and Mifflin counties bring the state's total to four.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/doh-confirms-two-additional-measles-associated-deaths-"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/15/health/pennsylvania-measles-deaths-outbreak"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-cdc-confirms-two-measles-deaths",
+      "date": "2026-09-29",
+      "kind": "official",
+      "title": "CDC confirms two measles deaths nationally",
+      "body": "CDC's national count rises to two. It now counts only deaths confirmed through death certificates (NCHS), so it is lower than state tallies.",
+      "sources": [
+        {
+          "name": "Reuters via U.S. News",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-09-29/us-cdc-confirms-two-measles-related-deaths-in-2026"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/healthcare/6118137-cdc-updates-measles-death-tally/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-pennsylvania-reports-a-fifth-death",
+      "date": "2026-09-30",
+      "kind": "official",
+      "title": "Pennsylvania reports a fifth death",
+      "body": "A fifth measles-associated death is confirmed in Lancaster County.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-cdc-3-887-cases-in",
+      "date": "2026-10-02",
+      "kind": "official",
+      "title": "CDC: 3,887 cases in 47 jurisdictions",
+      "body": "The weekly update counts 228 new cases, 42 new outbreaks this year, and 95% of cases linked to outbreaks.",
+      "sources": [
+        {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/measles-update-october-2-2026"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/measles/measles-milestones-us-closes-4000-cases-pennsylvania-nears-1000"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-pennsylvania-passes-1-000-cases",
+      "date": "2026-10-05",
+      "kind": "official",
+      "title": "Pennsylvania passes 1,000 cases; New York declares a disaster emergency",
+      "body": "Pennsylvania reaches 1,004 cases in 39 counties, the first US state past 1,000 in a year since 1991. New York's governor declares a state disaster emergency through 4 November and lets pharmacists, paramedics and midwives vaccinate.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"
+        },
+        {
+          "name": "Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-one-thousand-cases-20261005.html"
+        },
+        {
+          "name": "New York Governor's office",
+          "url": "https://www.governor.ny.gov/news/governor-hochul-declares-state-disaster-emergency-response-ongoing-measles-outbreak"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/health/health-news/new-york-declares-first-us-measles-disaster-emergency-2025-surge-rcna601810"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "statsTitle": "Why measles spreads",
+    "stats": [
+      {
+        "value": "97%",
+        "label": "protection from two MMR doses",
+        "note": "One dose: about 93%",
+        "source": {
+          "name": "CDC",
+          "url": "https://www.cdc.gov/measles/vaccines/index.html"
+        }
+      },
+      {
+        "value": "92.4%",
+        "label": "of kindergartners had MMR in 2025–26",
+        "note": "Below the ~95% needed for herd immunity. Exemptions hit a record 4.2%.",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/amp/2026/08/17/us-kindergarten-vaccine-falls-cdc.html"
+        }
+      },
+      {
+        "value": "12–18",
+        "label": "people one case can infect",
+        "note": "Measles' basic reproduction number, among the highest of any disease",
+        "source": {
+          "name": "Lancet Infectious Diseases (Guerra et al.)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28757186/"
+        }
+      },
+      {
+        "value": "1 in 5",
+        "label": "unvaccinated people with measles are hospitalised",
+        "note": "CDC estimate",
+        "source": {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/measles-update-october-2-2026"
+        }
+      }
+    ],
+    "historyTitle": "US measles milestones",
+    "history": [
+      {
+        "year": "1991",
+        "text": "9,643 cases, the last year with more than this year's total."
+      },
+      {
+        "year": "2000",
+        "text": "The US declares measles eliminated: no continuous spread for 12 months or more."
+      },
+      {
+        "year": "2019",
+        "text": "1,274 cases in 31 states, then the most since 1992."
+      },
+      {
+        "year": "2025",
+        "text": "2,289 cases and 3 deaths; the West Texas outbreak begins in January."
+      },
+      {
+        "year": "2026",
+        "text": "3,887 cases by 1 October. Elimination status under review."
+      }
+    ],
+    "historySources": [
+      {
+        "name": "PubMed (MMWR 1991 data)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1470100/"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/measles/about/history.html"
+      },
+      {
+        "name": "MSK Library (CDC data)",
+        "url": "https://libguides.mskcc.org/measles/US"
+      },
+      {
+        "name": "USAFacts",
+        "url": "https://usafacts.org/answers/how-many-measles-cases-are-there-in-the-us/country/united-states/"
+      },
+      {
+        "name": "Contagion Live",
+        "url": "https://www.contagionlive.com/view/measles-update-october-2-2026"
+      }
+    ],
+    "factsTitle": "About measles"
+  },
+  "facts": [
+    {
+      "q": "How does measles spread?",
+      "a": "Through the air when an infected person coughs or sneezes. The virus can linger in a room for up to two hours, so people can catch it without direct contact. People are contagious from four days before to four days after the rash appears."
+    },
+    {
+      "q": "What are the symptoms?",
+      "a": "High fever, cough, runny nose and red, watery eyes, followed by a rash that starts on the face. Symptoms usually appear 7 to 14 days after exposure."
+    },
+    {
+      "q": "How dangerous is it?",
+      "a": "About 1 in 5 unvaccinated people with measles is hospitalised. Complications include pneumonia and brain swelling (encephalitis), and young children are most at risk."
+    },
+    {
+      "q": "How well does the vaccine work?",
+      "a": "Two doses of MMR vaccine are about 97% effective at preventing measles; one dose is about 93% effective. Children usually get doses at 12–15 months and 4–6 years."
+    },
+    {
+      "q": "What is elimination status?",
+      "a": "A country has eliminated measles when no single chain of spread lasts 12 months or more. The US reached it in 2000. PAHO's regional commission decides whether a country keeps it."
+    }
+  ],
+  "follow": [
+    {
+      "name": "CDC: Measles cases and outbreaks",
+      "url": "https://www.cdc.gov/measles/data-research/index.html"
+    },
+    {
+      "name": "Pennsylvania Dept. of Health: measles",
+      "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"
+    },
+    {
+      "name": "CIDRAP measles news",
+      "url": "https://www.cidrap.umn.edu/measles"
+    },
+    {
+      "name": "PAHO: measles elimination review",
+      "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
+    }
+  ],
+  "card": {
+    "title": "US measles: most cases since 1991",
+    "sub": "3,887 confirmed cases in 47 jurisdictions as of 1 Oct. Pennsylvania passes 1,000. New York declares a disaster emergency.",
+    "stats": [
+      "cases",
+      "jurisdictions",
+      "outbreaks",
+      "deaths"
+    ],
+    "statLabels": {
+      "cases": "Confirmed cases",
+      "jurisdictions": "Jurisdictions",
+      "outbreaks": "New outbreaks",
+      "deaths": "Deaths (CDC)"
+    },
+    "sources": "CDC, Pennsylvania DOH, NY Governor, PAHO",
+    "foot": "CDC data as of 1 Oct · updated weekly"
+  },
+  "postExtra": "47 jurisdictions, 42 new outbreaks this year."
+}

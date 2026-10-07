@@ -151,7 +151,7 @@ async function ebola() {
     }),
     lakes: (await lakes(["Lake Tanganyika", "Lake Kivu", "Lake Albert", "Lake Edward", "Lake Mweru", "Lake Victoria"])).map((f) => ({ name: f.properties.name, d: path(f.geometry, 0.8, 1) })),
     labels: [
-      { text: "Uganda", lon: 32.0, lat: 2.6 }, { text: "South Sudan", lon: 29.6, lat: 5.6 }, { text: "CAR", lon: 21.0, lat: 5.6 },
+      { text: "Uganda", lon: 31.5, lat: 3.3 }, { text: "South Sudan", lon: 29.6, lat: 5.6 }, { text: "CAR", lon: 21.0, lat: 5.6 },
       { text: "Rwanda", lon: 30.2, lat: -1.6 }, { text: "Angola", lon: 17.0, lat: -11.5 }, { text: "Zambia", lon: 27.5, lat: -13.6 },
       { text: "Rep. of Congo", lon: 14.0, lat: 0.6 },
     ],

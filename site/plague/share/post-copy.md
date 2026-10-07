@@ -1,6 +1,6 @@
 # Post copy for Russia Plague Watch
 
-Link: https://nhlebe1.github.io/ai-scheduler-platform/
+Link: https://nhlebe1.github.io/ai-scheduler-platform/plague/
 Image to attach: `share-card-x.png`
 
 ## X (fits in one post)
@@ -10,7 +10,7 @@ A worker at Russia's Irkutsk anti-plague institute died on 2 Oct. Media report p
 197 contacts monitored. No plague found in those tested so far. Incubation window closes 9 Oct.
 
 Sourced tracker:
-https://nhlebe1.github.io/ai-scheduler-platform/
+https://nhlebe1.github.io/ai-scheduler-platform/plague/
 
 ## LinkedIn / Facebook
 
@@ -26,11 +26,11 @@ What the tracker shows:
 
 It works on a phone and you can add it to your home screen.
 
-https://nhlebe1.github.io/ai-scheduler-platform/
+https://nhlebe1.github.io/ai-scheduler-platform/plague/
 
 ## Reddit (title + body)
 
 Title: I made a sourced tracker for the suspected plague death in Irkutsk (counts, incubation window, timeline)
 
 Body: Every claim links to its source, and official, WHO and media positions are shown separately because they disagree. Russia has not confirmed plague; no plague has been found in the contacts tested so far. Incubation window for the contacts closes 9 Oct. Corrections welcome.
-https://nhlebe1.github.io/ai-scheduler-platform/
+https://nhlebe1.github.io/ai-scheduler-platform/plague/

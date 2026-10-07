@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ebola Tracker: DR Congo</title>
+  <subtitle>Independent, sourced tracker of the Bundibugyo Ebola outbreak in DR Congo: confirmed cases and deaths, affected provinces, spread to other countries, vaccines, WHO risk and a dated timeline.</subtitle>
+  <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
+  <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
+  <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
+  <updated>2026-10-07T03:00:00Z</updated>
+  <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Kenya's first imported case dies in Nairobi</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-05-kenya-s-first-imported-case"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-05-kenya-s-first-imported-case</id>
+    <updated>2026-10-05T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.</summary>
+    <content type="html">&lt;p&gt;A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"&gt;Citizen Digital&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CDC: 8,442 cases and 4,080 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and</id>
+    <updated>2026-10-02T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.</summary>
+    <content type="html">&lt;p&gt;CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>MSF health worker evacuated to the Netherlands</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-01-msf-health-worker-evacuated-to"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-01-msf-health-worker-evacuated-to</id>
+    <updated>2026-10-01T12:00:00Z</updated>
+    <category term="media"/>
+    <summary>A Medecins Sans Frontieres staff member infected in DR Congo is admitted to Leiden University Medical Center.</summary>
+    <content type="html">&lt;p&gt;A Medecins Sans Frontieres staff member infected in DR Congo is admitted to Leiden University Medical Center.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://cyprus-mail.com/2026/10/01/msf-staff-member-tests-positive-for-ebola-in-congo-aid-organisation-says"&gt;Cyprus Mail (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>G20 pledges more than US$470 million</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-30-g20-pledges-more-than-us"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-30-g20-pledges-more-than-us</id>
+    <updated>2026-09-30T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>New pledges at the G20 foreign ministers' meeting include US$267 million from the US.</summary>
+    <content type="html">&lt;p&gt;New pledges at the G20 foreign ministers' meeting include US$267 million from the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.socialnews.xyz/2026/09/30/g20-mobilises-470-million-to-fight-ebola/"&gt;Social News XYZ&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/almost-3-billion-raised-for-drcs-ebola-outbreak-as-focus-shifts-to-nord-kivu/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO: 7,890 cases, 3,799 deaths in 63 health zones</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-23-who-7-890-cases-3"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-23-who-7-890-cases-3</id>
+    <updated>2026-09-23T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.</summary>
+    <content type="html">&lt;p&gt;The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"&gt;WHO Disease Outbreak News (DON618)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Frontline worker vaccine study launched in Bunia</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-19-frontline-worker-vaccine-study-launched"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-19-frontline-worker-vaccine-study-launched</id>
+    <updated>2026-09-19T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.</summary>
+    <content type="html">&lt;p&gt;MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.msf.org/msf-launches-ebola-vaccination-study-among-drc-frontline-workers"&gt;MSF&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Outbreak reaches a seventh province, Sud-Ubangi</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-10-outbreak-reaches-a-seventh-province"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-10-outbreak-reaches-a-seventh-province</id>
+    <updated>2026-09-10T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>A death in Bulu health zone marks the first spread to western DR Congo.</summary>
+    <content type="html">&lt;p&gt;A death in Bulu health zone marks the first spread to western DR Congo.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.local10.com/health/2026/09/11/ebola-outbreak-in-congo-spreads-to-a-7th-province/"&gt;AP via Local10&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Vaccination of health workers begins; Uganda declared Ebola-free</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-27-vaccination-of-health-workers-begins"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-27-vaccination-of-health-workers-begins</id>
+    <updated>2026-08-27T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo starts giving Ervebo, a vaccine licensed for a different Ebola species, to health workers in trials. WHO and Africa CDC confirm the end of Uganda's outbreak after 42 days without cases.</summary>
+    <content type="html">&lt;p&gt;DR Congo starts giving Ervebo, a vaccine licensed for a different Ebola species, to health workers in trials. WHO and Africa CDC confirm the end of Uganda's outbreak after 42 days without cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://abcnews.com/Health/wireStory/congo-begins-vaccinations-fight-fastest-growing-ebola-outbreak-136017272"&gt;AP via ABC News&lt;/a&gt;, &lt;a href="https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown"&gt;WHO Africa&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO keeps the global emergency in place</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-18-who-keeps-the-global-emergency"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-18-who-keeps-the-global-emergency</id>
+    <updated>2026-08-18T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>WHO's Emergency Committee meets for the second time. Modelling it cites suggests true infections may be three to four times the reported count.</summary>
+    <content type="html">&lt;p&gt;WHO's Emergency Committee meets for the second time. Modelling it cites suggests true infections may be three to four times the reported count.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report"&gt;WHO Emergency Committee report&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Largest Ebola outbreak in DR Congo's history</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-30-largest-ebola-outbreak-in-dr"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-30-largest-ebola-outbreak-in-dr</id>
+    <updated>2026-07-30T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>With 3,605 confirmed cases in DR Congo, the outbreak passes the 2018–2020 North Kivu outbreak.</summary>
+    <content type="html">&lt;p&gt;With 3,605 confirmed cases in DR Congo, the outbreak passes the 2018–2020 North Kivu outbreak.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"&gt;WHO DON614&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>First treatment trial for Bundibugyo Ebola begins</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-02-first-treatment-trial-for-bundibugyo"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-02-first-treatment-trial-for-bundibugyo</id>
+    <updated>2026-07-02T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>The PARTNERS trial enrols its first patient, testing an antibody treatment and remdesivir.</summary>
+    <content type="html">&lt;p&gt;The PARTNERS trial enrols its first patient, testing an antibody treatment and remdesivir.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>France reports an imported case</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-24-france-reports-an-imported-case"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-24-france-reports-an-imported-case</id>
+    <updated>2026-06-24T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.</summary>
+    <content type="html">&lt;p&gt;An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"&gt;WHO DON612&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>US$518 million response plan launched</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-05-us-518-million-response-plan"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-05-us-518-million-response-plan</id>
+    <updated>2026-06-05T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC and WHO launch a joint continental plan covering June to November 2026.</summary>
+    <content type="html">&lt;p&gt;Africa CDC and WHO launch a joint continental plan covering June to November 2026.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Africa CDC declares a continental emergency; US restricts entry</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-18-africa-cdc-declares-a-continental"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-18-africa-cdc-declares-a-continental</id>
+    <updated>2026-05-18T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.</summary>
+    <content type="html">&lt;p&gt;Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://africa.com/africa-centres-for-disease-control-and-prevention-africa-cdc-declares-the-ongoing-bundibugyo-ebola-outbreak-a-public-health-emergency-of-continental-security/"&gt;Africa CDC&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/"&gt;STAT&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO declares a global health emergency</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-17-who-declares-a-global-health"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-17-who-declares-a-global-health</id>
+    <updated>2026-05-17T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>The WHO Director-General declares a Public Health Emergency of International Concern, the first time this was done before convening an Emergency Committee.</summary>
+    <content type="html">&lt;p&gt;The WHO Director-General declares a Public Health Emergency of International Concern, the first time this was done before convening an Emergency Committee.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>DR Congo and Uganda declare a Bundibugyo Ebola outbreak</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-15-dr-congo-and-uganda-declare"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-15-dr-congo-and-uganda-declare</id>
+    <updated>2026-05-15T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.</summary>
+    <content type="html">&lt;p&gt;The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"&gt;WHO DON603&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"&gt;WHO DON602&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>WHO alerted to a deadly unknown illness in Ituri</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-05-who-alerted-to-a-deadly"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-05-who-alerted-to-a-deadly</id>
+    <updated>2026-05-05T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Reports describe a high-mortality illness in Mongbwalu health zone, including four health workers who died within four days.</summary>
+    <content type="html">&lt;p&gt;Reports describe a high-mortality illness in Mongbwalu health zone, including four health workers who died within four days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"&gt;WHO DON603&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>First known case falls ill in Bunia</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-04-24-first-known-case-falls-ill"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-04-24-first-known-case-falls-ill</id>
+    <updated>2026-04-24T12:00:00Z</updated>
+    <category term="background"/>
+    <summary>A health worker who later died in Bunia, Ituri province, is the earliest known case. Investigators believe the outbreak started in the Mongbwalu mining area.</summary>
+    <content type="html">&lt;p&gt;A health worker who later died in Bunia, Ituri province, is the earliest known case. Investigators believe the outbreak started in the Mongbwalu mining area.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"&gt;WHO DON602&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

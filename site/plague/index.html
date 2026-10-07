@@ -237,6 +237,8 @@ main {
 }
 .day[data-state="past"] { background: var(--good-bg); border-color: transparent; color: var(--good); }
 .day[data-state="today"] { background: var(--ink); border-color: transparent; color: var(--surface); }
+.days.many { gap: 2px; }
+.days.many .day { height: 22px; font-size: 0; border-radius: 3px; }
 .clock-foot { display: flex; justify-content: space-between; font: 12px/1.3 var(--font-mono); color: var(--muted); gap: 8px; flex-wrap: wrap; }
 
 /* Ladder */
@@ -859,13 +861,14 @@ details p { margin: 0 0 14px; max-width: 68ch; }
     for (let i = 1; i <= w.incubationDays; i++) {
       const d = new Date(+start + i * DAY_MS);
       const state = i < n ? "past" : i === n ? "today" : "future";
-      cells += `<div class="day" data-state="${state}" title="${esc(fmt(d, { weekday: "long", day: "numeric", month: "long" }))}">${esc(fmt(d, { weekday: "narrow" }))}<br>${d.getUTCDate()}</div>`;
+      const label = w.incubationDays > 10 ? "" : `${esc(fmt(d, { weekday: "narrow" }))}<br>${d.getUTCDate()}`;
+      cells += `<div class="day" data-state="${state}" title="${esc(fmt(d, { weekday: "long", day: "numeric", month: "long" }))}">${label}</div>`;
     }
     const closed = Date.now() >= end;
     $("clock").innerHTML =
       `<div class="card-head"><h2 class="eyebrow" id="clock-title">${esc(w.label)}</h2><span class="small">${closed ? "Closed" : n >= 1 ? `Day ${Math.min(n, w.incubationDays)} of ${w.incubationDays}` : "Not started"}</span></div>` +
       `<div class="clock-face"><div class="clock-digits" id="clock-digits" aria-live="off"></div><span class="small" id="clock-caption"></span></div>` +
-      `<div class="days" style="--n:${w.incubationDays}" role="img" aria-label="Window from ${esc(fmt(start, { day: "numeric", month: "long" }))} to the end of ${esc(fmt(new Date(+end - DAY_MS), { day: "numeric", month: "long" }))}">${cells}</div>` +
+      `<div class="days${w.incubationDays > 10 ? " many" : ""}" style="--n:${w.incubationDays}" role="img" aria-label="Window from ${esc(fmt(start, { day: "numeric", month: "long" }))} to the end of ${esc(fmt(new Date(+end - DAY_MS), { day: "numeric", month: "long" }))}">${cells}</div>` +
       `<div class="clock-foot"><span>Last exposure ${esc(short(w.lastExposure))}</span><span>Closes end of ${esc(fmt(new Date(+end - DAY_MS), { weekday: "short", day: "numeric", month: "short" }))} UTC</span></div>` +
       `<p class="small">${esc(w.explainer)}${closed && w.closedNote ? " " + esc(w.closedNote) : ""}</p>`;
     tickClock();
@@ -909,7 +912,7 @@ details p { margin: 0 0 14px; max-width: 68ch; }
     if (!withId.length) return null;
     const last = withId[withId.length - 1];
     const prev = withId.length > 1 ? withId[withId.length - 2] : null;
-    if (!prev) return { text: hist.length > 1 && hist[0] !== last ? "New" : "", dir: "" };
+    if (!prev) return null;
     const diff = last.values[id] - prev.values[id];
     if (!diff) return { text: "No change since " + short(prev.date), dir: "" };
     return { text: (diff > 0 ? "▲ +" : "▼ ") + num(Math.abs(diff)) + " since " + short(prev.date), dir: diff > 0 && f.upIsBad ? "up-bad" : "" };

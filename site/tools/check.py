@@ -203,7 +203,7 @@ def check_tracker(slug):
         if sid not in ids:
             bad(f"card.stats references unknown figure {sid}")
 
-    text = json.dumps(d, ensure_ascii=False).lower()
+    text = re.sub(r"https://[^\"\s]+", "", json.dumps(d, ensure_ascii=False)).lower()  # links don't count
     for word in ["pandemic", "epidemic"]:
         if word in text and word not in (d.get("allowWords") or []):
             bad(f"the word '{word}' appears; allowed only if WHO or national authorities use it (then add it to allowWords)")

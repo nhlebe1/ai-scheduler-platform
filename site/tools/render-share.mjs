@@ -39,7 +39,7 @@ function fill([data, siteName]) {
     const el = document.createElement("div");
     el.className = "stat " + (tone[f.tone] || "");
     const b = document.createElement("b");
-    b.textContent = f.value;
+    b.textContent = typeof f.value === "number" ? f.value.toLocaleString("en-GB") + (f.unit || "") : f.value;
     const s = document.createElement("span");
     s.textContent = (card.statLabels && card.statLabels[id]) || f.label;
     el.append(b, s);
@@ -54,9 +54,10 @@ function fill([data, siteName]) {
   $("cells").innerHTML = Array.from({ length: w.incubationDays }, (_, i) =>
     `<i class="${i + 1 < n ? "p" : i + 1 === n ? "t" : ""}"></i>`).join("");
   $("watch").textContent = n > w.incubationDays
-    ? `Incubation window closed ${fmt(end, { day: "numeric", month: "short" })}`
-    : n < 1 ? `Incubation watch starts ${fmt(start, { day: "numeric", month: "short" })}`
-    : `Incubation watch: day ${n} of ${w.incubationDays} · closes ${fmt(end, { day: "numeric", month: "short" })}`;
+    ? `${w.label} closed ${fmt(end, { day: "numeric", month: "short" })}`
+    : n < 1 ? `${w.label} starts ${fmt(start, { day: "numeric", month: "short" })}`
+    : `${w.label}: day ${n} of ${w.incubationDays} · closes ${fmt(end, { day: "numeric", month: "short" })}`;
+  if (w.incubationDays > 10) $("cells").classList.add("many");
 }
 
 for (const [w, h, scale, name] of [[1200, 675, 2, "share-card-x.png"], [1200, 630, 1, "og-image.png"]]) {

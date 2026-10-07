@@ -8,6 +8,100 @@
   },
   "trackers": [
     {
+      "slug": "measles",
+      "url": "measles/",
+      "title": "US Measles Tracker",
+      "short": "Measles · US",
+      "description": "Independent, sourced tracker of the 2026 US measles surge: CDC case counts, cases by state, outbreaks, deaths, elimination status and a dated timeline.",
+      "status": {
+        "level": "growing",
+        "label": "Growing · most since 1991",
+        "summary": "CDC counted 3,887 confirmed cases in 47 jurisdictions as of 1 October, up 228 in a week, and 95% are linked to outbreaks. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+      },
+      "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
+      "updated": "2026-10-07T03:00:00Z",
+      "checked": "2026-10-07T03:00:00Z",
+      "figures": [
+        {
+          "label": "Confirmed cases",
+          "value": 3887,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Jurisdictions with cases",
+          "value": 47,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Deaths (CDC count)",
+          "value": 2,
+          "unit": "",
+          "tone": "critical"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-10-05",
+          "title": "Pennsylvania passes 1,000 cases; New York declares a disaster emergency",
+          "id": "2026-10-05-pennsylvania-passes-1-000-cases"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "CDC: 3,887 cases in 47 jurisdictions",
+          "id": "2026-10-02-cdc-3-887-cases-in"
+        }
+      ]
+    },
+    {
+      "slug": "ebola",
+      "url": "ebola/",
+      "title": "Ebola Tracker: DR Congo",
+      "short": "Ebola · DR Congo",
+      "description": "Independent, sourced tracker of the Bundibugyo Ebola outbreak in DR Congo: confirmed cases and deaths, affected provinces, spread to other countries, vaccines, WHO risk and a dated timeline.",
+      "status": {
+        "level": "growing",
+        "label": "Growing · global health emergency",
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 63 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,442 confirmed cases and 4,080 deaths as of 2 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+      },
+      "headline": "DR Congo's Ebola outbreak passes 8,400 confirmed cases and 4,000 deaths. Kenya reports its first imported case.",
+      "updated": "2026-10-07T03:00:00Z",
+      "checked": "2026-10-07T03:00:00Z",
+      "figures": [
+        {
+          "label": "Confirmed cases",
+          "value": 8442,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Confirmed deaths",
+          "value": 4080,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Provinces affected",
+          "value": 7,
+          "unit": "",
+          "tone": "watch"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-10-05",
+          "title": "Kenya's first imported case dies in Nairobi",
+          "id": "2026-10-05-kenya-s-first-imported-case"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "CDC: 8,442 cases and 4,080 deaths",
+          "id": "2026-10-02-cdc-8-442-cases-and"
+        }
+      ]
+    },
+    {
       "slug": "plague",
       "url": "plague/",
       "title": "Russia Plague Watch",
