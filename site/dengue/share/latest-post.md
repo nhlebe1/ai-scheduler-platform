@@ -1,6 +1,6 @@
-Locally acquired dengue in Europe so far in 2026: 59 cases in Italy (ISS, to 29 Sep) and 6 in France (to 28 Sep), well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.
+Local dengue in Europe: Italy now counts 68 locally acquired cases in 2026 (ISS, 6 Oct) in 5 outbreaks, and France 6. Still well below the 2024 record of 304. ECDC reports weekly until November.
 
-Live, sourced tracker:
+Live tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/dengue/
 
-Sources: ISS (1 Oct), Santé publique France (30 Sep), ECDC historical data, ULSS 7 Pedemontana via TViWeb and ANSA Veneto (2 Oct).
+Sources: Istituto Superiore di Sanità via Quotidiano Sanità and AgenSIR (8 Oct), Santé publique France (7 Oct).

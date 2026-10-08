@@ -204,15 +204,15 @@
       "status": {
         "level": "active",
         "label": "Active · new local cases in Italy",
-        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 59 local cases by 29 September, mostly in outbreaks in the provinces of Livorno, Lecce and Milan; a cluster in Cartigliano (Vicenza) has since reached 8 cases, and Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 68 local cases in 5 outbreaks by 6 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
       },
-      "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
+      "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-08T18:55:00Z",
       "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
-          "value": 65,
+          "value": 74,
           "unit": "",
           "tone": "watch"
         },
@@ -224,7 +224,7 @@
         },
         {
           "label": "Local chikungunya cases (context)",
-          "value": 126,
+          "value": 147,
           "unit": "",
           "tone": "watch"
         }

@@ -21,18 +21,18 @@
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
+  "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
   "status": {
     "level": "active",
     "label": "Active · new local cases in Italy",
-    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 59 local cases by 29 September, mostly in outbreaks in the provinces of Livorno, Lecce and Milan; a cluster in Cartigliano (Vicenza) has since reached 8 cases, and Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 68 local cases in 5 outbreaks by 6 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
   },
   "figures": [
     {
       "id": "cases",
       "label": "Locally acquired cases",
-      "value": 65,
-      "note": "Italy 59 (ISS, 29 Sep) + France 6 (Santé publique France, 28 Sep). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
+      "value": 74,
+      "note": "Italy 68 (ISS, 6 Oct) + France 6 (Santé publique France, 5 Oct). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
       "tone": "watch",
       "upIsBad": true
     },
@@ -40,15 +40,15 @@
       "id": "countries",
       "label": "Countries with local cases",
       "value": 2,
-      "note": "Italy and France (ECDC, 16 Sep; national data to 29 Sep)",
+      "note": "Italy and France (ECDC, 16 Sep; national data to 5–6 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
     {
       "id": "chik",
       "label": "Local chikungunya cases (context)",
-      "value": 126,
-      "note": "France 125 in 19 episodes (Santé publique France, 28 Sep); Italy 1 (ISS, 29 Sep). A different virus spread by the same mosquito",
+      "value": 147,
+      "note": "France 146 in 20 episodes (Santé publique France, 5 Oct); Italy 1 (ISS, 6 Oct). A different virus spread by the same mosquito",
       "tone": "watch",
       "upIsBad": true
     },
@@ -74,6 +74,14 @@
         "cases": 65,
         "countries": 2,
         "chik": 126
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "values": {
+        "cases": 74,
+        "countries": 2,
+        "chik": 147
       }
     }
   ],
@@ -164,7 +172,7 @@
       },
       {
         "label": "2026",
-        "value": 65,
+        "value": 74,
         "note": "year to date: Italy 59 (29 Sep), France 6 (28 Sep)"
       }
     ],
@@ -215,14 +223,14 @@
     ],
     "noneLabel": "No local cases reported",
     "values": {
-      "Italy": 59,
+      "Italy": 68,
       "France": 6
     },
     "notes": {
-      "Italy": "ISS, 29 Sep. Outbreaks in Livorno, Lecce and Milan provinces. Since then, a cluster in Cartigliano (Vicenza) has reached 8 cases (local health authority, 2 Oct), and the National Blood Centre added Rome to its list of affected areas on 2 Oct.",
+      "Italy": "ISS, 6 Oct: 68 local cases in 5 outbreaks plus 1 unlinked case, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
       "France": "Santé publique France, 28 Sep. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
     },
-    "asOf": "2026-09-29",
+    "asOf": "2026-10-06",
     "note": "Latest national counts: Italy (ISS) to 29 Sep, France (Santé publique France) to 28 Sep. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
     "sources": [
       {
@@ -839,8 +847,8 @@
     }
   ],
   "card": {
-    "title": "Local dengue in Europe: 65 cases",
-    "sub": "Italy 59 and France 6 so far in 2026, against a record 304 in 2024. A new cluster near Vicenza has reached 8 cases.",
+    "title": "Local dengue in Europe: 74 cases",
+    "sub": "Italy 68 and France 6 so far in 2026, against a record 304 in 2024. Italy counts 5 local outbreaks.",
     "stats": [
       "cases",
       "countries",
@@ -854,7 +862,7 @@
       "record": "2024 record"
     },
     "sources": "ISS, Santé publique France, ECDC",
-    "foot": "National data as of 28–29 Sep · updated weekly"
+    "foot": "National data as of 5–6 Oct · updated weekly"
   },
   "postExtra": "Only Italy and France have reported local cases so far."
 }
