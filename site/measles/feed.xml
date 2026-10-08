@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-10-07T03:00:00Z</updated>
+  <updated>2026-10-08T18:55:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>Pennsylvania: 1,078 cases in 41 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-07-pennsylvania-1-078-cases-in-41"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-07-pennsylvania-1-078-cases-in-41</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's Wednesday update counts 1,078 confirmed cases, 207 hospitalisations and 5 measles-associated deaths. Lancaster County has 401 cases and Mifflin County 153. About 40 of the 74 cases added since 5 October were older infections only recently confirmed, and the department said the update does not reflect a current surge in new infections.</summary>
+    <content type="html">&lt;p&gt;The state health department's Wednesday update counts 1,078 confirmed cases, 207 hospitalisations and 5 measles-associated deaths. Lancaster County has 401 cases and Mifflin County 153. About 40 of the 74 cases added since 5 October were older infections only recently confirmed, and the department said the update does not reflect a current surge in new infections.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out9"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.usnews.com/news/us/articles/2026-10-07/pennsylvania-measles-cases-rise-to-1-078-as-outbreak-spreads"&gt;U.S. News (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Pennsylvania passes 1,000 cases; New York declares a disaster emergency</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-05-pennsylvania-passes-1-000-cases"/>

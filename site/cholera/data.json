@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-07T01:32:00Z",
-  "checked": "2026-10-08T06:44:06Z",
+  "updated": "2026-10-08T18:55:00Z",
+  "checked": "2026-10-08T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -506,6 +506,19 @@
         {
           "name": "WHO Weekly Epidemiological Record (2 Oct)",
           "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-ecdc-249-136-cases-worldwide",
+      "date": "2026-09-28",
+      "kind": "international",
+      "title": "ECDC: 249,136 cases worldwide this year",
+      "body": "ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.",
+      "sources": [
+        {
+          "name": "ECDC: cholera worldwide overview",
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"
         }
       ]
     }

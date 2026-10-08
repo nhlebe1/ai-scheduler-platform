@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-10-07T01:32:00Z",
-  "checked": "2026-10-08T06:44:06Z",
+  "updated": "2026-10-08T18:55:00Z",
+  "checked": "2026-10-08T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -398,7 +398,7 @@
     {
       "label": "CDC update on clade Ib spread in the US",
       "status": "pending",
-      "note": "CDC said on 25 Sep that a transition to sustained spread is likely"
+      "note": "CDC said on 25 Sep that a transition to sustained spread is likely; its 5 Oct count is more than 80 cases in at least 22 states"
     },
     {
       "label": "Madagascar's outbreak slows",
@@ -729,6 +729,23 @@
         {
           "name": "CDC: current situation",
           "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-cdc-more-than-80-clade",
+      "date": "2026-10-05",
+      "kind": "official",
+      "title": "CDC: more than 80 clade I cases in at least 22 states",
+      "body": "CDC's updated count is more than 80 laboratory-confirmed clade I cases in at least 22 states since November 2024, up from more than 60 in at least 20 states on 25 September. CDC says cases with presumed domestic transmission have been reported in more than 10 jurisdictions and rates the risk to most people as low.",
+      "sources": [
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
+        },
+        {
+          "name": "Medscape",
+          "url": "https://www.medscape.com/viewarticle/mpox-clade-i-shows-domestic-side-2026a10011po"
         }
       ]
     }

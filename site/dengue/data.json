@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises ECDC, Italy's Istituto Superiore di Sanità (ISS), Santé publique France and named news reports. It is not medical or travel advice. If you develop a fever after mosquito bites or after travel, see a doctor and say where you have been."
   },
-  "updated": "2026-10-07T01:32:00Z",
-  "checked": "2026-10-08T06:44:06Z",
+  "updated": "2026-10-08T18:55:00Z",
+  "checked": "2026-10-08T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "social": {
@@ -658,6 +658,27 @@
         {
           "name": "Italian National Blood Centre",
           "url": "https://www.centronazionalesangue.it/dengue/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-italy-68-local-dengue-cases",
+      "date": "2026-10-08",
+      "kind": "official",
+      "title": "Italy: 68 local dengue cases in 5 outbreaks; France unchanged at 6",
+      "body": "The ISS counts 346 confirmed dengue cases from 1 January to 6 October; 68 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 29 chikungunya cases was locally acquired. Santé publique France's 7 October bulletin (data to 5 October) still counts 4 local dengue episodes with 6 cases, and 20 local chikungunya episodes with 146 cases.",
+      "sources": [
+        {
+          "name": "Quotidiano Sanità",
+          "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-346-casi-di-cui-68-autoctoni-west-nile-sale-a-754-contagi-e-57-decessi/"
+        },
+        {
+          "name": "AgenSIR",
+          "url": "https://www.agensir.it/quotidiano/2026/10/8/arbovirosi-iss-346-casi-confermati-di-dengue-29-di-chikungunya-754-di-west-nile/"
+        },
+        {
+          "name": "Santé publique France bulletin, 7 Oct",
+          "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-3"
         }
       ]
     }

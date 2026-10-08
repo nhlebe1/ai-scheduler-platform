@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-07T18:50:00Z",
-  "checked": "2026-10-08T06:44:06Z",
+  "updated": "2026-10-08T18:55:00Z",
+  "checked": "2026-10-08T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "DR Congo's Ebola outbreak passes 8,600 confirmed cases and 4,100 deaths. Kenya reports its first imported case.",
+  "headline": "DR Congo's Ebola outbreak passes 8,700 confirmed cases and 4,200 deaths. Kenya reports its first imported case.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,603 confirmed cases and 4,148 deaths in DR Congo as of 4 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
   },
   "counters": [
     {
@@ -38,16 +38,16 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 8603,
-      "note": "DR Congo, CDC and ECDC, as of 4 Oct",
+      "value": 8728,
+      "note": "DR Congo, ECDC, as of 6 Oct",
       "tone": "critical",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Confirmed deaths",
-      "value": 4148,
-      "note": "DR Congo, CDC and ECDC, as of 4 Oct",
+      "value": 4205,
+      "note": "DR Congo, ECDC, as of 6 Oct",
       "tone": "critical",
       "upIsBad": true
     },
@@ -55,7 +55,7 @@
       "id": "provinces",
       "label": "Provinces affected",
       "value": 7,
-      "note": "64 of 167 health zones in 7 of 26 provinces (ECDC, data to 4 Oct)",
+      "note": "64 of 167 health zones in 7 of 26 provinces (ECDC, data to 6 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -111,6 +111,14 @@
       "values": {
         "cases": 8603,
         "deaths": 4148,
+        "provinces": 7
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "values": {
+        "cases": 8728,
+        "deaths": 4205,
         "provinces": 7
       }
     }
@@ -177,6 +185,10 @@
       {
         "label": "4 Oct",
         "value": 8603
+      },
+      {
+        "label": "6 Oct",
+        "value": 8728
       }
     ],
     "sources": [
@@ -428,7 +440,7 @@
     {
       "label": "Outbreak passes 10,000 confirmed cases",
       "status": "pending",
-      "note": "8,603 as of 4 Oct"
+      "note": "8,728 as of 6 Oct"
     },
     {
       "label": "Next WHO Disease Outbreak News report",
@@ -762,6 +774,19 @@
           "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
         }
       ]
+    },
+    {
+      "id": "2026-10-07-ecdc-8-728-cases-and",
+      "date": "2026-10-07",
+      "kind": "international",
+      "title": "ECDC: 8,728 cases and 4,205 deaths",
+      "body": "ECDC's update of 7 October, with data to 6 October, reports DR Congo's confirmed total at 8,728 cases, including 4,205 deaths. The data show 2,269 people recovered. Ituri has 6,513 cases and North Kivu 1,785. ECDC notes that DR Congo's figures are under continuous review and may be revised.",
+      "sources": [
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
     }
   ],
   "context": {
@@ -876,8 +901,8 @@
     }
   ],
   "card": {
-    "title": "Ebola in DR Congo: 8,603 cases",
-    "sub": "The second-largest Ebola outbreak on record. 4,148 deaths in 7 provinces. Kenya reports its first imported case.",
+    "title": "Ebola in DR Congo: 8,728 cases",
+    "sub": "The second-largest Ebola outbreak on record. 4,205 deaths in 7 provinces. Kenya reports its first imported case.",
     "stats": [
       "cases",
       "deaths",

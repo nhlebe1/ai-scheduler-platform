@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-07T03:00:00Z",
-  "checked": "2026-10-08T06:44:06Z",
+  "updated": "2026-10-08T18:55:00Z",
+  "checked": "2026-10-08T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -245,7 +245,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1004,
+      "Pennsylvania": 1078,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -260,7 +260,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 5 Oct. 198 hospitalised, 5 deaths.",
+      "Pennsylvania": "State health dept, 7 Oct. 41 counties, 207 hospitalised, 5 deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -681,6 +681,23 @@
         {
           "name": "NBC News",
           "url": "https://www.nbcnews.com/health/health-news/new-york-declares-first-us-measles-disaster-emergency-2025-surge-rcna601810"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-pennsylvania-1-078-cases-in-41",
+      "date": "2026-10-07",
+      "kind": "official",
+      "title": "Pennsylvania: 1,078 cases in 41 counties",
+      "body": "The state health department's Wednesday update counts 1,078 confirmed cases, 207 hospitalisations and 5 measles-associated deaths. Lancaster County has 401 cases and Mifflin County 153. About 40 of the 74 cases added since 5 October were older infections only recently confirmed, and the department said the update does not reflect a current surge in new infections.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out9"
+        },
+        {
+          "name": "U.S. News (Reuters)",
+          "url": "https://www.usnews.com/news/us/articles/2026-10-07/pennsylvania-measles-cases-rise-to-1-078-as-outbreak-spreads"
         }
       ]
     }

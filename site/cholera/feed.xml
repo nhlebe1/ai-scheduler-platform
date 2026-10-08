@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/</id>
-  <updated>2026-10-07T01:32:00Z</updated>
+  <updated>2026-10-08T18:55:00Z</updated>
   <author><name>Cholera Tracker: Global</name></author>
   <entry>
     <title>WHO: 275,284 cases and 2,601 deaths in 28 countries</title>
@@ -24,6 +24,15 @@
     <category term="international"/>
     <summary>47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025. Deaths rose 30% although fewer cases were reported, and seven countries accounted for about 90% of cases and deaths. WHO says the true burden is substantially higher.</summary>
     <content type="html">&lt;p&gt;47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025. Deaths rose 30% although fewer cases were reported, and seven countries accounted for about 90% of cases and deaths. WHO says the true burden is substantially higher.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"&gt;WHO&lt;/a&gt;, &lt;a href="https://www.downtoearth.org.in/health/cholera-remains-a-challenge-deaths-increased-by-30-in-2025-who"&gt;Down To Earth&lt;/a&gt;, &lt;a href="https://guardian.ng/features/health/global-cholera-deaths-hit-26-year-high"&gt;The Guardian Nigeria&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC: 249,136 cases worldwide this year</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-28-ecdc-249-136-cases-worldwide"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-28-ecdc-249-136-cases-worldwide</id>
+    <updated>2026-09-28T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.</summary>
+    <content type="html">&lt;p&gt;ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"&gt;ECDC: cholera worldwide overview&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Afghanistan's acute watery diarrhoea cases fall in August</title>

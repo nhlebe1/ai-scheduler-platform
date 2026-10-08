@@ -19,8 +19,8 @@
         "summary": "CDC counted 3,887 confirmed cases in 47 jurisdictions as of 1 October, up 228 in a week, and 95% are linked to outbreaks. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
       "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
-      "updated": "2026-10-07T03:00:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-07",
+          "title": "Pennsylvania: 1,078 cases in 41 counties",
+          "id": "2026-10-07-pennsylvania-1-078-cases-in-41"
+        },
+        {
           "date": "2026-10-05",
           "title": "Pennsylvania passes 1,000 cases; New York declares a disaster emergency",
           "id": "2026-10-05-pennsylvania-passes-1-000-cases"
-        },
-        {
-          "date": "2026-10-02",
-          "title": "CDC: 3,887 cases in 47 jurisdictions",
-          "id": "2026-10-02-cdc-3-887-cases-in"
         }
       ]
     },
@@ -63,21 +63,21 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. CDC counted 8,603 confirmed cases and 4,148 deaths in DR Congo as of 4 October, the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
       },
-      "headline": "DR Congo's Ebola outbreak passes 8,600 confirmed cases and 4,100 deaths. Kenya reports its first imported case.",
-      "updated": "2026-10-07T18:50:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "headline": "DR Congo's Ebola outbreak passes 8,700 confirmed cases and 4,200 deaths. Kenya reports its first imported case.",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 8603,
+          "value": 8728,
           "unit": "",
           "tone": "critical"
         },
         {
           "label": "Confirmed deaths",
-          "value": 4148,
+          "value": 4205,
           "unit": "",
           "tone": "critical"
         },
@@ -90,14 +90,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-07",
+          "title": "ECDC: 8,728 cases and 4,205 deaths",
+          "id": "2026-10-07-ecdc-8-728-cases-and"
+        },
+        {
           "date": "2026-10-05",
           "title": "Kenya's first imported case dies in Nairobi",
           "id": "2026-10-05-kenya-s-first-imported-case"
-        },
-        {
-          "date": "2026-10-04",
-          "title": "CDC and ECDC: 8,603 cases and 4,148 deaths",
-          "id": "2026-10-04-cdc-and-ecdc-report-8-603"
         }
       ]
     },
@@ -113,8 +113,8 @@
         "summary": "WHO ended its global mpox emergency in September 2025, and Africa CDC lifted its continental emergency on 22 January 2026, but cases continue. WHO counted 1,153 confirmed cases and 7 deaths in 11 African countries in the six weeks to 16 August, 785 of them in Madagascar, where a clade Ib outbreak that began in December 2025 has passed 3,000 confirmed cases. Outside Africa, clade Ib is spreading locally in Europe, mostly among men who have sex with men, and CDC says sustained spread in the US is likely."
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
-      "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -137,14 +137,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-05",
+          "title": "CDC: more than 80 clade I cases in at least 22 states",
+          "id": "2026-10-05-cdc-more-than-80-clade"
+        },
+        {
           "date": "2026-09-25",
           "title": "CDC says sustained clade Ib spread in the US is likely",
           "id": "2026-09-25-cdc-says-sustained-clade-ib"
-        },
-        {
-          "date": "2026-09-23",
-          "title": "South Africa reports 22 cases, likely clade Ib",
-          "id": "2026-09-23-south-africa-reports-22-cases"
         }
       ]
     },
@@ -160,8 +160,8 @@
         "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
-      "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -207,8 +207,8 @@
         "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 59 local cases by 29 September, mostly in outbreaks in the provinces of Livorno, Lecce and Milan; a cluster in Cartigliano (Vicenza) has since reached 8 cases, and Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
       },
       "headline": "Italy has 59 locally acquired dengue cases this year and France 6, well below the 2024 record of 304. A new cluster near Vicenza has reached 8 cases.",
-      "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -231,14 +231,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-08",
+          "title": "Italy: 68 local dengue cases in 5 outbreaks; France unchanged at 6",
+          "id": "2026-10-08-italy-68-local-dengue-cases"
+        },
+        {
           "date": "2026-10-02",
           "title": "Cartigliano cluster reaches 8 cases; Rome added to affected areas",
           "id": "2026-10-02-cartigliano-cluster-reaches-8-cases"
-        },
-        {
-          "date": "2026-10-01",
-          "title": "Italy: 59 local dengue cases, no deaths",
-          "id": "2026-10-01-italy-59-local-dengue-cases"
         }
       ]
     },
@@ -254,8 +254,8 @@
         "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment. On 8 October the regional governor said the hospital quarantine had been lifted and that monitoring of all contacts was complete."
       },
       "headline": "Russian officials say quarantine at Shelekhov hospital is lifted and monitoring of all contacts is complete. Plague is not confirmed, and WHO is still waiting for Russia to name the pathogen.",
-      "updated": "2026-10-08T16:25:00Z",
-      "checked": "2026-10-08T16:25:00Z",
+      "updated": "2026-10-08T18:55:00Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Deaths",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-08T06:44:06Z",
+      "checked": "2026-10-08T18:55:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
