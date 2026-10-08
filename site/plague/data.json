@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
   },
-  "updated": "2026-10-07T20:15:00Z",
-  "checked": "2026-10-07T20:15:00Z",
+  "updated": "2026-10-08T00:06:14Z",
+  "checked": "2026-10-08T00:06:14Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
@@ -304,8 +304,8 @@
       "who": "Rospotrebnadzor",
       "ru": "Роспотребнадзор",
       "kind": "official",
-      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. No plague detected in the 60% of contacts tested so far. Situation in the region is stable.",
-      "date": "2026-10-06"
+      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. As of 7 October, medical monitoring was complete for over 90% of contacts and nearly 5,000 lab tests found no dangerous pathogens. Situation in the region is stable.",
+      "date": "2026-10-07"
     },
     {
       "who": "Irkutsk regional government",
@@ -515,6 +515,23 @@
         {
           "name": "The Washington Times",
           "url": "https://www.washingtontimes.com/news/2026/oct/7/who-seeks-clarity-russia-suspected-plague-death-possible-second-case/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-rospotrebnadzor-monitoring-over-90-complete",
+      "date": "2026-10-07",
+      "kind": "official",
+      "title": "Rospotrebnadzor: monitoring complete for over 90% of contacts",
+      "body": "Russia's consumer safety watchdog said that as of 7 October medical monitoring had been completed for more than 90% of the people who had contact with the worker. It said no health changes linked to infectious disease were detected and that nearly 5,000 laboratory tests found no dangerous pathogenic microorganisms. It said there is no risk to residents of Irkutsk and the region. \"Over 90%\" is not an exact figure, so the tracker's testing meter is unchanged. The cause of death remains officially \"pneumonia of unknown etiology\".",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/07/world/russia-suspected-plague-case-who-intl"
+        },
+        {
+          "name": "Fontanka",
+          "url": "https://www.fontanka.ru/2026/10/07/76685407/"
         }
       ]
     }

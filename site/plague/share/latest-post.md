@@ -1,4 +1,4 @@
-WHO says it can't yet complete a full risk assessment of the Irkutsk lab worker's death and is waiting for Russia to name the pathogen. Russia says no plague was found. Plague is unconfirmed. Initial WHO risk: low for Russia.
+Russia's health watchdog says medical monitoring is complete for over 90% of contacts of the Irkutsk lab worker, and nearly 5,000 lab tests found no dangerous pathogens. Plague is unconfirmed; WHO is still awaiting the pathogen.
 https://nhlebe1.github.io/ai-scheduler-platform/plague/
 
-Sources: CNN and The Washington Times (7 Oct, WHO Director-General Tedros).
+Sources: CNN and Fontanka (7 Oct, Rospotrebnadzor statement).
