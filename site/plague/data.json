@@ -265,9 +265,9 @@
       ]
     },
     {
-      "claim": "A second person has died",
+      "claim": "There is a second plague case",
       "status": "unconfirmed",
-      "detail": "Russian media have reported a second death. Russian officials have not confirmed it, and WHO has asked Russia about media reports of a second employee with pneumonia of undetermined cause. The Kremlin says most media reports on the case are false.",
+      "detail": "Media have reported a second institute employee with pneumonia, and some outlets reported a second death. Russian officials have confirmed neither, and the Kremlin calls most media reports on the case false. WHO has asked Russia to clarify reports of a second employee with pneumonia of undetermined cause.",
       "sources": [
         {
           "name": "Al Jazeera",
@@ -566,8 +566,8 @@
       "id": "2026-10-07-kremlin-says-most-media-reports-false",
       "date": "2026-10-07",
       "kind": "official",
-      "title": "Kremlin: most media reports are false; reports of a second death unconfirmed",
-      "body": "Kremlin spokesman Dmitry Peskov said \"the overwhelming majority\" of media reporting on the situation is false information and urged people to rely on Rospotrebnadzor's statements. Russian media have reported a second death in the Irkutsk region. Neither Russian officials nor WHO have confirmed it, and CNN said it knew of no local confirmation. WHO has urged Russia to reply formally to its questions, including on the reported second employee.",
+      "title": "Kremlin calls most media reports false; second-case reports unconfirmed",
+      "body": "Kremlin spokesman Dmitry Peskov said \"the vast majority\" of media reporting on the situation is false information and urged people to rely on Rospotrebnadzor's statements. Media have reported a second institute employee with pneumonia, and some outlets a second death; Russian officials have confirmed neither. WHO has asked Russia to clarify the reports.",
       "sources": [
         {
           "name": "Al Jazeera",
