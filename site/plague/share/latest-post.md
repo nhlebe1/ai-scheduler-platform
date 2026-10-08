@@ -1,4 +1,4 @@
-Irkutsk update: the Kremlin says most media reports on the lab worker's death are false. Reports of a second employee with pneumonia are unconfirmed by officials. WHO is still awaiting Russia's answers on the pathogen. Plague is not confirmed.
+Irkutsk update: the regional governor says the Shelekhov hospital quarantine is lifted and monitoring of all contacts is complete. Officials say nearly 5,000 tests found no dangerous pathogens. Plague is not confirmed; WHO still awaits the pathogen.
 https://nhlebe1.github.io/ai-scheduler-platform/plague/
 
-Sources: Al Jazeera and Euronews (7–8 Oct), CNN (7 Oct, WHO statement).
+Sources: IrCity and EANews (8 Oct, governor and Rospotrebnadzor statements), CNN (7 Oct, WHO).

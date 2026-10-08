@@ -251,11 +251,11 @@
       "status": {
         "level": "suspected",
         "label": "Suspected, unconfirmed",
-        "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment."
+        "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment. On 8 October the regional governor said the hospital quarantine had been lifted and that monitoring of all contacts was complete."
       },
-      "headline": "WHO says it cannot yet complete a full risk assessment and is waiting for Russia to name the pathogen. Russia says no plague found.",
-      "updated": "2026-10-08T04:07:44Z",
-      "checked": "2026-10-08T12:12:00Z",
+      "headline": "Russian officials say quarantine at Shelekhov hospital is lifted and monitoring of all contacts is complete. Plague is not confirmed, and WHO is still waiting for Russia to name the pathogen.",
+      "updated": "2026-10-08T16:25:00Z",
+      "checked": "2026-10-08T16:25:00Z",
       "figures": [
         {
           "label": "Deaths",
@@ -278,14 +278,14 @@
       ],
       "latest": [
         {
-          "date": "2026-10-07",
-          "title": "WHO asks Russia for the pathogen, test results and contact details",
-          "id": "2026-10-07-who-asks-russia-for-pathogen-and-contact-details"
+          "date": "2026-10-08",
+          "title": "Governor says quarantine lifted and monitoring of all contacts complete",
+          "id": "2026-10-08-governor-says-quarantine-lifted-monitoring-complete"
         },
         {
           "date": "2026-10-07",
-          "title": "Rospotrebnadzor: monitoring complete for over 90% of contacts",
-          "id": "2026-10-07-rospotrebnadzor-monitoring-over-90-complete"
+          "title": "WHO asks Russia for the pathogen, test results and contact details",
+          "id": "2026-10-07-who-asks-russia-for-pathogen-and-contact-details"
         }
       ]
     },

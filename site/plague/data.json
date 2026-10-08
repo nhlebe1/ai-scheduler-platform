@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
   },
-  "updated": "2026-10-08T04:07:44Z",
-  "checked": "2026-10-08T12:12:00Z",
+  "updated": "2026-10-08T16:25:00Z",
+  "checked": "2026-10-08T16:25:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "WHO says it cannot yet complete a full risk assessment and is waiting for Russia to name the pathogen. Russia says no plague found.",
+  "headline": "Russian officials say quarantine at Shelekhov hospital is lifted and monitoring of all contacts is complete. Plague is not confirmed, and WHO is still waiting for Russia to name the pathogen.",
   "status": {
     "level": "suspected",
     "label": "Suspected, unconfirmed",
-    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment."
+    "summary": "A 28-year-old worker at the Irkutsk Anti-Plague Research Institute died overnight on 1–2 October after severe pneumonia. Media reports link the death to pneumonic plague. Russian authorities list the cause as \"pneumonia of unknown etiology\". On 6 October Russia told WHO that no dangerous pathogens were found in any contact tested. On 7 October WHO said it was still waiting for Russia to identify the pathogen and could not yet complete a full risk assessment. On 8 October the regional governor said the hospital quarantine had been lifted and that monitoring of all contacts was complete."
   },
   "stage": {
     "current": 2,
@@ -245,11 +245,19 @@
     {
       "claim": "Shelekhov District Hospital was put under quarantine",
       "status": "confirmed",
-      "detail": "Announced by Irkutsk Governor Igor Kobzev on 2 October. Restrictions remain in place.",
+      "detail": "Announced by Irkutsk Governor Igor Kobzev on 2 October. On 8 October he said the quarantine had been lifted.",
       "sources": [
         {
           "name": "The Moscow Times",
           "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"
+        },
+        {
+          "name": "IrCity",
+          "url": "https://ircity.ru/text/health/2026/10/08/76688232/"
+        },
+        {
+          "name": "EANews",
+          "url": "https://eanews.ru/rossiya/20261008195516/v-irkutskoy-oblasti-snyali-karantin-posle-smerti-sotrudnitsy-protivochumnogo-instituta"
         }
       ]
     },
@@ -289,7 +297,7 @@
     {
       "label": "Test results for the remaining contacts",
       "status": "pending",
-      "note": "About 40% were still untested on 6 Oct"
+      "note": "About 40% were still untested on 6 Oct. Officials said on 8 Oct that monitoring of all contacts is complete"
     },
     {
       "label": "Official cause of death from expanded lab tests",
@@ -307,7 +315,9 @@
     },
     {
       "label": "Quarantine lifted at Shelekhov District Hospital",
-      "status": "pending"
+      "status": "done",
+      "date": "2026-10-08",
+      "note": "Announced by the regional governor on 8 Oct"
     },
     {
       "label": "Updated WHO risk assessment",
@@ -324,15 +334,15 @@
       "who": "Rospotrebnadzor",
       "ru": "Роспотребнадзор",
       "kind": "official",
-      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. As of 7 October, medical monitoring was complete for over 90% of contacts and nearly 5,000 lab tests found no dangerous pathogens. Situation in the region is stable.",
-      "date": "2026-10-07"
+      "text": "Cause of death is \"pneumonia of unknown etiology\". Lab analysis found no microorganisms linked to her work with dangerous pathogens. As of 7 October, medical monitoring was complete for over 90% of contacts. Regional media report it said on 8 October that monitoring of all contacts was complete, after nearly 5,000 lab tests found no dangerous pathogens.",
+      "date": "2026-10-08"
     },
     {
       "who": "Irkutsk regional government",
       "ru": "Правительство Иркутской области",
       "kind": "official",
-      "text": "Governor Igor Kobzev first cited a suspected \"particularly dangerous infection\". A special commission later named the cause \"pneumonia of unknown aetiology\".",
-      "date": "2026-10-05"
+      "text": "Governor Igor Kobzev first cited a suspected \"particularly dangerous infection\". A special commission later named the cause \"pneumonia of unknown aetiology\". On 8 October he said the Shelekhov hospital quarantine had been lifted and monitoring of all contacts was complete.",
+      "date": "2026-10-08"
     },
     {
       "who": "World Health Organization",
@@ -595,6 +605,23 @@
           "url": "https://www.cbsnews.com/news/plague-lab-death-russia-open-trump-putin-call/"
         }
       ]
+    },
+    {
+      "id": "2026-10-08-governor-says-quarantine-lifted-monitoring-complete",
+      "date": "2026-10-08",
+      "kind": "official",
+      "title": "Governor says quarantine lifted and monitoring of all contacts complete",
+      "body": "Irkutsk Governor Igor Kobzev said in a video address on 8 October that the quarantine at Shelekhov District Hospital has been lifted, about a week after the worker's death. Regional media report that Rospotrebnadzor said the full set of preventive measures was completed on 8 October, with medical monitoring finished for all contacts, no health changes linked to infectious disease, and nearly 5,000 laboratory tests that found no dangerous pathogenic microorganisms. Officially the cause of death remains \"pneumonia of unknown etiology\". WHO has not yet said whether it has received the pathogen details it asked for.",
+      "sources": [
+        {
+          "name": "IrCity",
+          "url": "https://ircity.ru/text/health/2026/10/08/76688232/"
+        },
+        {
+          "name": "EANews",
+          "url": "https://eanews.ru/rossiya/20261008195516/v-irkutskoy-oblasti-snyali-karantin-posle-smerti-sotrudnitsy-protivochumnogo-instituta"
+        }
+      ]
     }
   ],
   "places": [
@@ -602,7 +629,7 @@
       "name": "Shelekhov District Hospital",
       "ru": "Шелеховская районная больница",
       "region": "Shelekhov, Irkutsk Oblast",
-      "role": "Where the worker died. Placed under quarantine.",
+      "role": "Where the worker died. Placed under quarantine on 1 October; the governor said on 8 October it had been lifted.",
       "kind": "official",
       "q": "Шелеховская районная больница, Шелехов",
       "lat": 52.21,
@@ -858,7 +885,7 @@
   ],
   "card": {
     "title": "Suspected plague death in Siberia",
-    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Plague is not confirmed. WHO is waiting for Russia to name the pathogen.",
+    "sub": "A lab worker in Irkutsk Oblast died of pneumonia on 1–2 Oct. Plague is not confirmed. Officials say the quarantine is lifted and contact monitoring is complete.",
     "stats": [
       "deaths",
       "contacts",
@@ -873,7 +900,7 @@
     },
     "sources": "WHO, CNN, Washington Times, UN News"
   },
-  "postExtra": "197 contacts monitored, 0 with symptoms.",
+  "postExtra": "Officials: 197 contacts, monitoring complete, 0 with symptoms.",
   "map": {
     "title": "Russia: the case and the country's natural plague areas",
     "titleShort": "Where",

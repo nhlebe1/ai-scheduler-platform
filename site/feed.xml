@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-08T04:07:44Z</updated>
+  <updated>2026-10-08T16:25:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Plague · Russia: Governor says quarantine lifted and monitoring of all contacts complete</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-08-governor-says-quarantine-lifted-monitoring-complete"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-08-governor-says-quarantine-lifted-monitoring-complete</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Irkutsk Governor Igor Kobzev said in a video address on 8 October that the quarantine at Shelekhov District Hospital has been lifted, about a week after the worker's death. Regional media report that Rospotrebnadzor said the full set of preventive measures was completed on 8 October, with medical monitoring finished for all contacts, no health changes linked to infectious disease, and nearly 5,000 laboratory tests that found no dangerous pathogenic microorganisms. Officially the cause of death remains "pneumonia of unknown etiology". WHO has not yet said whether it has received the pathogen details it asked for.</summary>
+    <content type="html">&lt;p&gt;Irkutsk Governor Igor Kobzev said in a video address on 8 October that the quarantine at Shelekhov District Hospital has been lifted, about a week after the worker's death. Regional media report that Rospotrebnadzor said the full set of preventive measures was completed on 8 October, with medical monitoring finished for all contacts, no health changes linked to infectious disease, and nearly 5,000 laboratory tests that found no dangerous pathogenic microorganisms. Officially the cause of death remains "pneumonia of unknown etiology". WHO has not yet said whether it has received the pathogen details it asked for.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://ircity.ru/text/health/2026/10/08/76688232/"&gt;IrCity&lt;/a&gt;, &lt;a href="https://eanews.ru/rossiya/20261008195516/v-irkutskoy-oblasti-snyali-karantin-posle-smerti-sotrudnitsy-protivochumnogo-instituta"&gt;EANews&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Plague · Russia: WHO asks Russia for the pathogen, test results and contact details</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-07-who-asks-russia-for-pathogen-and-contact-details"/>
@@ -357,14 +366,5 @@
     <category term="official"/>
     <summary>The ISS counts 24 locally acquired cases by 8 September, up from 3 on 30 August, in outbreaks in Livorno province (Tuscany) and Lecce province (Puglia). The other 241 of 265 confirmed cases were linked to travel; 56% of those with a known place of infection had been in the Maldives.</summary>
     <content type="html">&lt;p&gt;The ISS counts 24 locally acquired cases by 8 September, up from 3 on 30 August, in outbreaks in Livorno province (Tuscany) and Lecce province (Puglia). The other 241 of 265 confirmed cases were linked to travel; 56% of those with a known place of infection had been in the Maldives.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://agensalute.it/2026/09/10/arbovirosi-265-casi-confermati-dengue-25-chikungunya-594-west-nile/"&gt;AgenSalute (ISS data)&lt;/a&gt;, &lt;a href="https://www.italpress.com/nel-2026-registrati-in-italia-265-casi-di-dengue-594-i-contagi-di-west-nile-virus-e-25-di-chikungunya-da-inizio-monitoraggio/"&gt;Italpress&lt;/a&gt;, &lt;a href="https://www.biomedicalcue.it/dengue-in-toscana-liss-conferma-un-focolaio-da-20-casi-nel-livornese"&gt;Biomedical CuE&lt;/a&gt;, &lt;a href="https://www.sanitainformazione.it/virus-trasmessi-dalle-zanzare-iss-da-inizio-anno-227-casi-di-dengue-e-521-di-west-nile/"&gt;Sanità Informazione&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: US passes 3,000 cases</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-04-us-passes-3-000-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-04-us-passes-3-000-cases</id>
-    <updated>2026-09-04T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC counts 3,134 cases, 38 outbreaks and 248 hospitalisations. 94% of cases were unvaccinated or had unknown vaccination status.</summary>
-    <content type="html">&lt;p&gt;CDC counts 3,134 cases, 38 outbreaks and 248 hospitalisations. 94% of cases were unvaccinated or had unknown vaccination status.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://gvwire.com/2026/09/04/us-cdc-records-more-than-3100-measles-cases-so-far-in-2026/"&gt;Reuters via GV Wire&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
