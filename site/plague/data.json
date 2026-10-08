@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
   },
-  "updated": "2026-10-08T00:06:14Z",
-  "checked": "2026-10-08T00:06:14Z",
+  "updated": "2026-10-08T04:07:44Z",
+  "checked": "2026-10-08T04:07:44Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
@@ -263,6 +263,21 @@
           "url": "https://news.un.org/en/story/2026/10/1168533"
         }
       ]
+    },
+    {
+      "claim": "A second person has died",
+      "status": "unconfirmed",
+      "detail": "Russian media have reported a second death. Russian officials have not confirmed it, and WHO has asked Russia about media reports of a second employee with pneumonia of undetermined cause. The Kremlin says most media reports on the case are false.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/russia-dismisses-transparency-calls-amid-reports-of-second-siberia-plague-case"
+        }
+      ]
     }
   ],
   "watchlist": [
@@ -284,6 +299,11 @@
       "label": "Russia answers WHO's questions on the pathogen and the second-employee reports",
       "status": "pending",
       "note": "WHO said it was waiting to hear back on 7 Oct"
+    },
+    {
+      "label": "US–Russia call on the case",
+      "status": "pending",
+      "note": "Trump has said he plans one; the Kremlin said on 7 Oct none was arranged"
     },
     {
       "label": "Quarantine lifted at Shelekhov District Hospital",
@@ -327,6 +347,13 @@
       "kind": "media",
       "text": "Reports cite sources saying the worker broke a test tube containing Yersinia pestis on 25 September and was infected with pneumonic plague.",
       "date": "2026-10-02"
+    },
+    {
+      "who": "Kremlin",
+      "ru": "Кремль",
+      "kind": "official",
+      "text": "Spokesman Dmitry Peskov says the overwhelming majority of media reporting on the case is false and points to Rospotrebnadzor's statements. He says no call with President Trump has been arranged yet.",
+      "date": "2026-10-07"
     }
   ],
   "timeline": [
@@ -532,6 +559,40 @@
         {
           "name": "Fontanka",
           "url": "https://www.fontanka.ru/2026/10/07/76685407/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-kremlin-says-most-media-reports-false",
+      "date": "2026-10-07",
+      "kind": "official",
+      "title": "Kremlin: most media reports are false; reports of a second death unconfirmed",
+      "body": "Kremlin spokesman Dmitry Peskov said \"the overwhelming majority\" of media reporting on the situation is false information and urged people to rely on Rospotrebnadzor's statements. Russian media have reported a second death in the Irkutsk region. Neither Russian officials nor WHO have confirmed it, and CNN said it knew of no local confirmation. WHO has urged Russia to reply formally to its questions, including on the reported second employee.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/russia-dismisses-transparency-calls-amid-reports-of-second-siberia-plague-case"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-us-requests-information-from-russia",
+      "date": "2026-10-07",
+      "kind": "international",
+      "title": "US asks Russia for more information; Putin call not yet arranged",
+      "body": "A State Department spokesperson said the US has officially requested additional information from the Russian government. President Trump has said he plans to speak with President Putin about the case. The Kremlin said on 7 October that no call had been arranged yet but that it was open to one.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/us-issues-formal-complaint-russia-response-suspected-death/story?id=137057058"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/plague-lab-death-russia-open-trump-putin-call/"
         }
       ]
     }
