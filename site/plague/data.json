@@ -215,7 +215,7 @@
     {
       "claim": "She broke a test tube of plague bacteria on 25 September",
       "status": "disputed",
-      "detail": "Reported by the Siberian outlet Lyudi Baikala. Russian officials deny any lab accident.",
+      "detail": "Reported by the Siberian outlet Lyudi Baikala, citing unnamed sources. Russian officials deny any lab accident: Rospotrebnadzor says two biosafety commissions inspected the institute and found no accidents in work with pathogens.",
       "sources": [
         {
           "name": "Ynet",
@@ -224,6 +224,14 @@
         {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/news/russia-plague-lab-death-pneumonia-of-unknown-origin/"
+        },
+        {
+          "name": "Expert.ru (Rospotrebnadzor statement)",
+          "url": "https://expert.ru/news/v-irkutskom-protivochumnom-institute-ne-vyyavili-avariy-pri-rabote-s-mikroorganizmami"
+        },
+        {
+          "name": "Zakon.kz",
+          "url": "https://www.zakon.kz/mir/6534174-smert-sotrudnitsy-protivochumnogo-instituta-chto-govoryat-v-kremle-rospotrebnadzore-i-voz.html"
         }
       ]
     },
