@@ -16,15 +16,15 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 3,887 confirmed cases in 47 jurisdictions as of 1 October, up 228 in a week, and 95% are linked to outbreaks. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,080 confirmed cases in 47 jurisdictions as of 8 October, up 193 in a week. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
-      "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "headline": "US measles cases pass 4,000 and reach 4,080, the most since 1991. Pennsylvania's outbreak has passed 1,000 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 3887,
+          "value": 4080,
           "unit": "",
           "tone": "critical"
         },
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-09",
+          "title": "CDC: 4,080 cases in 47 jurisdictions",
+          "id": "2026-10-09-cdc-4-080-cases-in"
+        },
+        {
           "date": "2026-10-07",
           "title": "Pennsylvania: 1,078 cases in 41 counties",
           "id": "2026-10-07-pennsylvania-1-078-cases-in-41"
-        },
-        {
-          "date": "2026-10-05",
-          "title": "Pennsylvania passes 1,000 cases; New York declares a disaster emergency",
-          "id": "2026-10-05-pennsylvania-passes-1-000-cases"
         }
       ]
     },
@@ -67,7 +67,7 @@
       },
       "headline": "DR Congo's Ebola outbreak passes 8,700 confirmed cases and 4,200 deaths. Kenya reports its first imported case.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -255,7 +255,7 @@
       },
       "headline": "Russian officials say quarantine at Shelekhov hospital is lifted and monitoring of all contacts is complete. Plague is not confirmed, and WHO is still waiting for Russia to name the pathogen.",
       "updated": "2026-10-09T06:42:54Z",
-      "checked": "2026-10-09T16:06:57Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Deaths",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-09T06:42:54Z",
+      "checked": "2026-10-09T18:43:57Z",
       "figures": [
         {
           "label": "Confirmed cases",

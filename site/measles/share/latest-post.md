@@ -1,6 +1,6 @@
-US measles cases hit 3,887 in 2026, the most since 1991 (CDC, 1 Oct). Pennsylvania passed 1,000 cases and 5 deaths by the state's count. New York declared a disaster emergency.
+US measles cases reach 4,080 in 2026, the most since 1991 (CDC, as of 8 Oct): 193 more than last week, in 47 jurisdictions. Pennsylvania has passed 1,000 cases and reports 5 deaths; CDC counts 2.
 
 Live, sourced tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/measles/
 
-Sources: CDC via Contagion Live (2 Oct), Pennsylvania Dept. of Health (5 Oct), NY Governor's office (5 Oct).
+Sources: CDC via Reuters/U.S. News (9 Oct), Stateline (9 Oct), Contagion Live (9 Oct).

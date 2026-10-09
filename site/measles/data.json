@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-08T18:55:00Z",
-  "checked": "2026-10-09T06:42:54Z",
+  "updated": "2026-10-09T18:43:57Z",
+  "checked": "2026-10-09T18:43:57Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 3,887, the most since 1991. Pennsylvania passes 1,000 cases and New York declares a disaster emergency.",
+  "headline": "US measles cases pass 4,000 and reach 4,080, the most since 1991. Pennsylvania's outbreak has passed 1,000 cases and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 3,887 confirmed cases in 47 jurisdictions as of 1 October, up 228 in a week, and 95% are linked to outbreaks. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 4,080 confirmed cases in 47 jurisdictions as of 8 October, up 193 in a week. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -65,8 +65,8 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 3887,
-      "note": "CDC, as of 1 Oct",
+      "value": 4080,
+      "note": "CDC, as of 8 Oct",
       "tone": "critical",
       "upIsBad": true
     },
@@ -82,7 +82,7 @@
       "id": "outbreaks",
       "label": "New outbreaks in 2026",
       "value": 42,
-      "note": "95% of cases are linked to outbreaks",
+      "note": "About 96% of cases are linked to outbreaks (CDC)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -122,12 +122,21 @@
         "outbreaks": 42,
         "deaths": 2
       }
+    },
+    {
+      "date": "2026-10-08",
+      "values": {
+        "cases": 4080,
+        "jurisdictions": 47,
+        "outbreaks": 42,
+        "deaths": 2
+      }
     }
   ],
   "trend": {
     "title": "US measles cases per year",
     "unit": "Confirmed cases",
-    "note": "2026 is year to date (1 Oct). Tap or hover a bar for its value.",
+    "note": "2026 is year to date (8 Oct). Tap or hover a bar for its value.",
     "labelHeader": "Year",
     "valueHeader": "Cases",
     "highlight": "2026",
@@ -198,11 +207,15 @@
       },
       {
         "label": "2026",
-        "value": 3887,
+        "value": 4080,
         "note": "year to date"
       }
     ],
     "sources": [
+      {
+        "name": "Stateline (CDC data)",
+        "url": "https://stateline.org/2026/10/09/measles-cases-reach-4080-for-the-year-the-highest-in-decades/"
+      },
       {
         "name": "CDC data slide set",
         "url": "https://www.cdc.gov/measles/downloads/measlesdataandstatsslideset.pdf"
@@ -375,7 +388,7 @@
     {
       "claim": "2026 is the worst US measles year since 1991",
       "status": "confirmed",
-      "detail": "2026 passed 2025's total of 2,289 in July. The 3,887 cases counted by 1 October are the most since 1991's 9,643.",
+      "detail": "2026 passed 2025's total of 2,289 in July. The 4,080 cases counted by 8 October are the most since 1991's 9,643.",
       "sources": [
         {
           "name": "ABC News",
@@ -406,14 +419,14 @@
   "watchlist": [
     {
       "label": "Next weekly CDC update",
-      "date": "2026-10-09",
+      "date": "2026-10-16",
       "status": "pending",
       "note": "CDC publishes on Fridays (data as of Thursday). Expected date, not announced."
     },
     {
       "label": "US passes 4,000 cases",
-      "status": "pending",
-      "note": "3,887 as of 1 Oct"
+      "status": "done",
+      "date": "2026-10-08"
     },
     {
       "label": "New York's disaster emergency expires unless extended",
@@ -439,8 +452,8 @@
     {
       "who": "CDC",
       "kind": "official",
-      "date": "2026-10-02",
-      "text": "3,887 confirmed cases in 47 jurisdictions and 2 deaths so far in 2026. Two MMR doses are about 97% effective."
+      "date": "2026-10-09",
+      "text": "4,080 confirmed cases in 47 jurisdictions and 2 deaths so far in 2026, as of 8 October. Two MMR doses are about 97% effective."
     },
     {
       "who": "Pennsylvania Department of Health",
@@ -700,6 +713,27 @@
           "url": "https://www.usnews.com/news/us/articles/2026-10-07/pennsylvania-measles-cases-rise-to-1-078-as-outbreak-spreads"
         }
       ]
+    },
+    {
+      "id": "2026-10-09-cdc-4-080-cases-in",
+      "date": "2026-10-09",
+      "kind": "official",
+      "title": "CDC: 4,080 cases in 47 jurisdictions",
+      "body": "The weekly update, with data as of 8 October, counts 193 new cases, 42 new outbreaks this year and 414 hospitalisations. CDC counts 2 deaths; Pennsylvania reports 5 under its own definition. The total is the highest for a year since 1991.",
+      "sources": [
+        {
+          "name": "U.S. News (Reuters)",
+          "url": "https://www.usnews.com/news/us/articles/2026-10-09/us-measles-cases-rise-to-4-080-cdc-says"
+        },
+        {
+          "name": "Stateline",
+          "url": "https://stateline.org/2026/10/09/measles-cases-reach-4080-for-the-year-the-highest-in-decades/"
+        },
+        {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/measles-update-october-9-2026"
+        }
+      ]
     }
   ],
   "context": {
@@ -762,7 +796,7 @@
       },
       {
         "year": "2026",
-        "text": "3,887 cases by 1 October. Elimination status under review."
+        "text": "4,080 cases by 8 October. Elimination status under review."
       }
     ],
     "historySources": [
@@ -830,8 +864,8 @@
     }
   ],
   "card": {
-    "title": "US measles: most cases since 1991",
-    "sub": "3,887 confirmed cases in 47 jurisdictions as of 1 Oct. Pennsylvania passes 1,000. New York declares a disaster emergency.",
+    "title": "US measles: 4,080 cases, most since 1991",
+    "sub": "CDC counts 4,080 confirmed cases in 47 jurisdictions as of 8 Oct. Pennsylvania has passed 1,000. New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",
@@ -845,7 +879,7 @@
       "deaths": "Deaths (CDC)"
     },
     "sources": "CDC, Pennsylvania DOH, NY Governor, PAHO",
-    "foot": "CDC data as of 1 Oct · updated weekly"
+    "foot": "CDC data as of 8 Oct · updated weekly"
   },
   "postExtra": "47 jurisdictions, 42 new outbreaks this year."
 }
