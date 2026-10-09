@@ -34,7 +34,7 @@ Source priority:
 Many sites block direct fetching; search-result snippets are fine when two independent outlets agree.
 
 Per-tracker search starters:
-- **plague**: `Irkutsk plague`, `Russia plague contacts`, `WHO Russia plague`, `чума Иркутск`, `Роспотребнадзор чума`, `чума Алтай Тыва`
+- **plague**: PAUSED since 9 Oct 2026 at the owner's request (no spread reported; quarantine lifted, contacts' window closed). Skip plague in scheduled runs: don't research it or change its `checked`. Resume only if the owner asks or major outlets report a new case.
 - **measles**: `CDC measles cases 2026`, `measles outbreak <state> 2026`, `measles death 2026`, `measles elimination status United States`. CDC updates its national count on Wednesdays.
 - **ebola**: `Ebola Bundibugyo DRC cases`, `WHO Ebola Democratic Republic of the Congo situation report`, `Ebola Uganda 2026`, `Africa CDC Ebola`, `Ebola vaccine trial Bundibugyo`
 - **mpox**: `WHO mpox multi-country external situation report`, `mpox Madagascar cases`, `Africa CDC mpox`, `ECDC mpox monthly clade I`, `CDC clade I mpox United States`. WHO and ECDC publish about monthly; the Africa figures are WHO's six-week counts, so replace all of them together from one report.
