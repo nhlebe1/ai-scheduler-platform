@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises public reporting and official statements. Facts are still disputed, and Russian authorities have not confirmed plague. It is not medical advice. If you have fever and cough after possible exposure, contact a doctor."
   },
-  "updated": "2026-10-09T00:06:40Z",
-  "checked": "2026-10-09T04:06:27Z",
+  "updated": "2026-10-09T06:42:54Z",
+  "checked": "2026-10-09T06:42:54Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/plague/",
   "social": {
@@ -292,7 +292,8 @@
     {
       "label": "Incubation window for contacts closes",
       "date": "2026-10-09",
-      "status": "pending"
+      "status": "done",
+      "note": "Seven days after the last exposure on 2 October. On 8 October Russian officials said monitoring of all contacts was complete with no health changes linked to infectious disease (IrCity, EANews)"
     },
     {
       "label": "Test results for the remaining contacts",
