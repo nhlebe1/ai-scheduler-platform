@@ -20,7 +20,7 @@
       },
       "headline": "US measles cases pass 4,000 and reach 4,080, the most since 1991. Pennsylvania's outbreak has passed 1,000 cases and New York has declared a disaster emergency.",
       "updated": "2026-10-09T18:43:57Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -63,11 +63,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
       },
       "headline": "DR Congo's Ebola outbreak passes 8,700 confirmed cases and 4,200 deaths. Kenya reports its first imported case.",
-      "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "updated": "2026-10-10T06:42:00Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -95,9 +95,9 @@
           "id": "2026-10-07-ecdc-8-728-cases-and"
         },
         {
-          "date": "2026-10-05",
-          "title": "Kenya's first imported case dies in Nairobi",
-          "id": "2026-10-05-kenya-s-first-imported-case"
+          "date": "2026-10-06",
+          "title": "Bundibugyo vaccine trial begins in Uganda",
+          "id": "2026-10-06-bundibugyo-vaccine-trial-begins-in"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-09T18:43:57Z",
+      "checked": "2026-10-10T06:42:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

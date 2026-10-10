@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-08T18:55:00Z",
-  "checked": "2026-10-09T18:43:57Z",
+  "updated": "2026-10-10T06:42:00Z",
+  "checked": "2026-10-10T06:42:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. ECDC, reporting DR Congo's data, counted 8,728 confirmed cases and 4,205 deaths as of 6 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
   },
   "counters": [
     {
@@ -461,6 +461,11 @@
       "label": "Vaccination of health workers begins",
       "date": "2026-08-27",
       "status": "done"
+    },
+    {
+      "label": "First Bundibugyo-specific vaccine trial begins in Uganda",
+      "date": "2026-10-06",
+      "status": "done"
     }
   ],
   "positions": [
@@ -785,6 +790,27 @@
         {
           "name": "ECDC",
           "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-bundibugyo-vaccine-trial-begins-in",
+      "date": "2026-10-06",
+      "kind": "international",
+      "title": "Bundibugyo vaccine trial begins in Uganda",
+      "body": "The MRC/UVRI & LSHTM Uganda Research Unit vaccinated the first participants in Masaka City with a candidate vaccine developed by the University of Oxford. The early-phase study tests safety and immune response in healthy adults and follows a trial of the same candidate in the UK. It does not yet show whether the vaccine protects against the virus.",
+      "sources": [
+        {
+          "name": "MRC/UVRI & LSHTM Uganda Research Unit",
+          "url": "https://www.lshtm.ac.uk/research/units/mrc-uganda/news/498871/uganda-launches-phase-i-clinical-study-bundibugyo-virus-disease-vaccine"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/africa/20261008/c046bc118e344ccb96ba6e16e5d179f2/c.html"
+        },
+        {
+          "name": "The Independent (Uganda)",
+          "url": "https://www.independent.co.ug/new-ebola-vaccine-trials-begin-in-uganda-amid-deadly-drc-outbreak/"
         }
       ]
     }

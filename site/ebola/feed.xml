@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-08T18:55:00Z</updated>
+  <updated>2026-10-10T06:42:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
   <entry>
     <title>ECDC: 8,728 cases and 4,205 deaths</title>
@@ -15,6 +15,15 @@
     <category term="international"/>
     <summary>ECDC's update of 7 October, with data to 6 October, reports DR Congo's confirmed total at 8,728 cases, including 4,205 deaths. Ituri has 6,513 cases and North Kivu 1,785. ECDC notes that DR Congo's figures are under continuous review and may be revised.</summary>
     <content type="html">&lt;p&gt;ECDC's update of 7 October, with data to 6 October, reports DR Congo's confirmed total at 8,728 cases, including 4,205 deaths. Ituri has 6,513 cases and North Kivu 1,785. ECDC notes that DR Congo's figures are under continuous review and may be revised.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Bundibugyo vaccine trial begins in Uganda</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-06-bundibugyo-vaccine-trial-begins-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-06-bundibugyo-vaccine-trial-begins-in</id>
+    <updated>2026-10-06T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>The MRC/UVRI &amp; LSHTM Uganda Research Unit vaccinated the first participants in Masaka City with a candidate vaccine developed by the University of Oxford. The early-phase study tests safety and immune response in healthy adults and follows a trial of the same candidate in the UK. It does not yet show whether the vaccine protects against the virus.</summary>
+    <content type="html">&lt;p&gt;The MRC/UVRI &amp;amp; LSHTM Uganda Research Unit vaccinated the first participants in Masaka City with a candidate vaccine developed by the University of Oxford. The early-phase study tests safety and immune response in healthy adults and follows a trial of the same candidate in the UK. It does not yet show whether the vaccine protects against the virus.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.lshtm.ac.uk/research/units/mrc-uganda/news/498871/uganda-launches-phase-i-clinical-study-bundibugyo-virus-disease-vaccine"&gt;MRC/UVRI &amp;amp; LSHTM Uganda Research Unit&lt;/a&gt;, &lt;a href="https://english.news.cn/africa/20261008/c046bc118e344ccb96ba6e16e5d179f2/c.html"&gt;Xinhua&lt;/a&gt;, &lt;a href="https://www.independent.co.ug/new-ebola-vaccine-trials-begin-in-uganda-amid-deadly-drc-outbreak/"&gt;The Independent (Uganda)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Kenya's first imported case dies in Nairobi</title>
