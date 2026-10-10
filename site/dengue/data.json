@@ -88,7 +88,7 @@
   "trend": {
     "title": "Locally acquired dengue cases per year, mainland EU/EEA",
     "unit": "Cases (ECDC)",
-    "note": "2026 is year to date from national reports (Italy 29 Sep, France 28 Sep). Excludes Madeira (Portugal), which had an outbreak in 2012 and 2 cases in 2025. Years with no ECDC entry had no reported local cases. Tap or hover a bar for its value.",
+    "note": "2026 is year to date from national reports (Italy 6 Oct, France 5 Oct). Excludes Madeira (Portugal), which had an outbreak in 2012 and 2 cases in 2025. Years with no ECDC entry had no reported local cases. Tap or hover a bar for its value.",
     "labelHeader": "Year",
     "valueHeader": "Local cases",
     "highlight": "2026",
@@ -173,7 +173,7 @@
       {
         "label": "2026",
         "value": 74,
-        "note": "year to date: Italy 59 (29 Sep), France 6 (28 Sep)"
+        "note": "year to date: Italy 68 (6 Oct), France 6 (5 Oct)"
       }
     ],
     "sources": [
@@ -228,10 +228,10 @@
     },
     "notes": {
       "Italy": "ISS, 6 Oct: 68 local cases in 5 outbreaks plus 1 unlinked case, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
-      "France": "Santé publique France, 28 Sep. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
+      "France": "Santé publique France, 5 Oct. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
     },
     "asOf": "2026-10-06",
-    "note": "Latest national counts: Italy (ISS) to 29 Sep, France (Santé publique France) to 28 Sep. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
+    "note": "Latest national counts: Italy (ISS) to 6 Oct, France (Santé publique France) to 5 Oct. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
     "sources": [
       {
         "name": "Istituto Superiore di Sanità",
@@ -388,12 +388,12 @@
     {
       "label": "Next ISS arbovirus bulletin (Italy)",
       "status": "pending",
-      "note": "Weekly; the latest covered data to 29 Sep. Next date not announced"
+      "note": "Weekly; the latest covered data to 6 Oct. Next date not announced"
     },
     {
       "label": "Next Santé publique France bulletin",
       "status": "pending",
-      "note": "Weekly during the enhanced surveillance season; the latest was dated 30 Sep"
+      "note": "Weekly during the enhanced surveillance season; the latest was dated 7 Oct"
     },
     {
       "label": "End of the 2026 transmission season",
@@ -403,7 +403,7 @@
     {
       "label": "Italy passes its 2023 total of 82 local cases",
       "status": "pending",
-      "note": "59 as of 29 Sep"
+      "note": "68 as of 6 Oct (ISS)"
     },
     {
       "label": "Italy reports its first local outbreaks of 2026",
