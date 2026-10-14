@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-14T06:45:00Z",
-  "checked": "2026-10-14T06:45:00Z",
+  "updated": "2026-10-14T18:45:00Z",
+  "checked": "2026-10-14T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -462,6 +462,12 @@
       "status": "pending"
     },
     {
+      "label": "Tumaini vaccine trial begins in DR Congo",
+      "date": "2026-10-31",
+      "status": "pending",
+      "note": "WHO experts expect a start by the end of October, pending approvals"
+    },
+    {
       "label": "Outbreak passes 10,000 confirmed cases",
       "status": "pending",
       "note": "9,066 on 13 Oct (DR Congo health ministry)"
@@ -869,6 +875,23 @@
         {
           "name": "Xinhua",
           "url": "https://english.news.cn/africa/20261013/379f2f3f9b0b4b86836ea2fdd3435c99/c.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-who-experts-vaccine-trial-expected",
+      "date": "2026-10-13",
+      "kind": "international",
+      "title": "WHO experts: Tumaini vaccine trial expected by end of October",
+      "body": "WHO experts said the Tumaini trial in DR Congo is expected to begin by the end of October. It will first test Ervebo, which is licensed for the Zaire strain, to see whether it protects against Bundibugyo virus. Candidates from Oxford and Moderna, now in early-phase trials, may be added later. Whether Ervebo protects against this strain is not yet known.",
+      "sources": [
+        {
+          "name": "AFP via Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-10-dr-congo-ebola-vaccine-trial.html"
+        },
+        {
+          "name": "CEPI",
+          "url": "https://cepi.net/final-preparations-underway-pivotal-phase-23-bundibugyo-vaccine-trial"
         }
       ]
     }
