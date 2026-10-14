@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-11T18:44:30Z</updated>
+  <updated>2026-10-14T06:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: DR Congo reports 9,066 cases and 4,381 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-13-dr-congo-reports-9-066-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-13-dr-congo-reports-9-066-cases</id>
+    <updated>2026-10-13T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo's health ministry reported 9,066 confirmed Ebola cases and 4,381 deaths in its update of 13 October, according to Al Jazeera and Xinhua. Media reports describe it as the country's largest and deadliest Ebola outbreak. Ituri province accounts for most confirmed cases.</summary>
+    <content type="html">&lt;p&gt;DR Congo's health ministry reported 9,066 confirmed Ebola cases and 4,381 deaths in its update of 13 October, according to Al Jazeera and Xinhua. Media reports describe it as the country's largest and deadliest Ebola outbreak. Ituri province accounts for most confirmed cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/13/dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-transmission-falter"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://english.news.cn/africa/20261013/379f2f3f9b0b4b86836ea2fdd3435c99/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC: 4,080 cases in 47 jurisdictions</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-09-cdc-4-080-cases-in"/>
@@ -357,14 +366,5 @@
     <category term="media"/>
     <summary>According to media reports, the worker broke a test tube containing Yersinia pestis while handling live samples. Russian officials deny a lab accident.</summary>
     <content type="html">&lt;p&gt;According to media reports, the worker broke a test tube containing Yersinia pestis while handling live samples. Russian officials deny a lab accident.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ynetnews.com/health_science/article/b18cfyyoge"&gt;Ynet&lt;/a&gt;, &lt;a href="https://www.cbsnews.com/news/russia-plague-lab-death-pneumonia-of-unknown-origin/"&gt;CBS News&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Dengue · Europe: Italy reaches 47 local cases in three outbreaks</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-24-italy-reaches-47-local-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-24-italy-reaches-47-local-cases</id>
-    <updated>2026-09-24T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The ISS links them to outbreaks in the provinces of Livorno (28 cases), Lecce (13) and Milan (2); 4 cases have no known link. 312 dengue cases have been confirmed this year, with no deaths.</summary>
-    <content type="html">&lt;p&gt;The ISS links them to outbreaks in the provinces of Livorno (28 cases), Lecce (13) and Milan (2); 4 cases have no known link. 312 dengue cases have been confirmed this year, with no deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-salgono-a-312-i-casi-di-dengue-47-autoctoni-west-nile-a-quota-700-con-54-decessi/"&gt;Quotidiano Sanità (24 Sep)&lt;/a&gt;, &lt;a href="https://www.ansa.it/canale_saluteebenessere/notizie/sanita/2026/09/24/iss-700-casi-di-west-nile-virus-312-di-dengue-e-28-di-chikungunya_71d8dacc-6d96-4d24-8282-85b3f510b8e9.html"&gt;ANSA&lt;/a&gt;, &lt;a href="https://tg24.sky.it/salute-e-benessere/2026/09/24/dengue-casi-italia-focolai-mappa"&gt;Sky TG24&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
