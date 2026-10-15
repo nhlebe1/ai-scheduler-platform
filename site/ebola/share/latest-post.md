@@ -1,3 +1,6 @@
-Ebola: Kenya's health ministry confirmed a second case on 14 Oct, a relative of the first patient who was already in quarantine. The ministry reports no evidence of community spread. DR Congo: 9,066 confirmed cases, 4,381 deaths. https://nhlebe1.github.io/ai-scheduler-platform/ebola/
+Ebola in DR Congo: ECDC and CDC count 9,144 confirmed cases and 4,410 deaths (data to 12 Oct), across 65 health zones in 7 provinces. Kenya has confirmed two linked cases. No licensed vaccine for this strain.
 
-Sources: Kenya Ministry of Health via AP/WRAL and CBC (14 Oct); DR Congo health ministry via Al Jazeera and Xinhua (13 Oct).
+Live tracker:
+https://nhlebe1.github.io/ai-scheduler-platform/ebola/
+
+Sources: ECDC (13 Oct), CDC situation summary (14 Oct), Kenya Ministry of Health via AP/CBC (14 Oct).

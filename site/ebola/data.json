@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-15T06:50:00Z",
-  "checked": "2026-10-15T06:50:00Z",
+  "updated": "2026-10-15T18:45:00Z",
+  "checked": "2026-10-15T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "DR Congo's Ebola outbreak passes 9,000 confirmed cases, reaching 9,066 with 4,381 deaths. Kenya reports a second case, a relative of its first.",
+  "headline": "DR Congo's Ebola outbreak has reached 9,144 confirmed cases and 4,410 deaths, ECDC and CDC data show. Kenya reports a second case, a relative of its first.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. DR Congo's health ministry reported 9,066 confirmed cases and 4,381 deaths on 13 October; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC and CDC count 9,144 confirmed cases and 4,410 deaths in DR Congo (data to 12 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
   },
   "counters": [
     {
@@ -38,16 +38,16 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 9066,
-      "note": "DR Congo health ministry, 13 Oct (Al Jazeera, Xinhua)",
+      "value": 9144,
+      "note": "ECDC and CDC, 13–14 Oct (data to 12 Oct)",
       "tone": "critical",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Confirmed deaths",
-      "value": 4381,
-      "note": "DR Congo health ministry, 13 Oct (Al Jazeera, Xinhua)",
+      "value": 4410,
+      "note": "ECDC and CDC, 13–14 Oct (data to 12 Oct)",
       "tone": "critical",
       "upIsBad": true
     },
@@ -55,7 +55,7 @@
       "id": "provinces",
       "label": "Provinces affected",
       "value": 7,
-      "note": "64 of 167 health zones in 7 of 26 provinces (ECDC, data to 6 Oct)",
+      "note": "65 of 167 health zones in 7 of 26 provinces (ECDC, data to 12 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -137,6 +137,14 @@
         "deaths": 4381,
         "provinces": 7
       }
+    },
+    {
+      "date": "2026-10-14",
+      "values": {
+        "cases": 9144,
+        "deaths": 4410,
+        "provinces": 7
+      }
     }
   ],
   "trend": {
@@ -213,6 +221,10 @@
       {
         "label": "13 Oct",
         "value": 9066
+      },
+      {
+        "label": "14 Oct",
+        "value": 9144
       }
     ],
     "sources": [
@@ -484,7 +496,7 @@
     {
       "label": "Outbreak passes 10,000 confirmed cases",
       "status": "pending",
-      "note": "9,066 on 13 Oct (DR Congo health ministry)"
+      "note": "9,144 on 14 Oct (ECDC, CDC)"
     },
     {
       "label": "Next WHO Disease Outbreak News report",
@@ -935,6 +947,23 @@
           "url": "https://www.washingtonpost.com/world/2026/10/14/kenya-ebola-congo/d9c75bf2-c7e6-11f1-aefb-abe4112d087e_story.html"
         }
       ]
+    },
+    {
+      "id": "2026-10-14-ecdc-and-cdc-9-144-cases",
+      "date": "2026-10-14",
+      "kind": "international",
+      "title": "ECDC and CDC: 9,144 cases and 4,410 deaths",
+      "body": "ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.",
+      "sources": [
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        }
+      ]
     }
   ],
   "context": {
@@ -1049,8 +1078,8 @@
     }
   ],
   "card": {
-    "title": "Ebola in DR Congo: 9,066 cases",
-    "sub": "The second-largest Ebola outbreak on record. 4,381 deaths in 7 provinces. Kenya has confirmed a second, linked case.",
+    "title": "Ebola in DR Congo: 9,144 cases",
+    "sub": "The second-largest Ebola outbreak on record. 4,410 deaths in 7 provinces. Kenya has confirmed a second, linked case.",
     "stats": [
       "cases",
       "deaths",
@@ -1065,5 +1094,5 @@
     },
     "sources": "WHO, CDC, ECDC, Africa CDC"
   },
-  "postExtra": "64 health zones in 7 provinces. No licensed vaccine for this strain."
+  "postExtra": "65 health zones in 7 provinces. No licensed vaccine for this strain."
 }

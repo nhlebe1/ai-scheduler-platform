@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-15T06:50:00Z",
-  "checked": "2026-10-15T06:50:00Z",
+  "updated": "2026-10-15T18:45:00Z",
+  "checked": "2026-10-15T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -760,6 +760,23 @@
         {
           "name": "abc27",
           "url": "https://www.abc27.com/pennsylvania/pa-measles-cases-pass-1200-for-the-year-state-investigating-franklin-county-death/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-cdc-to-send-more-support",
+      "date": "2026-10-13",
+      "kind": "official",
+      "title": "CDC to send more support to Pennsylvania",
+      "body": "CDC said it would send additional support to Pennsylvania's outbreak investigation after the state requested help through CDC's Epi-Aid programme.",
+      "sources": [
+        {
+          "name": "AP via The News Tribune",
+          "url": "https://www.newstribune.com/news/2026/oct/14/cdc-to-deploy-additional-support-to-pennsylvania/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/health/health-news/cdc-measles-outbreak-pennsylvania-rkf-jr-rcna603665"
         }
       ]
     }

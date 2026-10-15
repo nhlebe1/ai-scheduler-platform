@@ -14,25 +14,25 @@
     ],
     "disclaimer": "This tracker summarises ECDC, Italy's Istituto Superiore di Sanità (ISS), Santé publique France and named news reports. It is not medical or travel advice. If you develop a fever after mosquito bites or after travel, see a doctor and say where you have been."
   },
-  "updated": "2026-10-08T18:55:00Z",
-  "checked": "2026-10-15T06:50:00Z",
+  "updated": "2026-10-15T18:45:00Z",
+  "checked": "2026-10-15T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
+  "headline": "Italy has 70 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
   "status": {
     "level": "active",
-    "label": "Active · new local cases in Italy",
-    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 68 local cases in 5 outbreaks by 6 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+    "label": "Active · local cases in Italy and France",
+    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 70 local cases in 5 outbreaks plus 1 case not linked to the others by 13 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes (data to 12 October). The total is well below the 2024 record of 304. ECDC reports weekly until November."
   },
   "figures": [
     {
       "id": "cases",
       "label": "Locally acquired cases",
-      "value": 74,
-      "note": "Italy 68 (ISS, 6 Oct) + France 6 (Santé publique France, 5 Oct). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
+      "value": 76,
+      "note": "Italy 70 (ISS, 13 Oct) + France 6 (Santé publique France, 12 Oct). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
       "tone": "watch",
       "upIsBad": true
     },
@@ -40,15 +40,15 @@
       "id": "countries",
       "label": "Countries with local cases",
       "value": 2,
-      "note": "Italy and France (ECDC, 16 Sep; national data to 5–6 Oct)",
+      "note": "Italy and France (ECDC, 16 Sep; national data to 12–13 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
     {
       "id": "chik",
       "label": "Local chikungunya cases (context)",
-      "value": 147,
-      "note": "France 146 in 20 episodes (Santé publique France, 5 Oct); Italy 1 (ISS, 6 Oct). A different virus spread by the same mosquito",
+      "value": 163,
+      "note": "France 162 in 22 episodes (Santé publique France, 12 Oct); Italy 1 (ISS, 13 Oct). A different virus spread by the same mosquito",
       "tone": "watch",
       "upIsBad": true
     },
@@ -83,12 +83,20 @@
         "countries": 2,
         "chik": 147
       }
+    },
+    {
+      "date": "2026-10-13",
+      "values": {
+        "cases": 76,
+        "countries": 2,
+        "chik": 163
+      }
     }
   ],
   "trend": {
     "title": "Locally acquired dengue cases per year, mainland EU/EEA",
     "unit": "Cases (ECDC)",
-    "note": "2026 is year to date from national reports (Italy 6 Oct, France 5 Oct). Excludes Madeira (Portugal), which had an outbreak in 2012 and 2 cases in 2025. Years with no ECDC entry had no reported local cases. Tap or hover a bar for its value.",
+    "note": "2026 is year to date from national reports (Italy 13 Oct, France 12 Oct). Excludes Madeira (Portugal), which had an outbreak in 2012 and 2 cases in 2025. Years with no ECDC entry had no reported local cases. Tap or hover a bar for its value.",
     "labelHeader": "Year",
     "valueHeader": "Local cases",
     "highlight": "2026",
@@ -172,8 +180,8 @@
       },
       {
         "label": "2026",
-        "value": 74,
-        "note": "year to date: Italy 68 (6 Oct), France 6 (5 Oct)"
+        "value": 76,
+        "note": "year to date: Italy 70 (13 Oct), France 6 (12 Oct)"
       }
     ],
     "sources": [
@@ -223,16 +231,24 @@
     ],
     "noneLabel": "No local cases reported",
     "values": {
-      "Italy": 68,
+      "Italy": 70,
       "France": 6
     },
     "notes": {
-      "Italy": "ISS, 6 Oct: 68 local cases in 5 outbreaks plus 1 unlinked case, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
-      "France": "Santé publique France, 5 Oct. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
+      "Italy": "ISS, 13 Oct: 70 local cases in 5 outbreaks plus 1 unlinked case, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
+      "France": "Santé publique France, 12 Oct. 4 episodes, in Tarn, Hérault, Dordogne and Bouches-du-Rhône."
     },
-    "asOf": "2026-10-06",
-    "note": "Latest national counts: Italy (ISS) to 6 Oct, France (Santé publique France) to 5 Oct. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
+    "asOf": "2026-10-13",
+    "note": "Latest national counts: Italy (ISS) to 13 Oct, France (Santé publique France) to 12 Oct. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
     "sources": [
+      {
+        "name": "Quotidiano Sanità (15 Oct)",
+        "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-a-357-casi-chikungunya-a-30-west-nile-770-contagi-e-61-decessi/"
+      },
+      {
+        "name": "Santé publique France bulletin, 14 Oct",
+        "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-26"
+      },
       {
         "name": "Istituto Superiore di Sanità",
         "url": "https://www.iss.it/-/arbovirosi-330-casi-confermati-di-dengue-28-di-chikungunya-727-di-west-nile"
@@ -388,12 +404,12 @@
     {
       "label": "Next ISS arbovirus bulletin (Italy)",
       "status": "pending",
-      "note": "Weekly; the latest covered data to 6 Oct. Next date not announced"
+      "note": "Weekly; the latest covered data to 13 Oct. Next date not announced"
     },
     {
       "label": "Next Santé publique France bulletin",
       "status": "pending",
-      "note": "Weekly during the enhanced surveillance season; the latest was dated 7 Oct"
+      "note": "Weekly during the enhanced surveillance season; the latest was dated 14 Oct"
     },
     {
       "label": "End of the 2026 transmission season",
@@ -403,7 +419,7 @@
     {
       "label": "Italy passes its 2023 total of 82 local cases",
       "status": "pending",
-      "note": "68 as of 6 Oct (ISS)"
+      "note": "70 as of 13 Oct (ISS)"
     },
     {
       "label": "Italy reports its first local outbreaks of 2026",
@@ -689,6 +705,27 @@
           "url": "https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-3"
         }
       ]
+    },
+    {
+      "id": "2026-10-15-italy-70-local-dengue-cases",
+      "date": "2026-10-15",
+      "kind": "official",
+      "title": "Italy: 70 local dengue cases; France unchanged at 6",
+      "body": "The ISS bulletin of 15 October counts 357 confirmed dengue cases from 1 January to 13 October; 70 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired. Santé publique France's 14 October bulletin (data to 12 October) counts 4 local dengue episodes with 6 cases, with no new dengue episode, and 22 local chikungunya episodes with 162 cases.",
+      "sources": [
+        {
+          "name": "Quotidiano Sanità",
+          "url": "https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-a-357-casi-chikungunya-a-30-west-nile-770-contagi-e-61-decessi/"
+        },
+        {
+          "name": "Agensalute",
+          "url": "https://agensalute.it/2026/10/15/iss-357-casi-confermati-dengue-30-chikungunya-770-west-nile/"
+        },
+        {
+          "name": "Santé publique France bulletin, 14 Oct",
+          "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-26"
+        }
+      ]
     }
   ],
   "context": {
@@ -847,8 +884,8 @@
     }
   ],
   "card": {
-    "title": "Local dengue in Europe: 74 cases",
-    "sub": "Italy 68 and France 6 so far in 2026, against a record 304 in 2024. Italy counts 5 local outbreaks.",
+    "title": "Local dengue in Europe: 76 cases",
+    "sub": "Italy 70 and France 6 so far in 2026, against a record 304 in 2024. Italy counts 5 local outbreaks.",
     "stats": [
       "cases",
       "countries",
@@ -862,7 +899,7 @@
       "record": "2024 record"
     },
     "sources": "ISS, Santé publique France, ECDC",
-    "foot": "National data as of 5–6 Oct · updated weekly"
+    "foot": "National data as of 12–13 Oct · updated weekly"
   },
   "postExtra": "Only Italy and France have reported local cases so far."
 }

@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-15T06:50:00Z",
-  "checked": "2026-10-15T06:50:00Z",
+  "updated": "2026-10-15T18:45:00Z",
+  "checked": "2026-10-15T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -199,7 +199,7 @@
       "DR Congo": 51412,
       "Mozambique": 7698,
       "Angola": 5903,
-      "Yemen": 5443,
+      "Yemen": 8034,
       "Pakistan": 4353,
       "Somalia": 2657,
       "Malawi": 2615,
@@ -220,7 +220,7 @@
       "DR Congo": "Suspected cases, 1 Jan to 28 Sep, 21 provinces, 1,487 deaths (WHO, via UN News, 14 Oct). Weekly cases and deaths rose in the week of 21 to 28 Sep. WHO's August update counted 44,773 to 30 Aug.",
       "Mozambique": "ECDC, 1 Jan–9 Aug. 65 deaths.",
       "Angola": "ECDC, 1 Jan–9 Aug. 120 deaths.",
-      "Yemen": "ECDC, 1 Jan–29 Jun. 7 deaths.",
+      "Yemen": "Suspected cases so far this year, 27 deaths (WHO, via Al Jazeera, 13 Oct). ECDC counted 5,443 to 29 Jun.",
       "Pakistan": "ECDC, 1 Jan–6 Jul.",
       "Somalia": "ECDC, 1 Jan–9 Aug. 1 death. Covers the whole country, including the area the map labels Somaliland.",
       "Malawi": "ECDC, 1 Jan–14 Jun. 5 deaths.",
@@ -536,6 +536,23 @@
         {
           "name": "UN News",
           "url": "https://news.un.org/en/story/2026/10/1168595"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-who-suspected-cholera-cases-in",
+      "date": "2026-10-13",
+      "kind": "international",
+      "title": "WHO: suspected cholera cases in Yemen roughly triple in three weeks",
+      "body": "WHO says Yemen has recorded 8,034 suspected cholera cases and 27 deaths so far this year, and that weekly cases roughly tripled over three weeks. Five governorates hosting large numbers of displaced people (Abyan, Lahij, Al Dhale'e, Taiz and Aden) account for 92% of reported cases. WHO called for funding and access to safe water, vaccination and health services.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/13/cholera-cases-surge-in-yemen-as-conflict-intensifies-who-says"
+        },
+        {
+          "name": "The New Arab",
+          "url": "https://www.newarab.com/news/suspected-cholera-cases-surging-yemen-who"
         }
       ]
     }

@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-15T06:50:00Z</updated>
+  <updated>2026-10-15T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Dengue · Europe: Italy: 70 local dengue cases; France unchanged at 6</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-15-italy-70-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-15-italy-70-local-dengue-cases</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS bulletin of 15 October counts 357 confirmed dengue cases from 1 January to 13 October; 70 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired. Santé publique France's 14 October bulletin (data to 12 October) counts 4 local dengue episodes with 6 cases, with no new dengue episode, and 22 local chikungunya episodes with 162 cases.</summary>
+    <content type="html">&lt;p&gt;The ISS bulletin of 15 October counts 357 confirmed dengue cases from 1 January to 13 October; 70 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired. Santé publique France's 14 October bulletin (data to 12 October) counts 4 local dengue episodes with 6 cases, with no new dengue episode, and 22 local chikungunya episodes with 162 cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-a-357-casi-chikungunya-a-30-west-nile-770-contagi-e-61-decessi/"&gt;Quotidiano Sanità&lt;/a&gt;, &lt;a href="https://agensalute.it/2026/10/15/iss-357-casi-confermati-dengue-30-chikungunya-770-west-nile/"&gt;Agensalute&lt;/a&gt;, &lt;a href="https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-26"&gt;Santé publique France bulletin, 14 Oct&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: Pennsylvania: 1,222 cases in 42 counties</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-14-pennsylvania-1-222-cases-in-42"/>
@@ -26,6 +35,15 @@
     <content type="html">&lt;p&gt;Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wral.com/news/ap/09bbb-kenya-confirms-second-ebola-case-a-relative-of-first-patient/"&gt;AP via WRAL&lt;/a&gt;, &lt;a href="https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"&gt;CBC&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/14/kenya-ebola-congo/d9c75bf2-c7e6-11f1-aefb-abe4112d087e_story.html"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <title>Ebola · DR Congo: ECDC and CDC: 9,144 cases and 4,410 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-ecdc-and-cdc-9-144-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-ecdc-and-cdc-9-144-cases</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.</summary>
+    <content type="html">&lt;p&gt;ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>Cholera · Global: WHO: DR Congo has 51,412 suspected cholera cases this year</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected</id>
@@ -33,6 +51,15 @@
     <category term="international"/>
     <summary>WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.</summary>
     <content type="html">&lt;p&gt;WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://news.un.org/en/story/2026/10/1168595"&gt;UN News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Measles · US: CDC to send more support to Pennsylvania</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-13-cdc-to-send-more-support"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-13-cdc-to-send-more-support</id>
+    <updated>2026-10-13T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC said it would send additional support to Pennsylvania's outbreak investigation after the state requested help through CDC's Epi-Aid programme.</summary>
+    <content type="html">&lt;p&gt;CDC said it would send additional support to Pennsylvania's outbreak investigation after the state requested help through CDC's Epi-Aid programme.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.newstribune.com/news/2026/oct/14/cdc-to-deploy-additional-support-to-pennsylvania/"&gt;AP via The News Tribune&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/cdc-measles-outbreak-pennsylvania-rkf-jr-rcna603665"&gt;NBC News&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Ebola · DR Congo: DR Congo reports 9,066 cases and 4,381 deaths</title>
@@ -51,6 +78,15 @@
     <category term="international"/>
     <summary>WHO experts said the Tumaini trial in DR Congo is expected to begin by the end of October. It will first test Ervebo, which is licensed for the Zaire strain, to see whether it protects against Bundibugyo virus. Candidates from Oxford and Moderna, now in early-phase trials, may be added later. Whether Ervebo protects against this strain is not yet known.</summary>
     <content type="html">&lt;p&gt;WHO experts said the Tumaini trial in DR Congo is expected to begin by the end of October. It will first test Ervebo, which is licensed for the Zaire strain, to see whether it protects against Bundibugyo virus. Candidates from Oxford and Moderna, now in early-phase trials, may be added later. Whether Ervebo protects against this strain is not yet known.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://medicalxpress.com/news/2026-10-dr-congo-ebola-vaccine-trial.html"&gt;AFP via Medical Xpress&lt;/a&gt;, &lt;a href="https://cepi.net/final-preparations-underway-pivotal-phase-23-bundibugyo-vaccine-trial"&gt;CEPI&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Cholera · Global: WHO: suspected cholera cases in Yemen roughly triple in three weeks</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-13-who-suspected-cholera-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-13-who-suspected-cholera-cases-in</id>
+    <updated>2026-10-13T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>WHO says Yemen has recorded 8,034 suspected cholera cases and 27 deaths so far this year, and that weekly cases roughly tripled over three weeks. Five governorates hosting large numbers of displaced people (Abyan, Lahij, Al Dhale'e, Taiz and Aden) account for 92% of reported cases. WHO called for funding and access to safe water, vaccination and health services.</summary>
+    <content type="html">&lt;p&gt;WHO says Yemen has recorded 8,034 suspected cholera cases and 27 deaths so far this year, and that weekly cases roughly tripled over three weeks. Five governorates hosting large numbers of displaced people (Abyan, Lahij, Al Dhale'e, Taiz and Aden) account for 92% of reported cases. WHO called for funding and access to safe water, vaccination and health services.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/13/cholera-cases-surge-in-yemen-as-conflict-intensifies-who-says"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.newarab.com/news/suspected-cholera-cases-surging-yemen-who"&gt;The New Arab&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Measles · US: CDC: 4,080 cases in 47 jurisdictions</title>
@@ -330,41 +366,5 @@
     <category term="official"/>
     <summary>Santé publique France counts 4 dengue episodes with 6 cases and 424 imported dengue cases since 1 May. Separately (chikungunya, a different virus): 19 local episodes with 125 cases, including 6 in Nogent-sur-Marne (Val-de-Marne).</summary>
     <content type="html">&lt;p&gt;Santé publique France counts 4 dengue episodes with 6 cases and 424 imported dengue cases since 1 May. Separately (chikungunya, a different virus): 19 local episodes with 125 cases, including 6 in Nogent-sur-Marne (Val-de-Marne).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.santepubliquefrance.fr/en/vector-borne-diseases/chikungunya/national-bulletin/chikungunya-dengue-zika-and-west-nile-virus-2"&gt;Santé publique France bulletin, 30 Sep&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: CDC confirms two measles deaths nationally</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-29-cdc-confirms-two-measles-deaths"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-29-cdc-confirms-two-measles-deaths</id>
-    <updated>2026-09-29T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC's national count rises to two. It now counts only deaths confirmed through death certificates (NCHS), so it is lower than state tallies.</summary>
-    <content type="html">&lt;p&gt;CDC's national count rises to two. It now counts only deaths confirmed through death certificates (NCHS), so it is lower than state tallies.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/top-news/articles/2026-09-29/us-cdc-confirms-two-measles-related-deaths-in-2026"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://thehill.com/policy/healthcare/6118137-cdc-updates-measles-death-tally/"&gt;The Hill&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Cholera · Global: WHO: 2025 had the most cholera deaths since 1999</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-29-who-2025-had-the-most"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-29-who-2025-had-the-most</id>
-    <updated>2026-09-29T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025. Deaths rose 30% although fewer cases were reported, and seven countries accounted for about 90% of cases and deaths. WHO says the true burden is substantially higher.</summary>
-    <content type="html">&lt;p&gt;47 countries reported 451,499 cases and 7,870 deaths to WHO in 2025. Deaths rose 30% although fewer cases were reported, and seven countries accounted for about 90% of cases and deaths. WHO says the true burden is substantially higher.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague"&gt;WHO&lt;/a&gt;, &lt;a href="https://www.downtoearth.org.in/health/cholera-remains-a-challenge-deaths-increased-by-30-in-2025-who"&gt;Down To Earth&lt;/a&gt;, &lt;a href="https://guardian.ng/features/health/global-cholera-deaths-hit-26-year-high"&gt;The Guardian Nigeria&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Plague · Russia: Worker hospitalised with severe pneumonia</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-29-worker-hospitalised-with-severe-pneumonia"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-09-29-worker-hospitalised-with-severe-pneumonia</id>
-    <updated>2026-09-29T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The 28-year-old employee of the Irkutsk Anti-Plague Research Institute of Siberia and the Far East is admitted to hospital in Shelekhov.</summary>
-    <content type="html">&lt;p&gt;The 28-year-old employee of the Irkutsk Anti-Plague Research Institute of Siberia and the Far East is admitted to hospital in Shelekhov.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.themoscowtimes.com/2026/10/05/officials-seek-to-reassure-public-after-irkutsk-anti-plague-institute-workers-death-a93872"&gt;The Moscow Times&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Cholera · Global: ECDC: 249,136 cases worldwide this year</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-28-ecdc-249-136-cases-worldwide"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-28-ecdc-249-136-cases-worldwide</id>
-    <updated>2026-09-28T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.</summary>
-    <content type="html">&lt;p&gt;ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"&gt;ECDC: cholera worldwide overview&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

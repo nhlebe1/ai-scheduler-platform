@@ -1,3 +1,6 @@
-Pennsylvania's health department counts 1,222 measles cases in 42 counties and 5 confirmed deaths (14 Oct), and is reviewing a sixth reported death. US total: 4,080 (CDC, as of 8 Oct); next CDC update expected Fri. https://nhlebe1.github.io/ai-scheduler-platform/measles/
+US measles: CDC counts 4,080 confirmed cases as of 8 Oct, the most since 1991. Pennsylvania reports 1,222 cases in 42 counties, and CDC said on 13 Oct it will send additional support to the state's investigation.
 
-Sources: Pennsylvania Dept. of Health (14 Oct); Philadelphia Inquirer and abc27 (14 Oct); CDC via Reuters/U.S. News (9 Oct).
+Live tracker:
+https://nhlebe1.github.io/ai-scheduler-platform/measles/
+
+Sources: CDC (9 Oct), Pennsylvania Department of Health (14 Oct), AP via The News Tribune (14 Oct).
