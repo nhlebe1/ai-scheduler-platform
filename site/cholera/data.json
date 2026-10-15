@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-08T18:55:00Z",
-  "checked": "2026-10-14T18:45:00Z",
+  "updated": "2026-10-15T06:50:00Z",
+  "checked": "2026-10-15T06:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -196,7 +196,7 @@
     "values": {
       "Afghanistan": 102469,
       "Nigeria": 69263,
-      "DR Congo": 44773,
+      "DR Congo": 51412,
       "Mozambique": 7698,
       "Angola": 5903,
       "Yemen": 5443,
@@ -217,7 +217,7 @@
     "notes": {
       "Afghanistan": "WHO Afghanistan, January–August (Pajhwok, 27 Sep): acute watery diarrhoea with dehydration, which WHO counts with cholera. 18,329 cases and 4 deaths in August. ECDC: 45 deaths by 20 Jul.",
       "Nigeria": "WHO, 1 Jan–30 Aug. ECDC counted 50,290 cases and 338 deaths by 9 Aug. NCDC reports more than 65,000 suspected cases in 35 states, most in Borno.",
-      "DR Congo": "WHO, 1 Jan–30 Aug. UNICEF reported more than 30,400 cases and nearly 700 deaths in August.",
+      "DR Congo": "Suspected cases, 1 Jan to 28 Sep, 21 provinces, 1,487 deaths (WHO, via UN News, 14 Oct). Weekly cases and deaths rose in the week of 21 to 28 Sep. WHO's August update counted 44,773 to 30 Aug.",
       "Mozambique": "ECDC, 1 Jan–9 Aug. 65 deaths.",
       "Angola": "ECDC, 1 Jan–9 Aug. 120 deaths.",
       "Yemen": "ECDC, 1 Jan–29 Jun. 7 deaths.",
@@ -233,7 +233,7 @@
       "Haiti": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
       "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August."
     },
-    "note": "Latest sourced 2026 total for each country; dates vary. Nigeria and DR Congo are from WHO's August update (to 30 Aug) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
+    "note": "Latest sourced 2026 total for each country; dates vary. Nigeria is from WHO's August update (to 30 Aug), DR Congo from WHO via UN News (to 28 Sep) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
     "sources": [
       {
         "name": "WHO Weekly Epidemiological Record (2 Oct)",
@@ -254,6 +254,10 @@
       {
         "name": "UNICEF (August)",
         "url": "https://www.unicef.org/press-releases/cholera-spreads-across-borders-west-and-central-africa-unicef-calls-urgent-action"
+      },
+      {
+        "name": "UN News (WHO data on DR Congo)",
+        "url": "https://news.un.org/en/story/2026/10/1168595"
       }
     ]
   },
@@ -519,6 +523,19 @@
         {
           "name": "ECDC: cholera worldwide overview",
           "url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-who-dr-congo-51-412-suspected",
+      "date": "2026-10-14",
+      "kind": "international",
+      "title": "WHO: DR Congo has 51,412 suspected cholera cases this year",
+      "body": "WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168595"
         }
       ]
     }

@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-10-09T18:43:57Z</updated>
+  <updated>2026-10-15T06:50:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>Pennsylvania: 1,222 cases in 42 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-14-pennsylvania-1-222-cases-in-42"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-14-pennsylvania-1-222-cases-in-42</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update counts 1,222 confirmed cases and 5 confirmed measles-associated deaths. The department said it is conducting a review of a death reported by the Franklin County coroner and will update the public when it is complete.</summary>
+    <content type="html">&lt;p&gt;The state health department's update counts 1,222 confirmed cases and 5 confirmed measles-associated deaths. The department said it is conducting a review of a death reported by the Franklin County coroner and will update the public when it is complete.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out10"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.inquirer.com/health/measles-epi-aid-cdc-assistance-pennsylvania-20261014.html"&gt;The Philadelphia Inquirer&lt;/a&gt;, &lt;a href="https://www.abc27.com/pennsylvania/pa-measles-cases-pass-1200-for-the-year-state-investigating-franklin-county-death/"&gt;abc27&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>CDC: 4,080 cases in 47 jurisdictions</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-09-cdc-4-080-cases-in"/>

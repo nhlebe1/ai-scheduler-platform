@@ -16,11 +16,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 4,080 confirmed cases in 47 jurisdictions as of 8 October, up 193 in a week. Pennsylvania's outbreak, centred on Lancaster County, has passed 1,000 cases and five deaths by the state's count, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,080 confirmed cases in 47 jurisdictions as of 8 October, up 193 in a week. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,222 cases and five confirmed deaths by the state's count (14 October), with a sixth reported death under review, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases pass 4,000 and reach 4,080, the most since 1991. Pennsylvania's outbreak has passed 1,000 cases and New York has declared a disaster emergency.",
-      "updated": "2026-10-09T18:43:57Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "headline": "US measles cases pass 4,000 and reach 4,080, the most since 1991. Pennsylvania's outbreak has reached 1,222 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-15T06:50:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-14",
+          "title": "Pennsylvania: 1,222 cases in 42 counties",
+          "id": "2026-10-14-pennsylvania-1-222-cases-in-42"
+        },
+        {
           "date": "2026-10-09",
           "title": "CDC: 4,080 cases in 47 jurisdictions",
           "id": "2026-10-09-cdc-4-080-cases-in"
-        },
-        {
-          "date": "2026-10-07",
-          "title": "Pennsylvania: 1,078 cases in 41 counties",
-          "id": "2026-10-07-pennsylvania-1-078-cases-in-41"
         }
       ]
     },
@@ -63,11 +63,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. DR Congo's health ministry reported 9,066 confirmed cases and 4,381 deaths on 13 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. DR Congo's health ministry reported 9,066 confirmed cases and 4,381 deaths on 13 October; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
       },
-      "headline": "DR Congo's Ebola outbreak passes 9,000 confirmed cases, reaching 9,066 with 4,381 deaths. Kenya reports its first imported case.",
-      "updated": "2026-10-14T18:45:00Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "headline": "DR Congo's Ebola outbreak passes 9,000 confirmed cases, reaching 9,066 with 4,381 deaths. Kenya reports a second case, a relative of its first.",
+      "updated": "2026-10-15T06:50:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -90,14 +90,14 @@
       ],
       "latest": [
         {
-          "date": "2026-10-13",
-          "title": "DR Congo reports 9,066 cases and 4,381 deaths",
-          "id": "2026-10-13-dr-congo-reports-9-066-cases"
+          "date": "2026-10-14",
+          "title": "Kenya confirms a second Ebola case",
+          "id": "2026-10-14-kenya-confirms-a-second-ebola"
         },
         {
           "date": "2026-10-13",
-          "title": "WHO experts: Tumaini vaccine trial expected by end of October",
-          "id": "2026-10-13-who-experts-vaccine-trial-expected"
+          "title": "DR Congo reports 9,066 cases and 4,381 deaths",
+          "id": "2026-10-13-dr-congo-reports-9-066-cases"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -160,8 +160,8 @@
         "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
-      "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "updated": "2026-10-15T06:50:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -184,14 +184,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-14",
+          "title": "WHO: DR Congo has 51,412 suspected cholera cases this year",
+          "id": "2026-10-14-who-dr-congo-51-412-suspected"
+        },
+        {
           "date": "2026-10-02",
           "title": "WHO: 275,284 cases and 2,601 deaths in 28 countries",
           "id": "2026-10-02-who-275-284-cases-and"
-        },
-        {
-          "date": "2026-09-29",
-          "title": "WHO: 2025 had the most cholera deaths since 1999",
-          "id": "2026-09-29-who-2025-had-the-most"
         }
       ]
     },
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 68 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-14T18:45:00Z",
+      "checked": "2026-10-15T06:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

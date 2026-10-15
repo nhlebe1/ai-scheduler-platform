@@ -5,8 +5,35 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-14T18:45:00Z</updated>
+  <updated>2026-10-15T06:50:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Measles · US: Pennsylvania: 1,222 cases in 42 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-14-pennsylvania-1-222-cases-in-42"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-14-pennsylvania-1-222-cases-in-42</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update counts 1,222 confirmed cases and 5 confirmed measles-associated deaths. The department said it is conducting a review of a death reported by the Franklin County coroner and will update the public when it is complete.</summary>
+    <content type="html">&lt;p&gt;The state health department's update counts 1,222 confirmed cases and 5 confirmed measles-associated deaths. The department said it is conducting a review of a death reported by the Franklin County coroner and will update the public when it is complete.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out10"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.inquirer.com/health/measles-epi-aid-cdc-assistance-pennsylvania-20261014.html"&gt;The Philadelphia Inquirer&lt;/a&gt;, &lt;a href="https://www.abc27.com/pennsylvania/pa-measles-cases-pass-1200-for-the-year-state-investigating-franklin-county-death/"&gt;abc27&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: Kenya confirms a second Ebola case</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-kenya-confirms-a-second-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-kenya-confirms-a-second-ebola</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wral.com/news/ap/09bbb-kenya-confirms-second-ebola-case-a-relative-of-first-patient/"&gt;AP via WRAL&lt;/a&gt;, &lt;a href="https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"&gt;CBC&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/14/kenya-ebola-congo/d9c75bf2-c7e6-11f1-aefb-abe4112d087e_story.html"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Cholera · Global: WHO: DR Congo has 51,412 suspected cholera cases this year</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.</summary>
+    <content type="html">&lt;p&gt;WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://news.un.org/en/story/2026/10/1168595"&gt;UN News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Ebola · DR Congo: DR Congo reports 9,066 cases and 4,381 deaths</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-13-dr-congo-reports-9-066-cases"/>
@@ -339,32 +366,5 @@
     <category term="international"/>
     <summary>ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.</summary>
     <content type="html">&lt;p&gt;ECDC's monthly overview counts 249,136 cases, including 1,970 deaths, from 1 January to 28 September, against 436,268 cases and 4,449 deaths at the same point in 2025. In the month to 28 September it recorded 46,153 new cases and 140 deaths; Afghanistan (34,378), DR Congo (8,505) and Yemen (1,885) reported the most cases. ECDC's totals are a separate count from the WHO figures above.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly"&gt;ECDC: cholera worldwide overview&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Cholera · Global: Afghanistan's acute watery diarrhoea cases fall in August</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-27-afghanistan-s-acute-watery-diarrhoea"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-09-27-afghanistan-s-acute-watery-diarrhoea</id>
-    <updated>2026-09-27T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>WHO reports 18,329 cases of acute watery diarrhoea with dehydration and 4 deaths in August, 23.6% fewer cases than July's 23,985. Afghanistan has recorded 102,469 such cases this year.</summary>
-    <content type="html">&lt;p&gt;WHO reports 18,329 cases of acute watery diarrhoea with dehydration and 4 deaths in August, 23.6% fewer cases than July's 23,985. Afghanistan has recorded 102,469 such cases this year.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://pajhwok.com/2026/09/27/major-infectious-diseases-decline-in-afghanistan-in-august-who/"&gt;Pajhwok (WHO Afghanistan data)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Mpox · Africa &amp; world: CDC says sustained clade Ib spread in the US is likely</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-09-25-cdc-says-sustained-clade-ib"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-09-25-cdc-says-sustained-clade-ib</id>
-    <updated>2026-09-25T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC counts more than 60 confirmed clade I cases in at least 20 states since November 2024. Since August, more cases have had no travel link, and presumed local spread in more than 10 jurisdictions points to a likely transition to sustained transmission. CDC rates the risk to most people as low.</summary>
-    <content type="html">&lt;p&gt;CDC counts more than 60 confirmed clade I cases in at least 20 states since November 2024. Since August, more cases have had no travel link, and presumed local spread in more than 10 jurisdictions points to a likely transition to sustained transmission. CDC rates the risk to most people as low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"&gt;CDC: clade I outbreaks&lt;/a&gt;, &lt;a href="https://www.cdc.gov/monkeypox/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Dengue · Europe: First local case in Cartigliano, Veneto</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-25-first-local-case-in-cartigliano"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-09-25-first-local-case-in-cartigliano</id>
-    <updated>2026-09-25T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>A locally acquired case in Cartigliano (Vicenza) prompts mosquito control and blood-donation precautions. The local health authority reports two more cases on 29 September.</summary>
-    <content type="html">&lt;p&gt;A locally acquired case in Cartigliano (Vicenza) prompts mosquito control and blood-donation precautions. The local health authority reports two more cases on 29 September.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.centronazionalesangue.it/dengue/"&gt;Italian National Blood Centre&lt;/a&gt;, &lt;a href="https://agensalute.it/2026/09/29/ulss-pedemontana-diagnosticati-2-nuovi-casi-dengue-cartigliano/"&gt;AgenSalute (ULSS 7)&lt;/a&gt;, &lt;a href="https://www.ilgiornaledivicenza.it/territorio-vicentino/bassano/febbre-dengue-cartigliano-nuovi-casi-disinfestazione-1.13132382"&gt;Il Giornale di Vicenza&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

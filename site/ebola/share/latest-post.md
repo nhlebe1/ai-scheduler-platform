@@ -1,3 +1,3 @@
-Ebola in DR Congo: 9,066 confirmed cases and 4,381 deaths per the health ministry's 13 Oct update. WHO experts say the Tumaini vaccine trial is expected to start by end of October; whether Ervebo protects against this strain is not yet known. https://nhlebe1.github.io/ai-scheduler-platform/ebola/
+Ebola: Kenya's health ministry confirmed a second case on 14 Oct, a relative of the first patient who was already in quarantine. The ministry reports no evidence of community spread. DR Congo: 9,066 confirmed cases, 4,381 deaths. https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: DR Congo health ministry via Al Jazeera and Xinhua (13 Oct); WHO experts via AFP/Medical Xpress (13 Oct); CEPI.
+Sources: Kenya Ministry of Health via AP/WRAL and CBC (14 Oct); DR Congo health ministry via Al Jazeera and Xinhua (13 Oct).

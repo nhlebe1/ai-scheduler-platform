@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-14T18:45:00Z",
-  "checked": "2026-10-14T18:45:00Z",
+  "updated": "2026-10-15T06:50:00Z",
+  "checked": "2026-10-15T06:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "DR Congo's Ebola outbreak passes 9,000 confirmed cases, reaching 9,066 with 4,381 deaths. Kenya reports its first imported case.",
+  "headline": "DR Congo's Ebola outbreak passes 9,000 confirmed cases, reaching 9,066 with 4,381 deaths. Kenya reports a second case, a relative of its first.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. DR Congo's health ministry reported 9,066 confirmed cases and 4,381 deaths on 13 October; CDC calls it the second-largest Ebola outbreak on record. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 64 health zones in 7 of DR Congo's 26 provinces. DR Congo's health ministry reported 9,066 confirmed cases and 4,381 deaths on 13 October; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
   },
   "counters": [
     {
@@ -63,7 +63,7 @@
       "id": "countries",
       "label": "Other countries with cases",
       "value": 3,
-      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (1, died 5 Oct)",
+      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (2 linked cases, 1 died)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -238,7 +238,7 @@
     "label": "Kenya contact watch",
     "lastExposure": "2026-10-05",
     "incubationDays": 21,
-    "explainer": "Ebola's incubation period is 2 to 21 days. Contacts of Kenya's imported case were last exposed by 5 October at the latest. If none fall ill within 21 days, Kenya is clear of this introduction.",
+    "explainer": "Ebola's incubation period is 2 to 21 days. Contacts of Kenya's first case were last exposed by 5 October at the latest. On 14 October the health ministry confirmed a second case, a relative who was already in quarantine, so the follow-up period for his contacts runs later.",
     "closedNote": "The 21-day follow-up period has ended."
   },
   "risk": {
@@ -421,7 +421,7 @@
     {
       "claim": "Ebola has spread to Kenya",
       "status": "confirmed",
-      "detail": "Kenya confirmed one imported case on 5 October; the patient, who had travelled from DR Congo via Kampala, died. No local spread has been reported.",
+      "detail": "Kenya has confirmed two cases. The first, a man who had travelled from DR Congo via Kampala, died on 5 October. On 14 October the health ministry confirmed a second case in a relative who was already in quarantine. The ministry said there was no evidence of spread in the community.",
       "sources": [
         {
           "name": "WHO Africa",
@@ -430,6 +430,14 @@
         {
           "name": "Citizen Digital",
           "url": "https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"
+        },
+        {
+          "name": "AP via WRAL",
+          "url": "https://www.wral.com/news/ap/09bbb-kenya-confirms-second-ebola-case-a-relative-of-first-patient/"
+        },
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"
         }
       ]
     },
@@ -459,7 +467,8 @@
     {
       "label": "Kenya contacts finish 21-day follow-up",
       "date": "2026-10-26",
-      "status": "pending"
+      "status": "pending",
+      "note": "Applies to contacts of the first case. Contacts of the second case, confirmed 14 Oct, are followed for 21 days from their last exposure."
     },
     {
       "label": "Tumaini vaccine trial begins in DR Congo",
@@ -499,6 +508,12 @@
     }
   ],
   "positions": [
+    {
+      "who": "Kenya Ministry of Health",
+      "kind": "official",
+      "date": "2026-10-14",
+      "text": "Confirmed a second Ebola case, a relative of the first patient who was already in quarantine. The ministry said there was no evidence of spread in the community."
+    },
     {
       "who": "World Health Organization",
       "kind": "international",
@@ -894,6 +909,27 @@
           "url": "https://cepi.net/final-preparations-underway-pivotal-phase-23-bundibugyo-vaccine-trial"
         }
       ]
+    },
+    {
+      "id": "2026-10-14-kenya-confirms-a-second-ebola",
+      "date": "2026-10-14",
+      "kind": "official",
+      "title": "Kenya confirms a second Ebola case",
+      "body": "Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.",
+      "sources": [
+        {
+          "name": "AP via WRAL",
+          "url": "https://www.wral.com/news/ap/09bbb-kenya-confirms-second-ebola-case-a-relative-of-first-patient/"
+        },
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/14/kenya-ebola-congo/d9c75bf2-c7e6-11f1-aefb-abe4112d087e_story.html"
+        }
+      ]
     }
   ],
   "context": {
@@ -1009,7 +1045,7 @@
   ],
   "card": {
     "title": "Ebola in DR Congo: 9,066 cases",
-    "sub": "The second-largest Ebola outbreak on record. 4,381 deaths in 7 provinces. Kenya reports its first imported case.",
+    "sub": "The second-largest Ebola outbreak on record. 4,381 deaths in 7 provinces. Kenya has confirmed a second, linked case.",
     "stats": [
       "cases",
       "deaths",
