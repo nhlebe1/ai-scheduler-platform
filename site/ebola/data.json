@@ -459,10 +459,15 @@
   ],
   "watchlist": [
     {
-      "label": "US entry restrictions expire unless extended",
+      "label": "US entry restrictions extended",
       "date": "2026-10-11",
+      "status": "done",
+      "note": "CDC extended the entry suspension for travellers recently in DR Congo, Uganda or South Sudan by another 30 days on 11 Oct (Nation, Fragomen). Kenya is not on the list."
+    },
+    {
+      "label": "US entry restrictions expire unless extended again",
       "status": "pending",
-      "note": "Earlier orders were extended in 30-day steps"
+      "note": "The 11 Oct order runs for 30 days"
     },
     {
       "label": "Kenya contacts finish 21-day follow-up",
