@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-15T18:45:00Z",
-  "checked": "2026-10-15T18:45:00Z",
+  "updated": "2026-10-16T06:55:00Z",
+  "checked": "2026-10-16T06:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC and CDC count 9,144 confirmed cases and 4,410 deaths in DR Congo (data to 12 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC and CDC count 9,144 confirmed cases and 4,410 deaths in DR Congo (data to 12 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October. On 15 October, Reuters and Bloomberg reported, citing health officials, two confirmed cases in an eighth province, North Ubangi, which Congolese authorities had not yet officially announced."
   },
   "counters": [
     {
@@ -55,7 +55,7 @@
       "id": "provinces",
       "label": "Provinces affected",
       "value": 7,
-      "note": "65 of 167 health zones in 7 of 26 provinces (ECDC, data to 12 Oct)",
+      "note": "65 of 167 health zones in 7 of 26 provinces (ECDC, data to 12 Oct). Reuters and Bloomberg report a possible eighth, North Ubangi (15 Oct); not yet officially announced.",
       "tone": "watch",
       "upIsBad": true
     },
@@ -492,6 +492,12 @@
       "date": "2026-10-31",
       "status": "pending",
       "note": "WHO experts expect a start by the end of October, pending approvals"
+    },
+    {
+      "label": "Official confirmation of cases in North Ubangi",
+      "date": "2026-10-15",
+      "status": "pending",
+      "note": "Reuters and Bloomberg, citing health officials, report two confirmed cases (15 Oct). Congolese authorities had not announced them; ECDC and CDC still list 7 provinces."
     },
     {
       "label": "Outbreak passes 10,000 confirmed cases",
@@ -962,6 +968,23 @@
         {
           "name": "CDC: current situation",
           "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-media-report-ebola-in-an",
+      "date": "2026-10-15",
+      "kind": "media",
+      "title": "Media report Ebola in an eighth province, North Ubangi",
+      "body": "Reuters and Bloomberg report, citing health officials, two confirmed Ebola cases in North Ubangi province, which borders the Central African Republic. Reuters says Congolese authorities had not yet officially announced the cases. It also reports that several suspected Ebola deaths had recently occurred at a mining site in Wapinda health zone, with samples sent for laboratory analysis in the province and in Kinshasa.",
+      "sources": [
+        {
+          "name": "Reuters via TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/africa/2026-10-15-congo-ebola-outbreak-spreads-to-province-bordering-central-african-republic/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/ebola-spreads-to-eighth-congo-province-as-young-children-face-heavy-toll"
         }
       ]
     }

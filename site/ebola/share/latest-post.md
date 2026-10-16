@@ -1,6 +1,6 @@
-Ebola in DR Congo: ECDC and CDC count 9,144 confirmed cases and 4,410 deaths (data to 12 Oct), across 65 health zones in 7 provinces. Kenya has confirmed two linked cases. No licensed vaccine for this strain.
+Ebola in DR Congo: Reuters and Bloomberg report two confirmed cases in North Ubangi, a possible eighth province, citing health officials; not yet officially announced. ECDC and CDC count 9,144 cases, 4,410 deaths (7 provinces).
 
 Live tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: ECDC (13 Oct), CDC situation summary (14 Oct), Kenya Ministry of Health via AP/CBC (14 Oct).
+Sources: Reuters via TimesLIVE (15 Oct), Bloomberg (15 Oct), ECDC (13 Oct), CDC situation summary (14 Oct).
