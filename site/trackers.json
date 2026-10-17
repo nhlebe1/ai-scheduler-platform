@@ -16,11 +16,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,222 cases and five confirmed deaths by the state's count (14 October), with a sixth reported death under review, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,260 cases and five confirmed deaths by the state's count (16 October), with a further reported death under review, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,222 cases and New York has declared a disaster emergency.",
-      "updated": "2026-10-16T18:45:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,260 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-17T06:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -48,9 +48,9 @@
           "id": "2026-10-16-cdc-4-410-cases-in"
         },
         {
-          "date": "2026-10-14",
-          "title": "Pennsylvania: 1,222 cases in 42 counties",
-          "id": "2026-10-14-pennsylvania-1-222-cases-in-42"
+          "date": "2026-10-16",
+          "title": "Pennsylvania: 1,260 cases in 43 counties",
+          "id": "2026-10-16-pennsylvania-1-260-cases-in"
         }
       ]
     },
@@ -63,21 +63,21 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC and CDC count 9,144 confirmed cases and 4,410 deaths in DR Congo (data to 12 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October. On 15 October, Reuters and Bloomberg reported, citing health officials, two confirmed cases in an eighth province, North Ubangi, which Congolese authorities had not yet officially announced."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC counts 9,277 confirmed cases and 4,478 deaths in DR Congo (data to 14 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed three linked cases, one of them fatal. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October. On 15 October, Reuters and Bloomberg reported, citing health officials, two confirmed cases in an eighth province, North Ubangi, which Congolese authorities had not yet officially announced."
       },
-      "headline": "DR Congo's Ebola outbreak has reached 9,144 confirmed cases and 4,410 deaths, ECDC and CDC data show. Kenya reports a second case, a relative of its first.",
-      "updated": "2026-10-16T06:55:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "headline": "DR Congo's Ebola outbreak has reached 9,277 confirmed cases and 4,478 deaths, ECDC data show. Kenya has confirmed a third case, a close contact of its first two.",
+      "updated": "2026-10-17T06:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 9144,
+          "value": 9277,
           "unit": "",
           "tone": "critical"
         },
         {
           "label": "Confirmed deaths",
-          "value": 4410,
+          "value": 4478,
           "unit": "",
           "tone": "critical"
         },
@@ -90,14 +90,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-16",
+          "title": "Kenya confirms a third Ebola case",
+          "id": "2026-10-16-kenya-confirms-a-third-ebola"
+        },
+        {
           "date": "2026-10-15",
           "title": "Media report Ebola in an eighth province, North Ubangi",
           "id": "2026-10-15-media-report-ebola-in-an"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "Kenya confirms a second Ebola case",
-          "id": "2026-10-14-kenya-confirms-a-second-ebola"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-08T18:55:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 70 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-16T18:45:00Z",
+      "checked": "2026-10-17T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

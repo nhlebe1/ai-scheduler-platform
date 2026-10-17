@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-16T06:55:00Z",
-  "checked": "2026-10-16T18:45:00Z",
+  "updated": "2026-10-17T06:45:00Z",
+  "checked": "2026-10-17T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "DR Congo's Ebola outbreak has reached 9,144 confirmed cases and 4,410 deaths, ECDC and CDC data show. Kenya reports a second case, a relative of its first.",
+  "headline": "DR Congo's Ebola outbreak has reached 9,277 confirmed cases and 4,478 deaths, ECDC data show. Kenya has confirmed a third case, a close contact of its first two.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC and CDC count 9,144 confirmed cases and 4,410 deaths in DR Congo (data to 12 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed two linked cases. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October. On 15 October, Reuters and Bloomberg reported, citing health officials, two confirmed cases in an eighth province, North Ubangi, which Congolese authorities had not yet officially announced."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has spread to 65 health zones in 7 of DR Congo's 26 provinces. ECDC counts 9,277 confirmed cases and 4,478 deaths in DR Congo (data to 14 October); CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed three linked cases, one of them fatal. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October. On 15 October, Reuters and Bloomberg reported, citing health officials, two confirmed cases in an eighth province, North Ubangi, which Congolese authorities had not yet officially announced."
   },
   "counters": [
     {
@@ -38,16 +38,16 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 9144,
-      "note": "ECDC and CDC, 13–14 Oct (data to 12 Oct)",
+      "value": 9277,
+      "note": "ECDC, 15 Oct (data to 14 Oct)",
       "tone": "critical",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Confirmed deaths",
-      "value": 4410,
-      "note": "ECDC and CDC, 13–14 Oct (data to 12 Oct)",
+      "value": 4478,
+      "note": "ECDC, 15 Oct (data to 14 Oct)",
       "tone": "critical",
       "upIsBad": true
     },
@@ -63,7 +63,7 @@
       "id": "countries",
       "label": "Other countries with cases",
       "value": 3,
-      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (2 linked cases, 1 died)",
+      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (3 linked cases, 1 died)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -143,6 +143,14 @@
       "values": {
         "cases": 9144,
         "deaths": 4410,
+        "provinces": 7
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "values": {
+        "cases": 9277,
+        "deaths": 4478,
         "provinces": 7
       }
     }
@@ -225,6 +233,10 @@
       {
         "label": "14 Oct",
         "value": 9144
+      },
+      {
+        "label": "15 Oct",
+        "value": 9277
       }
     ],
     "sources": [
@@ -250,7 +262,7 @@
     "label": "Kenya contact watch",
     "lastExposure": "2026-10-05",
     "incubationDays": 21,
-    "explainer": "Ebola's incubation period is 2 to 21 days. Contacts of Kenya's first case were last exposed by 5 October at the latest. On 14 October the health ministry confirmed a second case, a relative who was already in quarantine, so the follow-up period for his contacts runs later.",
+    "explainer": "Ebola's incubation period is 2 to 21 days. Contacts of Kenya's first case were last exposed by 5 October at the latest. Kenya's health ministry confirmed a second case on 14 October and a third on 16 October, both close contacts who were already in quarantine, so the follow-up period for their contacts runs later.",
     "closedNote": "The 21-day follow-up period has ended."
   },
   "risk": {
@@ -433,7 +445,7 @@
     {
       "claim": "Ebola has spread to Kenya",
       "status": "confirmed",
-      "detail": "Kenya has confirmed two cases. The first, a man who had travelled from DR Congo via Kampala, died on 5 October. On 14 October the health ministry confirmed a second case in a relative who was already in quarantine. The ministry said there was no evidence of spread in the community.",
+      "detail": "Kenya has confirmed three linked cases. The first, a man who had travelled from DR Congo via Kampala, died on 5 October. The health ministry confirmed a second case on 14 October and a third on 16 October, both close contacts who were already in quarantine. The ministry said there was no evidence of spread in the community.",
       "sources": [
         {
           "name": "WHO Africa",
@@ -450,6 +462,10 @@
         {
           "name": "CBC",
           "url": "https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"
+        },
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine"
         }
       ]
     },
@@ -485,7 +501,7 @@
       "label": "Kenya contacts finish 21-day follow-up",
       "date": "2026-10-26",
       "status": "pending",
-      "note": "Applies to contacts of the first case. Contacts of the second case, confirmed 14 Oct, are followed for 21 days from their last exposure."
+      "note": "Applies to contacts of the first case. Contacts of the second and third cases, confirmed 14 and 16 Oct, are followed for 21 days from their last exposure."
     },
     {
       "label": "Tumaini vaccine trial begins in DR Congo",
@@ -497,12 +513,12 @@
       "label": "Official confirmation of cases in North Ubangi",
       "date": "2026-10-15",
       "status": "pending",
-      "note": "Reuters and Bloomberg, citing health officials, report two confirmed cases (15 Oct). Congolese authorities had not announced them; ECDC and CDC still list 7 provinces."
+      "note": "Reuters and Bloomberg, citing health officials, report two confirmed cases (15 Oct). Congolese authorities had not announced them; ECDC's 15 Oct page cites the media reports but its tally still lists 7 provinces."
     },
     {
       "label": "Outbreak passes 10,000 confirmed cases",
       "status": "pending",
-      "note": "9,144 on 14 Oct (ECDC, CDC)"
+      "note": "9,277 on 15 Oct (ECDC)"
     },
     {
       "label": "Next WHO Disease Outbreak News report",
@@ -566,6 +582,12 @@
       "kind": "international",
       "date": "2026-09-17",
       "text": "The outbreak remains a Public Health Emergency of Continental Security, declared on 18 May."
+    },
+    {
+      "who": "Kenya Ministry of Health",
+      "kind": "official",
+      "date": "2026-10-16",
+      "text": "Confirmed a third Ebola case, a close contact of the first two patients who was already in quarantine. The ministry said there was no evidence of community spread and that daily monitoring of contacts continues."
     }
   ],
   "timeline": [
@@ -987,6 +1009,40 @@
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/ebola-spreads-to-eighth-congo-province-as-young-children-face-heavy-toll"
         }
       ]
+    },
+    {
+      "id": "2026-10-15-ecdc-9-277-cases-and",
+      "date": "2026-10-15",
+      "kind": "international",
+      "title": "ECDC: 9,277 cases and 4,478 deaths",
+      "body": "ECDC reports 9,277 confirmed cases and 4,478 deaths in DR Congo as of 15 October (data to 14 October), with 924 patients in isolation in hospital. New cases in the latest report were in Ituri (31), North Kivu (28), Haut-Uele (5) and Tshopo (1). ECDC also notes the media reports of cases in North Ubangi.",
+      "sources": [
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-kenya-confirms-a-third-ebola",
+      "date": "2026-10-16",
+      "kind": "official",
+      "title": "Kenya confirms a third Ebola case",
+      "body": "Kenya's health ministry said a close contact of the first two patients, who had been in quarantine since 6 October, tested positive. The ministry said there was no evidence of community spread, and contacts continue daily monitoring for 21 days. Kenya now has three confirmed cases and one death.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/16/kenya-ebola-congo/77aa5edc-c981-11f1-aefb-abe4112d087e_story.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case"
+        }
+      ]
     }
   ],
   "context": {
@@ -1101,8 +1157,8 @@
     }
   ],
   "card": {
-    "title": "Ebola in DR Congo: 9,144 cases",
-    "sub": "The second-largest Ebola outbreak on record. 4,410 deaths in 7 provinces. Kenya has confirmed a second, linked case.",
+    "title": "Ebola in DR Congo: 9,277 cases",
+    "sub": "The second-largest Ebola outbreak on record. 4,478 deaths in 7 provinces. Kenya has confirmed a third, linked case.",
     "stats": [
       "cases",
       "deaths",
