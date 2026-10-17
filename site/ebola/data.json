@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-17T06:45:00Z",
-  "checked": "2026-10-17T06:45:00Z",
+  "updated": "2026-10-17T18:45:00Z",
+  "checked": "2026-10-17T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -990,6 +990,23 @@
         {
           "name": "CDC: current situation",
           "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-africa-cdc-says-700-million",
+      "date": "2026-10-14",
+      "kind": "international",
+      "title": "Africa CDC asks for accountability on over $700 million of response funding",
+      "body": "Africa CDC's director general said on 14 October that more than $700 million of Ebola response funding channelled through international partners could not yet be traced to the response, and that the funds were not transferred to the DR Congo government. He asked partners to account for the money, and Africa CDC said it is looking into the gap. No partner had publicly responded in the reports.",
+      "sources": [
+        {
+          "name": "Reuters via AOL",
+          "url": "https://www.aol.com/articles/africa-cdc-says-over-700-134638000.html"
+        },
+        {
+          "name": "Africanews",
+          "url": "https://www.africanews.com/2026/10/15/africa-cdc-probes-missing-millions-meant-for-ebola-response/"
         }
       ]
     },

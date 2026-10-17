@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-10-08T18:55:00Z",
-  "checked": "2026-10-17T06:45:00Z",
+  "updated": "2026-10-17T18:45:00Z",
+  "checked": "2026-10-17T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -398,7 +398,7 @@
     {
       "label": "CDC update on clade Ib spread in the US",
       "status": "pending",
-      "note": "CDC said on 25 Sep that a transition to sustained spread is likely; its 5 Oct count is more than 80 cases in at least 22 states"
+      "note": "CDC said on 25 Sep that a transition to sustained spread is likely; its 14 Oct count is more than 90 cases in at least 23 states"
     },
     {
       "label": "Madagascar's outbreak slows",
@@ -432,8 +432,8 @@
     {
       "who": "US CDC",
       "kind": "official",
-      "date": "2026-09-25",
-      "text": "More than 60 confirmed clade I cases in at least 20 states. Presumed local spread in more than 10 jurisdictions indicates a likely transition to sustained clade Ib transmission. Risk to most people in the US remains low."
+      "date": "2026-10-14",
+      "text": "More than 90 confirmed clade I cases in at least 23 states and Puerto Rico. Presumed local spread in more than 10 jurisdictions indicates a likely transition to sustained clade Ib transmission. Risk to most people in the US remains low."
     },
     {
       "who": "South Africa Department of Health",
@@ -746,6 +746,23 @@
         {
           "name": "Medscape",
           "url": "https://www.medscape.com/viewarticle/mpox-clade-i-shows-domestic-side-2026a10011po"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-cdc-more-than-90-clade",
+      "date": "2026-10-14",
+      "kind": "official",
+      "title": "CDC: more than 90 clade I cases in at least 23 states",
+      "body": "CDC's updated count is more than 90 clade I cases in at least 23 states and Puerto Rico, up from more than 80 in at least 22 states on 5 October. CDC says an increasing share of cases since August have no recent international travel, cases with presumed domestic transmission have been reported in more than 10 jurisdictions, and it rates the risk to most people as low.",
+      "sources": [
+        {
+          "name": "CDC: clade I outbreaks",
+          "url": "https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"
+        },
+        {
+          "name": "CDC: current situation",
+          "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
         }
       ]
     }

@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-17T06:45:00Z</updated>
+  <updated>2026-10-17T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Measles · US: CDC: 4,410 cases in 47 jurisdictions</title>
@@ -87,6 +87,24 @@
     <category term="international"/>
     <summary>ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.</summary>
     <content type="html">&lt;p&gt;ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: Africa CDC asks for accountability on over $700 million of response funding</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-africa-cdc-says-700-million"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-africa-cdc-says-700-million</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC's director general said on 14 October that more than $700 million of Ebola response funding channelled through international partners could not yet be traced to the response, and that the funds were not transferred to the DR Congo government. He asked partners to account for the money, and Africa CDC said it is looking into the gap. No partner had publicly responded in the reports.</summary>
+    <content type="html">&lt;p&gt;Africa CDC's director general said on 14 October that more than $700 million of Ebola response funding channelled through international partners could not yet be traced to the response, and that the funds were not transferred to the DR Congo government. He asked partners to account for the money, and Africa CDC said it is looking into the gap. No partner had publicly responded in the reports.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aol.com/articles/africa-cdc-says-over-700-134638000.html"&gt;Reuters via AOL&lt;/a&gt;, &lt;a href="https://www.africanews.com/2026/10/15/africa-cdc-probes-missing-millions-meant-for-ebola-response/"&gt;Africanews&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Mpox · Africa &amp; world: CDC: more than 90 clade I cases in at least 23 states</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-cdc-more-than-90-clade"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-cdc-more-than-90-clade</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's updated count is more than 90 clade I cases in at least 23 states and Puerto Rico, up from more than 80 in at least 22 states on 5 October. CDC says an increasing share of cases since August have no recent international travel, cases with presumed domestic transmission have been reported in more than 10 jurisdictions, and it rates the risk to most people as low.</summary>
+    <content type="html">&lt;p&gt;CDC's updated count is more than 90 clade I cases in at least 23 states and Puerto Rico, up from more than 80 in at least 22 states on 5 October. CDC says an increasing share of cases since August have no recent international travel, cases with presumed domestic transmission have been reported in more than 10 jurisdictions, and it rates the risk to most people as low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"&gt;CDC: clade I outbreaks&lt;/a&gt;, &lt;a href="https://www.cdc.gov/monkeypox/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Cholera · Global: WHO: DR Congo has 51,412 suspected cholera cases this year</title>
@@ -348,23 +366,5 @@
     <category term="international"/>
     <summary>WHO's August update, now published in its Weekly Epidemiological Record, covers 1 January to 30 August: 43% fewer cases and 58% fewer deaths than a year earlier. August's 41,915 new cases were 25% fewer than July's. Nigeria (69,263) and DR Congo (44,773) report the most cases in Africa.</summary>
     <content type="html">&lt;p&gt;WHO's August update, now published in its Weekly Epidemiological Record, covers 1 January to 30 August: 43% fewer cases and 58% fewer deaths than a year earlier. August's 41,915 new cases were 25% fewer than July's. Nigeria (69,263) and DR Congo (44,773) report the most cases in Africa.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"&gt;WHO Weekly Epidemiological Record (2 Oct)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Dengue · Europe: Cartigliano cluster reaches 8 cases; Rome added to affected areas</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-02-cartigliano-cluster-reaches-8-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-02-cartigliano-cluster-reaches-8-cases</id>
-    <updated>2026-10-02T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The local health authority reports 8 locally acquired cases in Cartigliano; one older patient is in hospital as a precaution. Italy's National Blood Centre lists Rome as an area with local dengue from 2 October.</summary>
-    <content type="html">&lt;p&gt;The local health authority reports 8 locally acquired cases in Cartigliano; one older patient is in hospital as a precaution. Italy's National Blood Centre lists Rome as an area with local dengue from 2 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.tviweb.it/cartigliano-salgono-a-otto-i-casi-autoctoni-di-dengue-un-anziano-ricoverato-in-ospedale/"&gt;TViWeb&lt;/a&gt;, &lt;a href="https://www.ansa.it/veneto/notizie/2026/10/01/salgono-a-sei-i-casi-di-virus-dengue-nel-vicentino_92e6e698-2287-4c2e-96e1-f04c8a671da6.html"&gt;ANSA Veneto&lt;/a&gt;, &lt;a href="https://www.centronazionalesangue.it/dengue/"&gt;Italian National Blood Centre&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Plague · Russia: Death confirmed; Shelekhov hospital quarantined</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/plague/#2026-10-02-death-confirmed-shelekhov-hospital-quarantined</id>
-    <updated>2026-10-02T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>She dies overnight on 1–2 October. Governor Igor Kobzev cites a suspected "particularly dangerous infection". Rospotrebnadzor head Anna Popova flies in for an emergency commission. 197 contacts are identified and 189 hospitalised for observation. Kobzev says none have symptoms and all tests are negative.</summary>
-    <content type="html">&lt;p&gt;She dies overnight on 1–2 October. Governor Igor Kobzev cites a suspected "particularly dangerous infection". Rospotrebnadzor head Anna Popova flies in for an emergency commission. 197 contacts are identified and 189 hospitalised for observation. Kobzev says none have symptoms and all tests are negative.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"&gt;The Moscow Times&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/world/europe/russia-plague-suspected-lab-worker-dies-200-medical-observation-rcna601559"&gt;NBC News&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

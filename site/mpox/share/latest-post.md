@@ -1,6 +1,6 @@
-Mpox: WHO counted 1,153 confirmed cases in 11 African countries in the six weeks to 16 Aug, 785 of them in Madagascar. CDC said on 25 Sep that sustained clade Ib spread in the US is likely.
+Mpox: CDC now counts more than 90 clade I cases in at least 23 US states and Puerto Rico, up from more than 80 on 5 Oct. CDC says spread without travel links is rising and rates the risk to most people as low.
 
 Live, sourced tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/mpox/
 
-Sources: WHO situation report 69 (14 Sep), US CDC (25 Sep update).
+Sources: US CDC clade I outbreak page (14 Oct update), CDC current situation page, Medscape (8 Oct, for the earlier count).
