@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-17T18:45:00Z</updated>
+  <updated>2026-10-18T19:00:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>DR Congo confirms Ebola in an eighth province, North Ubangi</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-dr-congo-confirms-ebola-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-dr-congo-confirms-ebola-in</id>
+    <updated>2026-10-18T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.</summary>
+    <content type="html">&lt;p&gt;DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-18/congos-fast-moving-ebola-outbreak-spreads-to-eighth-province"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/oct/18/congos-fast-moving-ebola-outbreak-spreads-eighth-province/"&gt;AP via The Washington Times&lt;/a&gt;, &lt;a href="https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-to-eighth-province"&gt;Asharq Al-Awsat&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Kenya confirms four more Ebola cases, total seven</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-17-kenya-confirms-four-more-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-17-kenya-confirms-four-more-ebola</id>
+    <updated>2026-10-17T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry said four more people tested positive, bringing the total to seven including the first patient, who died. Three are health workers who cared for the first patient and one is a relative; all were already in quarantine. The ministry said 128 of 130 identified contacts were in quarantine, that there was no evidence of community transmission and that the risk to the general public remained low.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry said four more people tested positive, bringing the total to seven including the first patient, who died. Three are health workers who cared for the first patient and one is a relative; all were already in quarantine. The ministry said 128 of 130 identified contacts were in quarantine, that there was no evidence of community transmission and that the risk to the general public remained low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/17/kenya-confirms-four-more-ebola-cases-bringing-total-to-seven"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/oct/17/kenyas-ebola-cases-rise-7-including-health-workers-who-cared-first/"&gt;AP via The Washington Times&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-18/kenya-ebola-cases-rise-to-seven-as-three-health-workers-infected"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Kenya confirms a third Ebola case</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-16-kenya-confirms-a-third-ebola"/>
@@ -258,23 +276,5 @@
     <category term="official"/>
     <summary>The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.</summary>
     <content type="html">&lt;p&gt;The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"&gt;WHO DON603&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"&gt;WHO DON602&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>WHO alerted to a deadly unknown illness in Ituri</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-05-who-alerted-to-a-deadly"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-05-who-alerted-to-a-deadly</id>
-    <updated>2026-05-05T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Reports describe a high-mortality illness in Mongbwalu health zone, including four health workers who died within four days.</summary>
-    <content type="html">&lt;p&gt;Reports describe a high-mortality illness in Mongbwalu health zone, including four health workers who died within four days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"&gt;WHO DON603&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>First known case falls ill in Bunia</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-04-24-first-known-case-falls-ill"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-04-24-first-known-case-falls-ill</id>
-    <updated>2026-04-24T12:00:00Z</updated>
-    <category term="background"/>
-    <summary>A health worker who later died in Bunia, Ituri province, is the earliest known case. Investigators believe the outbreak started in the Mongbwalu mining area.</summary>
-    <content type="html">&lt;p&gt;A health worker who later died in Bunia, Ituri province, is the earliest known case. Investigators believe the outbreak started in the Mongbwalu mining area.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"&gt;WHO DON602&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

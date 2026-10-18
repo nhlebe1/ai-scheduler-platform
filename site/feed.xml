@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-17T18:45:00Z</updated>
+  <updated>2026-10-18T19:00:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: DR Congo confirms Ebola in an eighth province, North Ubangi</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-dr-congo-confirms-ebola-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-dr-congo-confirms-ebola-in</id>
+    <updated>2026-10-18T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.</summary>
+    <content type="html">&lt;p&gt;DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-18/congos-fast-moving-ebola-outbreak-spreads-to-eighth-province"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/oct/18/congos-fast-moving-ebola-outbreak-spreads-eighth-province/"&gt;AP via The Washington Times&lt;/a&gt;, &lt;a href="https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-to-eighth-province"&gt;Asharq Al-Awsat&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: Kenya confirms four more Ebola cases, total seven</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-17-kenya-confirms-four-more-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-17-kenya-confirms-four-more-ebola</id>
+    <updated>2026-10-17T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry said four more people tested positive, bringing the total to seven including the first patient, who died. Three are health workers who cared for the first patient and one is a relative; all were already in quarantine. The ministry said 128 of 130 identified contacts were in quarantine, that there was no evidence of community transmission and that the risk to the general public remained low.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry said four more people tested positive, bringing the total to seven including the first patient, who died. Three are health workers who cared for the first patient and one is a relative; all were already in quarantine. The ministry said 128 of 130 identified contacts were in quarantine, that there was no evidence of community transmission and that the risk to the general public remained low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/17/kenya-confirms-four-more-ebola-cases-bringing-total-to-seven"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/oct/17/kenyas-ebola-cases-rise-7-including-health-workers-who-cared-first/"&gt;AP via The Washington Times&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-18/kenya-ebola-cases-rise-to-seven-as-three-health-workers-infected"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC: 4,410 cases in 47 jurisdictions</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-16-cdc-4-410-cases-in"/>
@@ -348,23 +366,5 @@
     <category term="official"/>
     <summary>The weekly update counts 228 new cases, 42 new outbreaks this year, and 95% of cases linked to outbreaks.</summary>
     <content type="html">&lt;p&gt;The weekly update counts 228 new cases, 42 new outbreaks this year, and 95% of cases linked to outbreaks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.contagionlive.com/view/measles-update-october-2-2026"&gt;Contagion Live&lt;/a&gt;, &lt;a href="https://www.cidrap.umn.edu/measles/measles-milestones-us-closes-4000-cases-pennsylvania-nears-1000"&gt;CIDRAP&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: CDC: 8,442 cases and 4,080 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and</id>
-    <updated>2026-10-02T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.</summary>
-    <content type="html">&lt;p&gt;CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Cholera · Global: WHO: 275,284 cases and 2,601 deaths in 28 countries</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-02-who-275-284-cases-and"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-02-who-275-284-cases-and</id>
-    <updated>2026-10-02T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>WHO's August update, now published in its Weekly Epidemiological Record, covers 1 January to 30 August: 43% fewer cases and 58% fewer deaths than a year earlier. August's 41,915 new cases were 25% fewer than July's. Nigeria (69,263) and DR Congo (44,773) report the most cases in Africa.</summary>
-    <content type="html">&lt;p&gt;WHO's August update, now published in its Weekly Epidemiological Record, covers 1 January to 30 August: 43% fewer cases and 58% fewer deaths than a year earlier. August's 41,915 new cases were 25% fewer than July's. Nigeria (69,263) and DR Congo (44,773) report the most cases in Africa.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39"&gt;WHO Weekly Epidemiological Record (2 Oct)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
