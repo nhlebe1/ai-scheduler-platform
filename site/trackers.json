@@ -20,7 +20,7 @@
       },
       "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,260 cases and New York has declared a disaster emergency.",
       "updated": "2026-10-17T06:45:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -63,21 +63,21 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC counts 9,277 confirmed cases and 4,478 deaths in DR Congo (data to 14 October) across 65 of 167 health zones in 7 provinces; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed seven cases, one of them fatal; three of the newest four are health workers who cared for the first patient. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths to 16 October, as reported by Anadolu and Xinhua. ECDC's most recent count, 9,277 cases and 4,478 deaths (data to 14 October), covered 65 of 167 health zones in 7 provinces, before North Ubangi was added; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed eight cases, one of them fatal; three are health workers who cared for the first patient. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
       },
-      "headline": "DR Congo's health ministry has confirmed Ebola in an eighth province, North Ubangi. ECDC counts 9,277 cases and 4,478 deaths (data to 14 October), and Kenya has confirmed seven cases.",
-      "updated": "2026-10-18T19:00:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "headline": "DR Congo's situation report counts 9,415 confirmed Ebola cases and 4,536 deaths to 16 October, and the health ministry has confirmed an eighth province, North Ubangi. Kenya has confirmed eight cases.",
+      "updated": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 9277,
+          "value": 9415,
           "unit": "",
           "tone": "critical"
         },
         {
           "label": "Confirmed deaths",
-          "value": 4478,
+          "value": 4536,
           "unit": "",
           "tone": "critical"
         },
@@ -91,13 +91,13 @@
       "latest": [
         {
           "date": "2026-10-18",
-          "title": "DR Congo confirms Ebola in an eighth province, North Ubangi",
-          "id": "2026-10-18-dr-congo-confirms-ebola-in"
+          "title": "Kenya confirms an eighth Ebola case",
+          "id": "2026-10-18-kenya-confirms-an-eighth-ebola"
         },
         {
-          "date": "2026-10-17",
-          "title": "Kenya confirms four more Ebola cases, total seven",
-          "id": "2026-10-17-kenya-confirms-four-more-ebola"
+          "date": "2026-10-18",
+          "title": "DR Congo confirms Ebola in an eighth province, North Ubangi",
+          "id": "2026-10-18-dr-congo-confirms-ebola-in"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-17T18:45:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 70 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-18T19:00:00Z",
+      "checked": "2026-10-19T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

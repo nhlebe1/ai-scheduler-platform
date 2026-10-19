@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-18T19:00:00Z</updated>
+  <updated>2026-10-19T06:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Kenya confirms an eighth Ebola case</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-kenya-confirms-an-eighth-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-kenya-confirms-an-eighth-ebola</id>
+    <updated>2026-10-18T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry said one more person tested positive, bringing the total to eight including the first patient, who died. The new case is a contact of the first patient who was in quarantine; the ministry said he is not a health worker. The Washington Post reports no community transmission so far.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry said one more person tested positive, bringing the total to eight including the first patient, who died. The new case is a contact of the first patient who was in quarantine; the ministry said he is not a health worker. The Washington Post reports no community transmission so far.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/18/kenya-ebola-congo-uganda/908eed9c-cb33-11f1-ac04-9f58578a68b4_story.html"&gt;The Washington Post&lt;/a&gt;, &lt;a href="https://www.upi.com/Top_News/World-News/2026/10/18/Kenya-eighth-Ebola-case-officials-monitor-outbreak-DRC/1591792367143"&gt;UPI&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>DR Congo confirms Ebola in an eighth province, North Ubangi</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-dr-congo-confirms-ebola-in"/>
@@ -33,6 +42,15 @@
     <category term="official"/>
     <summary>Kenya's health ministry said a close contact of the first two patients, who had been in quarantine since 6 October, tested positive. The ministry said there was no evidence of community spread, and contacts continue daily monitoring for 21 days. Kenya now has three confirmed cases and one death.</summary>
     <content type="html">&lt;p&gt;Kenya's health ministry said a close contact of the first two patients, who had been in quarantine since 6 October, tested positive. The ministry said there was no evidence of community spread, and contacts continue daily monitoring for 21 days. Kenya now has three confirmed cases and one death.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/16/kenya-ebola-congo/77aa5edc-c981-11f1-aefb-abe4112d087e_story.html"&gt;The Washington Post&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>DR Congo reports 9,415 cases and 4,536 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-16-dr-congo-reports-9-415"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-16-dr-congo-reports-9-415</id>
+    <updated>2026-10-16T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths since the outbreak began, including 67 new cases and 26 new deaths in the 24 hours to 16 October, Anadolu and Xinhua report.</summary>
+    <content type="html">&lt;p&gt;DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths since the outbreak began, including 67 new cases and 26 new deaths in the 24 hours to 16 October, Anadolu and Xinhua report.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://ua.news/en/world/spalakh-eboli-okhopiv-vosmu-provintsiiu-dr-kongo-anadolu-agency"&gt;Anadolu Agency&lt;/a&gt;, &lt;a href="https://qazinform.com/news/dr-congo-records-more-than-9400-ebola-cases-as-outbreak-spreads-32da71"&gt;Xinhua via Qazinform&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Media report Ebola in an eighth province, North Ubangi</title>
@@ -258,23 +276,5 @@
     <category term="international"/>
     <summary>Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.</summary>
     <content type="html">&lt;p&gt;Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://africa.com/africa-centres-for-disease-control-and-prevention-africa-cdc-declares-the-ongoing-bundibugyo-ebola-outbreak-a-public-health-emergency-of-continental-security/"&gt;Africa CDC&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/"&gt;STAT&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>WHO declares a global health emergency</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-17-who-declares-a-global-health"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-17-who-declares-a-global-health</id>
-    <updated>2026-05-17T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>The WHO Director-General declares a Public Health Emergency of International Concern, the first time this was done before convening an Emergency Committee.</summary>
-    <content type="html">&lt;p&gt;The WHO Director-General declares a Public Health Emergency of International Concern, the first time this was done before convening an Emergency Committee.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>DR Congo and Uganda declare a Bundibugyo Ebola outbreak</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-15-dr-congo-and-uganda-declare"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-15-dr-congo-and-uganda-declare</id>
-    <updated>2026-05-15T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.</summary>
-    <content type="html">&lt;p&gt;The national lab confirms Bundibugyo virus. It is DR Congo's 17th Ebola outbreak. Uganda confirms a case in Kampala the same day.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"&gt;WHO DON603&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"&gt;WHO DON602&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
