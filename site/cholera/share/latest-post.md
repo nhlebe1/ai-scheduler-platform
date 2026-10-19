@@ -1,6 +1,6 @@
-Cholera: WHO says suspected cases in Yemen roughly tripled in three weeks, with 8,034 suspected cases and 27 deaths so far this year. Globally, WHO counts 275,284 cases in 2026 to 30 Aug, 43% fewer than a year earlier.
+Cholera: Zambia's government has declared a new outbreak after 304 cases and 11 deaths, and began oral cholera vaccination in Lusaka and Chibombo on 17 Oct, Xinhua reports. WHO counts 275,284 cases worldwide to 30 Aug.
 
 Live tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/cholera/
 
-Sources: WHO via Al Jazeera and The New Arab (13 Oct); WHO Weekly Epidemiological Record (2 Oct).
+Sources: Diggers and Zambia Monitor (1 Oct); Xinhua (17 Oct); WHO Weekly Epidemiological Record (2 Oct).

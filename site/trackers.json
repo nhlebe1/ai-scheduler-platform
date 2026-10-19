@@ -20,7 +20,7 @@
       },
       "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,260 cases and New York has declared a disaster emergency.",
       "updated": "2026-10-17T06:45:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -67,7 +67,7 @@
       },
       "headline": "DR Congo's situation report counts 9,415 confirmed Ebola cases and 4,536 deaths to 16 October, and the health ministry has confirmed an eighth province, North Ubangi. Kenya has confirmed eight cases.",
       "updated": "2026-10-19T06:45:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-17T18:45:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -160,8 +160,8 @@
         "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
-      "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "updated": "2026-10-19T18:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -184,14 +184,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-17",
+          "title": "Zambia declares a new cholera outbreak and starts oral vaccination",
+          "id": "2026-10-17-zambia-declares-a-new-cholera"
+        },
+        {
           "date": "2026-10-14",
           "title": "WHO: DR Congo has 51,412 suspected cholera cases this year",
           "id": "2026-10-14-who-dr-congo-51-412-suspected"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "WHO: suspected cholera cases in Yemen roughly triple in three weeks",
-          "id": "2026-10-13-who-suspected-cholera-cases-in"
         }
       ]
     },
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 70 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-19T06:45:00Z",
+      "checked": "2026-10-19T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

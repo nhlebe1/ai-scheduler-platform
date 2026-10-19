@@ -15,7 +15,7 @@
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
   "updated": "2026-10-19T06:45:00Z",
-  "checked": "2026-10-19T06:45:00Z",
+  "checked": "2026-10-19T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -158,22 +158,13 @@
       "date": "2026-10-16",
       "values": {
         "cases": 9415,
-        "deaths": 4536
+        "deaths": 4536,
+        "provinces": 7
       }
     },
     {
       "date": "2026-10-18",
       "values": {
-        "cases": 9277,
-        "deaths": 4478,
-        "provinces": 8
-      }
-    },
-    {
-      "date": "2026-10-19",
-      "values": {
-        "cases": 9415,
-        "deaths": 4536,
         "provinces": 8
       }
     }

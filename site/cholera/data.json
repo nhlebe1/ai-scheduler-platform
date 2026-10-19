@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-15T18:45:00Z",
-  "checked": "2026-10-19T06:45:00Z",
+  "updated": "2026-10-19T18:45:00Z",
+  "checked": "2026-10-19T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -212,7 +212,8 @@
       "Sudan",
       "Central African Republic",
       "Haiti",
-      "Republic of the Congo"
+      "Republic of the Congo",
+      "Zambia"
     ],
     "notes": {
       "Afghanistan": "WHO Afghanistan, January–August (Pajhwok, 27 Sep): acute watery diarrhoea with dehydration, which WHO counts with cholera. 18,329 cases and 4 deaths in August. ECDC: 45 deaths by 20 Jul.",
@@ -231,7 +232,8 @@
       "Sudan": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
       "Central African Republic": "ECDC reports new cholera deaths between 27 Jul and 26 Aug. Children under 10 account for 44% of reported cases (UNICEF, August).",
       "Haiti": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
-      "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August."
+      "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August.",
+      "Zambia": "Government declared a new outbreak after 304 cases and 11 deaths (Diggers, Zambia Monitor, 1 Oct). Oral vaccination campaign launched in Lusaka and Chibombo (Xinhua, 17 Oct)."
     },
     "note": "Latest sourced 2026 total for each country; dates vary. Nigeria is from WHO's August update (to 30 Aug), DR Congo from WHO via UN News (to 28 Sep) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
     "sources": [
@@ -553,6 +555,31 @@
         {
           "name": "The New Arab",
           "url": "https://www.newarab.com/news/suspected-cholera-cases-surging-yemen-who"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-zambia-declares-a-new-cholera",
+      "date": "2026-10-17",
+      "kind": "media",
+      "title": "Zambia declares a new cholera outbreak and starts oral vaccination",
+      "body": "Zambia's government declared a new cholera outbreak after 304 cases and 11 deaths across seven districts in five provinces, local media reported on 1 October. It is separate from the outbreak the government declared over in July. On 17 October Xinhua reported that Zambia launched an oral cholera vaccination campaign in Lusaka and Chibombo district.",
+      "sources": [
+        {
+          "name": "Diggers",
+          "url": "https://diggers.news/local/2026/10/01/govt-declares-cholera-outbreak-with-304-cases-11-deaths/"
+        },
+        {
+          "name": "Zambia Monitor",
+          "url": "https://www.zambiamonitor.com/govt-declares-cholera-outbreak-in-zambia-after-304-cases-11-deaths/"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261017/ffdcae68f8d84205ac07132f63242020/c.html"
+        },
+        {
+          "name": "Xinhua (July outbreak ended)",
+          "url": "https://english.news.cn/20260716/84edd711b8a84d0db4e1984607d6f4f6/c.html"
         }
       ]
     }
