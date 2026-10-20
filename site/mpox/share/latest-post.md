@@ -1,6 +1,5 @@
-Mpox: CDC now counts more than 90 clade I cases in at least 23 US states and Puerto Rico, up from more than 80 on 5 Oct. CDC says spread without travel links is rising and rates the risk to most people as low.
+Mpox in South Africa: the health department reports 26 confirmed cases since 1 January, four of them new. Of 17 cases with clade results, 13 are clade Ib and 4 are clade IIb.
 
-Live, sourced tracker:
 https://nhlebe1.github.io/ai-scheduler-platform/mpox/
 
-Sources: US CDC clade I outbreak page (14 Oct update), CDC current situation page, Medscape (8 Oct, for the earlier count).
+Sources: South Africa Department of Health via Sowetan, The Citizen and IOL (18-19 Oct).

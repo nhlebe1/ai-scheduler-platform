@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-10-17T18:45:00Z",
-  "checked": "2026-10-20T06:45:00Z",
+  "updated": "2026-10-20T18:45:00Z",
+  "checked": "2026-10-20T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -227,7 +227,7 @@
       "Kenya": "Clade Ib. Kenya had 4 of Africa's 7 mpox deaths in the six weeks to 15 Mar (WHO).",
       "DR Congo": "Clades Ia and Ib circulate. 288 confirmed in the six weeks to 15 Mar (WHO).",
       "Cameroon": "Fifth-most cases in Africa in this period (WHO).",
-      "South Africa": "22 lab-confirmed by 22 Sep, 18 in the Western Cape; preliminary results point to clade Ib (Dept of Health).",
+      "South Africa": "26 lab-confirmed cases reported since 1 Jan, 18 of them in the Western Cape; clade results for 17 cases show 13 clade Ib and 4 clade IIb (Dept of Health, 18 Oct).",
       "Comoros": "Outbreak declared 23 Jan; 7 confirmed by 3 Feb, mostly linked to travel from Madagascar (UNICEF).",
       "Guinea": "40 confirmed in the six weeks to 17 May (WHO).",
       "South Sudan": "37 confirmed in the six weeks to 17 May (WHO).",
@@ -391,9 +391,9 @@
       "note": "Figures here are from ECDC's July data"
     },
     {
-      "label": "South Africa's final clade results for its two clusters",
+      "label": "South Africa's clade results for all of its cases",
       "status": "pending",
-      "note": "Preliminary analysis points to clade Ib (23 Sep)"
+      "note": "Clade results are available for 17 of 26 cases: 13 clade Ib, 4 clade IIb (18 Oct)"
     },
     {
       "label": "CDC update on clade Ib spread in the US",
@@ -418,6 +418,12 @@
   ],
   "positions": [
     {
+      "who": "South Africa Department of Health",
+      "kind": "official",
+      "date": "2026-10-18",
+      "text": "26 laboratory-confirmed mpox cases reported since 1 January 2026, four of them new. Clade results are available for 17 cases: 13 clade Ib and 4 clade IIb."
+    },
+    {
       "who": "World Health Organization",
       "kind": "international",
       "date": "2026-09-14",
@@ -434,12 +440,6 @@
       "kind": "official",
       "date": "2026-10-14",
       "text": "More than 90 confirmed clade I cases in at least 23 states and Puerto Rico. Presumed local spread in more than 10 jurisdictions indicates a likely transition to sustained clade Ib transmission. Risk to most people in the US remains low."
-    },
-    {
-      "who": "South Africa Department of Health",
-      "kind": "official",
-      "date": "2026-09-23",
-      "text": "22 laboratory-confirmed cases as of 22 September, 18 of them in the Western Cape. Preliminary analysis points to clade Ib in both clusters."
     },
     {
       "who": "Madagascar Ministry of Public Health",
@@ -763,6 +763,27 @@
         {
           "name": "CDC: current situation",
           "url": "https://www.cdc.gov/monkeypox/situation-summary/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-south-africa-reports-26-mpox",
+      "date": "2026-10-18",
+      "kind": "official",
+      "title": "South Africa reports 26 mpox cases, four new",
+      "body": "South Africa's health department said four new laboratory-confirmed cases brought the total reported since 1 January 2026 to 26, up from 22. Clade information is available for 17 cases: 13 are clade Ib and 4 are clade IIb. Of the 18 cases in the Western Cape, 2 were imported and 16 were linked to local transmission.",
+      "sources": [
+        {
+          "name": "Sowetan",
+          "url": "https://www.sowetan.co.za/news/2026-10-18-mpox-cases-in-sa-rise-to-26-as-four-new-infections-confirmed/"
+        },
+        {
+          "name": "The Citizen",
+          "url": "https://www.citizen.co.za/news/south-africa-records-new-mpox-cases-total-climbs/"
+        },
+        {
+          "name": "IOL",
+          "url": "https://iol.co.za/the-star/2026-10-19-health-department-urges-vigilance-as-south-africas-mpox-cases-reach-26/"
         }
       ]
     }

@@ -1,5 +1,5 @@
-Ebola in DR Congo: ECDC counts 9,455 confirmed cases and 4,561 deaths to 17 Oct, across 66 health zones in 8 provinces. Kenya has confirmed 8 cases.
+Ebola in DR Congo: ECDC counts 9,552 confirmed cases and 4,602 deaths to 18 Oct, in 8 provinces. Kenya's health ministry has confirmed a ninth case and says all nine belong to one cluster.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: ECDC update (18 Oct, data to 17 Oct); AP (18 Oct); Kenya Ministry of Health via Al Jazeera and The Washington Post (18-19 Oct).
+Sources: ECDC update (19 Oct, data to 18 Oct); Kenya Ministry of Health via Al Jazeera and The Washington Post (20 Oct).

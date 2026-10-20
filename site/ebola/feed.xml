@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-20T06:45:00Z</updated>
+  <updated>2026-10-20T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Kenya confirms a ninth Ebola case</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-20-kenya-confirms-a-ninth-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-20-kenya-confirms-a-ninth-ebola</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry said one more person tested positive, bringing the total to nine including the first patient, who died. The new case is a contact of the first patient who was already in quarantine. The ministry said all nine cases belong to one cluster, that there is no evidence of transmission outside it, and that 134 of 135 identified contacts were in quarantine. It said the first group of contacts completes 21 days of quarantine on 25 October.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry said one more person tested positive, bringing the total to nine including the first patient, who died. The new case is a contact of the first patient who was already in quarantine. The ministry said all nine cases belong to one cluster, that there is no evidence of transmission outside it, and that 134 of 135 identified contacts were in quarantine. It said the first group of contacts completes 21 days of quarantine on 25 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/20/kenya-ebola-congo-uganda/89935d56-cca1-11f1-ac04-9f58578a68b4_story.html"&gt;The Washington Post&lt;/a&gt;, &lt;a href="https://www.standardmedia.co.ke/health/health-science/article/2001560550/kenya-confirms-ninth-ebola-case"&gt;The Standard (Kenya)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC counts 9,552 cases and 4,602 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-19-ecdc-counts-9-552-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-19-ecdc-counts-9-552-cases</id>
+    <updated>2026-10-19T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 19 October, with data to 18 October, counts 9,552 confirmed cases and 4,602 deaths in DR Congo. ECDC notes that DR Congo's figures are under continuous review and harmonisation, so they may change.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 19 October, with data to 18 October, counts 9,552 confirmed cases and 4,602 deaths in DR Congo. ECDC notes that DR Congo's figures are under continuous review and harmonisation, so they may change.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Kenya confirms an eighth Ebola case</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-kenya-confirms-an-eighth-ebola"/>
@@ -258,23 +276,5 @@
     <category term="international"/>
     <summary>The PARTNERS trial enrols its first patient, testing an antibody treatment and remdesivir.</summary>
     <content type="html">&lt;p&gt;The PARTNERS trial enrols its first patient, testing an antibody treatment and remdesivir.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/02-07-2026-patient-enrolment-begins-in-a-scientific-trial-to-identify-the-first-effective-treatments-for-bundibugyo-virus-disease"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>France reports an imported case</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-24-france-reports-an-imported-case"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-24-france-reports-an-imported-case</id>
-    <updated>2026-06-24T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.</summary>
-    <content type="html">&lt;p&gt;An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"&gt;WHO DON612&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>US$518 million response plan launched</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-05-us-518-million-response-plan"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-06-05-us-518-million-response-plan</id>
-    <updated>2026-06-05T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Africa CDC and WHO launch a joint continental plan covering June to November 2026.</summary>
-    <content type="html">&lt;p&gt;Africa CDC and WHO launch a joint continental plan covering June to November 2026.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
