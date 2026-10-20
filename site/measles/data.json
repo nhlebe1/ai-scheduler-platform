@@ -304,7 +304,7 @@
     "sources": [
       {
         "name": "Pennsylvania Dept. of Health",
-        "url": "https://www.pa.gov/agencies/health/newsroom/pennsylvania-department-of-health-provides-statewide-update-on-measles-out11"
+        "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out11"
       },
       {
         "name": "Newsweek",
@@ -833,12 +833,12 @@
       "id": "2026-10-16-pennsylvania-1-260-cases-in",
       "date": "2026-10-16",
       "kind": "official",
-      "title": "Pennsylvania: 1,260 cases in 43 counties",
+      "title": "Pennsylvania: 1,260 cases",
       "body": "The state health department's update counts 1,260 confirmed cases, 238 hospitalisations and 5 confirmed measles-associated deaths, with 38 new cases since 14 October. The department has not yet confirmed the death reported by the Franklin County coroner.",
       "sources": [
         {
-          "name": "Pennsylvania Dept. of Health",
-          "url": "https://www.pa.gov/agencies/health/newsroom/pennsylvania-department-of-health-provides-statewide-update-on-measles-out11"
+          "name": "WBRE/WYOU via Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/doh-confirms-more-measles-cases-200025658.html"
         }
       ]
     },
