@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-19T18:45:00Z",
-  "checked": "2026-10-19T18:45:00Z",
+  "updated": "2026-10-20T06:45:00Z",
+  "checked": "2026-10-20T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -233,7 +233,7 @@
       "Central African Republic": "ECDC reports new cholera deaths between 27 Jul and 26 Aug. Children under 10 account for 44% of reported cases (UNICEF, August).",
       "Haiti": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
       "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August.",
-      "Zambia": "Government declared a new outbreak after 304 cases and 11 deaths (Diggers, Zambia Monitor, 1 Oct). Oral vaccination campaign launched in Lusaka and Chibombo (Xinhua, 17 Oct)."
+      "Zambia": "Government declared a new outbreak after 304 cases and 11 deaths (Diggers, Zambia Monitor, 1 Oct). Health ministry on 17 Oct: 966 cases and 25 deaths in 12 districts across five provinces; oral vaccination campaign launched in Lusaka and Chibombo (Xinhua, Lusaka Times)."
     },
     "note": "Latest sourced 2026 total for each country; dates vary. Nigeria is from WHO's August update (to 30 Aug), DR Congo from WHO via UN News (to 28 Sep) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
     "sources": [
@@ -563,7 +563,7 @@
       "date": "2026-10-17",
       "kind": "media",
       "title": "Zambia declares a new cholera outbreak and starts oral vaccination",
-      "body": "Zambia's government declared a new cholera outbreak after 304 cases and 11 deaths across seven districts in five provinces, local media reported on 1 October. It is separate from the outbreak the government declared over in July. On 17 October Xinhua reported that Zambia launched an oral cholera vaccination campaign in Lusaka and Chibombo district.",
+      "body": "Zambia's government declared a new cholera outbreak after 304 cases and 11 deaths across seven districts in five provinces, local media reported on 1 October. It is separate from the outbreak the government declared over in July. On 17 October the health ministry's figures, reported by Lusaka Times and Xinhua, were 966 cases and 25 deaths in 12 districts across five provinces, as the country launched an oral cholera vaccination campaign in Lusaka and Chibombo district.",
       "sources": [
         {
           "name": "Diggers",
@@ -576,6 +576,10 @@
         {
           "name": "Xinhua",
           "url": "https://english.news.cn/20261017/ffdcae68f8d84205ac07132f63242020/c.html"
+        },
+        {
+          "name": "Lusaka Times",
+          "url": "https://www.lusakatimes.com/2026/10/17/government-launches-cholera-oral-vaccination-campaign/"
         },
         {
           "name": "Xinhua (July outbreak ended)",

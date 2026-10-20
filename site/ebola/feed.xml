@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-19T06:45:00Z</updated>
+  <updated>2026-10-20T06:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
   <entry>
     <title>Kenya confirms an eighth Ebola case</title>
@@ -24,6 +24,15 @@
     <category term="official"/>
     <summary>DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.</summary>
     <content type="html">&lt;p&gt;DR Congo's health ministry said on 18 October that the outbreak has reached North Ubangi province, which borders the Central African Republic, with two cases, one of them fatal, in Wapinda health zone. Reuters and Bloomberg had reported the cases on 15 October before the official statement. AP reports the outbreak has recorded at least 9,400 confirmed cases and more than 4,500 deaths, with Ituri province accounting for almost three quarters of cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-18/congos-fast-moving-ebola-outbreak-spreads-to-eighth-province"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/oct/18/congos-fast-moving-ebola-outbreak-spreads-eighth-province/"&gt;AP via The Washington Times&lt;/a&gt;, &lt;a href="https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-to-eighth-province"&gt;Asharq Al-Awsat&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC counts 9,455 cases and 4,561 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-ecdc-counts-9-455-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-18-ecdc-counts-9-455-cases</id>
+    <updated>2026-10-18T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update, with data to 17 October, counts 9,455 confirmed cases and 4,561 deaths in DR Congo, with 925 patients in isolation and 2,530 recoveries. It reports 66 of 178 health zones affected across eight provinces, and notes that DR Congo's figures are under continuous review and harmonisation, so they may change.</summary>
+    <content type="html">&lt;p&gt;ECDC's update, with data to 17 October, counts 9,455 confirmed cases and 4,561 deaths in DR Congo, with 925 patients in isolation and 2,530 recoveries. It reports 66 of 178 health zones affected across eight provinces, and notes that DR Congo's figures are under continuous review and harmonisation, so they may change.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Kenya confirms four more Ebola cases, total seven</title>
@@ -267,14 +276,5 @@
     <category term="international"/>
     <summary>Africa CDC and WHO launch a joint continental plan covering June to November 2026.</summary>
     <content type="html">&lt;p&gt;Africa CDC and WHO launch a joint continental plan covering June to November 2026.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan"&gt;WHO&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Africa CDC declares a continental emergency; US restricts entry</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-18-africa-cdc-declares-a-continental"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-05-18-africa-cdc-declares-a-continental</id>
-    <updated>2026-05-18T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.</summary>
-    <content type="html">&lt;p&gt;Africa CDC declares a Public Health Emergency of Continental Security. The US suspends entry for foreign nationals recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://africa.com/africa-centres-for-disease-control-and-prevention-africa-cdc-declares-the-ongoing-bundibugyo-ebola-outbreak-a-public-health-emergency-of-continental-security/"&gt;Africa CDC&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/"&gt;STAT&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

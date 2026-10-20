@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-19T06:45:00Z",
-  "checked": "2026-10-19T18:45:00Z",
+  "updated": "2026-10-20T06:45:00Z",
+  "checked": "2026-10-20T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "DR Congo's situation report counts 9,415 confirmed Ebola cases and 4,536 deaths to 16 October, and the health ministry has confirmed an eighth province, North Ubangi. Kenya has confirmed eight cases.",
+  "headline": "ECDC counts 9,455 confirmed Ebola cases and 4,561 deaths in DR Congo to 17 October, with the outbreak in eight provinces. Kenya has confirmed eight cases.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths to 16 October, as reported by Anadolu and Xinhua. ECDC's most recent count, 9,277 cases and 4,478 deaths (data to 14 October), covered 65 of 167 health zones in 7 provinces, before North Ubangi was added; CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed eight cases, one of them fatal; three are health workers who cared for the first patient. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC's update of 18 October counts 9,455 confirmed cases and 4,561 deaths in DR Congo (data to 17 October), in 66 of 178 health zones across the eight provinces; DR Congo's situation report counted 9,415 cases and 4,536 deaths to 16 October, as reported by Anadolu and Xinhua. CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed eight cases, one of them fatal; three are health workers who cared for the first patient. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
   },
   "counters": [
     {
@@ -38,16 +38,16 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 9415,
-      "note": "DR Congo situation report to 16 Oct (Anadolu, Xinhua). ECDC, 15 Oct: 9,277 (data to 14 Oct)",
+      "value": 9455,
+      "note": "ECDC, 18 Oct (data to 17 Oct). DR Congo situation report to 16 Oct: 9,415 (Anadolu, Xinhua)",
       "tone": "critical",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Confirmed deaths",
-      "value": 4536,
-      "note": "DR Congo situation report to 16 Oct (Anadolu, Xinhua). ECDC, 15 Oct: 4,478 (data to 14 Oct)",
+      "value": 4561,
+      "note": "ECDC, 18 Oct (data to 17 Oct). DR Congo situation report to 16 Oct: 4,536 (Anadolu, Xinhua)",
       "tone": "critical",
       "upIsBad": true
     },
@@ -55,7 +55,7 @@
       "id": "provinces",
       "label": "Provinces affected",
       "value": 8,
-      "note": "DR Congo's health ministry confirmed North Ubangi on 18 Oct (AP). ECDC's 15 Oct count was 65 of 167 health zones in 7 of 26 provinces (data to 12 Oct); AP reports 66 health zones.",
+      "note": "DR Congo's health ministry confirmed North Ubangi on 18 Oct (AP). ECDC, 18 Oct: 66 of 178 health zones affected across the eight provinces (data to 17 Oct).",
       "tone": "watch",
       "upIsBad": true
     },
@@ -163,6 +163,13 @@
       }
     },
     {
+      "date": "2026-10-17",
+      "values": {
+        "cases": 9455,
+        "deaths": 4561
+      }
+    },
+    {
       "date": "2026-10-18",
       "values": {
         "provinces": 8
@@ -255,6 +262,10 @@
       {
         "label": "16 Oct",
         "value": 9415
+      },
+      {
+        "label": "17 Oct",
+        "value": 9455
       }
     ],
     "sources": [
@@ -543,7 +554,7 @@
       "label": "Tumaini vaccine trial begins in DR Congo",
       "date": "2026-10-31",
       "status": "pending",
-      "note": "ClinicalTrials.gov lists an estimated start of 20 Oct; CEPI said on 14 Oct that final preparations were underway, and WHO experts expect a start by the end of October, pending approvals. No start has been announced."
+      "note": "ClinicalTrials.gov lists an estimated start of 20 Oct; CEPI said on 14 Oct that final preparations were underway, and WHO experts expect a start by the end of October, pending approvals. No start had been announced by 20 Oct."
     },
     {
       "label": "Official confirmation of cases in North Ubangi",
@@ -554,7 +565,7 @@
     {
       "label": "Outbreak passes 10,000 confirmed cases",
       "status": "pending",
-      "note": "9,415 on 16 Oct (DR Congo situation report)"
+      "note": "9,455 on 17 Oct (ECDC)"
     },
     {
       "label": "Next WHO Disease Outbreak News report",
@@ -1188,6 +1199,19 @@
           "url": "https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-to-eighth-province"
         }
       ]
+    },
+    {
+      "id": "2026-10-18-ecdc-counts-9-455-cases",
+      "date": "2026-10-18",
+      "kind": "international",
+      "title": "ECDC counts 9,455 cases and 4,561 deaths",
+      "body": "ECDC's update, with data to 17 October, counts 9,455 confirmed cases and 4,561 deaths in DR Congo, with 925 patients in isolation and 2,530 recoveries. It reports 66 of 178 health zones affected across eight provinces, and notes that DR Congo's figures are under continuous review and harmonisation, so they may change.",
+      "sources": [
+        {
+          "name": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
     }
   ],
   "context": {
@@ -1303,7 +1327,7 @@
   ],
   "card": {
     "title": "Ebola in DR Congo: 8 provinces",
-    "sub": "DR Congo's situation report counts 9,415 cases and 4,536 deaths to 16 Oct. Ebola is in 8 provinces; Kenya has confirmed eight cases.",
+    "sub": "ECDC counts 9,455 cases and 4,561 deaths to 17 Oct. Ebola is in 8 provinces; Kenya has confirmed eight cases.",
     "stats": [
       "cases",
       "deaths",
