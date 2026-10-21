@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-21T06:45:00Z</updated>
+  <updated>2026-10-21T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Africa CDC calls an extraordinary meeting of health ministers</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-21-africa-cdc-calls-an-extraordinary"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-21-africa-cdc-calls-an-extraordinary</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.</summary>
+    <content type="html">&lt;p&gt;Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-21/africa-cdc-calls-an-ebola-crisis-summit-as-nigeria-records-its-first-case"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://medicalxpress.com/news/2026-10-africa-cdc-ebola-crisis-summit.html"&gt;AP via Medical Xpress&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Kenya confirms a ninth Ebola case</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-20-kenya-confirms-a-ninth-ebola"/>
@@ -267,14 +276,5 @@
     <category term="international"/>
     <summary>WHO's Emergency Committee meets for the second time. Modelling it cites suggests true infections may be three to four times the reported count.</summary>
     <content type="html">&lt;p&gt;WHO's Emergency Committee meets for the second time. Modelling it cites suggests true infections may be three to four times the reported count.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/news/item/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report"&gt;WHO Emergency Committee report&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Largest Ebola outbreak in DR Congo's history</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-30-largest-ebola-outbreak-in-dr"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-07-30-largest-ebola-outbreak-in-dr</id>
-    <updated>2026-07-30T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>With 3,605 confirmed cases in DR Congo, the outbreak passes the 2018–2020 North Kivu outbreak.</summary>
-    <content type="html">&lt;p&gt;With 3,605 confirmed cases in DR Congo, the outbreak passes the 2018–2020 North Kivu outbreak.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"&gt;WHO DON614&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

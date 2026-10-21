@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-21T06:45:00Z",
-  "checked": "2026-10-21T06:45:00Z",
+  "updated": "2026-10-21T18:45:00Z",
+  "checked": "2026-10-21T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -582,6 +582,12 @@
       "label": "US entry restrictions expire unless extended again",
       "status": "pending",
       "note": "The 11 Oct order runs for 30 days"
+    },
+    {
+      "label": "Africa CDC extraordinary meeting of health ministers",
+      "date": "2026-10-28",
+      "status": "pending",
+      "note": "Announced by Africa CDC on 21 Oct (AP)"
     },
     {
       "label": "Nigeria contact follow-up",
@@ -1321,6 +1327,23 @@
         {
           "name": "France 24",
           "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-africa-cdc-calls-an-extraordinary",
+      "date": "2026-10-21",
+      "kind": "international",
+      "title": "Africa CDC calls an extraordinary meeting of health ministers",
+      "body": "Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.",
+      "sources": [
+        {
+          "name": "AP via U.S. News",
+          "url": "https://www.usnews.com/news/health-news/articles/2026-10-21/africa-cdc-calls-an-ebola-crisis-summit-as-nigeria-records-its-first-case"
+        },
+        {
+          "name": "AP via Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-10-africa-cdc-ebola-crisis-summit.html"
         }
       ]
     }

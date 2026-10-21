@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-20T06:45:00Z",
-  "checked": "2026-10-21T06:45:00Z",
+  "updated": "2026-10-21T18:45:00Z",
+  "checked": "2026-10-21T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,286 cases and five confirmed deaths by the state's count (19 October), with a further reported death under review, while CDC counts two deaths. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,286 cases and five confirmed deaths by the state's count (19 October), with a further reported death under review, while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -89,8 +89,8 @@
     {
       "id": "deaths",
       "label": "Deaths (CDC count)",
-      "value": 2,
-      "note": "Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
+      "value": 3,
+      "note": "CDC, 20 Oct. Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
       "tone": "critical",
       "upIsBad": true
     }
@@ -139,6 +139,12 @@
         "jurisdictions": 47,
         "outbreaks": 42,
         "deaths": 2
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "values": {
+        "deaths": 3
       }
     }
   ],
@@ -386,7 +392,7 @@
     {
       "claim": "Pennsylvania has had five measles deaths this year",
       "status": "confirmed",
-      "detail": "Confirmed by the state health department. CDC's national count is two because it only counts deaths confirmed through death certificates.",
+      "detail": "Confirmed by the state health department. CDC's national count is three (20 October) because it only counts deaths confirmed through death certificates.",
       "sources": [
         {
           "name": "Pennsylvania Dept. of Health",
@@ -395,6 +401,10 @@
         {
           "name": "The Hill",
           "url": "https://thehill.com/policy/healthcare/6118137-cdc-updates-measles-death-tally/"
+        },
+        {
+          "name": "Reuters via Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/us-cdc-confirms-third-measles-125553347.html"
         }
       ]
     },
@@ -856,6 +866,27 @@
         {
           "name": "Reuters via WBOW",
           "url": "https://1027wbow.com/2026/10/19/pennsylvania-measles-cases-rise-to-1286-state-health-department-says/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-cdc-confirms-a-third-measles",
+      "date": "2026-10-20",
+      "kind": "official",
+      "title": "CDC confirms a third measles death",
+      "body": "CDC added a third measles death to its national count, up from two. Reuters and Al Jazeera report that CDC confirmed it after the National Center for Health Statistics verified that measles was listed as the underlying cause of death on a death certificate. CDC has not said where the death occurred and says its count could change as reviews continue. Pennsylvania's own count is five.",
+      "sources": [
+        {
+          "name": "Reuters via Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/us-cdc-confirms-third-measles-125553347.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/20/cdc-reports-third-measles-death-in-the-united-states-this-year"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/healthcare/6160524-cdc-confirms-third-measles-death/amp/"
         }
       ]
     }

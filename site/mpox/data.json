@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-10-20T18:45:00Z",
-  "checked": "2026-10-21T06:45:00Z",
+  "updated": "2026-10-21T18:45:00Z",
+  "checked": "2026-10-21T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -784,6 +784,23 @@
         {
           "name": "IOL",
           "url": "https://iol.co.za/the-star/2026-10-19-health-department-urges-vigilance-as-south-africas-mpox-cases-reach-26/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-southern-nevada-reports-its-first",
+      "date": "2026-10-20",
+      "kind": "official",
+      "title": "Southern Nevada reports its first clade I mpox case",
+      "body": "The Southern Nevada Health District reported the first confirmed clade I mpox case in a Clark County resident. The district said the person has no reported travel exposure, so the source of infection is unclear, and that it has reported 11 clade II cases since August. It said anyone who may have been exposed should contact a health care provider and watch for symptoms for 21 days, and that JYNNEOS vaccine is expected to protect against both clades.",
+      "sources": [
+        {
+          "name": "Southern Nevada Health District",
+          "url": "https://www.southernnevadahealthdistrict.org/news-release/health-district-reports-first-clade-i-mpox-case-in-clark-county-resident/"
+        },
+        {
+          "name": "8 News Now",
+          "url": "https://www.8newsnow.com/news/local-news/health-district-reports-first-clade-i-mpox-case-in-clark-county-resident/"
         }
       ]
     }
