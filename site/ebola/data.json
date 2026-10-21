@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-20T18:45:00Z",
-  "checked": "2026-10-20T18:45:00Z",
+  "updated": "2026-10-21T06:45:00Z",
+  "checked": "2026-10-21T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "ECDC counts 9,552 confirmed Ebola cases and 4,602 deaths in DR Congo to 18 October, with the outbreak in eight provinces. Kenya has confirmed nine cases.",
+  "headline": "ECDC counts 9,552 confirmed Ebola cases and 4,602 deaths in DR Congo to 18 October, with the outbreak in eight provinces. Kenya has confirmed nine cases and Nigeria one imported case.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC's update of 19 October counts 9,552 confirmed cases and 4,602 deaths in DR Congo (data to 18 October); its previous update counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC's update of 19 October counts 9,552 confirmed cases and 4,602 deaths in DR Congo (data to 18 October); its previous update counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
   },
   "counters": [
     {
@@ -62,8 +62,8 @@
     {
       "id": "countries",
       "label": "Other countries with cases",
-      "value": 3,
-      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (9 cases, 1 died; Kenya MoH, 20 Oct)",
+      "value": 4,
+      "note": "Uganda (ended 27 Aug), France (1, recovered), Kenya (9 cases, 1 died; Kenya MoH, 20 Oct), Nigeria (1 imported case; WHO Africa, 20 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -175,6 +175,12 @@
         "provinces": 8,
         "cases": 9552,
         "deaths": 4602
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "values": {
+        "countries": 4
       }
     }
   ],
@@ -531,6 +537,25 @@
       ]
     },
     {
+      "claim": "Ebola has spread to Nigeria",
+      "status": "confirmed",
+      "detail": "Nigeria's health ministry confirmed one imported case of Bundibugyo Ebola on 20 October, in a person with recent travel to Uganda. WHO says where and when the person was exposed is not yet known.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+        },
+        {
+          "name": "AP via OPB",
+          "url": "https://www.opb.org/article/2026/10/20/nigeria-confirms-first-ebola-case-in-woman-traveling-from-uganda/"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+        }
+      ]
+    },
+    {
       "claim": "Official counts capture every case",
       "status": "false",
       "detail": "Modelling cited by WHO's Emergency Committee suggests true infections may be three to four times the reported count. Africa CDC says contact tracing reaches only about a quarter of expected contacts.",
@@ -557,6 +582,11 @@
       "label": "US entry restrictions expire unless extended again",
       "status": "pending",
       "note": "The 11 Oct order runs for 30 days"
+    },
+    {
+      "label": "Nigeria contact follow-up",
+      "status": "pending",
+      "note": "44 contacts identified (Nigeria's health ministry, 20 Oct, via AP); WHO says contact tracing is under way"
     },
     {
       "label": "Kenya contacts finish 21-day follow-up",
@@ -608,6 +638,12 @@
     }
   ],
   "positions": [
+    {
+      "who": "Nigeria Federal Ministry of Health",
+      "kind": "official",
+      "date": "2026-10-20",
+      "text": "Confirmed one imported case of Bundibugyo Ebola in the Federal Capital Territory, in a person with recent travel to Uganda, and said 44 contacts had been identified."
+    },
     {
       "who": "Kenya Ministry of Health",
       "kind": "official",
@@ -1266,6 +1302,27 @@
           "url": "https://www.standardmedia.co.ke/health/health-science/article/2001560550/kenya-confirms-ninth-ebola-case"
         }
       ]
+    },
+    {
+      "id": "2026-10-20-nigeria-confirms-an-imported-ebola",
+      "date": "2026-10-20",
+      "kind": "official",
+      "title": "Nigeria confirms an imported Ebola case",
+      "body": "Nigeria's health ministry confirmed one case of Bundibugyo Ebola in the Federal Capital Territory, in a person with recent travel to Uganda; laboratory confirmation was on 20 October. Officials said 44 contacts had been identified. WHO calls it an imported case and the fifth country to detect the virus since the outbreak was declared, says where and when the person was exposed is not yet known, and advises against restrictions on travel or trade.",
+      "sources": [
+        {
+          "name": "WHO Africa",
+          "url": "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+        },
+        {
+          "name": "AP via OPB",
+          "url": "https://www.opb.org/article/2026/10/20/nigeria-confirms-first-ebola-case-in-woman-traveling-from-uganda/"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+        }
+      ]
     }
   ],
   "context": {
@@ -1320,7 +1377,7 @@
       },
       {
         "year": "2026",
-        "text": "The largest Bundibugyo outbreak by far: more than 9,000 confirmed cases in DR Congo, plus cases in Uganda, France and Kenya."
+        "text": "The largest Bundibugyo outbreak by far: more than 9,000 confirmed cases in DR Congo, plus cases in Uganda, France, Kenya and Nigeria."
       }
     ],
     "historySources": [
@@ -1331,6 +1388,10 @@
       {
         "name": "CDC Emerging Infectious Diseases",
         "url": "https://wwwnc.cdc.gov/eid/article/16/12/10-0627_article"
+      },
+      {
+        "name": "WHO Africa",
+        "url": "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
       }
     ],
     "factsTitle": "About Ebola"
@@ -1381,7 +1442,7 @@
   ],
   "card": {
     "title": "Ebola in DR Congo: 8 provinces",
-    "sub": "ECDC counts 9,552 cases and 4,602 deaths to 18 Oct. Ebola is in 8 provinces; Kenya has confirmed nine cases.",
+    "sub": "ECDC counts 9,552 cases and 4,602 deaths to 18 Oct. Ebola is in 8 provinces; Kenya has 9 cases and Nigeria one imported case.",
     "stats": [
       "cases",
       "deaths",
@@ -1396,5 +1457,5 @@
     },
     "sources": "WHO, CDC, ECDC, Africa CDC"
   },
-  "postExtra": "Now in 8 provinces; Kenya has 9 confirmed cases. No licensed vaccine for this strain."
+  "postExtra": "Now in 8 provinces; Kenya has 9 confirmed cases and Nigeria 1 imported case. No licensed vaccine for this strain."
 }
