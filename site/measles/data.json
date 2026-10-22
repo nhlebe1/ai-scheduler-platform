@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-21T18:45:00Z",
-  "checked": "2026-10-21T18:45:00Z",
+  "updated": "2026-10-22T18:45:00Z",
+  "checked": "2026-10-22T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,286 cases and New York has declared a disaster emergency.",
+  "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,317 cases and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,286 cases and five confirmed deaths by the state's count (19 October), with a further reported death under review, while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,317 cases in 43 counties and five confirmed deaths by the state's count (21 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -277,7 +277,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1286,
+      "Pennsylvania": 1317,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -292,7 +292,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 19 Oct. 42 counties, 5 confirmed deaths; a further reported death is under review.",
+      "Pennsylvania": "State health dept, 21 Oct. 43 counties, 5 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -308,6 +308,10 @@
     },
     "note": "Latest sourced count for each state; dates vary (see each state). 45 states have reported cases this year; states not listed aren't tracked here yet.",
     "sources": [
+      {
+        "name": "Pennsylvania Dept. of Health (21 Oct)",
+        "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-nurses-surpass-10-000-mmr-vaccines-admin"
+      },
       {
         "name": "Pennsylvania Dept. of Health",
         "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out11"
@@ -474,7 +478,7 @@
     {
       "label": "CDC and Pennsylvania death counts reconciled",
       "status": "pending",
-      "note": "Pennsylvania is also reviewing a sixth reported death (Franklin County)"
+      "note": "Pennsylvania was also reviewing a sixth reported death (Franklin County) as of 19 Oct"
     }
   ],
   "positions": [
@@ -889,6 +893,23 @@
           "url": "https://thehill.com/policy/healthcare/6160524-cdc-confirms-third-measles-death/amp/"
         }
       ]
+    },
+    {
+      "id": "2026-10-21-pennsylvania-1-317-cases-in",
+      "date": "2026-10-21",
+      "kind": "official",
+      "title": "Pennsylvania: 1,317 cases in 43 counties",
+      "body": "The state health department's update counts 1,317 confirmed cases in 43 counties, 251 hospitalisations and 5 confirmed measles-associated deaths, 31 more cases than its previous update on 19 October. The department says its nurses have given more than 10,000 MMR vaccine doses to residents across the state in 2026.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-nurses-surpass-10-000-mmr-vaccines-admin"
+        },
+        {
+          "name": "Reuters via U.S. News",
+          "url": "https://www.usnews.com/news/us/articles/2026-10-21/pennsylvania-measles-cases-rise-to-1-317-state-health-department-says"
+        }
+      ]
     }
   ],
   "context": {
@@ -1020,7 +1041,7 @@
   ],
   "card": {
     "title": "US measles: 4,410 cases, most since 1991",
-    "sub": "CDC counts 4,410 confirmed cases in 47 jurisdictions as of 15 Oct. Pennsylvania has reached 1,286. New York has declared a disaster emergency.",
+    "sub": "CDC counts 4,410 confirmed cases in 47 jurisdictions as of 15 Oct. Pennsylvania has reached 1,317. New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",

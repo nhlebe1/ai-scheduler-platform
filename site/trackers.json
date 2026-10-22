@@ -16,11 +16,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,286 cases and five confirmed deaths by the state's count (19 October), with a further reported death under review, while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,317 cases in 43 counties and five confirmed deaths by the state's count (21 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,286 cases and New York has declared a disaster emergency.",
-      "updated": "2026-10-21T18:45:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,317 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-22T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-21",
+          "title": "Pennsylvania: 1,317 cases in 43 counties",
+          "id": "2026-10-21-pennsylvania-1-317-cases-in"
+        },
+        {
           "date": "2026-10-20",
           "title": "CDC confirms a third measles death",
           "id": "2026-10-20-cdc-confirms-a-third-measles"
-        },
-        {
-          "date": "2026-10-19",
-          "title": "Pennsylvania: 1,286 cases in 42 counties",
-          "id": "2026-10-19-pennsylvania-1-286-cases-in"
         }
       ]
     },
@@ -67,7 +67,7 @@
       },
       "headline": "ECDC counts 9,552 confirmed Ebola cases and 4,602 deaths in DR Congo to 18 October, with the outbreak in eight provinces. Kenya has confirmed nine cases and Nigeria one imported case.",
       "updated": "2026-10-21T18:45:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-21T18:45:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-20T06:45:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 70 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
       "updated": "2026-10-15T18:45:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-21T18:45:00Z",
+      "checked": "2026-10-22T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
