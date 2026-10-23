@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-23T06:45:00Z</updated>
+  <updated>2026-10-23T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>First participant vaccinated in the Tumaini trial</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-first-participant-vaccinated-in-tumaini"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-first-participant-vaccinated-in-tumaini</id>
+    <updated>2026-10-23T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>CEPI said the first participant was vaccinated on 23 October in Bunia, DR Congo, marking the start of Tumaini, a pivotal Phase 2/3 trial of vaccine candidates against Bundibugyo virus run with Epicentre, MSF, WHO and Africa CDC. Bloomberg reported that the first dose was Ervebo, which is licensed for the Zaire species; whether it protects against Bundibugyo is not yet known. Experimental candidates from Moderna and from Oxford with the Serum Institute of India could be added within weeks, Bloomberg reported.</summary>
+    <content type="html">&lt;p&gt;CEPI said the first participant was vaccinated on 23 October in Bunia, DR Congo, marking the start of Tumaini, a pivotal Phase 2/3 trial of vaccine candidates against Bundibugyo virus run with Epicentre, MSF, WHO and Africa CDC. Bloomberg reported that the first dose was Ervebo, which is licensed for the Zaire species; whether it protects against Bundibugyo is not yet known. Experimental candidates from Moderna and from Oxford with the Serum Institute of India could be added within weeks, Bloomberg reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc"&gt;CEPI&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-23/ebola-vaccine-trial-begins-in-congo-with-three-shots-in-sight"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>DR Congo passes 9,700 confirmed cases</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-counts-9-704-cases-and"/>
@@ -15,6 +24,15 @@
     <category term="international"/>
     <summary>DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, according to TASS and Xinhua. Africa CDC presented the same figures at a briefing.</summary>
     <content type="html">&lt;p&gt;DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, according to TASS and Xinhua. Africa CDC presented the same figures at a briefing.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://tass.com/society/2206313"&gt;TASS&lt;/a&gt;, &lt;a href="https://www.china.org.cn/2026-10/23/content_118745723.shtml"&gt;Xinhua via China.org.cn&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Africa CDC investigates a possible link between the first Kenya and Nigeria cases</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-africa-cdc-investigates-whether-first"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-africa-cdc-investigates-whether-first</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.</summary>
+    <content type="html">&lt;p&gt;Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksat.com/health/2026/10/22/first-ebola-patients-in-nigeria-and-kenya-might-have-crossed-paths-at-uganda-airport/"&gt;AP via KSAT&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/did-nigeria-and-kenya-ebola-patients-cross-paths-in-uganda-airport/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Africa CDC calls an extraordinary meeting of health ministers</title>
@@ -258,23 +276,5 @@
     <category term="international"/>
     <summary>MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.</summary>
     <content type="html">&lt;p&gt;MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.msf.org/msf-launches-ebola-vaccination-study-among-drc-frontline-workers"&gt;MSF&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Outbreak reaches a seventh province, Sud-Ubangi</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-10-outbreak-reaches-a-seventh-province"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-10-outbreak-reaches-a-seventh-province</id>
-    <updated>2026-09-10T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>A death in Bulu health zone marks the first spread to western DR Congo.</summary>
-    <content type="html">&lt;p&gt;A death in Bulu health zone marks the first spread to western DR Congo.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.local10.com/health/2026/09/11/ebola-outbreak-in-congo-spreads-to-a-7th-province/"&gt;AP via Local10&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Vaccination of health workers begins; Uganda declared Ebola-free</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-27-vaccination-of-health-workers-begins"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-08-27-vaccination-of-health-workers-begins</id>
-    <updated>2026-08-27T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>DR Congo starts giving Ervebo, a vaccine licensed for a different Ebola species, to health workers in trials. WHO and Africa CDC confirm the end of Uganda's outbreak after 42 days without cases.</summary>
-    <content type="html">&lt;p&gt;DR Congo starts giving Ervebo, a vaccine licensed for a different Ebola species, to health workers in trials. WHO and Africa CDC confirm the end of Uganda's outbreak after 42 days without cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://abcnews.com/Health/wireStory/congo-begins-vaccinations-fight-fastest-growing-ebola-outbreak-136017272"&gt;AP via ABC News&lt;/a&gt;, &lt;a href="https://www.afro.who.int/countries/uganda/news/uganda-ends-ebola-outbreak-following-completion-42-day-countdown"&gt;WHO Africa&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

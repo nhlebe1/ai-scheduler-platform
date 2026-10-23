@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-20T06:45:00Z",
-  "checked": "2026-10-23T06:45:00Z",
+  "updated": "2026-10-23T18:45:00Z",
+  "checked": "2026-10-23T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -584,6 +584,19 @@
         {
           "name": "Xinhua (July outbreak ended)",
           "url": "https://english.news.cn/20260716/84edd711b8a84d0db4e1984607d6f4f6/c.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-who-rates-cholera-risk-in",
+      "date": "2026-10-02",
+      "kind": "international",
+      "title": "WHO: 160,799 suspected cases in the African Region, risk high",
+      "body": "WHO's regional rapid risk assessment, dated 2 October, counts 160,799 suspected cholera cases and 2,466 deaths in 19 countries of the African Region from 1 January to 20 September, and rates the regional risk high. WHO names Cameroon, Chad, DR Congo, Nigeria and South Sudan as the countries of greatest concern, and says reporting delays affect the most recent weeks.",
+      "sources": [
+        {
+          "name": "WHO (regional rapid risk assessment, 2 Oct)",
+          "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/20261002_-regional-rra_-cholera-afr-v.1.pdf?sfvrsn=447bc6f0_4&download=true"
         }
       ]
     }

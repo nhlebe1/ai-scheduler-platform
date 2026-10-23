@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-22T18:45:00Z",
-  "checked": "2026-10-23T06:45:00Z",
+  "updated": "2026-10-23T18:45:00Z",
+  "checked": "2026-10-23T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 4,410, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,317 cases and New York has declared a disaster emergency.",
+  "headline": "US measles cases reach 4,588, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,317 cases and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 4,410 confirmed cases in 47 jurisdictions as of 15 October, with 451 hospitalisations. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,317 cases in 43 counties and five confirmed deaths by the state's count (21 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 4,588 confirmed cases as of 22 October, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,317 cases in 43 counties and five confirmed deaths by the state's count (21 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -65,8 +65,8 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 4410,
-      "note": "CDC, as of 15 Oct",
+      "value": 4588,
+      "note": "CDC, as of 22 Oct (Reuters, Contagion Live)",
       "tone": "critical",
       "upIsBad": true
     },
@@ -74,15 +74,15 @@
       "id": "jurisdictions",
       "label": "Jurisdictions with cases",
       "value": 47,
-      "note": "45 states, New York City and Washington, DC",
+      "note": "CDC, as of 15 Oct: 45 states, New York City and Washington, DC",
       "tone": "watch",
       "upIsBad": true
     },
     {
       "id": "outbreaks",
       "label": "New outbreaks in 2026",
-      "value": 42,
-      "note": "About 96% of cases are linked to outbreaks (CDC)",
+      "value": 43,
+      "note": "About 96% of cases are linked to outbreaks (CDC, as of 22 Oct)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -90,7 +90,7 @@
       "id": "deaths",
       "label": "Deaths (CDC count)",
       "value": 3,
-      "note": "CDC, 20 Oct. Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
+      "note": "CDC, 22 Oct. Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
       "tone": "critical",
       "upIsBad": true
     }
@@ -146,12 +146,20 @@
       "values": {
         "deaths": 3
       }
+    },
+    {
+      "date": "2026-10-22",
+      "values": {
+        "cases": 4588,
+        "outbreaks": 43,
+        "deaths": 3
+      }
     }
   ],
   "trend": {
     "title": "US measles cases per year",
     "unit": "Confirmed cases",
-    "note": "2026 is year to date (15 Oct). Tap or hover a bar for its value.",
+    "note": "2026 is year to date (22 Oct). Tap or hover a bar for its value.",
     "labelHeader": "Year",
     "valueHeader": "Cases",
     "highlight": "2026",
@@ -222,11 +230,15 @@
       },
       {
         "label": "2026",
-        "value": 4410,
+        "value": 4588,
         "note": "year to date"
       }
     ],
     "sources": [
+      {
+        "name": "Contagion Live (CDC data, 23 Oct)",
+        "url": "https://www.contagionlive.com/view/measles-update-october-23-2026"
+      },
       {
         "name": "Contagion Live (CDC data, 16 Oct)",
         "url": "https://www.contagionlive.com/view/measles-update-october-16-2026"
@@ -415,7 +427,7 @@
     {
       "claim": "2026 is the worst US measles year since 1991",
       "status": "confirmed",
-      "detail": "2026 passed 2025's total of 2,289 in July. The 4,410 cases counted by 15 October are the most since 1991's 9,643.",
+      "detail": "2026 passed 2025's total of 2,289 in July. The 4,588 cases counted by 22 October are the most since 1991's 9,643.",
       "sources": [
         {
           "name": "ABC News",
@@ -447,8 +459,13 @@
     {
       "label": "Next weekly CDC update",
       "date": "2026-10-23",
+      "status": "done"
+    },
+    {
+      "label": "Next weekly CDC update",
+      "date": "2026-10-30",
       "status": "pending",
-      "note": "CDC publishes on Fridays (data as of Thursday). Expected date, not announced."
+      "note": "CDC has published weekly on Fridays (data as of Thursday). Expected date, not announced."
     },
     {
       "label": "Next weekly CDC update",
@@ -515,8 +532,8 @@
     {
       "who": "CDC",
       "kind": "official",
-      "date": "2026-10-16",
-      "text": "4,410 confirmed cases in 47 jurisdictions and 2 deaths so far in 2026, as of 15 October; 96% of cases are linked to outbreaks."
+      "date": "2026-10-23",
+      "text": "4,588 confirmed cases and 3 deaths so far in 2026, as of 22 October; 96% of cases are linked to outbreaks."
     }
   ],
   "timeline": [
@@ -910,6 +927,27 @@
           "url": "https://www.usnews.com/news/us/articles/2026-10-21/pennsylvania-measles-cases-rise-to-1-317-state-health-department-says"
         }
       ]
+    },
+    {
+      "id": "2026-10-23-cdc-4-588-cases",
+      "date": "2026-10-23",
+      "kind": "official",
+      "title": "CDC: 4,588 cases, 178 more than last week",
+      "body": "The weekly update, with data as of 22 October, counts 4,588 confirmed cases, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.",
+      "sources": [
+        {
+          "name": "Reuters via U.S. News",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-10-23/us-cdc-says-measles-cases-rise-to-4-588-as-outbreak-continues"
+        },
+        {
+          "name": "Reuters via Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/us-cdc-says-measles-cases-144211921.html"
+        },
+        {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/measles-update-october-23-2026"
+        }
+      ]
     }
   ],
   "context": {
@@ -972,7 +1010,7 @@
       },
       {
         "year": "2026",
-        "text": "4,410 cases by 15 October. Elimination status under review."
+        "text": "4,588 cases by 22 October. Elimination status under review."
       }
     ],
     "historySources": [
@@ -1040,8 +1078,8 @@
     }
   ],
   "card": {
-    "title": "US measles: 4,410 cases, most since 1991",
-    "sub": "CDC counts 4,410 confirmed cases in 47 jurisdictions as of 15 Oct. Pennsylvania has reached 1,317. New York has declared a disaster emergency.",
+    "title": "US measles: 4,588 cases, most since 1991",
+    "sub": "CDC counts 4,588 confirmed cases as of 22 Oct, 178 more than a week earlier. Pennsylvania has reached 1,317. New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1055,7 +1093,7 @@
       "deaths": "Deaths (CDC)"
     },
     "sources": "CDC, Pennsylvania DOH, NY Governor, PAHO",
-    "foot": "CDC data as of 15 Oct · updated weekly"
+    "foot": "CDC data as of 22 Oct · updated weekly"
   },
-  "postExtra": "47 jurisdictions, 42 new outbreaks this year."
+  "postExtra": "479 hospitalisations, 43 new outbreaks this year."
 }
