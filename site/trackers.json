@@ -63,9 +63,9 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. CDC counts 9,704 confirmed cases and 4,687 deaths in DR Congo as of 21 October; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, as reported by TASS and Xinhua; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, and an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October."
       },
-      "headline": "CDC counts 9,704 confirmed Ebola cases and 4,687 deaths in DR Congo as of 21 October, with the outbreak in eight provinces. Kenya has confirmed nine cases and Nigeria one imported case.",
+      "headline": "DR Congo's health authorities count 9,704 confirmed Ebola cases and 4,687 deaths as of 20 October, with the outbreak in eight provinces. Kenya has confirmed nine cases and Nigeria one imported case.",
       "updated": "2026-10-23T06:45:00Z",
       "checked": "2026-10-23T06:45:00Z",
       "figures": [
@@ -91,7 +91,7 @@
       "latest": [
         {
           "date": "2026-10-22",
-          "title": "CDC counts 9,704 cases and 4,687 deaths in DR Congo",
+          "title": "DR Congo passes 9,700 confirmed cases",
           "id": "2026-10-22-cdc-counts-9-704-cases-and"
         },
         {
