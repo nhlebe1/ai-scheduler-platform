@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-22T18:45:00Z</updated>
+  <updated>2026-10-23T06:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: CDC counts 9,704 cases and 4,687 deaths in DR Congo</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-counts-9-704-cases-and"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-counts-9-704-cases-and</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>CDC's situation summary, updated 22 October with data as of 21 October, counts 9,704 confirmed cases and 4,687 confirmed deaths in DR Congo. Including Uganda, Kenya, Nigeria and France, it lists 9,735 confirmed cases and 4,690 confirmed deaths in total. CDC notes that counts may change as investigations continue and that DR Congo's health ministry does not include probable cases in its official reporting.</summary>
+    <content type="html">&lt;p&gt;CDC's situation summary, updated 22 October with data as of 21 October, counts 9,704 confirmed cases and 4,687 confirmed deaths in DR Congo. Including Uganda, Kenya, Nigeria and France, it lists 9,735 confirmed cases and 4,690 confirmed deaths in total. CDC notes that counts may change as investigations continue and that DR Congo's health ministry does not include probable cases in its official reporting.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: Ebola outbreak, current situation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Dengue · Europe: Italy: 73 local dengue cases in 5 outbreaks</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-22-italy-73-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-22-italy-73-local-dengue-cases</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS bulletin of 22 October counts 363 confirmed dengue cases from 1 January to 20 October; 73 were locally acquired, linked to 5 outbreaks plus 2 cases not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired.</summary>
+    <content type="html">&lt;p&gt;The ISS bulletin of 22 October counts 363 confirmed dengue cases from 1 January to 20 October; 73 were locally acquired, linked to 5 outbreaks plus 2 cases not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.epicentro.iss.it/arbovirosi/js/arbo.html"&gt;ISS EpiCentro: arbovirus surveillance 2026&lt;/a&gt;, &lt;a href="https://ordinemedicilatina.it/arbovirosi-363-casi-confermati-di-dengue-30-di-chikungunya-777-di-west-nile/"&gt;OMCeO Latina (ISS bulletin, 22 Oct)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: Pennsylvania: 1,317 cases in 43 counties</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-21-pennsylvania-1-317-cases-in"/>
@@ -224,15 +242,6 @@
     <content type="html">&lt;p&gt;ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Ebola · DR Congo: Africa CDC asks for accountability on over $700 million of response funding</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-africa-cdc-says-700-million"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-africa-cdc-says-700-million</id>
-    <updated>2026-10-14T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Africa CDC's director general said on 14 October that more than $700 million of Ebola response funding channelled through international partners could not yet be traced to the response, and that the funds were not transferred to the DR Congo government. He asked partners to account for the money, and DR Congo authorities said they would ask the partners concerned for explanations.</summary>
-    <content type="html">&lt;p&gt;Africa CDC's director general said on 14 October that more than $700 million of Ebola response funding channelled through international partners could not yet be traced to the response, and that the funds were not transferred to the DR Congo government. He asked partners to account for the money, and DR Congo authorities said they would ask the partners concerned for explanations.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aol.com/articles/africa-cdc-says-over-700-134638000.html"&gt;Reuters via AOL&lt;/a&gt;, &lt;a href="https://www.africanews.com/2026/10/15/africa-cdc-probes-missing-millions-meant-for-ebola-response/"&gt;Africanews&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Mpox · Africa &amp; world: CDC: more than 90 clade I cases in at least 23 states</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-cdc-more-than-90-clade"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-cdc-more-than-90-clade</id>
@@ -357,14 +366,5 @@
     <category term="international"/>
     <summary>Russian authorities told WHO that no dangerous pathogens were found in any contact tested and none have symptoms. WHO's first risk assessment: moderate to low for Irkutsk, low for Russia, very low for Europe. Earlier the same day WHO had said it was still waiting for a formal reply.</summary>
     <content type="html">&lt;p&gt;Russian authorities told WHO that no dangerous pathogens were found in any contact tested and none have symptoms. WHO's first risk assessment: moderate to low for Irkutsk, low for Russia, very low for Europe. Earlier the same day WHO had said it was still waiting for a formal reply.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://news.un.org/en/story/2026/10/1168533"&gt;UN News&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805"&gt;NBC News&lt;/a&gt;, &lt;a href="https://www.pbs.org/newshour/health/how-russia-and-the-world-are-responding-to-a-possible-case-of-pneumonic-plague-after-lab-worker-death"&gt;PBS NewsHour&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: Pennsylvania passes 1,000 cases; New York declares a disaster emergency</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-05-pennsylvania-passes-1-000-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-05-pennsylvania-passes-1-000-cases</id>
-    <updated>2026-10-05T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Pennsylvania reaches 1,004 cases in 39 counties, the first US state past 1,000 in a year since 1991. New York's governor declares a state disaster emergency through 4 November and lets pharmacists, paramedics and midwives vaccinate.</summary>
-    <content type="html">&lt;p&gt;Pennsylvania reaches 1,004 cases in 39 counties, the first US state past 1,000 in a year since 1991. New York's governor declares a state disaster emergency through 4 November and lets pharmacists, paramedics and midwives vaccinate.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.inquirer.com/health/pennsylvania-measles-outbreak-one-thousand-cases-20261005.html"&gt;Philadelphia Inquirer&lt;/a&gt;, &lt;a href="https://www.governor.ny.gov/news/governor-hochul-declares-state-disaster-emergency-response-ongoing-measles-outbreak"&gt;New York Governor's office&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/new-york-declares-first-us-measles-disaster-emergency-2025-surge-rcna601810"&gt;NBC News&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
