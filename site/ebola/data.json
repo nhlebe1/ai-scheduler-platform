@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-23T18:45:00Z",
-  "checked": "2026-10-23T18:45:00Z",
+  "updated": "2026-10-24T06:45:00Z",
+  "checked": "2026-10-24T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, as reported by TASS and Xinhua; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, as reported by TASS and Xinhua; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
   },
   "counters": [
     {
@@ -593,6 +593,12 @@
       "label": "US entry restrictions expire unless extended again",
       "status": "pending",
       "note": "The 11 Oct order runs for 30 days"
+    },
+    {
+      "label": "CDC passenger attestation requirement starts",
+      "date": "2026-11-03",
+      "status": "pending",
+      "note": "CDC order of 22 Oct: all passengers on international flights to the US must attest they have not been in DR Congo in the previous 21 days"
     },
     {
       "label": "Africa CDC extraordinary meeting of health ministers",
@@ -1406,6 +1412,27 @@
         {
           "name": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-10-23/ebola-vaccine-trial-begins-in-congo-with-three-shots-in-sight"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-cdc-requires-an-ebola-attestation",
+      "date": "2026-10-22",
+      "kind": "official",
+      "title": "CDC requires an Ebola attestation for all US-bound air passengers",
+      "body": "CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.",
+      "sources": [
+        {
+          "name": "CDC order",
+          "url": "https://www.cdc.gov/port-health/legal-authorities/attestation-order.html"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"
+        },
+        {
+          "name": "CNBC Africa (Reuters)",
+          "url": "https://www.cnbcafrica.com/2026/us-to-tighten-ebola-screening-with-new-air-passenger-declarations"
         }
       ]
     }

@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-10-23T18:45:00Z</updated>
+  <updated>2026-10-24T06:45:00Z</updated>
   <author><name>US Measles Tracker</name></author>
   <entry>
     <title>CDC: 4,588 cases, 178 more than last week</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>The weekly update, with data as of 22 October, counts 4,588 confirmed cases, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.</summary>
     <content type="html">&lt;p&gt;The weekly update, with data as of 22 October, counts 4,588 confirmed cases, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/top-news/articles/2026-10-23/us-cdc-says-measles-cases-rise-to-4-588-as-outbreak-continues"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://www.yahoo.com/news/us/articles/us-cdc-says-measles-cases-144211921.html"&gt;Reuters via Yahoo News&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-october-23-2026"&gt;Contagion Live&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Pennsylvania: 1,338 cases in 44 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-pennsylvania-1-338-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-pennsylvania-1-338-cases-in</id>
+    <updated>2026-10-23T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update counts 1,338 confirmed cases in 44 counties, 255 hospitalisations and 5 confirmed measles-associated deaths.</summary>
+    <content type="html">&lt;p&gt;The state health department's update counts 1,338 confirmed cases in 44 counties, 255 hospitalisations and 5 confirmed measles-associated deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out12"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.aha.org/news/headline/2026-10-23-pennsylvania-measles-outbreak-climbs-above-1300-cases"&gt;AHA News&lt;/a&gt;, &lt;a href="https://local21news.com/news/local/pa-measles-cases-climb-to-1338-with-cases-spreading-to-2-additional-counties-data-pennsylvania-measles-vaccine-mmr-josh-shapiro-robert-f-kennedy-jr-cdc-department-of-health"&gt;Local 21 News&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Pennsylvania: 1,317 cases in 43 counties</title>

@@ -16,11 +16,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 4,588 confirmed cases as of 22 October, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,317 cases in 43 counties and five confirmed deaths by the state's count (21 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,588 confirmed cases as of 22 October, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,338 cases in 44 counties and five confirmed deaths by the state's count (23 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases reach 4,588, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,317 cases and New York has declared a disaster emergency.",
-      "updated": "2026-10-23T18:45:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "headline": "US measles cases reach 4,588, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,338 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-24T06:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -48,9 +48,9 @@
           "id": "2026-10-23-cdc-4-588-cases"
         },
         {
-          "date": "2026-10-21",
-          "title": "Pennsylvania: 1,317 cases in 43 counties",
-          "id": "2026-10-21-pennsylvania-1-317-cases-in"
+          "date": "2026-10-23",
+          "title": "Pennsylvania: 1,338 cases in 44 counties",
+          "id": "2026-10-23-pennsylvania-1-338-cases-in"
         }
       ]
     },
@@ -63,11 +63,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, as reported by TASS and Xinhua; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, as reported by TASS and Xinhua; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, one of them fatal; three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
       },
       "headline": "DR Congo's health authorities count 9,704 confirmed Ebola cases and 4,687 deaths as of 20 October, with the outbreak in eight provinces. Kenya has confirmed nine cases and Nigeria one imported case.",
-      "updated": "2026-10-23T18:45:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "updated": "2026-10-24T06:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-21T18:45:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-10-23T18:45:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -204,15 +204,15 @@
       "status": {
         "level": "active",
         "label": "Active · local cases in Italy and France",
-        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 73 local cases in 5 outbreaks plus 2 cases not linked to the others by 20 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 6 cases in 4 episodes (data to 12 October). The total is well below the 2024 record of 304. ECDC reports weekly until November."
+        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 73 local cases in 5 outbreaks plus 2 cases not linked to the others by 20 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 7 cases in 5 episodes (data to 19 October), the latest in the Var department. The total is well below the 2024 record of 304. ECDC reports weekly until November."
       },
-      "headline": "Italy has 73 locally acquired dengue cases this year and France 6, well below the 2024 record of 304.",
-      "updated": "2026-10-23T06:45:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "headline": "Italy has 73 locally acquired dengue cases this year and France 7, well below the 2024 record of 304.",
+      "updated": "2026-10-24T06:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
-          "value": 79,
+          "value": 80,
           "unit": "",
           "tone": "watch"
         },
@@ -224,7 +224,7 @@
         },
         {
           "label": "Local chikungunya cases (context)",
-          "value": 163,
+          "value": 184,
           "unit": "",
           "tone": "watch"
         }
@@ -236,9 +236,9 @@
           "id": "2026-10-22-italy-73-local-dengue-cases"
         },
         {
-          "date": "2026-10-15",
-          "title": "Italy: 70 local dengue cases; France unchanged at 6",
-          "id": "2026-10-15-italy-70-local-dengue-cases"
+          "date": "2026-10-21",
+          "title": "France: 7 local dengue cases in 5 episodes; local chikungunya at 183",
+          "id": "2026-10-21-france-7-local-dengue-cases"
         }
       ]
     },
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-23T18:45:00Z",
+      "checked": "2026-10-24T06:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

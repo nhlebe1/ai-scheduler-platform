@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-23T18:45:00Z</updated>
+  <updated>2026-10-24T06:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
   <entry>
     <title>First participant vaccinated in the Tumaini trial</title>
@@ -33,6 +33,15 @@
     <category term="international"/>
     <summary>Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.</summary>
     <content type="html">&lt;p&gt;Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksat.com/health/2026/10/22/first-ebola-patients-in-nigeria-and-kenya-might-have-crossed-paths-at-uganda-airport/"&gt;AP via KSAT&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/did-nigeria-and-kenya-ebola-patients-cross-paths-in-uganda-airport/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CDC requires an Ebola attestation for all US-bound air passengers</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-requires-an-ebola-attestation"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-requires-an-ebola-attestation</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.</summary>
+    <content type="html">&lt;p&gt;CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/port-health/legal-authorities/attestation-order.html"&gt;CDC order&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"&gt;NBC News&lt;/a&gt;, &lt;a href="https://www.cnbcafrica.com/2026/us-to-tighten-ebola-screening-with-new-air-passenger-declarations"&gt;CNBC Africa (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Africa CDC calls an extraordinary meeting of health ministers</title>
@@ -267,14 +276,5 @@
     <category term="international"/>
     <summary>The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.</summary>
     <content type="html">&lt;p&gt;The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"&gt;WHO Disease Outbreak News (DON618)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Frontline worker vaccine study launched in Bunia</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-19-frontline-worker-vaccine-study-launched"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-19-frontline-worker-vaccine-study-launched</id>
-    <updated>2026-09-19T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.</summary>
-    <content type="html">&lt;p&gt;MSF's BRAVO study plans to vaccinate about 20,000 frontline workers in Ituri and North Kivu.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.msf.org/msf-launches-ebola-vaccination-study-among-drc-frontline-workers"&gt;MSF&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
