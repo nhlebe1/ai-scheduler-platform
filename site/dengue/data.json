@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises ECDC, Italy's Istituto Superiore di Sanità (ISS), Santé publique France and named news reports. It is not medical or travel advice. If you develop a fever after mosquito bites or after travel, see a doctor and say where you have been."
   },
-  "updated": "2026-10-24T06:45:00Z",
-  "checked": "2026-10-24T06:45:00Z",
+  "updated": "2026-10-24T18:45:00Z",
+  "checked": "2026-10-24T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "social": {
@@ -783,6 +783,10 @@
       "title": "France: 7 local dengue cases in 5 episodes; local chikungunya at 183",
       "body": "Santé publique France's bulletin of 21 October, with data to 19 October, counts 5 local dengue episodes with 7 cases, in Tarn, Hérault, Bouches-du-Rhône, Var and Dordogne, one new episode since its previous bulletin. Var-Actu reported that the new episode is a single locally acquired case at La Farlède (Var), with symptoms starting on 9 October, and that the episode is not yet closed. Separately (chikungunya, a different virus): 22 local episodes with 183 cases, no new episode.",
       "sources": [
+        {
+          "name": "Santé publique France bulletin, 21 Oct",
+          "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
+        },
         {
           "name": "Santé publique France bulletin, 21 Oct (via La Veille Acteurs de Santé)",
           "url": "https://toute-la.veille-acteurs-sante.fr/246438/chikungunya-dengue-zika-et-west-nile-bilan-de-la-surveillance-renforcee-des-arboviroses-en-france-hexagonale-document/"
