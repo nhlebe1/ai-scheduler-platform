@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-24T18:45:00Z</updated>
+  <updated>2026-10-25T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: CDC lists 9,816 confirmed cases in DR Congo</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-cdc-lists-9-816-confirmed"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-cdc-lists-9-816-confirmed</id>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's situation summary lists 9,816 confirmed cases and 4,757 confirmed deaths in DR Congo as of 22 October, compared with 9,704 cases and 4,687 deaths as of 20 October in WHO's Disease Outbreak News. CDC says confirmed cases are in eight provinces and that case counts are expected to change as investigations continue.</summary>
+    <content type="html">&lt;p&gt;CDC's situation summary lists 9,816 confirmed cases and 4,757 confirmed deaths in DR Congo as of 22 October, compared with 9,704 cases and 4,687 deaths as of 20 October in WHO's Disease Outbreak News. CDC says confirmed cases are in eight provinces and that case counts are expected to change as investigations continue.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"&gt;WHO Disease Outbreak News (DON622)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC: 4,588 cases, 178 more than last week</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-cdc-4-588-cases"/>
@@ -240,15 +249,6 @@
     <category term="official"/>
     <summary>DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths since the outbreak began, including 67 new cases and 26 new deaths in the 24 hours to 16 October, Anadolu and Xinhua report.</summary>
     <content type="html">&lt;p&gt;DR Congo's latest situation report counts 9,415 confirmed cases and 4,536 deaths since the outbreak began, including 67 new cases and 26 new deaths in the 24 hours to 16 October, Anadolu and Xinhua report.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://ua.news/en/world/spalakh-eboli-okhopiv-vosmu-provintsiiu-dr-kongo-anadolu-agency"&gt;Anadolu Agency&lt;/a&gt;, &lt;a href="https://qazinform.com/news/dr-congo-records-more-than-9400-ebola-cases-as-outbreak-spreads-32da71"&gt;Xinhua via Qazinform&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: Media report Ebola in an eighth province, North Ubangi</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-15-media-report-ebola-in-an"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-15-media-report-ebola-in-an</id>
-    <updated>2026-10-15T12:00:00Z</updated>
-    <category term="media"/>
-    <summary>Reuters and Bloomberg report, citing health officials, two confirmed Ebola cases in North Ubangi province, which borders the Central African Republic. Reuters says Congolese authorities had not yet officially announced the cases. It also reports that several suspected Ebola deaths had recently occurred at a mining site in Wapinda health zone, with samples sent for laboratory analysis in the province and in Kinshasa.</summary>
-    <content type="html">&lt;p&gt;Reuters and Bloomberg report, citing health officials, two confirmed Ebola cases in North Ubangi province, which borders the Central African Republic. Reuters says Congolese authorities had not yet officially announced the cases. It also reports that several suspected Ebola deaths had recently occurred at a mining site in Wapinda health zone, with samples sent for laboratory analysis in the province and in Kinshasa.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.timeslive.co.za/news/africa/2026-10-15-congo-ebola-outbreak-spreads-to-province-bordering-central-african-republic/"&gt;Reuters via TimesLIVE&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-15/ebola-spreads-to-eighth-congo-province-as-young-children-face-heavy-toll"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Dengue · Europe: Italy: 70 local dengue cases; France unchanged at 6</title>

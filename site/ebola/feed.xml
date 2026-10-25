@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-24T18:45:00Z</updated>
+  <updated>2026-10-25T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>CDC lists 9,816 confirmed cases in DR Congo</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-cdc-lists-9-816-confirmed"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-cdc-lists-9-816-confirmed</id>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's situation summary lists 9,816 confirmed cases and 4,757 confirmed deaths in DR Congo as of 22 October, compared with 9,704 cases and 4,687 deaths as of 20 October in WHO's Disease Outbreak News. CDC says confirmed cases are in eight provinces and that case counts are expected to change as investigations continue.</summary>
+    <content type="html">&lt;p&gt;CDC's situation summary lists 9,816 confirmed cases and 4,757 confirmed deaths in DR Congo as of 22 October, compared with 9,704 cases and 4,687 deaths as of 20 October in WHO's Disease Outbreak News. CDC says confirmed cases are in eight provinces and that case counts are expected to change as investigations continue.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"&gt;WHO Disease Outbreak News (DON622)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>First participant vaccinated in the Tumaini trial</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-first-participant-vaccinated-in-tumaini"/>
@@ -267,14 +276,5 @@
     <category term="international"/>
     <summary>New pledges at the G20 foreign ministers' meeting include US$267 million from the US.</summary>
     <content type="html">&lt;p&gt;New pledges at the G20 foreign ministers' meeting include US$267 million from the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.socialnews.xyz/2026/09/30/g20-mobilises-470-million-to-fight-ebola/"&gt;Social News XYZ&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/almost-3-billion-raised-for-drcs-ebola-outbreak-as-focus-shifts-to-nord-kivu/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>WHO: 7,890 cases, 3,799 deaths in 63 health zones</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-23-who-7-890-cases-3"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-23-who-7-890-cases-3</id>
-    <updated>2026-09-23T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.</summary>
-    <content type="html">&lt;p&gt;The outbreak has reached Dungu health zone, on the border with South Sudan. WHO rates the risk very high in DR Congo and high for neighbouring countries.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"&gt;WHO Disease Outbreak News (DON618)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

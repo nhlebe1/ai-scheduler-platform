@@ -1,5 +1,5 @@
-Ebola (Bundibugyo): from 3 Nov, CDC will require all passengers on international flights to the US to attest they have not been in DR Congo in the past 21 days. DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths (20 Oct).
+Ebola (Bundibugyo): CDC lists 9,816 confirmed cases and 4,757 deaths in DR Congo as of 22 Oct, across eight provinces. Kenya has confirmed 9 cases and Nigeria 1 imported case. From 3 Nov, CDC requires an attestation from US-bound air passengers.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: CDC attestation order (22 Oct); NBC News and CNBC Africa (Reuters); DR Congo health authorities via TASS and Xinhua (20 Oct).
+Sources: CDC Ebola situation summary (figures as of 22 Oct); CDC attestation order (22 Oct); WHO DON622 (20 Oct).
