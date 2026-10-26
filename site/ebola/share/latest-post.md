@@ -1,5 +1,5 @@
-Ebola (Bundibugyo): CDC lists 9,816 confirmed cases and 4,757 deaths in DR Congo as of 22 Oct, across eight provinces. Kenya has confirmed 9 cases and Nigeria 1 imported case. From 3 Nov, CDC requires an attestation from US-bound air passengers.
+Ebola (Bundibugyo): DR Congo's health authorities report 9,964 confirmed cases and 4,841 deaths as of 24 Oct, in eight provinces. Kenya has 9 confirmed cases, 2 of them fatal, and released its first 20 contacts from quarantine on 26 Oct.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: CDC Ebola situation summary (figures as of 22 Oct); CDC attestation order (22 Oct); WHO DON622 (20 Oct).
+Sources: Xinhua and La Notizia (DR Congo figures as of 24 Oct); Reuters via KSL and Capital FM (Kenya, 26 Oct); AP via News4Jax (Kenya second death, 23 Oct).

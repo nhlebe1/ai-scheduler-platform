@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-25T18:45:00Z</updated>
+  <updated>2026-10-26T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Kenya releases the first 20 Ebola contacts from quarantine</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-kenya-releases-first-20-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-kenya-releases-first-20-ebola</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry released the first 20 contacts after 21 days of monitoring without symptoms. Health Director-General Patrick Amoth said the outbreak is not over; the remaining 98 contacts are expected to leave quarantine in four waves from 3 November, based on individual health assessments, Reuters reported.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry released the first 20 contacts after 21 days of monitoring without symptoms. Health Director-General Patrick Amoth said the outbreak is not over; the remaining 98 contacts are expected to leave quarantine in four waves from 3 November, based on individual health assessments, Reuters reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksl.com/article/51641130/kenya-releases-first-ebola-contacts-from-quarantine-milestone-in-containment-efforts"&gt;Reuters via KSL&lt;/a&gt;, &lt;a href="https://capitalfm.africa/kenya-releases-first-20-ebola-contacts-after-21-day-monitoring-period/"&gt;Capital FM&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Nigeria evacuates its Ebola patient to Switzerland</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-nigeria-evacuates-its-ebola-patient"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-nigeria-evacuates-its-ebola-patient</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria continues to follow 52 contacts for 21 days from their last possible exposure, AP reported.</summary>
+    <content type="html">&lt;p&gt;Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria continues to follow 52 contacts for 21 days from their last possible exposure, AP reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"&gt;AP via WSLS&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>CDC lists 9,816 confirmed cases in DR Congo</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-cdc-lists-9-816-confirmed"/>
@@ -17,6 +35,24 @@
     <content type="html">&lt;p&gt;CDC's situation summary lists 9,816 confirmed cases and 4,757 confirmed deaths in DR Congo as of 22 October, compared with 9,704 cases and 4,687 deaths as of 20 October in WHO's Disease Outbreak News. CDC says confirmed cases are in eight provinces and that case counts are expected to change as investigations continue.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"&gt;WHO Disease Outbreak News (DON622)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <title>Nurse killed in attack on Ebola responders in Tshopo</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-nurse-killed-in-attack-on"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-nurse-killed-in-attack-on</id>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>A nurse was killed and another health worker seriously injured on 24 October in Bafwasende, Tshopo province, while responding to an Ebola alert, WHO Director-General Tedros Adhanom Ghebreyesus said, as reported by AP and Al Jazeera. WHO condemned the attack.</summary>
+    <content type="html">&lt;p&gt;A nurse was killed and another health worker seriously injured on 24 October in Bafwasende, Tshopo province, while responding to an Ebola alert, WHO Director-General Tedros Adhanom Ghebreyesus said, as reported by AP and Al Jazeera. WHO condemned the attack.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-25/attackers-kill-nurse-severely-injure-health-worker-responding-to-ebola-case-in-eastern-congo"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/26/attackers-kill-nurse-injure-health-worker-responding-to-drc-ebola-case"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>DR Congo reports 9,964 confirmed cases and 4,841 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-dr-congo-reports-9-964-confirmed"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-24-dr-congo-reports-9-964-confirmed</id>
+    <updated>2026-10-24T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo's health authorities reported 9,964 cumulative confirmed Ebola cases and 4,841 deaths as of 24 October, Xinhua reported; La Notizia attributed the same totals to the country's national public health institute. The outbreak affects 66 health zones in eight of the country's 26 provinces. The count is below 10,000.</summary>
+    <content type="html">&lt;p&gt;DR Congo's health authorities reported 9,964 cumulative confirmed Ebola cases and 4,841 deaths as of 24 October, Xinhua reported; La Notizia attributed the same totals to the country's national public health institute. The outbreak affects 66 health zones in eight of the country's 26 provinces. The count is below 10,000.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://english.news.cn/20261026/20c1b3623f2b4d249f8196c30cbeac8b/c.html"&gt;Xinhua (DR Congo health authorities, 26 Oct)&lt;/a&gt;, &lt;a href="https://www.lanotiziagiornale.it/ebola-congo-casi-morti-virus-bundibugyo/"&gt;La Notizia&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>First participant vaccinated in the Tumaini trial</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-first-participant-vaccinated-in-tumaini"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-first-participant-vaccinated-in-tumaini</id>
@@ -24,6 +60,15 @@
     <category term="international"/>
     <summary>CEPI said the first participant was vaccinated on 23 October in Bunia, DR Congo, marking the start of Tumaini, a pivotal Phase 2/3 trial of vaccine candidates against Bundibugyo virus run with Epicentre, MSF, WHO and Africa CDC. Bloomberg reported that the first dose was Ervebo, which is licensed for the Zaire species; whether it protects against Bundibugyo is not yet known. Experimental candidates from Moderna and from Oxford with the Serum Institute of India could be added within weeks, Bloomberg reported.</summary>
     <content type="html">&lt;p&gt;CEPI said the first participant was vaccinated on 23 October in Bunia, DR Congo, marking the start of Tumaini, a pivotal Phase 2/3 trial of vaccine candidates against Bundibugyo virus run with Epicentre, MSF, WHO and Africa CDC. Bloomberg reported that the first dose was Ervebo, which is licensed for the Zaire species; whether it protects against Bundibugyo is not yet known. Experimental candidates from Moderna and from Oxford with the Serum Institute of India could be added within weeks, Bloomberg reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc"&gt;CEPI&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-23/ebola-vaccine-trial-begins-in-congo-with-three-shots-in-sight"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Kenya announces a second Ebola death</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-kenya-announces-a-second-ebola"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-kenya-announces-a-second-ebola</id>
+    <updated>2026-10-23T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.</summary>
+    <content type="html">&lt;p&gt;Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.news4jax.com/health/2026/10/23/kenya-announces-2nd-ebola-death-a-close-relative-of-the-first-patient/"&gt;AP via News4Jax&lt;/a&gt;, &lt;a href="https://www.the-star.co.ke/news/2026-10-24-kenya-records-second-ebola-death"&gt;The Star (Kenya)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>DR Congo passes 9,700 confirmed cases</title>
@@ -231,50 +276,5 @@
     <category term="international"/>
     <summary>The MRC/UVRI &amp; LSHTM Uganda Research Unit vaccinated the first participants in Masaka City with a candidate vaccine developed by the University of Oxford. The early-phase study tests safety and immune response in healthy adults and follows a trial of the same candidate in the UK. It does not yet show whether the vaccine protects against the virus.</summary>
     <content type="html">&lt;p&gt;The MRC/UVRI &amp;amp; LSHTM Uganda Research Unit vaccinated the first participants in Masaka City with a candidate vaccine developed by the University of Oxford. The early-phase study tests safety and immune response in healthy adults and follows a trial of the same candidate in the UK. It does not yet show whether the vaccine protects against the virus.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.lshtm.ac.uk/research/units/mrc-uganda/news/498871/uganda-launches-phase-i-clinical-study-bundibugyo-virus-disease-vaccine"&gt;MRC/UVRI &amp;amp; LSHTM Uganda Research Unit&lt;/a&gt;, &lt;a href="https://english.news.cn/africa/20261008/c046bc118e344ccb96ba6e16e5d179f2/c.html"&gt;Xinhua&lt;/a&gt;, &lt;a href="https://www.independent.co.ug/new-ebola-vaccine-trials-begin-in-uganda-amid-deadly-drc-outbreak/"&gt;The Independent (Uganda)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Kenya's first imported case dies in Nairobi</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-05-kenya-s-first-imported-case"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-05-kenya-s-first-imported-case</id>
-    <updated>2026-10-05T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.</summary>
-    <content type="html">&lt;p&gt;A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"&gt;WHO Africa&lt;/a&gt;, &lt;a href="https://citizen.digital/article/kenya-confirms-first-case-of-ebola-as-patient-from-drc-dies-n391500"&gt;Citizen Digital&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>CDC and ECDC: 8,603 cases and 4,148 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-04-cdc-and-ecdc-report-8-603"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-04-cdc-and-ecdc-report-8-603</id>
-    <updated>2026-10-04T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>DR Congo's confirmed total reaches 8,603 cases, including 4,148 deaths, with data to 4 October. ECDC notes that DR Congo's figures are under continuous review and may be revised.</summary>
-    <content type="html">&lt;p&gt;DR Congo's confirmed total reaches 8,603 cases, including 4,148 deaths, with data to 4 October. ECDC notes that DR Congo's figures are under continuous review and may be revised.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>CDC: 8,442 cases and 4,080 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-02-cdc-8-442-cases-and</id>
-    <updated>2026-10-02T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.</summary>
-    <content type="html">&lt;p&gt;CDC calls it the second-largest Ebola outbreak on record and says it is spreading faster than earlier ones. No cases in the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>MSF health worker evacuated to the Netherlands</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-01-msf-health-worker-evacuated-to"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-01-msf-health-worker-evacuated-to</id>
-    <updated>2026-10-01T12:00:00Z</updated>
-    <category term="media"/>
-    <summary>A Medecins Sans Frontieres staff member infected in DR Congo is admitted to Leiden University Medical Center.</summary>
-    <content type="html">&lt;p&gt;A Medecins Sans Frontieres staff member infected in DR Congo is admitted to Leiden University Medical Center.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://cyprus-mail.com/2026/10/01/msf-staff-member-tests-positive-for-ebola-in-congo-aid-organisation-says"&gt;Cyprus Mail (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>G20 pledges more than US$470 million</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-30-g20-pledges-more-than-us"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-09-30-g20-pledges-more-than-us</id>
-    <updated>2026-09-30T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>New pledges at the G20 foreign ministers' meeting include US$267 million from the US.</summary>
-    <content type="html">&lt;p&gt;New pledges at the G20 foreign ministers' meeting include US$267 million from the US.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.socialnews.xyz/2026/09/30/g20-mobilises-470-million-to-fight-ebola/"&gt;Social News XYZ&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/almost-3-billion-raised-for-drcs-ebola-outbreak-as-focus-shifts-to-nord-kivu/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
