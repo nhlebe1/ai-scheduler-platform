@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-26T18:45:00Z",
-  "checked": "2026-10-27T06:45:00Z",
+  "updated": "2026-10-27T18:45:00Z",
+  "checked": "2026-10-27T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "ECDC counts 9,964 confirmed Ebola cases and 4,851 deaths in DR Congo (data to 24 October), with the outbreak in eight provinces. Kenya has confirmed nine cases, two of them fatal, and Nigeria one imported case.",
+  "headline": "DR Congo's public health institute reports 10,060 confirmed Ebola cases and 4,887 deaths as of 25 October, passing 10,000 cases, according to Reuters and Al Jazeera. The outbreak is in eight provinces. Kenya has confirmed nine cases, two of them fatal, and Nigeria one imported case.",
   "status": {
     "level": "growing",
     "label": "Growing · global health emergency",
-    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC counts 9,964 confirmed cases and 4,851 deaths in DR Congo (update of 25 October, data to 24 October), up from the 9,816 cases and 4,757 deaths CDC lists as of 22 October and the 9,704 cases and 4,687 deaths WHO reported as of 20 October; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, two of them fatal (the second death was announced on 23 October); three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 26 October the ministry released the first 20 contacts from quarantine after 21 days of monitoring without symptoms, Reuters reported. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 26 October the patient was evacuated to Switzerland, and Nigeria continues to follow 52 contacts, AP reported. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
+    "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. DR Congo's public health institute (INSP) reports 10,060 confirmed cases and 4,887 deaths as of 25 October, passing 10,000 cases, according to Reuters and Al Jazeera. That is up from the 9,964 cases and 4,851 deaths ECDC counted in its update of 25 October (data to 24 October), the 9,816 cases and 4,757 deaths CDC lists as of 22 October and the 9,704 cases and 4,687 deaths WHO reported as of 20 October; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, two of them fatal (the second death was announced on 23 October); three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 26 October the ministry released the first 20 contacts from quarantine after 21 days of monitoring without symptoms, Reuters reported. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 26 October the patient was evacuated to Switzerland, and Nigeria continues to follow 52 contacts, AP reported. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
   },
   "counters": [
     {
@@ -38,16 +38,16 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 9964,
-      "note": "ECDC, 25 Oct (data to 24 Oct). CDC: 9,816 as of 22 Oct. WHO DON622: 9,704 as of 20 Oct",
+      "value": 10060,
+      "note": "DR Congo's public health institute (INSP), as of 25 Oct, via Reuters and Al Jazeera. ECDC: 9,964 (data to 24 Oct). CDC: 9,816 as of 22 Oct. WHO DON622: 9,704 as of 20 Oct",
       "tone": "critical",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Confirmed deaths",
-      "value": 4851,
-      "note": "ECDC, 25 Oct (data to 24 Oct). CDC: 4,757 as of 22 Oct. WHO DON622: 4,687 as of 20 Oct",
+      "value": 4887,
+      "note": "INSP, as of 25 Oct, via Reuters and Al Jazeera. ECDC: 4,851 (data to 24 Oct). CDC: 4,757 as of 22 Oct. WHO DON622: 4,687 as of 20 Oct",
       "tone": "critical",
       "upIsBad": true
     },
@@ -203,6 +203,13 @@
         "cases": 9964,
         "deaths": 4851
       }
+    },
+    {
+      "date": "2026-10-25",
+      "values": {
+        "cases": 10060,
+        "deaths": 4887
+      }
     }
   ],
   "trend": {
@@ -311,6 +318,10 @@
       {
         "label": "24 Oct",
         "value": 9964
+      },
+      {
+        "label": "25 Oct",
+        "value": 10060
       }
     ],
     "sources": [
@@ -333,6 +344,14 @@
       {
         "name": "Xinhua",
         "url": "https://english.news.cn/20261026/20c1b3623f2b4d249f8196c30cbeac8b/c.html"
+      },
+      {
+        "name": "Al Jazeera (INSP data, 27 Oct)",
+        "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+      },
+      {
+        "name": "Reuters via U.S. News (27 Oct)",
+        "url": "https://www.usnews.com/news/world/articles/2026-10-27/congos-ebola-infections-surpass-10-000-government-says"
       }
     ]
   },
@@ -675,8 +694,9 @@
     },
     {
       "label": "Outbreak passes 10,000 confirmed cases",
-      "status": "pending",
-      "note": "9,964 to 24 Oct (ECDC)"
+      "status": "done",
+      "note": "DR Congo's public health institute reported 10,060 confirmed cases as of 25 Oct (Reuters, Al Jazeera, 27 Oct)",
+      "date": "2026-10-25"
     },
     {
       "label": "Next WHO Disease Outbreak News report",
@@ -1597,6 +1617,31 @@
           "url": "https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"
         }
       ]
+    },
+    {
+      "id": "2026-10-25-dr-congo-passes-10-000-confirmed",
+      "date": "2026-10-25",
+      "kind": "official",
+      "title": "DR Congo passes 10,000 confirmed Ebola cases",
+      "body": "DR Congo's public health institute (INSP) reports 10,060 confirmed cases and 4,887 deaths as of 25 October, in 66 health zones across eight provinces, Reuters and Al Jazeera reported on 27 October. ECDC's update of 25 October, covering data to 24 October, counted 9,964 cases and 4,851 deaths.",
+      "sources": [
+        {
+          "name": "Reuters via U.S. News (27 Oct)",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-27/congos-ebola-infections-surpass-10-000-government-says"
+        },
+        {
+          "name": "Al Jazeera (27 Oct)",
+          "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+        },
+        {
+          "name": "The Watchers (27 Oct)",
+          "url": "https://watchers.news/2026/10/27/bundibugyo-ebola-outbreak-passes-10-000-confirmed-cases-in-drc/"
+        },
+        {
+          "name": "ECDC: Ebola disease, multi-country outbreak 2026",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
     }
   ],
   "context": {
@@ -1715,8 +1760,8 @@
     }
   ],
   "card": {
-    "title": "Ebola in DR Congo: 8 provinces",
-    "sub": "ECDC counts 9,964 cases and 4,851 deaths to 24 Oct. Kenya has 9 cases, 2 deaths; Nigeria 1. Tumaini vaccine trial began 23 Oct.",
+    "title": "Ebola in DR Congo: 10,000 cases",
+    "sub": "DR Congo's public health institute reports 10,060 cases and 4,887 deaths as of 25 Oct. Kenya has 9 cases, 2 deaths; Nigeria 1.",
     "stats": [
       "cases",
       "deaths",
@@ -1731,5 +1776,5 @@
     },
     "sources": "DR Congo health authorities, WHO, CDC, ECDC"
   },
-  "postExtra": "ECDC counts 9,964 confirmed cases and 4,851 deaths in DR Congo to 24 Oct. Kenya has 9 confirmed cases, 2 of them fatal, and Nigeria 1 imported case. The Tumaini vaccine trial began on 23 Oct."
+  "postExtra": "DR Congo's public health institute (INSP) reports 10,060 confirmed cases and 4,887 deaths as of 25 Oct, per Reuters and Al Jazeera. Kenya has 9 confirmed cases, 2 of them fatal, and Nigeria 1 imported case."
 }

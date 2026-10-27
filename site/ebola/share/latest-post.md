@@ -1,5 +1,5 @@
-Ebola (Bundibugyo): ECDC counts 9,964 confirmed cases and 4,851 deaths in DR Congo (data to 24 Oct), in eight provinces. Kenya has 9 confirmed cases, 2 of them fatal, and released its first 20 contacts from quarantine on 26 Oct.
+Ebola (Bundibugyo): DR Congo's public health institute reports 10,060 confirmed cases and 4,887 deaths as of 25 Oct, passing 10,000 cases (Reuters, Al Jazeera). Eight provinces affected. Kenya has 9 cases, 2 fatal.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: ECDC (25 Oct); Kenya Ministry of Health via Reuters/KSL and Capital FM (26 Oct); AP via News4Jax (23 Oct).
+Sources: DR Congo INSP data via Reuters/U.S. News and Al Jazeera (27 Oct); ECDC (25 Oct); Kenya Ministry of Health via Reuters/KSL (26 Oct).
