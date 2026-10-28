@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/</id>
-  <updated>2026-10-24T18:45:00Z</updated>
+  <updated>2026-10-28T18:45:00Z</updated>
   <author><name>Dengue Tracker: Europe</name></author>
+  <entry>
+    <title>France: 8 local dengue cases in 5 episodes; local chikungunya at 205</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-28-france-8-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-28-france-8-local-dengue-cases</id>
+    <updated>2026-10-28T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Santé publique France's bulletin of 28 October, with data to 26 October, counts 5 local dengue episodes with 8 cases, with no new episode since the previous week, up from 7 cases in its bulletin of 21 October. Separately (chikungunya, a different virus): 29 local episodes with 205 cases, seven more episodes than the week before.</summary>
+    <content type="html">&lt;p&gt;Santé publique France's bulletin of 28 October, with data to 26 October, counts 5 local dengue episodes with 8 cases, with no new episode since the previous week, up from 7 cases in its bulletin of 21 October. Separately (chikungunya, a different virus): 29 local episodes with 205 cases, seven more episodes than the week before.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://toute-la.veille-acteurs-sante.fr/246554/chikungunya-dengue-zika-et-west-nile-bilan-de-la-surveillance-renforcee-des-arboviroses-en-france-hexagonale-au-28-octobre-2026-document/"&gt;Santé publique France bulletin, 28 Oct (via La Veille Acteurs de Santé)&lt;/a&gt;, &lt;a href="https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"&gt;Santé publique France bulletin, 21 Oct&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Italy: 73 local dengue cases in 5 outbreaks</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-22-italy-73-local-dengue-cases"/>
