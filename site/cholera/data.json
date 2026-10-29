@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-23T18:45:00Z",
-  "checked": "2026-10-28T18:45:00Z",
+  "updated": "2026-10-29T06:45:00Z",
+  "checked": "2026-10-29T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "slowing",
     "label": "Slowing · below 2025's pace",
-    "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999."
+    "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999. ECDC's separate count reached 291,272 cases and 2,471 deaths by 27 October."
   },
   "figures": [
     {
@@ -597,6 +597,19 @@
         {
           "name": "WHO (regional rapid risk assessment, 2 Oct)",
           "url": "https://cdn.who.int/media/docs/default-source/_sage-2026/20261002_-regional-rra_-cholera-afr-v.1.pdf?sfvrsn=447bc6f0_4&download=true"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-ecdc-291-272-cases-worldwide",
+      "date": "2026-10-27",
+      "kind": "international",
+      "title": "ECDC: 291,272 cases worldwide this year",
+      "body": "ECDC's monthly overview counts 291,272 cholera cases, including 2,471 deaths, from 1 January to 27 October. In the month since 28 September it recorded 42,136 new cases and 501 new deaths, with Nigeria, DR Congo and South Sudan reporting the most new cases. ECDC says the risk for travellers to affected countries remains low. ECDC's totals are a separate count from the WHO figures above.",
+      "sources": [
+        {
+          "name": "ECDC: cholera worldwide overview (27 Oct)",
+          "url": "https://www.ecdc.europa.eu/en/public-health-events/2006-eip-00031/2026-10-27"
         }
       ]
     }

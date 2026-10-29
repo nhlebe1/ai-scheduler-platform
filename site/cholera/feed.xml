@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/</id>
-  <updated>2026-10-23T18:45:00Z</updated>
+  <updated>2026-10-29T06:45:00Z</updated>
   <author><name>Cholera Tracker: Global</name></author>
+  <entry>
+    <title>ECDC: 291,272 cases worldwide this year</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-27-ecdc-291-272-cases-worldwide"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-27-ecdc-291-272-cases-worldwide</id>
+    <updated>2026-10-27T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's monthly overview counts 291,272 cholera cases, including 2,471 deaths, from 1 January to 27 October. In the month since 28 September it recorded 42,136 new cases and 501 new deaths, with Nigeria, DR Congo and South Sudan reporting the most new cases. ECDC says the risk for travellers to affected countries remains low. ECDC's totals are a separate count from the WHO figures above.</summary>
+    <content type="html">&lt;p&gt;ECDC's monthly overview counts 291,272 cholera cases, including 2,471 deaths, from 1 January to 27 October. In the month since 28 September it recorded 42,136 new cases and 501 new deaths, with Nigeria, DR Congo and South Sudan reporting the most new cases. ECDC says the risk for travellers to affected countries remains low. ECDC's totals are a separate count from the WHO figures above.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2006-eip-00031/2026-10-27"&gt;ECDC: cholera worldwide overview (27 Oct)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Zambia declares a new cholera outbreak and starts oral vaccination</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-17-zambia-declares-a-new-cholera"/>
