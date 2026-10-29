@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/</id>
-  <updated>2026-10-28T18:45:00Z</updated>
+  <updated>2026-10-29T18:45:00Z</updated>
   <author><name>Dengue Tracker: Europe</name></author>
+  <entry>
+    <title>Italy: 76 local dengue cases</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-29-italy-76-local-dengue-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-29-italy-76-local-dengue-cases</id>
+    <updated>2026-10-29T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The ISS arbovirus surveillance update counts 369 confirmed dengue cases from 1 January to 27 October; 76 were locally acquired, up from 73 in the update to 20 October, and all the others were linked to travel abroad. No deaths are reported. One of 30 chikungunya cases was locally acquired.</summary>
+    <content type="html">&lt;p&gt;The ISS arbovirus surveillance update counts 369 confirmed dengue cases from 1 January to 27 October; 76 were locally acquired, up from 73 in the update to 20 October, and all the others were linked to travel abroad. No deaths are reported. One of 30 chikungunya cases was locally acquired.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.epicentro.iss.it/arbovirosi/js/arbo.html"&gt;ISS EpiCentro: arbovirus surveillance 2026&lt;/a&gt;, &lt;a href="https://www.quotidianosanita.it/studi-e-analisi/arbovirosi-iss-369-casi-confermati-di-dengue-30-di-chikungunya-787-di-west-nile-e-19-di-usutu-virus/"&gt;Quotidiano Sanità (ISS update, data to 27 Oct)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>France: 8 local dengue cases in 5 episodes; local chikungunya at 205</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-28-france-8-local-dengue-cases"/>

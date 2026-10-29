@@ -14,25 +14,25 @@
     ],
     "disclaimer": "This tracker summarises ECDC, Italy's Istituto Superiore di Sanità (ISS), Santé publique France and named news reports. It is not medical or travel advice. If you develop a fever after mosquito bites or after travel, see a doctor and say where you have been."
   },
-  "updated": "2026-10-28T18:45:00Z",
-  "checked": "2026-10-29T06:45:00Z",
+  "updated": "2026-10-29T18:45:00Z",
+  "checked": "2026-10-29T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/dengue/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "Italy has 73 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
+  "headline": "Italy has 76 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
   "status": {
     "level": "active",
     "label": "Active · local cases in Italy and France",
-    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 73 local cases in 5 outbreaks plus 2 cases not linked to the others by 20 October, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 26 October), with no new episode since its previous bulletin. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+    "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 76 local cases by 27 October, up from 73 by 20 October, when they were linked to 5 outbreaks plus 2 cases not linked to the others, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 26 October), with no new episode since its previous bulletin. The total is well below the 2024 record of 304. ECDC reports weekly until November."
   },
   "figures": [
     {
       "id": "cases",
       "label": "Locally acquired cases",
-      "value": 81,
-      "note": "Italy 73 (ISS, 20 Oct) + France 8 (Santé publique France, 26 Oct). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
+      "value": 84,
+      "note": "Italy 76 (ISS, 27 Oct) + France 8 (Santé publique France, 26 Oct). ECDC's latest EU/EEA total: 42 on 16 Sep, when no other country had local cases.",
       "tone": "watch",
       "upIsBad": true
     },
@@ -40,7 +40,7 @@
       "id": "countries",
       "label": "Countries with local cases",
       "value": 2,
-      "note": "Italy and France (ECDC, 16 Sep; national data to 26 Oct for France, 20 Oct for Italy)",
+      "note": "Italy and France (ECDC, 16 Sep; national data to 26 Oct for France, 27 Oct for Italy)",
       "tone": "watch",
       "upIsBad": true
     },
@@ -48,7 +48,7 @@
       "id": "chik",
       "label": "Local chikungunya cases (context)",
       "value": 206,
-      "note": "France 205 in 29 episodes (Santé publique France, 26 Oct); Italy 1 (ISS, 20 Oct). A different virus spread by the same mosquito",
+      "note": "France 205 in 29 episodes (Santé publique France, 26 Oct); Italy 1 (ISS, 27 Oct). A different virus spread by the same mosquito",
       "tone": "watch",
       "upIsBad": true
     },
@@ -112,6 +112,14 @@
       "date": "2026-10-26",
       "values": {
         "cases": 81,
+        "countries": 2,
+        "chik": 206
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "values": {
+        "cases": 84,
         "countries": 2,
         "chik": 206
       }
@@ -255,16 +263,20 @@
     ],
     "noneLabel": "No local cases reported",
     "values": {
-      "Italy": 73,
+      "Italy": 76,
       "France": 8
     },
     "notes": {
-      "Italy": "ISS, 20 Oct: 73 local cases in 5 outbreaks plus 2 unlinked cases, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
+      "Italy": "ISS, 27 Oct: 76 local cases. On 20 Oct there were 73, in 5 outbreaks plus 2 unlinked cases, including Livorno, Lecce and Milan provinces and a cluster in Cartigliano (Vicenza) of 8 cases by 2 Oct (local health authority). The National Blood Centre added Rome to its list of affected areas on 2 Oct.",
       "France": "Santé publique France, 26 Oct. 5 episodes with no new episode since 21 Oct, in Tarn, Hérault, Bouches-du-Rhône, Var and Dordogne (21 Oct bulletin)."
     },
-    "asOf": "2026-10-26",
-    "note": "Latest national counts: Italy (ISS) to 20 Oct, France (Santé publique France) to 26 Oct. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
+    "asOf": "2026-10-27",
+    "note": "Latest national counts: Italy (ISS) to 27 Oct, France (Santé publique France) to 26 Oct. ECDC's last total we could confirm was 42 on 16 Sep (Italy 37, France 5); no other EU/EEA country had reported local dengue. Travel-related cases are not shown.",
     "sources": [
+      {
+        "name": "Quotidiano Sanità (ISS update, data to 27 Oct)",
+        "url": "https://www.quotidianosanita.it/studi-e-analisi/arbovirosi-iss-369-casi-confermati-di-dengue-30-di-chikungunya-787-di-west-nile-e-19-di-usutu-virus/"
+      },
       {
         "name": "Santé publique France bulletin, 21 Oct (via La Veille Acteurs de Santé)",
         "url": "https://toute-la.veille-acteurs-sante.fr/246438/chikungunya-dengue-zika-et-west-nile-bilan-de-la-surveillance-renforcee-des-arboviroses-en-france-hexagonale-document/"
@@ -444,7 +456,7 @@
     {
       "label": "Next ISS arbovirus bulletin (Italy)",
       "status": "pending",
-      "note": "Weekly; the latest covered data to 20 Oct. Next date not announced"
+      "note": "Weekly; the latest covered data to 27 Oct. Next date not announced"
     },
     {
       "label": "Next Santé publique France bulletin",
@@ -459,7 +471,7 @@
     {
       "label": "Italy passes its 2023 total of 82 local cases",
       "status": "pending",
-      "note": "73 as of 20 Oct (ISS)"
+      "note": "76 as of 27 Oct (ISS)"
     },
     {
       "label": "Italy reports its first local outbreaks of 2026",
@@ -821,6 +833,23 @@
           "url": "https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-27"
         }
       ]
+    },
+    {
+      "id": "2026-10-29-italy-76-local-dengue-cases",
+      "date": "2026-10-29",
+      "kind": "official",
+      "title": "Italy: 76 local dengue cases",
+      "body": "The ISS arbovirus surveillance update counts 369 confirmed dengue cases from 1 January to 27 October; 76 were locally acquired, up from 73 in the update to 20 October, and all the others were linked to travel abroad. No deaths are reported. One of 30 chikungunya cases was locally acquired.",
+      "sources": [
+        {
+          "name": "ISS EpiCentro: arbovirus surveillance 2026",
+          "url": "https://www.epicentro.iss.it/arbovirosi/js/arbo.html"
+        },
+        {
+          "name": "Quotidiano Sanità (ISS update, data to 27 Oct)",
+          "url": "https://www.quotidianosanita.it/studi-e-analisi/arbovirosi-iss-369-casi-confermati-di-dengue-30-di-chikungunya-787-di-west-nile-e-19-di-usutu-virus/"
+        }
+      ]
     }
   ],
   "context": {
@@ -979,8 +1008,8 @@
     }
   ],
   "card": {
-    "title": "Local dengue in Europe: 81 cases",
-    "sub": "Italy 73 and France 8 so far in 2026, against a record 304 in 2024. Italy counts 5 local outbreaks.",
+    "title": "Local dengue in Europe: 84 cases",
+    "sub": "Italy 76 and France 8 so far in 2026, against a record 304 in 2024.",
     "stats": [
       "cases",
       "countries",
@@ -994,7 +1023,7 @@
       "record": "2024 record"
     },
     "sources": "ISS, Santé publique France, ECDC",
-    "foot": "National data as of 26 Oct (France), 20 Oct (Italy) · updated weekly"
+    "foot": "National data as of 26 Oct (France), 27 Oct (Italy) · updated weekly"
   },
   "postExtra": "Only Italy and France have reported local cases so far."
 }

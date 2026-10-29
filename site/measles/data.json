@@ -15,7 +15,7 @@
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
   "updated": "2026-10-29T06:45:00Z",
-  "checked": "2026-10-29T06:45:00Z",
+  "checked": "2026-10-29T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -1014,6 +1014,10 @@
       "title": "Pennsylvania: 1,398 cases in 44 counties",
       "body": "The state health department's update counts 1,398 confirmed cases in 44 counties, 38 more than on 26 October, with 265 hospitalisations and 5 confirmed measles-associated deaths. The department gave no new information on a further death reported by the Franklin County coroner, and CDC counts three deaths nationally.",
       "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out14"
+        },
         {
           "name": "Reuters via Investing.com",
           "url": "https://www.investing.com/news/stock-market-news/pennsylvania-measles-cases-near-1400-state-health-department-says-4980479"
