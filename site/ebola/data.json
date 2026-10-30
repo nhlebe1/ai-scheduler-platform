@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-10-29T18:45:00Z",
-  "checked": "2026-10-29T18:45:00Z",
+  "updated": "2026-10-30T06:45:00Z",
+  "checked": "2026-10-30T06:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -682,8 +682,8 @@
     {
       "label": "Africa CDC extraordinary meeting of health ministers",
       "date": "2026-10-28",
-      "status": "pending",
-      "note": "Announced by Africa CDC on 21 Oct (AP)"
+      "status": "done",
+      "note": "Held virtually on 28 Oct. Africa CDC's director general said ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely (Anadolu, TRT Afrika, Premium Times)"
     },
     {
       "label": "Nigeria contact follow-up",
@@ -747,6 +747,12 @@
     }
   ],
   "positions": [
+    {
+      "who": "Africa CDC",
+      "kind": "international",
+      "date": "2026-10-28",
+      "text": "After an extraordinary virtual meeting of African health ministers, director general Jean Kaseya said they agreed to prepare every country, coordinate across borders and keep borders open while watching them closely, and that the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times."
+    },
     {
       "who": "Kenya Ministry of Health",
       "kind": "official",
@@ -1692,6 +1698,27 @@
         {
           "name": "ECDC: Ebola disease, multi-country outbreak 2026",
           "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-african-health-ministers-agree-to",
+      "date": "2026-10-28",
+      "kind": "international",
+      "title": "African health ministers agree to keep borders open",
+      "body": "After an extraordinary virtual meeting of African health ministers on 28 October, Africa CDC's director general Jean Kaseya said the ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely. He told the meeting the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times.",
+      "sources": [
+        {
+          "name": "Anadolu Agency (28 Oct)",
+          "url": "https://www.aa.com.tr/en/africa/african-officials-agree-to-keep-borders-open-despite-ebola-outbreak/4105239"
+        },
+        {
+          "name": "TRT Afrika",
+          "url": "https://www.trtafrika.com/article/a1fb3ab7eddf"
+        },
+        {
+          "name": "Premium Times",
+          "url": "https://www.premiumtimesng.com/health/health-news/921422-ebola-africa-cdc-warns-continent-not-winning-as-cases-surpass-10000.html"
         }
       ]
     }
