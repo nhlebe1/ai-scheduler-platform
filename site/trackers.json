@@ -16,15 +16,15 @@
       "status": {
         "level": "growing",
         "label": "Growing · most since 1991",
-        "summary": "CDC counted 4,588 confirmed cases as of 22 October, 178 more than a week earlier, with 479 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,398 cases in 44 counties, 265 hospitalisations and five confirmed deaths by the state's count (28 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+        "summary": "CDC counted 4,852 confirmed cases as of 29 October, 264 more than in its previous update, with 511 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,398 cases in 44 counties, 265 hospitalisations and five confirmed deaths by the state's count (28 October), while CDC counts three, a figure it confirmed on 20 October. A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
       },
-      "headline": "US measles cases reach 4,588, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,398 cases and New York has declared a disaster emergency.",
-      "updated": "2026-10-29T06:45:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "headline": "US measles cases reach 4,852, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,398 cases and New York has declared a disaster emergency.",
+      "updated": "2026-10-30T18:50:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 4588,
+          "value": 4852,
           "unit": "",
           "tone": "critical"
         },
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-30",
+          "title": "CDC: 4,852 cases, 264 more than last update",
+          "id": "2026-10-30-cdc-4-852-cases"
+        },
+        {
           "date": "2026-10-28",
           "title": "Pennsylvania: 1,398 cases in 44 counties",
           "id": "2026-10-28-pennsylvania-1-398-cases-in"
-        },
-        {
-          "date": "2026-10-26",
-          "title": "Pennsylvania: 1,360 cases in 44 counties",
-          "id": "2026-10-26-pennsylvania-1-360-cases-in"
         }
       ]
     },
@@ -63,21 +63,21 @@
       "status": {
         "level": "growing",
         "label": "Growing · global health emergency",
-        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC's update of 28 October counts 10,193 confirmed cases and 4,960 deaths in DR Congo, from data up to 27 October. That is up from the 10,141 cases and 4,928 deaths ECDC counted in its update of 27 October (data to 26 October), the 10,060 cases and 4,887 deaths DR Congo's public health institute (INSP) reported as of 25 October, passing 10,000 cases, according to Reuters and Al Jazeera, the 9,964 cases and 4,851 deaths ECDC counted in its update of 25 October (data to 24 October), the 9,816 cases and 4,757 deaths CDC lists as of 22 October and the 9,704 cases and 4,687 deaths WHO reported as of 20 October; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, two of them fatal (the second death was announced on 23 October); three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 26 October the ministry released the first 20 contacts from quarantine after 21 days of monitoring without symptoms, Reuters reported. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 26 October the patient was evacuated to Switzerland, and Nigeria continues to follow 52 contacts, AP reported. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
+        "summary": "The Bundibugyo Ebola outbreak declared on 15 May has now reached 8 of DR Congo's 26 provinces: on 18 October the health ministry confirmed two cases, one fatal, in North Ubangi, AP reported. ECDC's latest update counts 10,274 confirmed cases and 4,992 deaths in DR Congo, from data up to 28 October. That is up from the 10,193 cases and 4,960 deaths in its update of 28 October (data to 27 October), the 10,141 cases and 4,928 deaths ECDC counted in its update of 27 October (data to 26 October), the 10,060 cases and 4,887 deaths DR Congo's public health institute (INSP) reported as of 25 October, passing 10,000 cases, according to Reuters and Al Jazeera, the 9,964 cases and 4,851 deaths ECDC counted in its update of 25 October (data to 24 October), the 9,816 cases and 4,757 deaths CDC lists as of 22 October and the 9,704 cases and 4,687 deaths WHO reported as of 20 October; ECDC's update of 19 October counted 66 of 178 health zones affected across the eight provinces (data to 17 October). CDC calls it the second-largest Ebola outbreak on record. Kenya's health ministry has confirmed nine cases, two of them fatal (the second death was announced on 23 October); three are health workers who cared for the first patient, and on 20 October the ministry said all nine belong to one cluster with no evidence of transmission outside it. On 26 October the ministry released the first 20 contacts from quarantine after 21 days of monitoring without symptoms, Reuters reported. On 20 October Nigeria confirmed one imported case in the Federal Capital Territory, in a person with recent travel to Uganda; WHO says where and when the person was exposed is not yet known. On 26 October the patient was evacuated to Switzerland, and Nigeria continues to follow 52 contacts, AP reported. On 22 October CDC ordered that, from 3 November, all passengers boarding international flights to the United States attest that they have not been in DR Congo in the previous 21 days. There is no licensed vaccine for this strain; trials of an existing Ebola vaccine began in August, an early-phase trial of a Bundibugyo-specific candidate began in Uganda on 6 October, and on 23 October CEPI said the first participant had been vaccinated in the pivotal Tumaini trial in Bunia, DR Congo."
       },
-      "headline": "ECDC reports 10,193 confirmed Ebola cases and 4,960 deaths in DR Congo, from data up to 27 October, up from the 10,141 cases and 4,928 deaths in its previous update, from data up to 26 October. The outbreak is in eight provinces. Kenya has confirmed nine cases, two of them fatal, and Nigeria one imported case.",
-      "updated": "2026-10-30T06:45:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "headline": "ECDC reports 10,274 confirmed Ebola cases and 4,992 deaths in DR Congo, from data up to 28 October, up from the 10,193 cases and 4,960 deaths in its previous update, from data up to 27 October. The outbreak is in eight provinces. Kenya has confirmed nine cases, two of them fatal, and Nigeria one imported case.",
+      "updated": "2026-10-30T18:50:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 10193,
+          "value": 10274,
           "unit": "",
           "tone": "critical"
         },
         {
           "label": "Confirmed deaths",
-          "value": 4960,
+          "value": 4992,
           "unit": "",
           "tone": "critical"
         },
@@ -95,9 +95,9 @@
           "id": "2026-10-28-african-health-ministers-agree-to"
         },
         {
-          "date": "2026-10-27",
-          "title": "ECDC: 10,193 confirmed cases and 4,960 deaths",
-          "id": "2026-10-27-ecdc-10-193-confirmed-cases"
+          "date": "2026-10-28",
+          "title": "ECDC: 10,274 confirmed cases and 4,992 deaths",
+          "id": "2026-10-28-ecdc-10-274-confirmed-cases"
         }
       ]
     },
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-10-21T18:45:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -157,11 +157,11 @@
       "status": {
         "level": "slowing",
         "label": "Slowing · below 2025's pace",
-        "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999. ECDC's separate count reached 291,272 cases and 2,471 deaths by 27 October."
+        "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999. ECDC's separate count reached 291,272 cases and 2,471 deaths by 27 October. In Zambia, the health minister told Parliament on 29 October that a new outbreak has reached 1,622 cases and 30 deaths since 28 July, in 20 districts across six provinces, according to local media."
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
-      "updated": "2026-10-29T06:45:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "updated": "2026-10-30T18:50:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -184,14 +184,14 @@
       ],
       "latest": [
         {
+          "date": "2026-10-29",
+          "title": "Zambia: 1,622 cholera cases and 30 deaths",
+          "id": "2026-10-29-zambia-1-622-cholera-cases"
+        },
+        {
           "date": "2026-10-27",
           "title": "ECDC: 291,272 cases worldwide this year",
           "id": "2026-10-27-ecdc-291-272-cases-worldwide"
-        },
-        {
-          "date": "2026-10-17",
-          "title": "Zambia declares a new cholera outbreak and starts oral vaccination",
-          "id": "2026-10-17-zambia-declares-a-new-cholera"
         }
       ]
     },
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 76 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
       "updated": "2026-10-29T18:45:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-10-30T06:45:00Z",
+      "checked": "2026-10-30T18:50:00Z",
       "figures": [
         {
           "label": "Confirmed cases",

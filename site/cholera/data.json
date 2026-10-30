@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-10-29T06:45:00Z",
-  "checked": "2026-10-30T06:45:00Z",
+  "updated": "2026-10-30T18:50:00Z",
+  "checked": "2026-10-30T18:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "slowing",
     "label": "Slowing · below 2025's pace",
-    "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999. ECDC's separate count reached 291,272 cases and 2,471 deaths by 27 October."
+    "summary": "WHO counted 275,284 cholera and acute watery diarrhoea cases and 2,601 deaths in 28 countries from 1 January to 30 August, 43% fewer cases and 58% fewer deaths than a year earlier, and August's cases fell 25% from July. Afghanistan, Nigeria and DR Congo report the most cases. WHO rated the global risk very high in June, and 2025 brought the most cholera deaths reported to WHO since 1999. ECDC's separate count reached 291,272 cases and 2,471 deaths by 27 October. In Zambia, the health minister told Parliament on 29 October that a new outbreak has reached 1,622 cases and 30 deaths since 28 July, in 20 districts across six provinces, according to local media."
   },
   "figures": [
     {
@@ -233,7 +233,7 @@
       "Central African Republic": "ECDC reports new cholera deaths between 27 Jul and 26 Aug. Children under 10 account for 44% of reported cases (UNICEF, August).",
       "Haiti": "ECDC reports new cholera deaths between 27 Jul and 26 Aug.",
       "Republic of the Congo": "UNICEF lists it among six countries in West and Central Africa where outbreaks were accelerating in August.",
-      "Zambia": "Government declared a new outbreak after 304 cases and 11 deaths (Diggers, Zambia Monitor, 1 Oct). Health ministry on 17 Oct: 966 cases and 25 deaths in 12 districts across five provinces; oral vaccination campaign launched in Lusaka and Chibombo (Xinhua, Lusaka Times)."
+      "Zambia": "Government declared a new outbreak after 304 cases and 11 deaths (Diggers, Zambia Monitor, 1 Oct). Health minister to Parliament on 29 Oct, data to 28 Oct: 1,622 cases (228 laboratory-confirmed) and 30 deaths since 28 July, in 20 districts across six provinces (Diggers, Mwebantu). Earlier, health ministry on 17 Oct: 966 cases and 25 deaths; oral vaccination campaign launched in Lusaka and Chibombo (Xinhua, Lusaka Times)."
     },
     "note": "Latest sourced 2026 total for each country; dates vary. Nigeria is from WHO's August update (to 30 Aug), DR Congo from WHO via UN News (to 28 Sep) and Afghanistan from WHO's country office (to end of August); the rest are from ECDC's monthly overview (date in each note). Figures include suspected cases and acute watery diarrhoea. WHO counts 28 countries with cases this year: pale shading marks countries with cases but no total tracked here, and other countries aren't tracked here.",
     "sources": [
@@ -610,6 +610,23 @@
         {
           "name": "ECDC: cholera worldwide overview (27 Oct)",
           "url": "https://www.ecdc.europa.eu/en/public-health-events/2006-eip-00031/2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-zambia-1-622-cholera-cases",
+      "date": "2026-10-29",
+      "kind": "official",
+      "title": "Zambia: 1,622 cholera cases and 30 deaths",
+      "body": "Zambia's health minister told Parliament on 29 October that the new outbreak has reached 1,622 cases, 228 of them laboratory-confirmed, and 30 deaths between 28 July and 28 October, in 20 districts across six provinces, according to Diggers and Mwebantu. That is up from the 966 cases and 25 deaths the health ministry reported on 17 October. Lusaka province has the most cases, at 1,090.",
+      "sources": [
+        {
+          "name": "Diggers (30 Oct)",
+          "url": "https://diggers.news/local/2026/10/30/moh-records-1622-cholera-cases-30-deaths/"
+        },
+        {
+          "name": "Mwebantu",
+          "url": "https://www.mwebantu.com/cholera-death-toll-hits-30-as-cases-rise-to-1622"
         }
       ]
     }

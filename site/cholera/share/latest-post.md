@@ -1,5 +1,5 @@
-Cholera: ECDC's monthly overview counts 291,272 cases and 2,471 deaths worldwide from 1 Jan to 27 Oct, with 42,136 new cases since 28 Sep. WHO's count is 275,284 cases to 30 Aug.
+Cholera in Zambia: the health minister told Parliament on 29 Oct of 1,622 cases and 30 deaths since 28 July, in 20 districts across six provinces, per local media. ECDC's worldwide count: 291,272 cases (27 Oct).
 
 https://nhlebe1.github.io/ai-scheduler-platform/cholera/
 
-Sources: ECDC cholera worldwide overview (27 Oct); WHO Weekly Epidemiological Record (2 Oct).
+Sources: Zambia health minister's statement to Parliament via Diggers and Mwebantu (29-30 Oct); ECDC cholera worldwide overview (27 Oct).
