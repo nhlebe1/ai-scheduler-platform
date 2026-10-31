@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-10-31T06:50:00Z</updated>
+  <updated>2026-10-31T18:50:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>Nigeria identifies two suspected cases in the north-east</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-31-nigeria-identifies-two-suspected-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-31-nigeria-identifies-two-suspected-cases</id>
+    <updated>2026-10-31T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Nigeria's centre for disease control (NCDC) said on 31 October that it has identified two suspected Ebola cases in the north-east of the country. The two people are in isolation while laboratory tests and contact tracing begin. NCDC said that being classed as suspected does not mean a case is confirmed, and that confirmation depends on laboratory results. Nigeria's one confirmed case remains the imported case reported on 20 October.</summary>
+    <content type="html">&lt;p&gt;Nigeria's centre for disease control (NCDC) said on 31 October that it has identified two suspected Ebola cases in the north-east of the country. The two people are in isolation while laboratory tests and contact tracing begin. NCDC said that being classed as suspected does not mean a case is confirmed, and that confirmation depends on laboratory results. Nigeria's one confirmed case remains the imported case reported on 20 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.channelstv.com/2026/10/31/breaking-ncdc-identifies-two-suspected-cases-of-ebola-identified-in-north-east/"&gt;Channels Television (31 Oct)&lt;/a&gt;, &lt;a href="https://gazettengr.com/just-in-nigeria-records-two-suspected-ebola-cases-in-north-east/"&gt;Gazette NG&lt;/a&gt;, &lt;a href="https://tbsnews.net/world/nigeria-reports-two-suspected-ebola-cases-northeast-region-1588976"&gt;TBS News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>DR Congo deaths pass 5,000, government data show</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-30-dr-congo-deaths-pass-5-000"/>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.</summary>
     <content type="html">&lt;p&gt;Kenya's health ministry said a relative of the first patient, who was already in quarantine and under daily monitoring, tested positive after developing symptoms on 13 October. The ministry said it identified 128 contacts of the first patient and found no evidence of spread in the community. Kenya now has two confirmed cases and one death.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wral.com/news/ap/09bbb-kenya-confirms-second-ebola-case-a-relative-of-first-patient/"&gt;AP via WRAL&lt;/a&gt;, &lt;a href="https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"&gt;CBC&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/14/kenya-ebola-congo/d9c75bf2-c7e6-11f1-aefb-abe4112d087e_story.html"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>ECDC and CDC: 9,144 cases and 4,410 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-ecdc-and-cdc-9-144-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-14-ecdc-and-cdc-9-144-cases</id>
-    <updated>2026-10-14T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.</summary>
-    <content type="html">&lt;p&gt;ECDC reports 9,144 confirmed cases and 4,410 deaths in DR Congo as of 13 October (data to 12 October), with 899 patients in isolation in hospital and 65 of 167 health zones affected across 7 provinces. CDC's situation summary of 14 October lists the same DR Congo totals and 2 confirmed cases and 1 death in Kenya.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC&lt;/a&gt;, &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

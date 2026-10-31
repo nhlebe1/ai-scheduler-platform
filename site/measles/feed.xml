@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-10-30T18:50:00Z</updated>
+  <updated>2026-10-31T18:50:00Z</updated>
   <author><name>US Measles Tracker</name></author>
   <entry>
     <title>CDC: 4,852 cases, 264 more than last update</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>CDC's weekly update, with data as of 29 October, counts 4,852 confirmed cases, 264 more than in its previous update, with 511 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.</summary>
     <content type="html">&lt;p&gt;CDC's weekly update, with data as of 29 October, counts 4,852 confirmed cases, 264 more than in its previous update, with 511 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-10-30/us-measles-cases-rise-to-4-852-cdc-says"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://www.investing.com/news/general-news/us-measles-cases-rise-to-4852-cdc-says-4988335"&gt;Reuters via Investing.com&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-october-30-2026"&gt;Contagion Live&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Pennsylvania: 1,426 cases in 44 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-30-pennsylvania-1-426-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-30-pennsylvania-1-426-cases-in</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 30 October counts 1,426 confirmed cases in 44 counties, 28 more than on 28 October, with 268 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 30 October counts 1,426 confirmed cases in 44 counties, 28 more than on 28 October, with 268 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.abc27.com/news/confirmed-pennsylvania-measles-cases-increase-in-doh-update/"&gt;abc27 (30 Oct)&lt;/a&gt;, &lt;a href="https://local21news.com/newsletter-daily/over-1400-cases-reported-in-pennsylvania-amid-measles-outbreak-pa-infectious-disease-department-of-health-cdc-lancaster-county-mmr-vaccine"&gt;Local21 (WHP)&lt;/a&gt;, &lt;a href="https://www.northcentralpa.com/community/pennsylvania-measles-cases-reach-1-426-across-44-counties/article_fc4f8ef3-8986-4bb5-b4e6-c1c0fd39b8aa.html"&gt;North Central PA&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Pennsylvania: 1,398 cases in 44 counties</title>
