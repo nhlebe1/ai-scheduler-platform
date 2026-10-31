@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-10-30T18:50:00Z</updated>
+  <updated>2026-10-31T06:50:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Measles · US: CDC: 4,852 cases, 264 more than last update</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>CDC's weekly update, with data as of 29 October, counts 4,852 confirmed cases, 264 more than in its previous update, with 511 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.</summary>
     <content type="html">&lt;p&gt;CDC's weekly update, with data as of 29 October, counts 4,852 confirmed cases, 264 more than in its previous update, with 511 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases are linked to outbreaks. CDC counts 3 deaths; Pennsylvania reports 5 under its own definition.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-10-30/us-measles-cases-rise-to-4-852-cdc-says"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://www.investing.com/news/general-news/us-measles-cases-rise-to-4852-cdc-says-4988335"&gt;Reuters via Investing.com&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-october-30-2026"&gt;Contagion Live&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: DR Congo deaths pass 5,000, government data show</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-30-dr-congo-deaths-pass-5-000"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-30-dr-congo-deaths-pass-5-000</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.</summary>
+    <content type="html">&lt;p&gt;DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.yahoo.com/news/world/articles/ebola-deaths-congo-exceed-5-201746500.html"&gt;Reuters via Yahoo News (30 Oct)&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000"&gt;Al Jazeera (31 Oct)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Cholera · Global: Zambia: 1,622 cholera cases and 30 deaths</title>
@@ -112,8 +121,8 @@
     <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-nigeria-evacuates-its-ebola-patient</id>
     <updated>2026-10-26T12:00:00Z</updated>
     <category term="official"/>
-    <summary>Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria continues to follow 52 contacts for 21 days from their last possible exposure, AP reported.</summary>
-    <content type="html">&lt;p&gt;Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria continues to follow 52 contacts for 21 days from their last possible exposure, AP reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"&gt;AP via WSLS&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria's centre for disease control (NCDC) said it was following 54 primary contacts, monitored for 21 days from their last possible exposure.</summary>
+    <content type="html">&lt;p&gt;Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria's centre for disease control (NCDC) said it was following 54 primary contacts, monitored for 21 days from their last possible exposure.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"&gt;AP via WSLS&lt;/a&gt;, &lt;a href="https://www.channelstv.com/2026/10/26/ebola-nigeria-has-54-primary-contacts-now-many-are-in-quarantine-says-ncdc/"&gt;Channels TV (26 Oct)&lt;/a&gt;, &lt;a href="https://tribuneonlineng.com/ebola-ncdc-records-one-new-suspected-case-tracks-54-contacts/"&gt;Tribune Online&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Ebola · DR Congo: ECDC: 10,141 confirmed cases and 4,928 deaths</title>
@@ -213,15 +222,6 @@
     <category term="international"/>
     <summary>Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.</summary>
     <content type="html">&lt;p&gt;Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksat.com/health/2026/10/22/first-ebola-patients-in-nigeria-and-kenya-might-have-crossed-paths-at-uganda-airport/"&gt;AP via KSAT&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/did-nigeria-and-kenya-ebola-patients-cross-paths-in-uganda-airport/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: CDC requires an Ebola attestation for all US-bound air passengers</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-requires-an-ebola-attestation"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-requires-an-ebola-attestation</id>
-    <updated>2026-10-22T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.</summary>
-    <content type="html">&lt;p&gt;CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/port-health/legal-authorities/attestation-order.html"&gt;CDC order&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"&gt;NBC News&lt;/a&gt;, &lt;a href="https://www.cnbcafrica.com/2026/us-to-tighten-ebola-screening-with-new-air-passenger-declarations"&gt;CNBC Africa (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Dengue · Europe: Italy: 73 local dengue cases in 5 outbreaks</title>
