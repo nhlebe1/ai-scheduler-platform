@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-10-31T18:50:00Z",
-  "checked": "2026-11-01T18:45:00Z",
+  "updated": "2026-11-02T06:50:00Z",
+  "checked": "2026-11-02T06:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -526,7 +526,7 @@
     {
       "label": "PAHO decides on US elimination status",
       "status": "pending",
-      "note": "November 2026; exact date not announced"
+      "note": "PAHO's regional commission meets 10\u201313 Nov to review the US and Mexico (PAHO, 14 Oct); no decision announced yet"
     },
     {
       "label": "Pennsylvania outbreak declared over",
