@@ -1,5 +1,5 @@
-Ebola update: Nigeria's NCDC says both suspected cases in Adamawa State tested negative; the Abuja case remains the country's only confirmed one. In DR Congo, ECDC counts 10,274 confirmed cases and 4,992 deaths (data to 28 Oct).
+Ebola in DR Congo: a national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 Oct, after a data review added previously unallocated deaths (Africanews, Bloomberg). ECDC: 10,274 cases, 4,992 deaths to 28 Oct.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: NCDC statement via Premium Times, ThisDay (1 Nov) and Peoples Gazette; ECDC, Ebola disease multi-country outbreak 2026 (data to 28 Oct).
+Sources: DR Congo national health institute situation report via Africanews (2 Nov) and Bloomberg (1 Nov); ECDC, Ebola disease multi-country outbreak 2026 (data to 28 Oct).

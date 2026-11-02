@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-02T06:50:00Z</updated>
+  <updated>2026-11-02T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: DR Congo institute: 10,414 cases and 5,372 deaths as of 30 October</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-01-dr-congo-institute-10-414-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-01-dr-congo-institute-10-414-cases</id>
+    <updated>2026-11-01T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>A situation report from a DR Congo national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 October, a case fatality rate of 51.6%. Bloomberg names the National Institute of Public Health and Africanews the National Institute of Biomedical Research. Bloomberg reported that the rate rose above 50% after health authorities "added hundreds of previously unallocated fatalities to the official toll"; Africanews described the increase in deaths as "a retrospective adjustment of data between the local data processing team and the Ituri Province outbreak management team", not a single-day surge. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.</summary>
+    <content type="html">&lt;p&gt;A situation report from a DR Congo national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 October, a case fatality rate of 51.6%. Bloomberg names the National Institute of Public Health and Africanews the National Institute of Biomedical Research. Bloomberg reported that the rate rose above 50% after health authorities "added hundreds of previously unallocated fatalities to the official toll"; Africanews described the increase in deaths as "a retrospective adjustment of data between the local data processing team and the Ituri Province outbreak management team", not a single-day surge. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.africanews.com/2026/11/02/ebola-fatality-rate-in-dr-congo-tops-50-as-death-toll-reaches-5372/"&gt;Africanews (2 Nov)&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-11-01/dr-congo-ebola-outbreak-death-toll-tops-5-300-pushing-fatality-rate-above-50"&gt;Bloomberg (1 Nov)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Ebola · DR Congo: Nigeria identifies two suspected cases in the north-east</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-31-nigeria-identifies-two-suspected-cases"/>
@@ -51,6 +60,15 @@
     <category term="official"/>
     <summary>DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.</summary>
     <content type="html">&lt;p&gt;DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.yahoo.com/news/world/articles/ebola-deaths-congo-exceed-5-201746500.html"&gt;Reuters via Yahoo News (30 Oct)&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000"&gt;Al Jazeera (31 Oct)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Mpox · Africa &amp; world: Stanislaus County, California, reports four mpox cases, two clade I</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-29-stanislaus-county-reports-four"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-29-stanislaus-county-reports-four</id>
+    <updated>2026-10-29T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>Stanislaus County's health agency announced four mpox cases on 29 October. The state health department confirmed two as clade I; results for the other two were pending. The county's public health officer said the risk to the general public remains low.</summary>
+    <content type="html">&lt;p&gt;Stanislaus County's health agency announced four mpox cases on 29 October. The state health department confirmed two as clade I; results for the other two were pending. The county's public health officer said the risk to the general public remains low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.yahoo.com/news/us/articles/stanislaus-county-reports-four-confirmed-220624371.html"&gt;Yahoo News&lt;/a&gt;, &lt;a href="https://www.medicaldaily.com/stanislaus-county-four-mpox-cases-two-clade-i-480635"&gt;Medical Daily&lt;/a&gt;, &lt;a href="https://outbreaknewstoday.substack.com/p/california-clade-1-mpox-cases-reported"&gt;Outbreak News Today&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Cholera · Global: Zambia: 1,622 cholera cases and 30 deaths</title>
@@ -224,15 +242,6 @@
     <content type="html">&lt;p&gt;CEPI said the first participant was vaccinated on 23 October in Bunia, DR Congo, marking the start of Tumaini, a pivotal Phase 2/3 trial of vaccine candidates against Bundibugyo virus run with Epicentre, MSF, WHO and Africa CDC. Bloomberg reported that the first dose was Ervebo, which is licensed for the Zaire species; whether it protects against Bundibugyo is not yet known. Experimental candidates from Moderna and from Oxford with the Serum Institute of India could be added within weeks, Bloomberg reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc"&gt;CEPI&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-10-23/ebola-vaccine-trial-begins-in-congo-with-three-shots-in-sight"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Ebola · DR Congo: Kenya announces a second Ebola death</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-kenya-announces-a-second-ebola"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-23-kenya-announces-a-second-ebola</id>
-    <updated>2026-10-23T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.</summary>
-    <content type="html">&lt;p&gt;Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.news4jax.com/health/2026/10/23/kenya-announces-2nd-ebola-death-a-close-relative-of-the-first-patient/"&gt;AP via News4Jax&lt;/a&gt;, &lt;a href="https://www.the-star.co.ke/news/2026-10-24-kenya-records-second-ebola-death"&gt;The Star (Kenya)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Dengue · Europe: Italy: 73 local dengue cases in 5 outbreaks</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-22-italy-73-local-dengue-cases"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-22-italy-73-local-dengue-cases</id>
@@ -350,21 +359,12 @@
     <content type="html">&lt;p&gt;CDC's updated count is more than 90 clade I cases in at least 23 states and Puerto Rico, up from more than 80 in at least 22 states on 5 October. CDC says an increasing share of cases since August have no recent international travel, cases with presumed domestic transmission have been reported in more than 10 jurisdictions, and it rates the risk to most people as low.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/monkeypox/outbreaks/2023/index.html"&gt;CDC: clade I outbreaks&lt;/a&gt;, &lt;a href="https://www.cdc.gov/monkeypox/situation-summary/index.html"&gt;CDC: current situation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Cholera · Global: WHO: DR Congo has 51,412 suspected cholera cases this year</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-10-14-who-dr-congo-51-412-suspected</id>
+    <title>Mpox · Africa &amp; world: ECDC: 342 clade I cases in September, 1,939 in 12 months</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-ecdc-342-clade-i"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-14-ecdc-342-clade-i</id>
     <updated>2026-10-14T12:00:00Z</updated>
     <category term="international"/>
-    <summary>WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.</summary>
-    <content type="html">&lt;p&gt;WHO data reported by UN News count 51,412 suspected cases and 1,487 deaths in 21 provinces since the start of 2026. Cases and deaths rose in the week of 21 to 28 September, while DR Congo is also responding to its Ebola outbreak.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://news.un.org/en/story/2026/10/1168595"&gt;UN News&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: CDC to send more support to Pennsylvania</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-13-cdc-to-send-more-support"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-13-cdc-to-send-more-support</id>
-    <updated>2026-10-13T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC said it would send additional support to Pennsylvania's outbreak investigation after the state requested help through CDC's Epi-Aid programme.</summary>
-    <content type="html">&lt;p&gt;CDC said it would send additional support to Pennsylvania's outbreak investigation after the state requested help through CDC's Epi-Aid programme.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.newstribune.com/news/2026/oct/14/cdc-to-deploy-additional-support-to-pennsylvania/"&gt;AP via The News Tribune&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/cdc-measles-outbreak-pennsylvania-rkf-jr-rcna603665"&gt;NBC News&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>ECDC's update of 14 October reports 342 clade I mpox cases from 17 EU/EEA countries in September, with Spain reporting the most (94). Over the past 12 months, 23 countries have reported 1,939 clade I cases, and ECDC says reported cases have risen since June, mainly clade I. The count was 1,083 in ECDC's earlier update, covering the 12 months to July.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 14 October reports 342 clade I mpox cases from 17 EU/EEA countries in September, with Spain reporting the most (94). Over the past 12 months, 23 countries have reported 1,939 clade I cases, and ECDC says reported cases have risen since June, mainly clade I. The count was 1,083 in ECDC's earlier update, covering the 12 months to July.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2022-sti-00005/2026-10-14"&gt;ECDC: mpox periodic monitoring (14 Oct)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-42-2026.pdf"&gt;ECDC: Communicable disease threats report, week 42&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

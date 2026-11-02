@@ -1,5 +1,5 @@
-Mpox: the Southern Nevada Health District reported the first clade I case in a Clark County resident on 20 Oct, with no reported travel exposure. CDC counts more than 90 US clade I cases in at least 23 states and Puerto Rico (14 Oct).
+Mpox: ECDC reports 342 clade I cases from 17 EU/EEA countries in September and 1,939 over the past 12 months (update of 14 Oct). Stanislaus County, California, reported two clade I cases among four on 29 Oct.
 
 https://nhlebe1.github.io/ai-scheduler-platform/mpox/
 
-Sources: Southern Nevada Health District (20 Oct); CDC clade I outbreak page (14 Oct).
+Sources: ECDC mpox periodic monitoring (14 Oct) and threats report week 42; Stanislaus County announcement via Yahoo News and Medical Daily (29 Oct).

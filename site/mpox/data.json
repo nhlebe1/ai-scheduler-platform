@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-10-21T18:45:00Z",
-  "checked": "2026-11-02T06:50:00Z",
+  "updated": "2026-11-02T18:45:00Z",
+  "checked": "2026-11-02T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -85,8 +85,8 @@
     {
       "id": "europe",
       "label": "Clade I cases in the EU/EEA, past 12 months",
-      "value": 1083,
-      "note": "20 countries, Aug 2025–Jul 2026; 153 in July, 68 of them in Portugal (ECDC)",
+      "value": 1939,
+      "note": "23 countries, past 12 months; 342 in September, from 17 countries (ECDC update of 14 Oct)",
       "tone": "watch",
       "upIsBad": true
     }
@@ -362,7 +362,7 @@
     {
       "claim": "Clade Ib is spreading locally outside Africa",
       "status": "confirmed",
-      "detail": "WHO reported community transmission in countries including Germany, Spain, Portugal, Switzerland and Thailand by May 2026. ECDC counted 1,083 clade I cases in the EU/EEA in the 12 months to July, and CDC says sustained spread in the US is likely.",
+      "detail": "WHO reported community transmission in countries including Germany, Spain, Portugal, Switzerland and Thailand by May 2026. ECDC's update of 14 October counts 1,939 clade I cases in the EU/EEA over the past 12 months, and CDC says sustained spread in the US is likely.",
       "sources": [
         {
           "name": "WHO situation report 66 (PDF)",
@@ -388,7 +388,7 @@
     {
       "label": "Next ECDC monthly mpox report",
       "status": "pending",
-      "note": "Figures here are from ECDC's July data"
+      "note": "Figures here are from ECDC's September data (update of 14 Oct)"
     },
     {
       "label": "South Africa's clade results for all of its cases",
@@ -767,6 +767,23 @@
       ]
     },
     {
+      "id": "2026-10-14-ecdc-342-clade-i",
+      "date": "2026-10-14",
+      "kind": "international",
+      "title": "ECDC: 342 clade I cases in September, 1,939 in 12 months",
+      "body": "ECDC's update of 14 October reports 342 clade I mpox cases from 17 EU/EEA countries in September, with Spain reporting the most (94). Over the past 12 months, 23 countries have reported 1,939 clade I cases, and ECDC says reported cases have risen since June, mainly clade I. The count was 1,083 in ECDC's earlier update, covering the 12 months to July.",
+      "sources": [
+        {
+          "name": "ECDC: mpox periodic monitoring (14 Oct)",
+          "url": "https://www.ecdc.europa.eu/en/public-health-events/2022-sti-00005/2026-10-14"
+        },
+        {
+          "name": "ECDC: Communicable disease threats report, week 42",
+          "url": "https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-42-2026.pdf"
+        }
+      ]
+    },
+    {
       "id": "2026-10-18-south-africa-reports-26-mpox",
       "date": "2026-10-18",
       "kind": "official",
@@ -801,6 +818,27 @@
         {
           "name": "8 News Now",
           "url": "https://www.8newsnow.com/news/local-news/health-district-reports-first-clade-i-mpox-case-in-clark-county-resident/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-stanislaus-county-reports-four",
+      "date": "2026-10-29",
+      "kind": "official",
+      "title": "Stanislaus County, California, reports four mpox cases, two clade I",
+      "body": "Stanislaus County's health agency announced four mpox cases on 29 October. The state health department confirmed two as clade I; results for the other two were pending. The county's public health officer said the risk to the general public remains low.",
+      "sources": [
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/stanislaus-county-reports-four-confirmed-220624371.html"
+        },
+        {
+          "name": "Medical Daily",
+          "url": "https://www.medicaldaily.com/stanislaus-county-four-mpox-cases-two-clade-i-480635"
+        },
+        {
+          "name": "Outbreak News Today",
+          "url": "https://outbreaknewstoday.substack.com/p/california-clade-1-mpox-cases-reported"
         }
       ]
     }
@@ -968,7 +1006,7 @@
       "europe": "EU clade I, 12 mo"
     },
     "sources": "WHO, Africa CDC, ECDC, CDC",
-    "foot": "WHO data to 16 Aug · ECDC to 31 Jul"
+    "foot": "WHO data to 16 Aug · ECDC to 30 Sep"
   },
-  "postExtra": "ECDC counted 1,083 clade I cases in the EU/EEA in the 12 months to July."
+  "postExtra": "ECDC counts 1,939 clade I cases in the EU/EEA over the past 12 months, 342 of them in September (update of 14 Oct)."
 }
