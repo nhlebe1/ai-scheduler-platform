@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-04T06:55:00Z",
-  "checked": "2026-11-04T06:55:00Z",
+  "updated": "2026-11-04T18:45:00Z",
+  "checked": "2026-11-04T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -310,7 +310,7 @@
       "Florida": 141,
       "Ohio": 122,
       "Arizona": 110,
-      "New York": 108,
+      "New York": 178,
       "California": 48,
       "Washington": 45,
       "North Dakota": 38
@@ -325,13 +325,21 @@
       "Florida": "Confirmed cases, July.",
       "Ohio": "State health dept, about 9 Sep.",
       "Arizona": "CDC, 10 Sep.",
-      "New York": "Governor's office, 3 Oct. Includes 7 in New York City.",
+      "New York": "New York State health department, as of 24 Oct, via CNN and NBC News (2 Nov). Cases in 10 upstate counties and 8 in New York City.",
       "California": "CDC, 23 Jul.",
       "Washington": "CDC, 23 Jul.",
       "North Dakota": "CDC, 23 Jul."
     },
     "note": "Latest sourced count for each state; dates vary (see each state). 45 states have reported cases this year; states not listed aren't tracked here yet.",
     "sources": [
+      {
+        "name": "NBC News (2 Nov)",
+        "url": "https://www.nbcnews.com/health/health-news/new-york-measles-death-rcna607137"
+      },
+      {
+        "name": "CNN (2 Nov)",
+        "url": "https://www.cnn.com/2026/11/02/health/new-york-measles-death"
+      },
       {
         "name": "North Central PA (30 Oct)",
         "url": "https://www.northcentralpa.com/community/pennsylvania-measles-cases-reach-1-426-across-44-counties/article_fc4f8ef3-8986-4bb5-b4e6-c1c0fd39b8aa.html"

@@ -1,5 +1,3 @@
-Ebola in DR Congo: a national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 Oct, after a data review added previously unallocated deaths (Africanews, Bloomberg). ECDC: 10,274 cases, 4,992 deaths to 28 Oct.
+Ebola in DR Congo: ECDC now counts 10,532 confirmed cases and 5,126 deaths (data to 1 Nov). Kenya released 46 more contacts on 3 Nov; its count stays at 9 cases, 2 fatal. CDC's flight attestation rule is in force. https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-https://nhlebe1.github.io/ai-scheduler-platform/ebola/
-
-Sources: DR Congo national health institute situation report via Africanews (2 Nov) and Bloomberg (1 Nov); ECDC, Ebola disease multi-country outbreak 2026 (data to 28 Oct).
+Sources: ECDC (ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda); Kenya News Agency; Washington Times; CDC order; Newsweek
