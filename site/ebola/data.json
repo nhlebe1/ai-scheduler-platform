@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-11-04T18:45:00Z",
-  "checked": "2026-11-04T18:45:00Z",
+  "updated": "2026-11-05T06:55:00Z",
+  "checked": "2026-11-05T06:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -1927,6 +1927,19 @@
         {
           "name": "Newsweek",
           "url": "https://newsweek.com/new-ebola-travel-rule-kicks-in-for-all-passengers-heading-to-us-12661056"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-who-expert-groups-recommend-two",
+      "date": "2026-11-04",
+      "kind": "international",
+      "title": "WHO expert groups recommend two more candidate vaccines for the Tumaini trial",
+      "body": "WHO said its independent vaccine advisory group recommended two candidates, ChAdOx1 BDBV and Moderna's mRNA-1469, for further clinical evaluation. They are expected to join the Tumaini trial in DR Congo once national approvals are in place.",
+      "sources": [
+        {
+          "name": "WHO (4 Nov)",
+          "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances"
         }
       ]
     }

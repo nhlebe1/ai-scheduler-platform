@@ -1,3 +1,3 @@
-New York State health officials announced a measles-associated death on 2 Nov, the state's first in more than 30 years. CDC counts 4,852 US cases as of 29 Oct. https://nhlebe1.github.io/ai-scheduler-platform/measles/
+US measles: CDC counts 4,852 confirmed cases as of 29 Oct. Pennsylvania's health department reports 1,467 cases in 45 counties and a sixth confirmed death (4 Nov); CDC's national death count was 3. https://nhlebe1.github.io/ai-scheduler-platform/measles/
 
-Sources: CNN, STAT, The Washington Post (2-3 Nov); CDC (29 Oct)
+Sources: CDC (29 Oct, via Reuters, Contagion Live); Pennsylvania Dept. of Health (pa.gov, 4 Nov); U.S. News

@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-04T18:45:00Z",
-  "checked": "2026-11-04T18:45:00Z",
+  "updated": "2026-11-05T06:55:00Z",
+  "checked": "2026-11-05T06:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 4,852, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,433 cases and New York has declared a disaster emergency.",
+  "headline": "US measles cases reach 4,852, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,467 cases and six confirmed deaths, and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 4,852 confirmed cases as of 29 October, 264 more than in its previous update, with 511 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,433 cases in 44 counties, 269 hospitalisations and five confirmed deaths by the state's count (2 November), while CDC counts three, a figure it confirmed on 20 October. On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 4,852 confirmed cases as of 29 October, 264 more than in its previous update, with 511 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,467 cases in 45 counties, 283 hospitalisations and six confirmed deaths by the state's count (4 November), while CDC counts three, a figure it confirmed on 20 October. On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -90,7 +90,7 @@
       "id": "deaths",
       "label": "Deaths (CDC count)",
       "value": 3,
-      "note": "CDC, 29 Oct. Pennsylvania reports 5 under its own definition; CDC counts only deaths confirmed by death certificate",
+      "note": "CDC, 29 Oct. Pennsylvania reports 6 under its own definition (4 Nov); CDC counts only deaths confirmed by death certificate",
       "tone": "critical",
       "upIsBad": true
     }
@@ -301,7 +301,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1433,
+      "Pennsylvania": 1467,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -316,7 +316,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 2 Nov. 44 counties, 269 hospitalisations, 5 confirmed deaths.",
+      "Pennsylvania": "State health dept, 4 Nov. 45 counties, 283 hospitalisations, 6 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -332,6 +332,10 @@
     },
     "note": "Latest sourced count for each state; dates vary (see each state). 45 states have reported cases this year; states not listed aren't tracked here yet.",
     "sources": [
+      {
+        "name": "Pennsylvania Dept. of Health (4 Nov)",
+        "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-sixth-measles-associated-death"
+      },
       {
         "name": "NBC News (2 Nov)",
         "url": "https://www.nbcnews.com/health/health-news/new-york-measles-death-rcna607137"
@@ -450,10 +454,14 @@
       ]
     },
     {
-      "claim": "Pennsylvania has had five measles deaths this year",
+      "claim": "Pennsylvania has had six measles deaths this year",
       "status": "confirmed",
-      "detail": "Confirmed by the state health department. CDC's national count is three (20 October) because it only counts deaths confirmed through death certificates.",
+      "detail": "Confirmed by the state health department on 4 November. CDC's national count is three (20 October) because it only counts deaths confirmed through death certificates.",
       "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health (4 Nov)",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-sixth-measles-associated-death"
+        },
         {
           "name": "Pennsylvania Dept. of Health",
           "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out8"
@@ -544,7 +552,7 @@
     {
       "label": "CDC and Pennsylvania death counts reconciled",
       "status": "pending",
-      "note": "Pennsylvania's review of a sixth reported death (Franklin County) was still under way as of 28 Oct"
+      "note": "Pennsylvania confirmed a sixth death on 4 Nov; CDC's national count was three as of 29 Oct"
     }
   ],
   "positions": [
@@ -552,7 +560,7 @@
       "who": "Pennsylvania Department of Health",
       "kind": "official",
       "date": "2026-10-26",
-      "text": "1,360 cases in 44 counties, 258 hospitalised and 5 confirmed measles-associated deaths. The department is still investigating a further death reported in Franklin County."
+      "text": "1,360 cases in 44 counties, 258 hospitalised and 5 confirmed measles-associated deaths. The department was still investigating a further reported death."
     },
     {
       "who": "CDC",
@@ -1144,6 +1152,23 @@
           "url": "https://www.washingtonpost.com/health/2026/11/02/new-york-reports-its-first-measles-associated-death-more-than-30-years/"
         }
       ]
+    },
+    {
+      "id": "2026-11-04-pennsylvania-confirms-sixth-measles-associated",
+      "date": "2026-11-04",
+      "kind": "official",
+      "title": "Pennsylvania: 1,467 cases, sixth death confirmed",
+      "body": "The state health department's update of 4 November counts 1,467 confirmed cases in 45 counties, with 283 hospitalisations and 6 confirmed measles-associated deaths. It confirmed a sixth death, in an unvaccinated person, and said 34 cases were newly confirmed since 2 November. Five cases were in vaccinated people, less than 1% of the total.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health (4 Nov)",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-sixth-measles-associated-death"
+        },
+        {
+          "name": "U.S. News (4 Nov)",
+          "url": "https://www.usnews.com/news/us/articles/2026-11-04/pennsylvania-reports-sixth-measles-linked-death-as-cases-rise"
+        }
+      ]
     }
   ],
   "context": {
@@ -1275,7 +1300,7 @@
   ],
   "card": {
     "title": "US measles: 4,852 cases, most since 1991",
-    "sub": "CDC counts 4,852 confirmed cases as of 29 Oct, 264 more than its previous update. Pennsylvania has reached 1,433. New York has declared a disaster emergency.",
+    "sub": "CDC: 4,852 confirmed cases as of 29 Oct. Pennsylvania reports 1,467 cases and six deaths (4 Nov). New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1291,5 +1316,5 @@
     "sources": "CDC, Pennsylvania DOH (via Reuters), NY Governor, PAHO",
     "foot": "CDC data as of 29 Oct · updated weekly"
   },
-  "postExtra": "Pennsylvania's health department reports 1,433 cases (2 Nov)."
+  "postExtra": "Pennsylvania's health department reports 1,467 cases and six deaths (4 Nov)."
 }
