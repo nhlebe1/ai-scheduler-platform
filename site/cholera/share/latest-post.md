@@ -1,5 +1,3 @@
-Cholera in Zambia: the health minister told Parliament on 29 Oct of 1,622 cases and 30 deaths since 28 July, in 20 districts across six provinces, per local media. ECDC's worldwide count: 291,272 cases (27 Oct).
+Cholera: WHO's Tedros said on 4 Nov that DR Congo has recorded more than 60,000 cases and 1,800 deaths this year, its worst cholera outbreak in decades (rounded figures, per AFP). Global tracker with every source: https://nhlebe1.github.io/ai-scheduler-platform/cholera/
 
-https://nhlebe1.github.io/ai-scheduler-platform/cholera/
-
-Sources: Zambia health minister's statement to Parliament via Diggers and Mwebantu (29-30 Oct); ECDC cholera worldwide overview (27 Oct).
+Sources: WHO Director-General remarks via AFP (https://medicalxpress.com/news/2026-11-dead-cholera-ebola-dr-congo.html); Bastille Post (https://www.bastillepost.com/global/article/6328494-cholera-kills-1800-in-drc-this-year-as-who-warns-of-possible-spread-to-kinshasa)

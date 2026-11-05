@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-05T06:55:00Z</updated>
+  <updated>2026-11-05T18:50:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Cholera · Global: WHO's Tedros: more than 60,000 cases and 1,800 deaths in DR Congo this year</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-11-05-who-s-tedros-more-than-60-000"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/cholera/#2026-11-05-who-s-tedros-more-than-60-000</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>WHO Director-General Tedros Adhanom Ghebreyesus said at a Geneva briefing, reported on 4 and 5 November, that DR Congo is seeing its worst cholera outbreak in decades, with more than 60,000 cases and 1,800 deaths so far this year. These are rounded figures quoted in his remarks; the country figures on the map come from an earlier count.</summary>
+    <content type="html">&lt;p&gt;WHO Director-General Tedros Adhanom Ghebreyesus said at a Geneva briefing, reported on 4 and 5 November, that DR Congo is seeing its worst cholera outbreak in decades, with more than 60,000 cases and 1,800 deaths so far this year. These are rounded figures quoted in his remarks; the country figures on the map come from an earlier count.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://medicalxpress.com/news/2026-11-dead-cholera-ebola-dr-congo.html"&gt;AFP via Medical Xpress&lt;/a&gt;, &lt;a href="https://www.bastillepost.com/global/article/6328494-cholera-kills-1800-in-drc-this-year-as-who-warns-of-possible-spread-to-kinshasa"&gt;Bastille Post&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: Pennsylvania: 1,467 cases, sixth death confirmed</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-04-pennsylvania-confirms-sixth-measles-associated"/>
@@ -357,14 +366,5 @@
     <category term="official"/>
     <summary>The state health department's update counts 1,260 confirmed cases, 238 hospitalisations and 5 confirmed measles-associated deaths, with 38 new cases since 14 October. The department has not yet confirmed the death reported by the Franklin County coroner.</summary>
     <content type="html">&lt;p&gt;The state health department's update counts 1,260 confirmed cases, 238 hospitalisations and 5 confirmed measles-associated deaths, with 38 new cases since 14 October. The department has not yet confirmed the death reported by the Franklin County coroner.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.yahoo.com/news/us/articles/doh-confirms-more-measles-cases-200025658.html"&gt;WBRE/WYOU via Yahoo News&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Dengue · Europe: Italy: 70 local dengue cases; France unchanged at 6</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-15-italy-70-local-dengue-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/dengue/#2026-10-15-italy-70-local-dengue-cases</id>
-    <updated>2026-10-15T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The ISS bulletin of 15 October counts 357 confirmed dengue cases from 1 January to 13 October; 70 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired. Santé publique France's 14 October bulletin (data to 12 October) counts 4 local dengue episodes with 6 cases, with no new dengue episode, and 22 local chikungunya episodes with 162 cases.</summary>
-    <content type="html">&lt;p&gt;The ISS bulletin of 15 October counts 357 confirmed dengue cases from 1 January to 13 October; 70 were locally acquired, linked to 5 outbreaks plus 1 case not linked to the others, and there were no deaths. One of 30 chikungunya cases was locally acquired. Santé publique France's 14 October bulletin (data to 12 October) counts 4 local dengue episodes with 6 cases, with no new dengue episode, and 22 local chikungunya episodes with 162 cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quotidianosanita.it/scienza-e-farmaci/arbovirosi-dengue-a-357-casi-chikungunya-a-30-west-nile-770-contagi-e-61-decessi/"&gt;Quotidiano Sanità&lt;/a&gt;, &lt;a href="https://agensalute.it/2026/10/15/iss-357-casi-confermati-dengue-30-chikungunya-770-west-nile/"&gt;Agensalute&lt;/a&gt;, &lt;a href="https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-26"&gt;Santé publique France bulletin, 14 Oct&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
