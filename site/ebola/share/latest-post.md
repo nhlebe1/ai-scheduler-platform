@@ -1,3 +1,3 @@
-Ebola (Bundibugyo): WHO says its expert groups recommended two more candidate vaccines, ChAdOx1 BDBV and mRNA-1469, for the Tumaini trial in DR Congo, pending national approvals (4 Nov). https://nhlebe1.github.io/ai-scheduler-platform/ebola/
+CDC's Ebola situation summary (5 Nov) lists 10,668 confirmed cases and 5,198 deaths in DR Congo as of 3 Nov. DR Congo's national institute: 10,414 cases, 5,372 deaths as of 30 Oct; ECDC: 10,532 and 5,126 to 1 Nov. https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: WHO news release (who.int, 4 Nov); ECDC for latest counts
+Sources: CDC situation summary https://www.cdc.gov/ebola/situation-summary/index.html; ECDC; DR Congo national health institute via Africanews and Bloomberg.
