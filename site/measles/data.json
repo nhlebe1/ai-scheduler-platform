@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-05T06:55:00Z",
-  "checked": "2026-11-06T06:50:00Z",
+  "updated": "2026-11-06T18:50:00Z",
+  "checked": "2026-11-06T18:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 4,852, the most since 1991, CDC says. Pennsylvania's outbreak has reached 1,467 cases and six confirmed deaths, and New York has declared a disaster emergency.",
+  "headline": "US measles cases reach 5,182, the highest annual total in 35 years, CDC says. Pennsylvania's outbreak has reached 1,467 cases and six confirmed deaths, and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 4,852 confirmed cases as of 29 October, 264 more than in its previous update, with 511 hospitalisations and 43 new outbreaks reported in 2026. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,467 cases in 45 counties, 283 hospitalisations and six confirmed deaths by the state's count (4 November), while CDC counts three, a figure it confirmed on 20 October. On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body will decide in November whether the US has lost the measles elimination status it has held since 2000."
+    "summary": "CDC counted 5,182 confirmed cases as of 5 November, 330 more than in its previous update, with 562 hospitalisations and 43 new outbreaks reported in 2026, Reuters reported. CDC counts four deaths, subject to change as reviews continue. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,467 cases in 45 counties, 283 hospitalisations and six confirmed deaths by the state's count (4 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body meets from 10 to 13 November to review the measles elimination status the US has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -65,8 +65,8 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 4852,
-      "note": "CDC, as of 29 Oct (Reuters, Contagion Live)",
+      "value": 5182,
+      "note": "CDC, as of 5 Nov (Reuters, via U.S. News)",
       "tone": "critical",
       "upIsBad": true
     },
@@ -82,15 +82,15 @@
       "id": "outbreaks",
       "label": "New outbreaks in 2026",
       "value": 43,
-      "note": "About 96% of cases are linked to outbreaks (CDC, as of 29 Oct; Contagion Live)",
+      "note": "About 96% of cases are linked to outbreaks (CDC, as of 5 Nov; Reuters, via U.S. News)",
       "tone": "watch",
       "upIsBad": true
     },
     {
       "id": "deaths",
       "label": "Deaths (CDC count)",
-      "value": 3,
-      "note": "CDC, 29 Oct. Pennsylvania reports 6 under its own definition (4 Nov); CDC counts only deaths confirmed by death certificate",
+      "value": 4,
+      "note": "CDC, as of 5 Nov, subject to change (Reuters). Pennsylvania reports 6 under its own definition (4 Nov); CDC counts only deaths confirmed by death certificate",
       "tone": "critical",
       "upIsBad": true
     }
@@ -162,12 +162,20 @@
         "outbreaks": 43,
         "deaths": 3
       }
+    },
+    {
+      "date": "2026-11-05",
+      "values": {
+        "cases": 5182,
+        "outbreaks": 43,
+        "deaths": 4
+      }
     }
   ],
   "trend": {
     "title": "US measles cases per year",
     "unit": "Confirmed cases",
-    "note": "2026 is year to date (29 Oct). Tap or hover a bar for its value.",
+    "note": "2026 is year to date (5 Nov). Tap or hover a bar for its value.",
     "labelHeader": "Year",
     "valueHeader": "Cases",
     "highlight": "2026",
@@ -238,11 +246,15 @@
       },
       {
         "label": "2026",
-        "value": 4852,
+        "value": 5182,
         "note": "year to date"
       }
     ],
     "sources": [
+      {
+        "name": "Reuters via U.S. News (CDC data, 5 Nov)",
+        "url": "https://www.usnews.com/news/us/articles/2026-11-06/us-measles-cases-rise-to-5-182-cdc-says"
+      },
       {
         "name": "Contagion Live (CDC data, 30 Oct)",
         "url": "https://www.contagionlive.com/view/measles-update-october-30-2026"
@@ -456,7 +468,7 @@
     {
       "claim": "Pennsylvania has had six measles deaths this year",
       "status": "confirmed",
-      "detail": "Confirmed by the state health department on 4 November. CDC's national count is three (20 October) because it only counts deaths confirmed through death certificates.",
+      "detail": "Confirmed by the state health department on 4 November. CDC's national count is four (5 November) because it only counts deaths confirmed through death certificates.",
       "sources": [
         {
           "name": "Pennsylvania Dept. of Health (4 Nov)",
@@ -479,7 +491,7 @@
     {
       "claim": "2026 is the worst US measles year since 1991",
       "status": "confirmed",
-      "detail": "2026 passed 2025's total of 2,289 in July. The 4,852 cases counted by 29 October are the most since 1991's 9,643.",
+      "detail": "2026 passed 2025's total of 2,289 in July. The 5,182 cases counted by 5 November are the most since 1991's 9,643.",
       "sources": [
         {
           "name": "ABC News",
@@ -511,8 +523,13 @@
     {
       "label": "Next weekly CDC update",
       "date": "2026-11-06",
+      "status": "done"
+    },
+    {
+      "label": "Next weekly CDC update",
+      "date": "2026-11-13",
       "status": "pending",
-      "note": "CDC has published weekly on Fridays (data as of Thursday). Expected date, not announced."
+      "note": "CDC has published weekly (data as of Thursday). Expected date, not announced."
     },
     {
       "label": "Next weekly CDC update",
@@ -552,7 +569,7 @@
     {
       "label": "CDC and Pennsylvania death counts reconciled",
       "status": "pending",
-      "note": "Pennsylvania confirmed a sixth death on 4 Nov; CDC's national count was three as of 29 Oct"
+      "note": "Pennsylvania confirmed a sixth death on 4 Nov; CDC's national count was four as of 5 Nov"
     }
   ],
   "positions": [
@@ -589,8 +606,8 @@
     {
       "who": "CDC",
       "kind": "official",
-      "date": "2026-10-30",
-      "text": "4,852 confirmed cases and 3 deaths so far in 2026, as of 29 October; 96% of cases are linked to outbreaks."
+      "date": "2026-11-06",
+      "text": "5,182 confirmed cases and 4 deaths so far in 2026, as of 5 November; 96% of cases are linked to outbreaks."
     }
   ],
   "timeline": [
@@ -1169,6 +1186,23 @@
           "url": "https://www.usnews.com/news/us/articles/2026-11-04/pennsylvania-reports-sixth-measles-linked-death-as-cases-rise"
         }
       ]
+    },
+    {
+      "id": "2026-11-06-cdc-5-182-cases-330",
+      "date": "2026-11-06",
+      "kind": "official",
+      "title": "CDC: 5,182 cases, 330 more than last update",
+      "body": "CDC's weekly update, with data as of 5 November, counts 5,182 confirmed cases, 330 more than in its previous update, with 562 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases (4,993) are linked to outbreaks. CDC counts four deaths and says the number is subject to change as reviews continue; Pennsylvania reports six under its own definition.",
+      "sources": [
+        {
+          "name": "Reuters via U.S. News",
+          "url": "https://www.usnews.com/news/us/articles/2026-11-06/us-measles-cases-rise-to-5-182-cdc-says"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-measles-cases-top-5-000-for-the-first-time-since-the-1990s"
+        }
+      ]
     }
   ],
   "context": {
@@ -1231,7 +1265,7 @@
       },
       {
         "year": "2026",
-        "text": "4,852 cases by 29 October. Elimination status under review."
+        "text": "5,182 cases by 5 November. Elimination status under review."
       }
     ],
     "historySources": [
@@ -1299,8 +1333,8 @@
     }
   ],
   "card": {
-    "title": "US measles: 4,852 cases, most since 1991",
-    "sub": "CDC: 4,852 confirmed cases as of 29 Oct. Pennsylvania reports 1,467 cases and six deaths (4 Nov). New York has declared a disaster emergency.",
+    "title": "US measles: 5,182 cases, highest in 35 years",
+    "sub": "CDC: 5,182 confirmed cases as of 5 Nov. Pennsylvania reports 1,467 cases and six deaths (4 Nov). New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1314,7 +1348,7 @@
       "deaths": "Deaths (CDC)"
     },
     "sources": "CDC, Pennsylvania DOH (via Reuters), NY Governor, PAHO",
-    "foot": "CDC data as of 29 Oct · updated weekly"
+    "foot": "CDC data as of 5 Nov · updated weekly"
   },
-  "postExtra": "Pennsylvania's health department reports 1,467 cases and six deaths (4 Nov)."
+  "postExtra": "CDC counts 4 deaths; Pennsylvania's health department reports six (4 Nov)."
 }
