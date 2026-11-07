@@ -1,5 +1,3 @@
-Local dengue in Europe: Italy counts 76 locally acquired cases in 2026 (ISS, data to 27 Oct) and France 8 (Santé publique France, to 26 Oct), 84 in all. The 2024 record was 304.
+Dengue in Europe: Italy's ISS counts 76 locally acquired cases (data to 3 Nov) and France 8 (to 2 Nov), 84 in all, against a record 304 in 2024. France's local chikungunya count is 208. https://nhlebe1.github.io/ai-scheduler-platform/dengue/
 
-https://nhlebe1.github.io/ai-scheduler-platform/dengue/
-
-Sources: Istituto Superiore di Sanità (EpiCentro, data to 27 Oct; Quotidiano Sanità); Santé publique France bulletin of 28 Oct (via La Veille Acteurs de Santé).
+Sources: ISS update via Quotidiano Sanità (6 Nov); Santé publique France bulletin (4 Nov).

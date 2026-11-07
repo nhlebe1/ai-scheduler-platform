@@ -20,7 +20,7 @@
       },
       "headline": "US measles cases reach 5,182, the highest annual total in 35 years, CDC says. Pennsylvania's outbreak has reached 1,487 cases and six confirmed deaths, and New York has declared a disaster emergency.",
       "updated": "2026-11-07T06:50:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -67,7 +67,7 @@
       },
       "headline": "DR Congo's national health institute reports 10,414 confirmed Ebola cases and 5,372 deaths as of 30 October, Africanews and Bloomberg reported on 1 and 2 November, after previously unallocated deaths were added to the toll. ECDC's latest count, from data up to 4 November, is 10,741 cases and 5,230 deaths. The outbreak is in eight provinces. Kenya has confirmed nine cases, two of them fatal, and Nigeria one imported case.",
       "updated": "2026-11-07T06:50:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-11-02T18:45:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-11-05T18:50:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -204,11 +204,11 @@
       "status": {
         "level": "active",
         "label": "Active · local cases in Italy and France",
-        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 76 local cases by 27 October, up from 73 by 20 October, when they were linked to 5 outbreaks plus 2 cases not linked to the others, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October; Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 26 October), with no new episode since its previous bulletin. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 76 local cases by 3 November, unchanged from 27 October (73 by 20 October). On 20 October they were linked to 5 outbreaks plus 2 cases not linked to the others, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October. Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 2 November), with no new episode since its previous bulletin. The total is well below the 2024 record of 304. ECDC reports weekly until November."
       },
       "headline": "Italy has 76 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
-      "updated": "2026-10-29T18:45:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "updated": "2026-11-07T18:45:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -224,21 +224,21 @@
         },
         {
           "label": "Local chikungunya cases (context)",
-          "value": 206,
+          "value": 209,
           "unit": "",
           "tone": "watch"
         }
       ],
       "latest": [
         {
-          "date": "2026-10-29",
-          "title": "Italy: 76 local dengue cases",
-          "id": "2026-10-29-italy-76-local-dengue-cases"
+          "date": "2026-11-06",
+          "title": "Italy: local dengue cases stay at 76",
+          "id": "2026-11-06-italy-dengue-unchanged-at-76"
         },
         {
-          "date": "2026-10-28",
-          "title": "France: 8 local dengue cases in 5 episodes; local chikungunya at 205",
-          "id": "2026-10-28-france-8-local-dengue-cases"
+          "date": "2026-11-04",
+          "title": "France: dengue unchanged at 8 cases, chikungunya at 208",
+          "id": "2026-11-04-france-208-local-chikungunya-cases"
         }
       ]
     },
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-11-07T06:50:00Z",
+      "checked": "2026-11-07T18:45:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
