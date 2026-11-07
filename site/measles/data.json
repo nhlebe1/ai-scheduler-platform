@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-06T18:50:00Z",
-  "checked": "2026-11-06T18:50:00Z",
+  "updated": "2026-11-07T06:50:00Z",
+  "checked": "2026-11-07T06:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 5,182, the highest annual total in 35 years, CDC says. Pennsylvania's outbreak has reached 1,467 cases and six confirmed deaths, and New York has declared a disaster emergency.",
+  "headline": "US measles cases reach 5,182, the highest annual total in 35 years, CDC says. Pennsylvania's outbreak has reached 1,487 cases and six confirmed deaths, and New York has declared a disaster emergency.",
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 5,182 confirmed cases as of 5 November, 330 more than in its previous update, with 562 hospitalisations and 43 new outbreaks reported in 2026, Reuters reported. CDC counts four deaths, subject to change as reviews continue. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,467 cases in 45 counties, 283 hospitalisations and six confirmed deaths by the state's count (4 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body meets from 10 to 13 November to review the measles elimination status the US has held since 2000."
+    "summary": "CDC counted 5,182 confirmed cases as of 5 November, 330 more than in its previous update, with 562 hospitalisations and 43 new outbreaks reported in 2026, Reuters reported. CDC counts four deaths, subject to change as reviews continue. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,487 cases in 45 counties, 287 hospitalisations and six confirmed deaths by the state's count (6 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body meets from 10 to 13 November to review the measles elimination status the US has held since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -313,7 +313,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1467,
+      "Pennsylvania": 1487,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -328,7 +328,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 4 Nov. 45 counties, 283 hospitalisations, 6 confirmed deaths.",
+      "Pennsylvania": "State health dept, 6 Nov. 45 counties, 287 hospitalisations, 6 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -344,6 +344,10 @@
     },
     "note": "Latest sourced count for each state; dates vary (see each state). 45 states have reported cases this year; states not listed aren't tracked here yet.",
     "sources": [
+      {
+        "name": "River Reporter (6 Nov)",
+        "url": "https://riverreporter.com/stories/cases-reach-1487-in-45-counties-in-pennsylvania-measles-outbreak,284820"
+      },
       {
         "name": "Pennsylvania Dept. of Health (4 Nov)",
         "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-sixth-measles-associated-death"
@@ -1203,6 +1207,23 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-measles-cases-top-5-000-for-the-first-time-since-the-1990s"
         }
       ]
+    },
+    {
+      "id": "2026-11-06-pennsylvania-1-487-cases-in",
+      "date": "2026-11-06",
+      "kind": "official",
+      "title": "Pennsylvania: 1,487 cases in 45 counties",
+      "body": "The state health department's update of 6 November counts 1,487 confirmed cases in 45 counties, 20 more than on 4 November, with 287 hospitalisations and 6 confirmed measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.",
+      "sources": [
+        {
+          "name": "River Reporter (6 Nov)",
+          "url": "https://riverreporter.com/stories/cases-reach-1487-in-45-counties-in-pennsylvania-measles-outbreak,284820"
+        },
+        {
+          "name": "ABC27 (6 Nov)",
+          "url": "https://www.abc27.com/pennsylvania/pennsylvania-reaches-1487-reported-measles-cases-in-friday-update/"
+        }
+      ]
     }
   ],
   "context": {
@@ -1334,7 +1355,7 @@
   ],
   "card": {
     "title": "US measles: 5,182 cases, highest in 35 years",
-    "sub": "CDC: 5,182 confirmed cases as of 5 Nov. Pennsylvania reports 1,467 cases and six deaths (4 Nov). New York has declared a disaster emergency.",
+    "sub": "CDC: 5,182 confirmed cases as of 5 Nov. Pennsylvania reports 1,487 cases and six deaths (6 Nov). New York has declared a disaster emergency.",
     "stats": [
       "cases",
       "jurisdictions",

@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-06T18:50:00Z</updated>
+  <updated>2026-11-07T06:50:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Measles · US: CDC: 5,182 cases, 330 more than last update</title>
@@ -15,6 +15,24 @@
     <category term="official"/>
     <summary>CDC's weekly update, with data as of 5 November, counts 5,182 confirmed cases, 330 more than in its previous update, with 562 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases (4,993) are linked to outbreaks. CDC counts four deaths and says the number is subject to change as reviews continue; Pennsylvania reports six under its own definition.</summary>
     <content type="html">&lt;p&gt;CDC's weekly update, with data as of 5 November, counts 5,182 confirmed cases, 330 more than in its previous update, with 562 hospitalisations (about 11% of cases) and 43 new outbreaks reported this year. About 96% of cases (4,993) are linked to outbreaks. CDC counts four deaths and says the number is subject to change as reviews continue; Pennsylvania reports six under its own definition.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-11-06/us-measles-cases-rise-to-5-182-cdc-says"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-11-06/us-measles-cases-top-5-000-for-the-first-time-since-the-1990s"&gt;Bloomberg&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Measles · US: Pennsylvania: 1,487 cases in 45 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-06-pennsylvania-1-487-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-06-pennsylvania-1-487-cases-in</id>
+    <updated>2026-11-06T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 6 November counts 1,487 confirmed cases in 45 counties, 20 more than on 4 November, with 287 hospitalisations and 6 confirmed measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 6 November counts 1,487 confirmed cases in 45 counties, 20 more than on 4 November, with 287 hospitalisations and 6 confirmed measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://riverreporter.com/stories/cases-reach-1487-in-45-counties-in-pennsylvania-measles-outbreak,284820"&gt;River Reporter (6 Nov)&lt;/a&gt;, &lt;a href="https://www.abc27.com/pennsylvania/pennsylvania-reaches-1487-reported-measles-cases-in-friday-update/"&gt;ABC27 (6 Nov)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: ECDC: 10,741 confirmed cases and 5,230 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-06-ecdc-10-741-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-06-ecdc-10-741-confirmed-cases</id>
+    <updated>2026-11-06T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update, with data up to 4 November, counts 10,741 confirmed cases and 5,230 deaths in DR Congo. This is ECDC's own count and differs from the national institute's figure of 10,414 cases and 5,372 deaths as of 30 October, which includes deaths added in a data review.</summary>
+    <content type="html">&lt;p&gt;ECDC's update, with data up to 4 November, counts 10,741 confirmed cases and 5,230 deaths in DR Congo. This is ECDC's own count and differs from the national institute's figure of 10,414 cases and 5,372 deaths as of 30 October, which includes deaths added in a data review.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola outbreak&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Ebola · DR Congo: CDC situation summary lists 10,668 confirmed cases in DR Congo</title>
@@ -260,15 +278,6 @@
     <content type="html">&lt;p&gt;Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria's centre for disease control (NCDC) said it was following 54 primary contacts, monitored for 21 days from their last possible exposure.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"&gt;AP via WSLS&lt;/a&gt;, &lt;a href="https://www.channelstv.com/2026/10/26/ebola-nigeria-has-54-primary-contacts-now-many-are-in-quarantine-says-ncdc/"&gt;Channels TV (26 Oct)&lt;/a&gt;, &lt;a href="https://tribuneonlineng.com/ebola-ncdc-records-one-new-suspected-case-tracks-54-contacts/"&gt;Tribune Online&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Ebola · DR Congo: ECDC: 10,141 confirmed cases and 4,928 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-ecdc-10-141-confirmed-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-ecdc-10-141-confirmed-cases</id>
-    <updated>2026-10-26T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>ECDC's update of 27 October counts 10,141 confirmed cases and 4,928 deaths in DR Congo, from data up to 26 October, up from the 10,060 cases and 4,887 deaths DR Congo's public health institute reported as of 25 October. UN News, citing the Congolese health ministry, also reported 10,141 cases as of 26 October.</summary>
-    <content type="html">&lt;p&gt;ECDC's update of 27 October counts 10,141 confirmed cases and 4,928 deaths in DR Congo, from data up to 26 October, up from the 10,060 cases and 4,887 deaths DR Congo's public health institute reported as of 25 October. UN News, citing the Congolese health ministry, also reported 10,141 cases as of 26 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;, &lt;a href="https://news.un.org/en/story/2026/10/1168689"&gt;UN News (28 Oct)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Measles · US: CDC: 4,588 cases, 178 more than last week</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-cdc-4-588-cases"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-cdc-4-588-cases</id>
@@ -357,14 +366,5 @@
     <category term="media"/>
     <summary>Zambia's government declared a new cholera outbreak after 304 cases and 11 deaths across seven districts in five provinces, local media reported on 1 October. It is separate from the outbreak the government declared over in July. On 17 October the health ministry's figures, reported by Lusaka Times and Xinhua, were 966 cases and 25 deaths in 12 districts across five provinces, as the country launched an oral cholera vaccination campaign in Lusaka and Chibombo district.</summary>
     <content type="html">&lt;p&gt;Zambia's government declared a new cholera outbreak after 304 cases and 11 deaths across seven districts in five provinces, local media reported on 1 October. It is separate from the outbreak the government declared over in July. On 17 October the health ministry's figures, reported by Lusaka Times and Xinhua, were 966 cases and 25 deaths in 12 districts across five provinces, as the country launched an oral cholera vaccination campaign in Lusaka and Chibombo district.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://diggers.news/local/2026/10/01/govt-declares-cholera-outbreak-with-304-cases-11-deaths/"&gt;Diggers&lt;/a&gt;, &lt;a href="https://www.zambiamonitor.com/govt-declares-cholera-outbreak-in-zambia-after-304-cases-11-deaths/"&gt;Zambia Monitor&lt;/a&gt;, &lt;a href="https://english.news.cn/20261017/ffdcae68f8d84205ac07132f63242020/c.html"&gt;Xinhua&lt;/a&gt;, &lt;a href="https://www.lusakatimes.com/2026/10/17/government-launches-cholera-oral-vaccination-campaign/"&gt;Lusaka Times&lt;/a&gt;, &lt;a href="https://english.news.cn/20260716/84edd711b8a84d0db4e1984607d6f4f6/c.html"&gt;Xinhua (July outbreak ended)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: CDC: 4,410 cases in 47 jurisdictions</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-16-cdc-4-410-cases-in"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-16-cdc-4-410-cases-in</id>
-    <updated>2026-10-16T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The weekly update, with data as of 15 October, counts 4,410 confirmed cases, 42 new outbreaks this year and 451 hospitalisations. 96% of cases are linked to outbreaks. CDC counts 2 deaths; Pennsylvania reports 5 under its own definition. CDC also announced it will send an epidemiologist to support Pennsylvania's investigation.</summary>
-    <content type="html">&lt;p&gt;The weekly update, with data as of 15 October, counts 4,410 confirmed cases, 42 new outbreaks this year and 451 hospitalisations. 96% of cases are linked to outbreaks. CDC counts 2 deaths; Pennsylvania reports 5 under its own definition. CDC also announced it will send an epidemiologist to support Pennsylvania's investigation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/measles/data-research/index.html"&gt;CDC: Measles cases and outbreaks&lt;/a&gt;, &lt;a href="https://www.detroitnews.com/story/news/nation/2026/10/16/cdc-reports-4410-measles-cases-as-outbreak-grows/92284701007/"&gt;Detroit News (Reuters)&lt;/a&gt;, &lt;a href="https://abcnews.com/Health/4400-measles-cases-reported-us-cdc-plans-send/story?id=137315190"&gt;ABC News&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-october-16-2026"&gt;Contagion Live&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
