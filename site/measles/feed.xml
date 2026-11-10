@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-11-07T06:50:00Z</updated>
+  <updated>2026-11-10T18:45:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>Pennsylvania: 1,505 cases in 45 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-09-pennsylvania-1-505-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-09-pennsylvania-1-505-cases-in</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 9 November counts 1,505 confirmed cases in 45 counties, 18 more than in its Friday update, with 290 hospitalisations and six measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 9 November counts 1,505 confirmed cases in 45 counties, 18 more than in its Friday update, with 290 hospitalisations and six measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.einpresswire.com/article/955663211/pennsylvania-department-of-health-provides-statewide-update-on-measles-outbreak-as-cases-reach-1-505-in-45-counties"&gt;Pennsylvania Department of Health (via EIN Presswire, 9 Nov)&lt;/a&gt;, &lt;a href="https://www.usnews.com/news/us/articles/2026-11-09/pennsylvania-measles-cases-surpass-1-500-state-health-department-says"&gt;Reuters via U.S. News (9 Nov)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>CDC: 5,182 cases, 330 more than last update</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-06-cdc-5-182-cases-330"/>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>CDC counts 2,030 confirmed cases.</summary>
     <content type="html">&lt;p&gt;CDC counts 2,030 confirmed cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://abcnews.com/Health/us-measles-cases-surpass-2000-2nd-year-row/story?id=133618006"&gt;ABC News&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>South Carolina's outbreak declared over</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-04-27-south-carolina-s-outbreak-declared"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-04-27-south-carolina-s-outbreak-declared</id>
-    <updated>2026-04-27T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>South Carolina ends its Upstate outbreak after 997 cases, 670 of them in 2026, and no deaths.</summary>
-    <content type="html">&lt;p&gt;South Carolina ends its Upstate outbreak after 997 cases, 670 of them in 2026, and no deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://scdailygazette.com/2026/04/27/nations-largest-measles-outbreak-is-over-sc-health-officials-say/"&gt;SC Daily Gazette&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

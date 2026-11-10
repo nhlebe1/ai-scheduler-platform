@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-11-07T06:50:00Z",
-  "checked": "2026-11-10T06:50:00Z",
+  "updated": "2026-11-10T18:45:00Z",
+  "checked": "2026-11-10T18:45:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -39,7 +39,7 @@
       "id": "cases",
       "label": "Confirmed cases",
       "value": 10414,
-      "note": "DR Congo national health institute situation report, as of 30 Oct, via Africanews and Bloomberg. ECDC: 10,741 to 4 Nov (10,532 to 1 Nov). CDC: 10,668 as of 3 Nov (CDC situation summary, 5 Nov). ECDC earlier: 10,274 to 28 Oct. ECDC earlier: 10,193 to 27 Oct. INSP: 10,060 as of 25 Oct, via Reuters and Al Jazeera. CDC: 9,816 as of 22 Oct. WHO DON622: 9,704 as of 20 Oct",
+      "note": "DR Congo national health institute situation report, as of 30 Oct, via Africanews and Bloomberg. ECDC: 10,741 to 4 Nov (10,532 to 1 Nov). CDC: 10,990 as of 8 Nov (CDC situation summary, 10 Nov). CDC earlier: 10,668 as of 3 Nov. ECDC earlier: 10,274 to 28 Oct. ECDC earlier: 10,193 to 27 Oct. INSP: 10,060 as of 25 Oct, via Reuters and Al Jazeera. CDC: 9,816 as of 22 Oct. WHO DON622: 9,704 as of 20 Oct",
       "tone": "critical",
       "upIsBad": true
     },
@@ -47,7 +47,7 @@
       "id": "deaths",
       "label": "Confirmed deaths",
       "value": 5372,
-      "note": "DR Congo national health institute situation report, as of 30 Oct, via Africanews and Bloomberg; the count includes previously unallocated deaths added in a data review. ECDC: 5,230 to 4 Nov (5,126 to 1 Nov). CDC: 5,198 as of 3 Nov (CDC situation summary, 5 Nov). ECDC earlier: 4,992 to 28 Oct. Reuters and Al Jazeera report DR Congo government data now show deaths above 5,000 (30–31 Oct). ECDC earlier: 4,960 to 27 Oct. INSP: 4,887 as of 25 Oct, via Reuters and Al Jazeera. CDC: 4,757 as of 22 Oct. WHO DON622: 4,687 as of 20 Oct",
+      "note": "DR Congo national health institute situation report, as of 30 Oct, via Africanews and Bloomberg; the count includes previously unallocated deaths added in a data review. ECDC: 5,230 to 4 Nov (5,126 to 1 Nov). CDC: 5,354 as of 8 Nov (CDC situation summary, 10 Nov). CDC earlier: 5,198 as of 3 Nov. ECDC earlier: 4,992 to 28 Oct. Reuters and Al Jazeera report DR Congo government data now show deaths above 5,000 (30–31 Oct). ECDC earlier: 4,960 to 27 Oct. INSP: 4,887 as of 25 Oct, via Reuters and Al Jazeera. CDC: 4,757 as of 22 Oct. WHO DON622: 4,687 as of 20 Oct",
       "tone": "critical",
       "upIsBad": true
     },
@@ -1966,6 +1966,19 @@
         {
           "name": "ECDC: Ebola outbreak",
           "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-cdc-10-990-confirmed-cases",
+      "date": "2026-11-10",
+      "kind": "official",
+      "title": "CDC: 10,990 confirmed cases and 5,354 deaths in DR Congo",
+      "body": "CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.",
+      "sources": [
+        {
+          "name": "CDC Ebola situation summary",
+          "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
         }
       ]
     }

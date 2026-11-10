@@ -5,8 +5,26 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-07T18:45:00Z</updated>
+  <updated>2026-11-10T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: CDC: 10,990 confirmed cases and 5,354 deaths in DR Congo</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-cdc-10-990-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-cdc-10-990-confirmed-cases</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.</summary>
+    <content type="html">&lt;p&gt;CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC Ebola situation summary&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Measles · US: Pennsylvania: 1,505 cases in 45 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-09-pennsylvania-1-505-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-09-pennsylvania-1-505-cases-in</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 9 November counts 1,505 confirmed cases in 45 counties, 18 more than in its Friday update, with 290 hospitalisations and six measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 9 November counts 1,505 confirmed cases in 45 counties, 18 more than in its Friday update, with 290 hospitalisations and six measles-associated deaths. Five cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.einpresswire.com/article/955663211/pennsylvania-department-of-health-provides-statewide-update-on-measles-outbreak-as-cases-reach-1-505-in-45-counties"&gt;Pennsylvania Department of Health (via EIN Presswire, 9 Nov)&lt;/a&gt;, &lt;a href="https://www.usnews.com/news/us/articles/2026-11-09/pennsylvania-measles-cases-surpass-1-500-state-health-department-says"&gt;Reuters via U.S. News (9 Nov)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC: 5,182 cases, 330 more than last update</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-06-cdc-5-182-cases-330"/>
@@ -287,15 +305,6 @@
     <content type="html">&lt;p&gt;Kenya's health ministry released the first 20 contacts after 21 days of monitoring without symptoms. Health Director-General Patrick Amoth said the outbreak is not over; the remaining 98 contacts are expected to leave quarantine in four waves from 3 November, based on individual health assessments, Reuters reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksl.com/article/51641130/kenya-releases-first-ebola-contacts-from-quarantine-milestone-in-containment-efforts"&gt;Reuters via KSL&lt;/a&gt;, &lt;a href="https://capitalfm.africa/kenya-releases-first-20-ebola-contacts-after-21-day-monitoring-period/"&gt;Capital FM&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Ebola · DR Congo: Nigeria evacuates its Ebola patient to Switzerland</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-nigeria-evacuates-its-ebola-patient"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-26-nigeria-evacuates-its-ebola-patient</id>
-    <updated>2026-10-26T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria's centre for disease control (NCDC) said it was following 54 primary contacts, monitored for 21 days from their last possible exposure.</summary>
-    <content type="html">&lt;p&gt;Nigeria's health minister approved the evacuation of the patient confirmed on 20 October, who was moved to Switzerland on 26 October. Nigeria's centre for disease control (NCDC) said it was following 54 primary contacts, monitored for 21 days from their last possible exposure.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.wsls.com/health/2026/10/26/nigeria-evacuates-ebola-patient-to-switzerland-as-authorities-monitor-52-contacts/"&gt;AP via WSLS&lt;/a&gt;, &lt;a href="https://www.channelstv.com/2026/10/26/ebola-nigeria-has-54-primary-contacts-now-many-are-in-quarantine-says-ncdc/"&gt;Channels TV (26 Oct)&lt;/a&gt;, &lt;a href="https://tribuneonlineng.com/ebola-ncdc-records-one-new-suspected-case-tracks-54-contacts/"&gt;Tribune Online&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Measles · US: CDC: 4,588 cases, 178 more than last week</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-cdc-4-588-cases"/>
     <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-23-cdc-4-588-cases</id>
@@ -357,14 +366,5 @@
     <category term="official"/>
     <summary>The Southern Nevada Health District reported the first confirmed clade I mpox case in a Clark County resident. The district said the person has no reported travel exposure, so the source of infection is unclear, and that it has reported 11 clade II cases since August. It said anyone who may have been exposed should contact a health care provider and watch for symptoms for 21 days, and that JYNNEOS vaccine is expected to protect against both clades.</summary>
     <content type="html">&lt;p&gt;The Southern Nevada Health District reported the first confirmed clade I mpox case in a Clark County resident. The district said the person has no reported travel exposure, so the source of infection is unclear, and that it has reported 11 clade II cases since August. It said anyone who may have been exposed should contact a health care provider and watch for symptoms for 21 days, and that JYNNEOS vaccine is expected to protect against both clades.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.southernnevadahealthdistrict.org/news-release/health-district-reports-first-clade-i-mpox-case-in-clark-county-resident/"&gt;Southern Nevada Health District&lt;/a&gt;, &lt;a href="https://www.8newsnow.com/news/local-news/health-district-reports-first-clade-i-mpox-case-in-clark-county-resident/"&gt;8 News Now&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: Pennsylvania: 1,286 cases in 42 counties</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-19-pennsylvania-1-286-cases-in"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-19-pennsylvania-1-286-cases-in</id>
-    <updated>2026-10-19T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The state health department's update counts 1,286 confirmed cases, 247 hospitalisations and 5 confirmed measles-associated deaths, 26 more cases than its previous update on 16 October. The department said it is investigating a further reported death in Franklin County.</summary>
-    <content type="html">&lt;p&gt;The state health department's update counts 1,286 confirmed cases, 247 hospitalisations and 5 confirmed measles-associated deaths, 26 more cases than its previous update on 16 October. The department said it is investigating a further reported death in Franklin County.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out11"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://1027wbow.com/2026/10/19/pennsylvania-measles-cases-rise-to-1286-state-health-department-says/"&gt;Reuters via WBOW&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
