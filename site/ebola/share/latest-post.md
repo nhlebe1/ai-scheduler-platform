@@ -1,4 +1,4 @@
-Ebola (Bundibugyo), DR Congo: CDC's situation summary counts 10,990 confirmed cases and 5,354 deaths as of 8 Nov. DR Congo's health institute reported 10,414 and 5,372 as of 30 Oct; agencies use different dates and methods.
+Ebola (Bundibugyo), DR Congo: health ministry data show 11,042 confirmed cases and 5,387 deaths (Al Jazeera, AP, 11 Nov). ECDC counts 10,741 and 5,230 to 4 Nov; agencies use different dates and methods.
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: CDC Ebola situation summary (10 Nov); DR Congo institute via Bloomberg/Africanews (1-2 Nov).
+Sources: Al Jazeera (aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths); AP via News4Jax (11 Nov); ECDC.
