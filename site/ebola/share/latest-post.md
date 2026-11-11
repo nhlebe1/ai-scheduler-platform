@@ -1,4 +1,3 @@
-Ebola (Bundibugyo), DR Congo: health ministry data show 11,042 confirmed cases and 5,387 deaths (Al Jazeera, AP, 11 Nov). ECDC counts 10,741 and 5,230 to 4 Nov; agencies use different dates and methods.
-https://nhlebe1.github.io/ai-scheduler-platform/ebola/
+Ebola (Bundibugyo): Kenya's health minister says its last patient has been discharged and the last contacts released, starting a 42-day countdown to declaring the outbreak over. Kenya confirmed 9 cases, 2 fatal. DR Congo: 11,042 cases, 5,387 deaths (health ministry data). https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: Al Jazeera (aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths); AP via News4Jax (11 Nov); ECDC.
+Sources: Africanews (africanews.com/2026/11/11/kenya-discharges-last-ebola-patient-begins-42-day-countdown-to-being-declared-ebola-free/); ABC News/AP (11 Nov); NBC News (11 Nov); Al Jazeera and AP for DR Congo figures.
