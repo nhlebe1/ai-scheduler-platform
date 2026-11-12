@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-12T06:50:00Z</updated>
+  <updated>2026-11-12T18:45:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Ebola · DR Congo: DR Congo data show 11,042 confirmed cases and 5,387 deaths</title>
@@ -33,6 +33,15 @@
     <category term="official"/>
     <summary>CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.</summary>
     <content type="html">&lt;p&gt;CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC Ebola situation summary&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: ECDC: 10,990 confirmed cases and 5,354 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-ecdc-10-990-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-ecdc-10-990-confirmed-cases</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 10 Nov&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Cholera · Global: WHO: more than 3,000 cholera deaths in the first nine months of 2026</title>
@@ -276,15 +285,6 @@
     <category term="international"/>
     <summary>After an extraordinary virtual meeting of African health ministers on 28 October, Africa CDC's director general Jean Kaseya said the ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely. He told the meeting the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times.</summary>
     <content type="html">&lt;p&gt;After an extraordinary virtual meeting of African health ministers on 28 October, Africa CDC's director general Jean Kaseya said the ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely. He told the meeting the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aa.com.tr/en/africa/african-officials-agree-to-keep-borders-open-despite-ebola-outbreak/4105239"&gt;Anadolu Agency (28 Oct)&lt;/a&gt;, &lt;a href="https://www.trtafrika.com/article/a1fb3ab7eddf"&gt;TRT Afrika&lt;/a&gt;, &lt;a href="https://www.premiumtimesng.com/health/health-news/921422-ebola-africa-cdc-warns-continent-not-winning-as-cases-surpass-10000.html"&gt;Premium Times&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: ECDC: 10,274 confirmed cases and 4,992 deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-28-ecdc-10-274-confirmed-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-28-ecdc-10-274-confirmed-cases</id>
-    <updated>2026-10-28T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>ECDC's latest update counts 10,274 confirmed cases and 4,992 deaths in DR Congo, from data up to 28 October, up from the 10,193 cases and 4,960 deaths in its update of 28 October, from data up to 27 October.</summary>
-    <content type="html">&lt;p&gt;ECDC's latest update counts 10,274 confirmed cases and 4,992 deaths in DR Congo, from data up to 28 October, up from the 10,193 cases and 4,960 deaths in its update of 28 October, from data up to 27 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Dengue · Europe: France: 8 local dengue cases in 5 episodes; local chikungunya at 205</title>

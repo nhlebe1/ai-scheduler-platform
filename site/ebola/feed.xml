@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-11-11T18:45:00Z</updated>
+  <updated>2026-11-12T18:45:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
   <entry>
     <title>DR Congo data show 11,042 confirmed cases and 5,387 deaths</title>
@@ -33,6 +33,15 @@
     <category term="official"/>
     <summary>CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.</summary>
     <content type="html">&lt;p&gt;CDC's situation summary, with data as of 8 November, counts 10,990 confirmed cases and 5,354 confirmed deaths in DR Congo. CDC's counts differ from the DR Congo national health institute's 30 October figures because the agencies use different reporting dates and methods. CDC calls it the second-largest Ebola outbreak on record.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC Ebola situation summary&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ECDC: 10,990 confirmed cases and 5,354 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-ecdc-10-990-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-ecdc-10-990-confirmed-cases</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 10 Nov&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>ECDC: 10,741 confirmed cases and 5,230 deaths</title>
@@ -267,14 +276,5 @@
     <category term="international"/>
     <summary>Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.</summary>
     <content type="html">&lt;p&gt;Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-21/africa-cdc-calls-an-ebola-crisis-summit-as-nigeria-records-its-first-case"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://medicalxpress.com/news/2026-10-africa-cdc-ebola-crisis-summit.html"&gt;AP via Medical Xpress&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Kenya confirms a ninth Ebola case</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-20-kenya-confirms-a-ninth-ebola"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-20-kenya-confirms-a-ninth-ebola</id>
-    <updated>2026-10-20T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Kenya's health ministry said one more person tested positive, bringing the total to nine including the first patient, who died. The new case is a contact of the first patient who was already in quarantine. The ministry said all nine cases belong to one cluster, that there is no evidence of transmission outside it, and that 134 of 135 identified contacts were in quarantine. It said the first group of contacts completes 21 days of quarantine on 25 October.</summary>
-    <content type="html">&lt;p&gt;Kenya's health ministry said one more person tested positive, bringing the total to nine including the first patient, who died. The new case is a contact of the first patient who was already in quarantine. The ministry said all nine cases belong to one cluster, that there is no evidence of transmission outside it, and that 134 of 135 identified contacts were in quarantine. It said the first group of contacts completes 21 days of quarantine on 25 October.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/world/2026/10/20/kenya-ebola-congo-uganda/89935d56-cca1-11f1-ac04-9f58578a68b4_story.html"&gt;The Washington Post&lt;/a&gt;, &lt;a href="https://www.standardmedia.co.ke/health/health-science/article/2001560550/kenya-confirms-ninth-ebola-case"&gt;The Standard (Kenya)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
