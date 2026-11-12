@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, ECDC, UNICEF and national health authority reports and named news outlets. Reported figures include suspected cases and understate the true burden. It is not medical or travel advice. If someone has sudden, severe watery diarrhoea, seek medical care straight away."
   },
-  "updated": "2026-11-05T18:50:00Z",
-  "checked": "2026-11-11T18:45:00Z",
+  "updated": "2026-11-12T06:50:00Z",
+  "checked": "2026-11-12T06:50:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/cholera/",
   "social": {
@@ -644,6 +644,27 @@
         {
           "name": "Bastille Post",
           "url": "https://www.bastillepost.com/global/article/6328494-cholera-kills-1800-in-drc-this-year-as-who-warns-of-possible-spread-to-kinshasa"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-who-more-than-3-000-cholera-deaths",
+      "date": "2026-11-10",
+      "kind": "international",
+      "title": "WHO: more than 3,000 cholera deaths in the first nine months of 2026",
+      "body": "WHO said on 10 November that more than 3,000 people died of cholera worldwide in the first nine months of 2026, fewer than in the same period of 2025. Deaths from October to December are not yet counted. 2025 was the deadliest year for cholera since 1999, with almost 7,900 deaths.",
+      "sources": [
+        {
+          "name": "AFP via Medical Xpress (10 Nov)",
+          "url": "https://medicalxpress.com/news/2026-11-cholera-year.html"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3373991/over-3000-already-dead-cholera-year-says-who"
+        },
+        {
+          "name": "UN News (World News in Brief)",
+          "url": "https://news.un.org/en/story/2026/11/1168782"
         }
       ]
     }
