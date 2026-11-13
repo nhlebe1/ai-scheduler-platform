@@ -1,4 +1,3 @@
-US measles: Pennsylvania's health department counts 1,505 cases in 45 counties and six measles-associated deaths (9 Nov). CDC's national count is 5,182 as of 5 Nov. PAHO reviews US elimination status this week.
-https://nhlebe1.github.io/ai-scheduler-platform/measles/
+US measles: CDC counts 5,412 confirmed cases as of 12 Nov, 230 more than its previous update, with 591 hospitalisations and six deaths (subject to change). PAHO's review of US elimination status is under way. https://nhlebe1.github.io/ai-scheduler-platform/measles/
 
-Sources: Pennsylvania Department of Health (einpresswire.com/article/955663211), Reuters via U.S. News 9 Nov, CDC via Reuters 6 Nov.
+Sources: CDC data via Reuters (usnews.com/news/us/articles/2026-11-13/us-measles-cases-rise-to-5-412-cdc-says), ABC News (abcnews.com/Health/measles-cases-nationwide-top-5400-outbreaks-spread-us/story?id=138108176).

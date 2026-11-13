@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-11-10T18:45:00Z</updated>
+  <updated>2026-11-13T12:00:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>CDC: 5,412 cases, 230 more than last update</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-13-cdc-5-412-cases-230"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-13-cdc-5-412-cases-230</id>
+    <updated>2026-11-13T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations (about 11% of cases). CDC counts six deaths and says the number may change as additional reviews are completed.</summary>
+    <content type="html">&lt;p&gt;CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations (about 11% of cases). CDC counts six deaths and says the number may change as additional reviews are completed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-11-13/us-measles-cases-rise-to-5-412-cdc-says"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://abcnews.com/Health/measles-cases-nationwide-top-5400-outbreaks-spread-us/story?id=138108176"&gt;ABC News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Pennsylvania: 1,505 cases in 45 counties</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-09-pennsylvania-1-505-cases-in"/>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>CDC counts 2,318 cases as of 23 July, above all of 2025 (2,289) and the highest total since 1991.</summary>
     <content type="html">&lt;p&gt;CDC counts 2,318 cases as of 23 July, above all of 2025 (2,289) and the highest total since 1991.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"&gt;ABC News&lt;/a&gt;, &lt;a href="https://news.bloomberglaw.com/business-and-practice/us-measles-infections-surpass-2025-total-to-reach-35-year-high"&gt;Bloomberg Law&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>US passes 2,000 cases for the second year running</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-06-05-us-passes-2-000-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-06-05-us-passes-2-000-cases</id>
-    <updated>2026-06-05T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>CDC counts 2,030 confirmed cases.</summary>
-    <content type="html">&lt;p&gt;CDC counts 2,030 confirmed cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://abcnews.com/Health/us-measles-cases-surpass-2000-2nd-year-row/story?id=133618006"&gt;ABC News&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
