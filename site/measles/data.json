@@ -603,7 +603,7 @@
     {
       "who": "CDC",
       "kind": "official",
-      "date": "2026-11-13",
+      "date": "2026-10-09",
       "text": "4,080 confirmed cases in 47 jurisdictions and 2 deaths so far in 2026, as of 8 October. Two MMR doses are about 97% effective."
     },
     {
@@ -1264,7 +1264,7 @@
       "date": "2026-11-13",
       "kind": "official",
       "title": "CDC: 5,412 cases, 230 more than last update",
-      "body": "CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations (about 11% of cases). CDC counts six deaths and says the number may change as additional reviews are completed.",
+      "body": "CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations. CDC counts six deaths and says the number may change as additional reviews are completed.",
       "sources": [
         {
           "name": "Reuters via U.S. News",
