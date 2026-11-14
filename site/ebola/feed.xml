@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-11-12T18:45:00Z</updated>
+  <updated>2026-11-14T12:00:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>ECDC: 11,197 confirmed cases and 5,471 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-12-ecdc-11-197-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-12-ecdc-11-197-confirmed-cases</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 12 November, with data up to 11 November, counts 11,197 confirmed cases and 5,471 deaths in DR Congo. Its update of 11 November, with data up to 10 November, counted 11,114 cases and 5,433 deaths. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 12 November, with data up to 11 November, counts 11,197 confirmed cases and 5,471 deaths in DR Congo. Its update of 11 November, with data up to 10 November, counted 11,114 cases and 5,433 deaths. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-12"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 12 Nov&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>DR Congo data show 11,042 confirmed cases and 5,387 deaths</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-11-dr-congo-health-ministry-data-show"/>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.</summary>
     <content type="html">&lt;p&gt;CDC issued an order requiring every passenger boarding an international flight to the United States, whatever their nationality, to attest that they have not been in DR Congo in the 21 days before boarding. The requirement starts at 11:59 pm Eastern time on 3 November, and airlines must check the attestation before boarding. It adds to CDC's existing entry restrictions for travellers recently in DR Congo, Uganda or South Sudan.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/port-health/legal-authorities/attestation-order.html"&gt;CDC order&lt;/a&gt;, &lt;a href="https://www.nbcnews.com/health/health-news/us-tighten-ebola-screening-new-air-passenger-declarations-rcna605177"&gt;NBC News&lt;/a&gt;, &lt;a href="https://www.cnbcafrica.com/2026/us-to-tighten-ebola-screening-with-new-air-passenger-declarations"&gt;CNBC Africa (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Africa CDC calls an extraordinary meeting of health ministers</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-21-africa-cdc-calls-an-extraordinary"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-21-africa-cdc-calls-an-extraordinary</id>
-    <updated>2026-10-21T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.</summary>
-    <content type="html">&lt;p&gt;Africa CDC said it will convene an extraordinary meeting of African health ministers on 28 October to strengthen the collective response to the outbreak, AP reported. Its director general said the outbreak demands urgent action and political leadership at the highest level.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/health-news/articles/2026-10-21/africa-cdc-calls-an-ebola-crisis-summit-as-nigeria-records-its-first-case"&gt;AP via U.S. News&lt;/a&gt;, &lt;a href="https://medicalxpress.com/news/2026-10-africa-cdc-ebola-crisis-summit.html"&gt;AP via Medical Xpress&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

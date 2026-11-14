@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-13T12:00:00Z</updated>
+  <updated>2026-11-14T12:00:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Measles · US: CDC: 5,412 cases, 230 more than last update</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations. CDC counts six deaths and says the number may change as additional reviews are completed.</summary>
     <content type="html">&lt;p&gt;CDC's weekly update, with data as of 12 November, counts 5,412 confirmed cases, 230 more than in its previous update, with 591 hospitalisations. CDC counts six deaths and says the number may change as additional reviews are completed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-11-13/us-measles-cases-rise-to-5-412-cdc-says"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://abcnews.com/Health/measles-cases-nationwide-top-5400-outbreaks-spread-us/story?id=138108176"&gt;ABC News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: ECDC: 11,197 confirmed cases and 5,471 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-12-ecdc-11-197-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-12-ecdc-11-197-confirmed-cases</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 12 November, with data up to 11 November, counts 11,197 confirmed cases and 5,471 deaths in DR Congo. Its update of 11 November, with data up to 10 November, counted 11,114 cases and 5,433 deaths. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 12 November, with data up to 11 November, counts 11,197 confirmed cases and 5,471 deaths in DR Congo. Its update of 11 November, with data up to 10 November, counted 11,114 cases and 5,433 deaths. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-12"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 12 Nov&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Ebola · DR Congo: DR Congo data show 11,042 confirmed cases and 5,387 deaths</title>
@@ -285,15 +294,6 @@
     <category term="official"/>
     <summary>The state health department's update counts 1,398 confirmed cases in 44 counties, 38 more than on 26 October, with 265 hospitalisations and 5 confirmed measles-associated deaths. The department gave no new information on a further death reported by the Franklin County coroner, and CDC counts three deaths nationally.</summary>
     <content type="html">&lt;p&gt;The state health department's update counts 1,398 confirmed cases in 44 counties, 38 more than on 26 October, with 265 hospitalisations and 5 confirmed measles-associated deaths. The department gave no new information on a further death reported by the Franklin County coroner, and CDC counts three deaths nationally.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out14"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.investing.com/news/stock-market-news/pennsylvania-measles-cases-near-1400-state-health-department-says-4980479"&gt;Reuters via Investing.com&lt;/a&gt;, &lt;a href="https://www.abc27.com/pennsylvania/pa-measles-numbers-now-just-under-1400-more-than-15000-mmr-vaccines-adminstered-since-august/"&gt;abc27&lt;/a&gt;, &lt;a href="https://riverreporter.com/stories/measles-update-cases-reach-1398-in-44-pa-counties,283588"&gt;River Reporter&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: African health ministers agree to keep borders open</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-28-african-health-ministers-agree-to"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-28-african-health-ministers-agree-to</id>
-    <updated>2026-10-28T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>After an extraordinary virtual meeting of African health ministers on 28 October, Africa CDC's director general Jean Kaseya said the ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely. He told the meeting the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times.</summary>
-    <content type="html">&lt;p&gt;After an extraordinary virtual meeting of African health ministers on 28 October, Africa CDC's director general Jean Kaseya said the ministers agreed to prepare every country, coordinate across borders and keep borders open while watching them closely. He told the meeting the continent is not winning so far, per Anadolu, TRT Afrika and Premium Times.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aa.com.tr/en/africa/african-officials-agree-to-keep-borders-open-despite-ebola-outbreak/4105239"&gt;Anadolu Agency (28 Oct)&lt;/a&gt;, &lt;a href="https://www.trtafrika.com/article/a1fb3ab7eddf"&gt;TRT Afrika&lt;/a&gt;, &lt;a href="https://www.premiumtimesng.com/health/health-news/921422-ebola-africa-cdc-warns-continent-not-winning-as-cases-surpass-10000.html"&gt;Premium Times&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Dengue · Europe: France: 8 local dengue cases in 5 episodes; local chikungunya at 205</title>
