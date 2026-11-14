@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-13T12:00:00Z",
-  "checked": "2026-11-14T18:42:00Z",
+  "updated": "2026-11-14T18:55:00Z",
+  "checked": "2026-11-14T18:55:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · most since 1991",
-    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,505 cases in 45 counties, 290 hospitalisations and six confirmed deaths by the state's count (9 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body met from 10 to 13 November to review the measles elimination status the US has held since 2000; no decision had been announced in coverage reviewed."
+    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,505 cases in 45 counties, 290 hospitalisations and six confirmed deaths by the state's count (9 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body met from 10 to 13 November to review the measles elimination status the US has held since 2000. The Wall Street Journal reported on 13 November that the US has lost that status, Reuters reported; PAHO has not yet announced its findings."
   },
   "stage": {
     "title": "US elimination status",
@@ -464,8 +464,16 @@
     {
       "claim": "The US has already lost its measles elimination status",
       "status": "unconfirmed",
-      "detail": "Not yet. PAHO postponed its review to November 2026 at the US's request. Many experts expect the status to be lost.",
+      "detail": "Reported, not yet announced. The Wall Street Journal reported on 13 November that the US has lost its status after PAHO's review, Reuters reported. PAHO has not yet published its findings.",
       "sources": [
+        {
+          "name": "Reuters via U.S. News (citing the Wall Street Journal)",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-13/us-loses-measles-free-status-after-continued-spread-of-the-disease-wsj-reports"
+        },
+        {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/reports-say-us-loses-measles-elimination-status-after-26-years"
+        },
         {
           "name": "PAHO",
           "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
@@ -573,7 +581,7 @@
     {
       "label": "PAHO decides on US elimination status",
       "status": "pending",
-      "note": "PAHO's regional commission met 10–13 Nov to review the US and Mexico (PAHO, 14 Oct); no decision announced in coverage reviewed"
+      "note": "PAHO's regional commission met 10–13 Nov to review the US and Mexico (PAHO, 14 Oct). The Wall Street Journal reported on 13 Nov that the US has lost its status (Reuters); PAHO has not yet announced its findings"
     },
     {
       "label": "Pennsylvania outbreak declared over",
@@ -1273,6 +1281,23 @@
         {
           "name": "ABC News",
           "url": "https://abcnews.com/Health/measles-cases-nationwide-top-5400-outbreaks-spread-us/story?id=138108176"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-wsj-reports-us-has-lost",
+      "date": "2026-11-13",
+      "kind": "media",
+      "title": "WSJ reports US has lost measles elimination status",
+      "body": "The Wall Street Journal reported on 13 November that the US has lost the measles elimination status it has held since 2000, after a PAHO commission reviewed the country from 10 to 13 November, Reuters reported. PAHO has not yet published its findings.",
+      "sources": [
+        {
+          "name": "Reuters via U.S. News (citing the Wall Street Journal)",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-13/us-loses-measles-free-status-after-continued-spread-of-the-disease-wsj-reports"
+        },
+        {
+          "name": "Contagion Live",
+          "url": "https://www.contagionlive.com/view/reports-say-us-loses-measles-elimination-status-after-26-years"
         }
       ]
     }
