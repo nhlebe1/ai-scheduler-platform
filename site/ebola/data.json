@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, CDC, ECDC, Africa CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you develop fever within 21 days of being in an affected area, call a doctor before going to a clinic."
   },
-  "updated": "2026-11-14T12:00:00Z",
-  "checked": "2026-11-16T18:42:00Z",
+  "updated": "2026-11-17T06:42:00Z",
+  "checked": "2026-11-17T06:42:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/ebola/",
   "social": {
@@ -2087,6 +2087,19 @@
         {
           "name": "ECDC: Ebola disease outbreak caused by Bundibugyo virus, 12 Nov",
           "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-africa-cdc-says-the-outbreak",
+      "date": "2026-11-15",
+      "kind": "international",
+      "title": "Africa CDC says the outbreak is still not under control",
+      "body": "Africa CDC said on 15 November that the Ebola outbreak in DR Congo is still not under control, six months after it was declared on 15 May, Al Jazeera reported.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control"
         }
       ]
     }

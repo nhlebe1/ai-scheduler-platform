@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-14T18:55:00Z</updated>
+  <updated>2026-11-17T06:42:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: Africa CDC says the outbreak is still not under control</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-15-africa-cdc-says-the-outbreak"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-15-africa-cdc-says-the-outbreak</id>
+    <updated>2026-11-15T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>Africa CDC said on 15 November that the Ebola outbreak in DR Congo is still not under control, six months after it was declared on 15 May, Al Jazeera reported.</summary>
+    <content type="html">&lt;p&gt;Africa CDC said on 15 November that the Ebola outbreak in DR Congo is still not under control, six months after it was declared on 15 May, Al Jazeera reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC: 5,412 cases, 230 more than last update</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-13-cdc-5-412-cases-230"/>
@@ -258,15 +267,6 @@
     <category term="official"/>
     <summary>The state health department's update of 30 October counts 1,426 confirmed cases in 44 counties, 28 more than on 28 October, with 268 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.</summary>
     <content type="html">&lt;p&gt;The state health department's update of 30 October counts 1,426 confirmed cases in 44 counties, 28 more than on 28 October, with 268 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.abc27.com/news/confirmed-pennsylvania-measles-cases-increase-in-doh-update/"&gt;abc27 (30 Oct)&lt;/a&gt;, &lt;a href="https://local21news.com/newsletter-daily/over-1400-cases-reported-in-pennsylvania-amid-measles-outbreak-pa-infectious-disease-department-of-health-cdc-lancaster-county-mmr-vaccine"&gt;Local21 (WHP)&lt;/a&gt;, &lt;a href="https://www.northcentralpa.com/community/pennsylvania-measles-cases-reach-1-426-across-44-counties/article_fc4f8ef3-8986-4bb5-b4e6-c1c0fd39b8aa.html"&gt;North Central PA&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: DR Congo deaths pass 5,000, government data show</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-30-dr-congo-deaths-pass-5-000"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-30-dr-congo-deaths-pass-5-000</id>
-    <updated>2026-10-30T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.</summary>
-    <content type="html">&lt;p&gt;DR Congo government data show the Ebola death toll has passed 5,000, with more than 10,000 people infected since the outbreak was declared in May, Reuters reported on 30 October. Al Jazeera carried the same milestone on 31 October. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.yahoo.com/news/world/articles/ebola-deaths-congo-exceed-5-201746500.html"&gt;Reuters via Yahoo News (30 Oct)&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000"&gt;Al Jazeera (31 Oct)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Mpox · Africa &amp; world: Stanislaus County, California, reports four mpox cases, two clade I</title>
