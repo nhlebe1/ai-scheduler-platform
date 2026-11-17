@@ -8,6 +8,53 @@
   },
   "trackers": [
     {
+      "slug": "measles",
+      "url": "measles/",
+      "title": "US Measles Tracker",
+      "short": "Measles · US",
+      "description": "Independent, sourced tracker of the 2026 US measles surge: CDC case counts, cases by state, outbreaks, deaths, elimination status and a dated timeline.",
+      "status": {
+        "level": "growing",
+        "label": "Growing · elimination status lost",
+        "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,542 cases in 46 counties, 305 hospitalisations and seven confirmed deaths by the state's count (13 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+      },
+      "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,542 cases and seven measles-associated deaths (13 November).",
+      "updated": "2026-11-17T12:00:00Z",
+      "checked": "2026-11-17T12:00:00Z",
+      "figures": [
+        {
+          "label": "Confirmed cases",
+          "value": 5412,
+          "unit": "",
+          "tone": "critical"
+        },
+        {
+          "label": "Jurisdictions with cases",
+          "value": 47,
+          "unit": "",
+          "tone": "watch"
+        },
+        {
+          "label": "Deaths (CDC count)",
+          "value": 6,
+          "unit": "",
+          "tone": "critical"
+        }
+      ],
+      "latest": [
+        {
+          "date": "2026-11-17",
+          "title": "PAHO: US, Mexico and Bolivia lose measles elimination status",
+          "id": "2026-11-17-paho-us-mexico-and-bolivia"
+        },
+        {
+          "date": "2026-11-13",
+          "title": "CDC: 5,412 cases, 230 more than last update",
+          "id": "2026-11-13-cdc-5-412-cases-230"
+        }
+      ]
+    },
+    {
       "slug": "ebola",
       "url": "ebola/",
       "title": "Ebola Tracker: DR Congo",
