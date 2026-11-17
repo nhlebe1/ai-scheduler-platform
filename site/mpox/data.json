@@ -14,8 +14,8 @@
     ],
     "disclaimer": "This tracker summarises WHO, Africa CDC, ECDC, CDC and national health ministry reports and named news outlets. It is not medical or travel advice. If you have a new rash or sores, or think you were exposed to mpox, contact a doctor or sexual health clinic about testing and vaccination."
   },
-  "updated": "2026-11-02T18:45:00Z",
-  "checked": "2026-11-17T06:42:00Z",
+  "updated": "2026-11-17T12:00:00Z",
+  "checked": "2026-11-17T12:00:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/mpox/",
   "social": {
@@ -839,6 +839,19 @@
         {
           "name": "Outbreak News Today",
           "url": "https://outbreaknewstoday.substack.com/p/california-clade-1-mpox-cases-reported"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-ecdc-219-clade-i-cases",
+      "date": "2026-11-13",
+      "kind": "international",
+      "title": "ECDC: 219 clade I cases from 15 EU/EEA countries in October",
+      "body": "ECDC's monitoring update of 13 November reports 219 clade I mpox cases from 15 countries in October, with Germany reporting the most (70). It reports one clade II case, from Germany.",
+      "sources": [
+        {
+          "name": "ECDC: mpox periodic monitoring, 13 Nov",
+          "url": "https://www.ecdc.europa.eu/en/public-health-events/2022-sti-00005/2026-11-13"
         }
       ]
     }

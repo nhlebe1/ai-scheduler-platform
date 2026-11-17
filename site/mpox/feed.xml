@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/</id>
-  <updated>2026-11-02T18:45:00Z</updated>
+  <updated>2026-11-17T12:00:00Z</updated>
   <author><name>Mpox Tracker: Africa &amp; World</name></author>
+  <entry>
+    <title>ECDC: 219 clade I cases from 15 EU/EEA countries in October</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-11-13-ecdc-219-clade-i-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-11-13-ecdc-219-clade-i-cases</id>
+    <updated>2026-11-13T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's monitoring update of 13 November reports 219 clade I mpox cases from 15 countries in October, with Germany reporting the most (70). It reports one clade II case, from Germany.</summary>
+    <content type="html">&lt;p&gt;ECDC's monitoring update of 13 November reports 219 clade I mpox cases from 15 countries in October, with Germany reporting the most (70). It reports one clade II case, from Germany.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2022-sti-00005/2026-11-13"&gt;ECDC: mpox periodic monitoring, 13 Nov&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Stanislaus County, California, reports four mpox cases, two clade I</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/mpox/#2026-10-29-stanislaus-county-reports-four"/>

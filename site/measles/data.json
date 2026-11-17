@@ -14,23 +14,23 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-14T18:55:00Z",
-  "checked": "2026-11-17T06:42:00Z",
+  "updated": "2026-11-17T12:00:00Z",
+  "checked": "2026-11-17T12:00:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "US measles cases reach 5,412, the highest annual total in 35 years, CDC says. Pennsylvania's outbreak has reached 1,505 cases and six confirmed deaths, and New York has declared a disaster emergency.",
+  "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,542 cases and seven measles-associated deaths (13 November).",
   "status": {
     "level": "growing",
-    "label": "Growing · most since 1991",
-    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,505 cases in 45 counties, 290 hospitalisations and six confirmed deaths by the state's count (9 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). A regional health body met from 10 to 13 November to review the measles elimination status the US has held since 2000. The Wall Street Journal reported on 13 November that the US has lost that status, Reuters reported; PAHO has not yet announced its findings."
+    "label": "Growing · elimination status lost",
+    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,542 cases in 46 counties, 305 hospitalisations and seven confirmed deaths by the state's count (13 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
   },
   "stage": {
     "title": "US elimination status",
-    "current": 3,
-    "since": "2026-01-16"
+    "current": 4,
+    "since": "2026-11-17"
   },
   "ladder": [
     {
@@ -90,7 +90,7 @@
       "id": "deaths",
       "label": "Deaths (CDC count)",
       "value": 6,
-      "note": "CDC, as of 12 Nov, subject to change as reviews continue (Reuters; ABC News). Earlier: CDC counted 4 as of 5 Nov. Pennsylvania's health department reports 6 under its own count (9 Nov)",
+      "note": "CDC, as of 12 Nov, subject to change as reviews continue (Reuters; ABC News). Earlier: CDC counted 4 as of 5 Nov. Pennsylvania's health department reports 7 under its own count (13 Nov)",
       "tone": "critical",
       "upIsBad": true
     }
@@ -324,7 +324,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1505,
+      "Pennsylvania": 1542,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -339,7 +339,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 9 Nov. 45 counties, 290 hospitalisations, 6 confirmed deaths.",
+      "Pennsylvania": "State health dept, 13 Nov. 46 counties, 305 hospitalisations, 7 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -462,37 +462,33 @@
       ]
     },
     {
-      "claim": "The US has already lost its measles elimination status",
-      "status": "unconfirmed",
-      "detail": "Reported, not yet announced. The Wall Street Journal reported on 13 November that the US has lost its status after PAHO's review, Reuters reported. PAHO has not yet published its findings.",
+      "claim": "The US has lost its measles elimination status",
+      "status": "confirmed",
+      "detail": "PAHO announced on 17 November that endemic measles transmission has been re-established in the United States, Mexico and Bolivia, and that all three have lost their elimination status. PAHO's test is whether the same chain of spread continues for 12 months or more.",
       "sources": [
         {
-          "name": "Reuters via U.S. News (citing the Wall Street Journal)",
-          "url": "https://www.usnews.com/news/top-news/articles/2026-11-13/us-loses-measles-free-status-after-continued-spread-of-the-disease-wsj-reports"
+          "name": "PAHO (17 Nov)",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
         },
         {
-          "name": "Contagion Live",
-          "url": "https://www.contagionlive.com/view/reports-say-us-loses-measles-elimination-status-after-26-years"
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-officially-loses-measles-elimination-status-paho/story?id=138203543"
         },
         {
-          "name": "PAHO",
-          "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
-        },
-        {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/03/02/health/us-measles-elimination-status-paho-meeting-delay"
-        },
-        {
-          "name": "CIDRAP",
-          "url": "https://www.cidrap.umn.edu/measles/measles-milestones-us-closes-4000-cases-pennsylvania-nears-1000"
+          "name": "NBC News",
+          "url": "https://nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"
         }
       ]
     },
     {
-      "claim": "Pennsylvania has had six measles deaths this year",
+      "claim": "Pennsylvania has had seven measles deaths this year",
       "status": "confirmed",
-      "detail": "Confirmed by the state health department on 4 November. CDC's national count reached six on 12 November, subject to change as reviews continue.",
+      "detail": "The state health department confirmed a seventh measles-associated death on 13 November. CDC's national count was six as of 12 November, subject to change as reviews continue.",
       "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health (13 Nov)",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-seventh-measles-associated-deat"
+        },
         {
           "name": "Pennsylvania Dept. of Health (4 Nov)",
           "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-sixth-measles-associated-death"
@@ -580,8 +576,9 @@
     },
     {
       "label": "PAHO decides on US elimination status",
-      "status": "pending",
-      "note": "PAHO's regional commission met 10–13 Nov to review the US and Mexico (PAHO, 14 Oct). The Wall Street Journal reported on 13 Nov that the US has lost its status (Reuters); PAHO has not yet announced its findings"
+      "status": "done",
+      "note": "PAHO announced on 17 Nov that the US, Mexico and Bolivia have lost their measles elimination status (PAHO)",
+      "date": "2026-11-17"
     },
     {
       "label": "Pennsylvania outbreak declared over",
@@ -599,9 +596,31 @@
       "date": "2026-11-20",
       "status": "pending",
       "note": "CDC has published weekly. Expected date, not announced."
+    },
+    {
+      "label": "CDC's national death count reflects Pennsylvania's seventh death",
+      "status": "pending",
+      "note": "CDC counts six (12 Nov); Pennsylvania's health department reports seven (13 Nov)"
+    },
+    {
+      "label": "US, Mexico and Bolivia submit plans to PAHO to regain elimination status",
+      "status": "pending",
+      "note": "PAHO's director said plans are expected in the coming weeks (ABC News, 17 Nov)"
     }
   ],
   "positions": [
+    {
+      "who": "Pan American Health Organization",
+      "kind": "official",
+      "date": "2026-11-17",
+      "text": "Endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and all three have lost their measles elimination status."
+    },
+    {
+      "who": "Pennsylvania Department of Health",
+      "kind": "official",
+      "date": "2026-11-13",
+      "text": "1,542 cases in 46 counties, 305 hospitalised and 7 confirmed measles-associated deaths."
+    },
     {
       "who": "Pennsylvania Department of Health",
       "kind": "official",
@@ -1300,6 +1319,44 @@
           "url": "https://www.contagionlive.com/view/reports-say-us-loses-measles-elimination-status-after-26-years"
         }
       ]
+    },
+    {
+      "id": "2026-11-13-pennsylvania-1-542-cases-in",
+      "date": "2026-11-13",
+      "kind": "official",
+      "title": "Pennsylvania: 1,542 cases in 46 counties, seven deaths",
+      "body": "The state health department's update of 13 November counts 1,542 confirmed cases in 46 counties, 37 more than on 9 November, with 305 hospitalisations. The department confirmed a seventh measles-associated death this year. Five cases were in vaccinated people. CDC's count of six deaths was as of 12 November.",
+      "sources": [
+        {
+          "name": "Pennsylvania Department of Health (13 Nov)",
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-seventh-measles-associated-deat"
+        },
+        {
+          "name": "WPXI",
+          "url": "https://www.wpxi.com/news/local/7th-pennsylvania-resident-dies-measles-state-health-officials-say/UEALOBYJZJG6LODNZYTGTKNMCQ/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-paho-us-mexico-and-bolivia",
+      "date": "2026-11-17",
+      "kind": "official",
+      "title": "PAHO: US, Mexico and Bolivia lose measles elimination status",
+      "body": "The Pan American Health Organization announced on 17 November that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three countries have lost their measles elimination status. PAHO said the same measles virus lineage circulated uninterrupted for 12 months or more. The US had held elimination status since 2000. PAHO's director said the three countries are expected to submit plans in the coming weeks to stop transmission for at least a year and regain the status, ABC News reported.",
+      "sources": [
+        {
+          "name": "PAHO (17 Nov)",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Health/us-officially-loses-measles-elimination-status-paho/story?id=138203543"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"
+        }
+      ]
     }
   ],
   "context": {
@@ -1362,7 +1419,7 @@
       },
       {
         "year": "2026",
-        "text": "5,412 cases by 12 November. Elimination status under review."
+        "text": "5,412 cases by 12 November. PAHO announced on 17 November that the US had lost its elimination status."
       }
     ],
     "historySources": [
@@ -1408,7 +1465,7 @@
     },
     {
       "q": "What is elimination status?",
-      "a": "A country has eliminated measles when no single chain of spread lasts 12 months or more. The US reached it in 2000. PAHO's regional commission decides whether a country keeps it."
+      "a": "A country has eliminated measles when no single chain of spread lasts 12 months or more. The US reached it in 2000 and lost it on 17 November 2026, PAHO announced. PAHO's regional commission decides whether a country keeps it."
     }
   ],
   "follow": [
@@ -1425,13 +1482,13 @@
       "url": "https://www.cidrap.umn.edu/measles"
     },
     {
-      "name": "PAHO: measles elimination review",
-      "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status"
+      "name": "PAHO: measles in the Americas",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
     }
   ],
   "card": {
     "title": "US measles: 5,412 cases, highest in 35 years",
-    "sub": "CDC: 5,412 confirmed cases as of 12 Nov, 591 hospitalisations, six deaths. Pennsylvania reports 1,505 cases and six deaths (9 Nov).",
+    "sub": "PAHO, 17 Nov: US, Mexico and Bolivia lose measles elimination status. CDC: 5,412 cases (12 Nov), six deaths. Pennsylvania: 1,542 cases (13 Nov).",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1447,5 +1504,5 @@
     "sources": "CDC, Pennsylvania DOH (via Reuters), NY Governor, PAHO",
     "foot": "CDC data as of 12 Nov · updated weekly"
   },
-  "postExtra": "CDC counts six deaths (12 Nov); Pennsylvania's health department also reports six (9 Nov)."
+  "postExtra": "PAHO announced on 17 Nov that the US has lost measles elimination status. CDC counts six deaths (12 Nov); Pennsylvania's health department reports seven (13 Nov)."
 }
