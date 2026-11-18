@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-11-17T12:00:00Z</updated>
+  <updated>2026-11-18T12:00:00Z</updated>
   <author><name>US Measles Tracker</name></author>
   <entry>
     <title>PAHO: US, Mexico and Bolivia lose measles elimination status</title>
@@ -15,6 +15,15 @@
     <category term="official"/>
     <summary>The Pan American Health Organization announced on 17 November that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three countries have lost their measles elimination status. PAHO said the same measles virus lineage circulated uninterrupted for 12 months or more. The US had held elimination status since 2000. PAHO's director said the three countries are expected to submit plans in the coming weeks to stop transmission for at least a year and regain the status, ABC News reported.</summary>
     <content type="html">&lt;p&gt;The Pan American Health Organization announced on 17 November that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three countries have lost their measles elimination status. PAHO said the same measles virus lineage circulated uninterrupted for 12 months or more. The US had held elimination status since 2000. PAHO's director said the three countries are expected to submit plans in the coming weeks to stop transmission for at least a year and regain the status, ABC News reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"&gt;PAHO (17 Nov)&lt;/a&gt;, &lt;a href="https://abcnews.com/Health/us-officially-loses-measles-elimination-status-paho/story?id=138203543"&gt;ABC News&lt;/a&gt;, &lt;a href="https://nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"&gt;NBC News&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Pennsylvania: 1,561 cases in 46 counties, seven deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-16-pennsylvania-1-561-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-16-pennsylvania-1-561-cases-in</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 16 November counts 1,561 confirmed cases in 46 counties, 19 more than on 13 November, with 309 hospitalisations and seven confirmed measles-associated deaths. Five cases were in vaccinated people.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 16 November counts 1,561 confirmed cases in 46 counties, 19 more than on 13 November, with 309 hospitalisations and seven confirmed measles-associated deaths. Five cases were in vaccinated people.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out18"&gt;Pennsylvania Department of Health (16 Nov)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>CDC: 5,412 cases, 230 more than last update</title>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>CDC's national count rises to two. It now counts only deaths confirmed through death certificates (NCHS), so it is lower than state tallies.</summary>
     <content type="html">&lt;p&gt;CDC's national count rises to two. It now counts only deaths confirmed through death certificates (NCHS), so it is lower than state tallies.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/top-news/articles/2026-09-29/us-cdc-confirms-two-measles-related-deaths-in-2026"&gt;Reuters via U.S. News&lt;/a&gt;, &lt;a href="https://thehill.com/policy/healthcare/6118137-cdc-updates-measles-death-tally/"&gt;The Hill&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Pennsylvania confirms two more deaths</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-15-pennsylvania-confirms-two-more-deaths"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-15-pennsylvania-confirms-two-more-deaths</id>
-    <updated>2026-09-15T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Deaths in Jefferson and Mifflin counties bring the state's total to four.</summary>
-    <content type="html">&lt;p&gt;Deaths in Jefferson and Mifflin counties bring the state's total to four.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/doh-confirms-two-additional-measles-associated-deaths-"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.cnn.com/2026/09/15/health/pennsylvania-measles-deaths-outbreak"&gt;CNN&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
