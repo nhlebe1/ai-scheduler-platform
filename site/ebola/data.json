@@ -766,7 +766,7 @@
     {
       "label": "US entry restrictions extended again",
       "status": "done",
-      "note": "CDC order of 10 Nov keeps the suspension in effect through 10 Dec unless amended or rescinded earlier (Federal Register public inspection notice; EIG)",
+      "note": "CDC order of 10 Nov keeps the suspension in effect through 10 Dec unless amended or rescinded earlier (Erickson Immigration Group; VisaVerge)",
       "date": "2026-11-10"
     },
     {
@@ -857,7 +857,7 @@
       "label": "US entry restrictions expire unless extended again",
       "status": "pending",
       "date": "2026-12-10",
-      "note": "The 10 Nov order runs through 10 Dec (Federal Register public inspection notice)"
+      "note": "The 10 Nov order runs through 10 Dec (Erickson Immigration Group; VisaVerge)"
     }
   ],
   "positions": [
@@ -1210,7 +1210,7 @@
       "date": "2026-10-05",
       "kind": "official",
       "title": "Kenya's first imported case dies in Nairobi",
-      "body": "A Kenyan citizen living in DR Congo travelled by road to Kampala and flew to Nairobi on 3 October. He tested positive and died on 5 October. Contacts are being followed.",
+      "body": "Kenya confirmed its first case, imported from DR Congo after travel through Uganda. The patient died on 5 October. Contacts are being followed.",
       "sources": [
         {
           "name": "WHO Africa",
@@ -2065,8 +2065,8 @@
       "body": "A CDC order issued on 10 November keeps in place the suspension of entry for certain travellers who were in DR Congo, Uganda or South Sudan in the previous 21 days. It remains in effect through 10 December unless amended or rescinded earlier.",
       "sources": [
         {
-          "name": "Federal Register public inspection notice",
-          "url": "https://public-inspection.federalregister.gov/2026-23114.pdf"
+          "name": "VisaVerge",
+          "url": "https://www.visaverge.com/legal/cdc-keeps-entry-suspension-for-covered-aliens-over-bundibugyo-virus-risk/"
         },
         {
           "name": "EIG",

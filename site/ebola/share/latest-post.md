@@ -2,4 +2,4 @@ ECDC's 16 Nov update counts 11,376 confirmed Ebola cases and 5,568 deaths in DR 
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: ECDC update of 16 Nov (ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16); Federal Register public inspection notice (public-inspection.federalregister.gov/2026-23114.pdf).
+Sources: ECDC update of 16 Nov (ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16); Erickson Immigration Group (https://eiglaw.com/cdc-extends-ebola-related-travel-restrictions-through-december-10-2026/); VisaVerge (https://www.visaverge.com/legal/cdc-keeps-entry-suspension-for-covered-aliens-over-bundibugyo-virus-risk/).
