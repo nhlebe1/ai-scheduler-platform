@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/</id>
-  <updated>2026-11-17T06:42:00Z</updated>
+  <updated>2026-11-18T12:00:00Z</updated>
   <author><name>Ebola Tracker: DR Congo</name></author>
+  <entry>
+    <title>ECDC: 11,376 confirmed cases and 5,568 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-16-ecdc-11-376-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-16-ecdc-11-376-confirmed-cases</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="international"/>
+    <summary>ECDC's update of 16 November, with data up to 14 November, counts 11,376 confirmed cases and 5,568 deaths in DR Congo. Its update of 12 November, with data up to 11 November, counted 11,197 cases and 5,471 deaths.</summary>
+    <content type="html">&lt;p&gt;ECDC's update of 16 November, with data up to 14 November, counts 11,376 confirmed cases and 5,568 deaths in DR Congo. Its update of 12 November, with data up to 11 November, counted 11,197 cases and 5,471 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 16 Nov&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Africa CDC says the outbreak is still not under control</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-15-africa-cdc-says-the-outbreak"/>
@@ -60,6 +69,15 @@
     <category term="international"/>
     <summary>ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.</summary>
     <content type="html">&lt;p&gt;ECDC's update of 10 November, with data up to 8 November, counts 10,990 confirmed cases and 5,354 deaths in DR Congo. ECDC notes that the data DR Congo reports are under continuous review and harmonisation.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10"&gt;ECDC: Ebola disease outbreak caused by Bundibugyo virus, 10 Nov&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>CDC extends the US entry suspension to 10 December</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-cdc-extends-the-entry-suspension"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-10-cdc-extends-the-entry-suspension</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>A CDC order issued on 10 November keeps in place the suspension of entry for certain travellers who were in DR Congo, Uganda or South Sudan in the previous 21 days. It remains in effect through 10 December unless amended or rescinded earlier.</summary>
+    <content type="html">&lt;p&gt;A CDC order issued on 10 November keeps in place the suspension of entry for certain travellers who were in DR Congo, Uganda or South Sudan in the previous 21 days. It remains in effect through 10 December unless amended or rescinded earlier.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://public-inspection.federalregister.gov/2026-23114.pdf"&gt;Federal Register public inspection notice&lt;/a&gt;, &lt;a href="https://eiglaw.com/cdc-extends-ebola-related-travel-restrictions-through-december-10-2026/"&gt;EIG&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>ECDC: 10,741 confirmed cases and 5,230 deaths</title>
@@ -258,23 +276,5 @@
     <category term="official"/>
     <summary>Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.</summary>
     <content type="html">&lt;p&gt;Kenya's health ministry announced the death of a patient who had been in quarantine, the second death among Kenya's nine confirmed cases. The ministry said all confirmed cases remain within one cluster of known contacts, with no evidence of community spread, and that the other seven patients are receiving care, AP reported.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.news4jax.com/health/2026/10/23/kenya-announces-2nd-ebola-death-a-close-relative-of-the-first-patient/"&gt;AP via News4Jax&lt;/a&gt;, &lt;a href="https://www.the-star.co.ke/news/2026-10-24-kenya-records-second-ebola-death"&gt;The Star (Kenya)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>DR Congo passes 9,700 confirmed cases</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-counts-9-704-cases-and"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-cdc-counts-9-704-cases-and</id>
-    <updated>2026-10-22T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, according to TASS and Xinhua. Africa CDC presented the same figures at a briefing. WHO's Disease Outbreak News reports the same totals as of 20 October, across 66 health zones in eight provinces.</summary>
-    <content type="html">&lt;p&gt;DR Congo's health authorities count 9,704 confirmed cases and 4,687 deaths as of 20 October, according to TASS and Xinhua. Africa CDC presented the same figures at a briefing. WHO's Disease Outbreak News reports the same totals as of 20 October, across 66 health zones in eight provinces.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://tass.com/society/2206313"&gt;TASS&lt;/a&gt;, &lt;a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"&gt;WHO Disease Outbreak News (DON622)&lt;/a&gt;, &lt;a href="https://www.china.org.cn/2026-10/23/content_118745723.shtml"&gt;Xinhua via China.org.cn&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Africa CDC investigates a possible link between the first Kenya and Nigeria cases</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-africa-cdc-investigates-whether-first"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-10-22-africa-cdc-investigates-whether-first</id>
-    <updated>2026-10-22T12:00:00Z</updated>
-    <category term="international"/>
-    <summary>Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.</summary>
-    <content type="html">&lt;p&gt;Africa CDC said the first patients confirmed in Kenya and Nigeria both passed through Entebbe airport in Uganda on 3 October, and that whether they crossed paths there is one theory being investigated, AP reported. Kenya's health ministry has said all nine of its cases belong to one cluster; Nigeria has placed 44 contacts under follow-up.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.ksat.com/health/2026/10/22/first-ebola-patients-in-nigeria-and-kenya-might-have-crossed-paths-at-uganda-airport/"&gt;AP via KSAT&lt;/a&gt;, &lt;a href="https://healthpolicy-watch.news/did-nigeria-and-kenya-ebola-patients-cross-paths-in-uganda-airport/"&gt;Health Policy Watch&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
