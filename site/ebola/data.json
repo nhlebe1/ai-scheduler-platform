@@ -633,7 +633,7 @@
     {
       "claim": "Ebola has spread to Kenya",
       "status": "confirmed",
-      "detail": "Kenya has confirmed nine linked cases, two of them fatal. The first, a man who had travelled from DR Congo via Kampala, died on 5 October. The health ministry confirmed further cases from 14 October; on 17 October it reported four more, three of them health workers who cared for the first patient and one a relative, and on 18 October an eighth case, a contact of the first patient who was not a health worker, and on 20 October a ninth, a contact who was already in quarantine. All were already in quarantine, and officials said there was no evidence of community transmission, and on 20 October the ministry said all nine cases belong to one cluster. On 23 October the ministry announced a second death, of a patient who had been in quarantine, and on 26 October it released the first 20 contacts after 21 days of monitoring without symptoms; the other 98 are due out in four waves from 3 November. On 11 November the health minister said the last patient had been discharged and the last contacts released, starting a 42-day countdown to declaring the outbreak over, according to media reports.",
+      "detail": "Kenya has confirmed nine linked cases, two of them fatal. The first patient, who had travelled from DR Congo via Kampala, died on 5 October. The health ministry confirmed further cases from 14 October; on 17 October it reported four more, three of them health workers who cared for the first patient and one a relative, and on 18 October an eighth case, a contact of the first patient who was not a health worker, and on 20 October a ninth, a contact who was already in quarantine. All were already in quarantine, and officials said there was no evidence of community transmission, and on 20 October the ministry said all nine cases belong to one cluster. On 23 October the ministry announced a second death, of a patient who had been in quarantine, and on 26 October it released the first 20 contacts after 21 days of monitoring without symptoms; the other 98 are due out in four waves from 3 November. On 11 November the health minister said the last patient had been discharged and the last contacts released, starting a 42-day countdown to declaring the outbreak over, according to media reports.",
       "sources": [
         {
           "name": "WHO Africa",
@@ -1038,7 +1038,7 @@
       "date": "2026-06-24",
       "kind": "international",
       "title": "France reports an imported case",
-      "body": "An intensive-care doctor returning from DR Congo tests positive in France. He recovers, and none of his contacts fall ill.",
+      "body": "A health worker returning from DR Congo tests positive in France. The patient recovers, and none of their contacts fall ill.",
       "sources": [
         {
           "name": "WHO DON612",
@@ -1460,7 +1460,7 @@
       "date": "2026-10-18",
       "kind": "official",
       "title": "Kenya confirms an eighth Ebola case",
-      "body": "Kenya's health ministry said one more person tested positive, bringing the total to eight including the first patient, who died. The new case is a contact of the first patient who was in quarantine; the ministry said he is not a health worker. The Washington Post reports no community transmission so far.",
+      "body": "Kenya's health ministry said one more person tested positive, bringing the total to eight including the first patient, who died. The new case is a contact of the first patient who was in quarantine; the ministry said the person is not a health worker. The Washington Post reports no community transmission so far.",
       "sources": [
         {
           "name": "Al Jazeera",
