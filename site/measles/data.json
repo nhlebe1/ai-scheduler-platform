@@ -25,7 +25,7 @@
   "status": {
     "level": "growing",
     "label": "Growing · elimination status lost",
-    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,561 cases in 46 counties, 309 hospitalisations and seven confirmed deaths by the state's count (16 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,561 cases in 46 counties, 310 hospitalisations and seven confirmed deaths by the state's count (16 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -339,7 +339,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 16 Nov. 46 counties, 309 hospitalisations, 7 confirmed deaths.",
+      "Pennsylvania": "State health dept, 16 Nov. 46 counties, 310 hospitalisations, 7 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -613,7 +613,7 @@
       "who": "Pennsylvania Department of Health",
       "kind": "official",
       "date": "2026-11-16",
-      "text": "1,561 cases in 46 counties, 309 hospitalised and 7 confirmed measles-associated deaths."
+      "text": "1,561 cases in 46 counties, 310 hospitalised and 7 confirmed measles-associated deaths."
     },
     {
       "who": "Pan American Health Organization",
@@ -1369,7 +1369,7 @@
       "date": "2026-11-16",
       "kind": "official",
       "title": "Pennsylvania: 1,561 cases in 46 counties, seven deaths",
-      "body": "The state health department's update of 16 November counts 1,561 confirmed cases in 46 counties, 19 more than on 13 November, with 309 hospitalisations and seven confirmed measles-associated deaths. Five cases were in vaccinated people.",
+      "body": "The state health department's update of 16 November counts 1,561 confirmed cases in 46 counties, 19 more than on 13 November, with 310 hospitalisations and seven confirmed measles-associated deaths. Five cases were in vaccinated people.",
       "sources": [
         {
           "name": "Pennsylvania Department of Health (16 Nov)",
