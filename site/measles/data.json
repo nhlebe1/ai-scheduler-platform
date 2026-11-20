@@ -544,11 +544,15 @@
       "sources": [
         {
           "name": "Pennsylvania Dept. of Health (18 Nov)",
-          "url": "https://pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
         },
         {
-          "name": "Philadelphia Inquirer",
-          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-deaths-2026-20261118.html"
+          "name": "WFMZ",
+          "url": "https://www.wfmz.com/news/area/pennsylvania/doh-confirms-8th-measles-associated-death-as-cases-reach-1-589-across-46-counties-in/article_84e545e0-e75b-48a1-a796-4a66b7314892.html"
+        },
+        {
+          "name": "abc27",
+          "url": "https://www.abc27.com/pennsylvania/eighth-measles-associated-death-reported-in-pennsylvania/"
         }
       ]
     }
@@ -1407,11 +1411,15 @@
       "sources": [
         {
           "name": "Pennsylvania Department of Health (18 Nov)",
-          "url": "https://pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
+          "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
         },
         {
-          "name": "Philadelphia Inquirer",
-          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-deaths-2026-20261118.html"
+          "name": "WFMZ",
+          "url": "https://www.wfmz.com/news/area/pennsylvania/doh-confirms-8th-measles-associated-death-as-cases-reach-1-589-across-46-counties-in/article_84e545e0-e75b-48a1-a796-4a66b7314892.html"
+        },
+        {
+          "name": "abc27",
+          "url": "https://www.abc27.com/pennsylvania/eighth-measles-associated-death-reported-in-pennsylvania/"
         }
       ]
     }
