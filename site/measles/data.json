@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-18T12:00:00Z",
-  "checked": "2026-11-20T06:42:00Z",
+  "updated": "2026-11-20T12:00:00Z",
+  "checked": "2026-11-20T12:00:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,561 cases and seven measles-associated deaths (16 November).",
+  "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,589 cases and eight measles-associated deaths (18 November).",
   "status": {
     "level": "growing",
     "label": "Growing · elimination status lost",
-    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,561 cases in 46 counties, 310 hospitalisations and seven confirmed deaths by the state's count (16 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,589 cases in 46 counties, 315 hospitalisations and eight confirmed deaths by the state's count (18 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -90,7 +90,7 @@
       "id": "deaths",
       "label": "Deaths (CDC count)",
       "value": 6,
-      "note": "CDC, as of 12 Nov, subject to change as reviews continue (Reuters; ABC News). Earlier: CDC counted 4 as of 5 Nov. Pennsylvania's health department reports 7 under its own count (16 Nov)",
+      "note": "CDC, as of 12 Nov, subject to change as reviews continue (Reuters; ABC News). Earlier: CDC counted 4 as of 5 Nov. Pennsylvania's health department reports 8 under its own count (18 Nov)",
       "tone": "critical",
       "upIsBad": true
     }
@@ -324,7 +324,7 @@
     ],
     "noneLabel": "Not tracked here",
     "values": {
-      "Pennsylvania": 1561,
+      "Pennsylvania": 1589,
       "South Carolina": 670,
       "Utah": 535,
       "Wisconsin": 214,
@@ -339,7 +339,7 @@
       "North Dakota": 38
     },
     "notes": {
-      "Pennsylvania": "State health dept, 16 Nov. 46 counties, 310 hospitalisations, 7 confirmed deaths.",
+      "Pennsylvania": "State health dept, 18 Nov. 46 counties, 315 hospitalisations, 8 confirmed deaths.",
       "South Carolina": "2026 cases, 6 Oct. Outbreak declared over in April.",
       "Utah": "CDC map, 1 Oct.",
       "Wisconsin": "State health dept, 29 Sep. Outbreak in Lafayette, Iowa and Grant counties.",
@@ -536,6 +536,21 @@
           "url": "https://www.cdc.gov/measles/vaccines/index.html"
         }
       ]
+    },
+    {
+      "claim": "Pennsylvania has had eight measles deaths this year",
+      "status": "confirmed",
+      "detail": "The state health department confirmed an eighth measles-associated death on 18 November. CDC's national count was six as of 12 November, subject to change as reviews continue.",
+      "sources": [
+        {
+          "name": "Pennsylvania Dept. of Health (18 Nov)",
+          "url": "https://pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
+        },
+        {
+          "name": "Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-deaths-2026-20261118.html"
+        }
+      ]
     }
   ],
   "watchlist": [
@@ -598,9 +613,9 @@
       "note": "CDC has published weekly. Expected date, not announced."
     },
     {
-      "label": "CDC's national death count reflects Pennsylvania's seventh death",
+      "label": "CDC's national death count reflects Pennsylvania's eighth death",
       "status": "pending",
-      "note": "CDC counts six (12 Nov); Pennsylvania's health department reports seven (13 Nov)"
+      "note": "CDC counts six (12 Nov); Pennsylvania's health department reports eight (18 Nov)"
     },
     {
       "label": "US, Mexico and Bolivia submit plans to PAHO to regain elimination status",
@@ -609,6 +624,12 @@
     }
   ],
   "positions": [
+    {
+      "who": "Pennsylvania Department of Health",
+      "kind": "official",
+      "date": "2026-11-18",
+      "text": "1,589 cases in 46 counties, 315 hospitalised and 8 confirmed measles-associated deaths."
+    },
     {
       "who": "Pennsylvania Department of Health",
       "kind": "official",
@@ -1376,6 +1397,23 @@
           "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out18"
         }
       ]
+    },
+    {
+      "id": "2026-11-18-pennsylvania-1-589-cases-in",
+      "date": "2026-11-18",
+      "kind": "official",
+      "title": "Pennsylvania: 1,589 cases in 46 counties, eight deaths",
+      "body": "The state health department's update of 18 November counts 1,589 confirmed cases in 46 counties, with 315 hospitalisations. The department confirmed an eighth measles-associated death this year and reported 28 newly confirmed cases since 16 November.",
+      "sources": [
+        {
+          "name": "Pennsylvania Department of Health (18 Nov)",
+          "url": "https://pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"
+        },
+        {
+          "name": "Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-deaths-2026-20261118.html"
+        }
+      ]
     }
   ],
   "context": {
@@ -1507,7 +1545,7 @@
   ],
   "card": {
     "title": "US measles: 5,412 cases, highest in 35 years",
-    "sub": "PAHO, 17 Nov: US, Mexico and Bolivia lose measles elimination status. CDC: 5,412 cases (12 Nov), six deaths. Pennsylvania: 1,561 cases (16 Nov).",
+    "sub": "PAHO, 17 Nov: US, Mexico and Bolivia lose measles elimination status. CDC: 5,412 cases (12 Nov), six deaths. Pennsylvania: 1,589 cases (18 Nov).",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1523,5 +1561,5 @@
     "sources": "CDC, Pennsylvania DOH (via Reuters), NY Governor, PAHO",
     "foot": "CDC data as of 12 Nov · updated weekly"
   },
-  "postExtra": "PAHO announced on 17 Nov that the US has lost measles elimination status. CDC counts six deaths (12 Nov); Pennsylvania's health department reports seven (16 Nov)."
+  "postExtra": "PAHO announced on 17 Nov that the US has lost measles elimination status. CDC counts six deaths (12 Nov); Pennsylvania's health department reports eight (18 Nov)."
 }
