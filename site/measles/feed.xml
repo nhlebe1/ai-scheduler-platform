@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-11-20T12:00:00Z</updated>
+  <updated>2026-11-21T12:00:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>CDC: 5,838 cases, 426 more than last update</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-20-cdc-5-838-cases-426"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-20-cdc-5-838-cases-426</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's weekly update, with data as of 19 November, counts 5,838 confirmed US measles cases in 2026, 426 more than in its previous update, CIDRAP reported. CDC's hospitalisation and death tables still showed the 12 November figures: 591 hospitalisations and six deaths.</summary>
+    <content type="html">&lt;p&gt;CDC's weekly update, with data as of 19 November, counts 5,838 confirmed US measles cases in 2026, 426 more than in its previous update, CIDRAP reported. CDC's hospitalisation and death tables still showed the 12 November figures: 591 hospitalisations and six deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/measles/data-research/index.html"&gt;CDC measles cases and outbreaks (data as of 19 Nov)&lt;/a&gt;, &lt;a href="https://www.cidrap.umn.edu/measles/wisconsin-sees-triple-digit-measles-increase-us-nears-6000-cases"&gt;CIDRAP&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-november-20-2026"&gt;Contagion Live (CDC data, 19 Nov)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Pennsylvania: 1,589 cases in 46 counties, eight deaths</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-18-pennsylvania-1-589-cases-in"/>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>The weekly update counts 228 new cases, 42 new outbreaks this year, and 95% of cases linked to outbreaks.</summary>
     <content type="html">&lt;p&gt;The weekly update counts 228 new cases, 42 new outbreaks this year, and 95% of cases linked to outbreaks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.contagionlive.com/view/measles-update-october-2-2026"&gt;Contagion Live&lt;/a&gt;, &lt;a href="https://www.cidrap.umn.edu/measles/measles-milestones-us-closes-4000-cases-pennsylvania-nears-1000"&gt;CIDRAP&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Pennsylvania reports a fifth death</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-30-pennsylvania-reports-a-fifth-death"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-09-30-pennsylvania-reports-a-fifth-death</id>
-    <updated>2026-09-30T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>A fifth measles-associated death is confirmed in Lancaster County.</summary>
-    <content type="html">&lt;p&gt;A fifth measles-associated death is confirmed in Lancaster County.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

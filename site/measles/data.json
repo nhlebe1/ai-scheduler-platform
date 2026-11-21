@@ -14,18 +14,18 @@
     ],
     "disclaimer": "This tracker summarises CDC data, state health departments and news reports. It is not medical advice. Ask a doctor or pharmacist about MMR vaccination, and call ahead before visiting a clinic if you think you have measles."
   },
-  "updated": "2026-11-20T12:00:00Z",
-  "checked": "2026-11-20T12:00:00Z",
+  "updated": "2026-11-21T12:00:00Z",
+  "checked": "2026-11-21T12:00:00Z",
   "siteUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "shareUrl": "https://nhlebe1.github.io/ai-scheduler-platform/measles/",
   "social": {
     "x": "OutbreakLedger"
   },
-  "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,589 cases and eight measles-associated deaths (18 November).",
+  "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,838 US cases in 2026 (as of 19 November), the highest annual total in 35 years. Pennsylvania reports 1,589 cases and eight measles-associated deaths (18 November).",
   "status": {
     "level": "growing",
     "label": "Growing · elimination status lost",
-    "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,589 cases in 46 counties, 315 hospitalisations and eight confirmed deaths by the state's count (18 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+    "summary": "CDC counted 5,838 confirmed cases as of 19 November, 426 more than in its previous update (CIDRAP); its hospitalisation and death tables still showed 591 hospitalisations and six deaths, as of 12 November, subject to change as reviews continue (Contagion Live; CDC). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,589 cases in 46 counties, 315 hospitalisations and eight confirmed deaths by the state's count (18 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
   },
   "stage": {
     "title": "US elimination status",
@@ -65,8 +65,8 @@
     {
       "id": "cases",
       "label": "Confirmed cases",
-      "value": 5412,
-      "note": "CDC, as of 12 Nov (Reuters, via U.S. News; ABC News). Earlier: 5,182 as of 5 Nov",
+      "value": 5838,
+      "note": "CDC, as of 19 Nov (CDC page; CIDRAP; Contagion Live). Earlier: 5,412 as of 12 Nov; 5,182 as of 5 Nov",
       "tone": "critical",
       "upIsBad": true
     },
@@ -177,6 +177,12 @@
         "cases": 5412,
         "deaths": 6
       }
+    },
+    {
+      "date": "2026-11-19",
+      "values": {
+        "cases": 5838
+      }
     }
   ],
   "trend": {
@@ -253,11 +259,23 @@
       },
       {
         "label": "2026",
-        "value": 5412,
+        "value": 5838,
         "note": "year to date"
       }
     ],
     "sources": [
+      {
+        "name": "CDC measles cases and outbreaks (data as of 19 Nov)",
+        "url": "https://www.cdc.gov/measles/data-research/index.html"
+      },
+      {
+        "name": "CIDRAP",
+        "url": "https://www.cidrap.umn.edu/measles/wisconsin-sees-triple-digit-measles-increase-us-nears-6000-cases"
+      },
+      {
+        "name": "Contagion Live (CDC data, 19 Nov)",
+        "url": "https://www.contagionlive.com/view/measles-update-november-20-2026"
+      },
       {
         "name": "Reuters via U.S. News (CDC data, 12 Nov)",
         "url": "https://www.usnews.com/news/us/articles/2026-11-13/us-measles-cases-rise-to-5-412-cdc-says"
@@ -510,7 +528,7 @@
     {
       "claim": "2026 is the worst US measles year since 1991",
       "status": "confirmed",
-      "detail": "2026 passed 2025's total of 2,289 in July. The 5,412 cases counted by 12 November are the most since 1991's 9,643.",
+      "detail": "2026 passed 2025's total of 2,289 in July. The 5,838 cases counted by 19 November are the most since 1991's 9,643.",
       "sources": [
         {
           "name": "ABC News",
@@ -1422,6 +1440,27 @@
           "url": "https://www.abc27.com/pennsylvania/eighth-measles-associated-death-reported-in-pennsylvania/"
         }
       ]
+    },
+    {
+      "id": "2026-11-20-cdc-5-838-cases-426",
+      "date": "2026-11-20",
+      "kind": "official",
+      "title": "CDC: 5,838 cases, 426 more than last update",
+      "body": "CDC's weekly update, with data as of 19 November, counts 5,838 confirmed US measles cases in 2026, 426 more than in its previous update, CIDRAP reported. CDC's hospitalisation and death tables still showed the 12 November figures: 591 hospitalisations and six deaths.",
+      "sources": [
+        {
+          "name": "CDC measles cases and outbreaks (data as of 19 Nov)",
+          "url": "https://www.cdc.gov/measles/data-research/index.html"
+        },
+        {
+          "name": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/measles/wisconsin-sees-triple-digit-measles-increase-us-nears-6000-cases"
+        },
+        {
+          "name": "Contagion Live (CDC data, 19 Nov)",
+          "url": "https://www.contagionlive.com/view/measles-update-november-20-2026"
+        }
+      ]
     }
   ],
   "context": {
@@ -1484,7 +1523,7 @@
       },
       {
         "year": "2026",
-        "text": "5,412 cases by 12 November. PAHO announced on 17 November that the US had lost its elimination status."
+        "text": "5,838 cases by 19 November. PAHO announced on 17 November that the US had lost its elimination status."
       }
     ],
     "historySources": [
@@ -1552,8 +1591,8 @@
     }
   ],
   "card": {
-    "title": "US measles: 5,412 cases, highest in 35 years",
-    "sub": "PAHO, 17 Nov: US, Mexico and Bolivia lose measles elimination status. CDC: 5,412 cases (12 Nov), six deaths. Pennsylvania: 1,589 cases (18 Nov).",
+    "title": "US measles: 5,838 cases, highest in 35 years",
+    "sub": "PAHO, 17 Nov: US, Mexico and Bolivia lose measles elimination status. CDC: 5,838 cases (19 Nov). Pennsylvania: 1,589 cases (18 Nov).",
     "stats": [
       "cases",
       "jurisdictions",
@@ -1567,7 +1606,7 @@
       "deaths": "Deaths (CDC)"
     },
     "sources": "CDC, Pennsylvania DOH (via Reuters), NY Governor, PAHO",
-    "foot": "CDC data as of 12 Nov · updated weekly"
+    "foot": "CDC data as of 19 Nov · updated weekly"
   },
-  "postExtra": "PAHO announced on 17 Nov that the US has lost measles elimination status. CDC counts six deaths (12 Nov); Pennsylvania's health department reports eight (18 Nov)."
+  "postExtra": "PAHO announced on 17 Nov that the US has lost measles elimination status. CDC counts 5,838 cases (19 Nov); Pennsylvania's health department reports eight deaths (18 Nov)."
 }

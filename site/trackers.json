@@ -16,15 +16,15 @@
       "status": {
         "level": "growing",
         "label": "Growing · elimination status lost",
-        "summary": "CDC counted 5,412 confirmed cases as of 12 November, 230 more than in its previous update, with 591 hospitalisations and six deaths, subject to change as reviews continue (Reuters; ABC News). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,589 cases in 46 counties, 315 hospitalisations and eight confirmed deaths by the state's count (18 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+        "summary": "CDC counted 5,838 confirmed cases as of 19 November, 426 more than in its previous update (CIDRAP); its hospitalisation and death tables still showed 591 hospitalisations and six deaths, as of 12 November, subject to change as reviews continue (Contagion Live; CDC). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,589 cases in 46 counties, 315 hospitalisations and eight confirmed deaths by the state's count (18 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
       },
-      "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,412 US cases in 2026 (as of 12 November), the highest annual total in 35 years. Pennsylvania reports 1,589 cases and eight measles-associated deaths (18 November).",
-      "updated": "2026-11-20T12:00:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 5,838 US cases in 2026 (as of 19 November), the highest annual total in 35 years. Pennsylvania reports 1,589 cases and eight measles-associated deaths (18 November).",
+      "updated": "2026-11-21T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
-          "value": 5412,
+          "value": 5838,
           "unit": "",
           "tone": "critical"
         },
@@ -43,14 +43,14 @@
       ],
       "latest": [
         {
+          "date": "2026-11-20",
+          "title": "CDC: 5,838 cases, 426 more than last update",
+          "id": "2026-11-20-cdc-5-838-cases-426"
+        },
+        {
           "date": "2026-11-18",
           "title": "Pennsylvania: 1,589 cases in 46 counties, eight deaths",
           "id": "2026-11-18-pennsylvania-1-589-cases-in"
-        },
-        {
-          "date": "2026-11-17",
-          "title": "PAHO: US, Mexico and Bolivia lose measles elimination status",
-          "id": "2026-11-17-paho-us-mexico-and-bolivia"
         }
       ]
     },
@@ -67,7 +67,7 @@
       },
       "headline": "ECDC's 16 November update counts 11,376 confirmed Ebola cases and 5,568 deaths in DR Congo, from data up to 14 November. DR Congo health ministry data released on 10 November showed 11,042 cases and 5,387 deaths (Al Jazeera, AP). The outbreak is in eight provinces. Kenya, with nine cases and two deaths, discharged its last patient on 11 November and began a 42-day countdown; Nigeria has one imported case.",
       "updated": "2026-11-18T12:00:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -114,7 +114,7 @@
       },
       "headline": "WHO counted 1,153 confirmed mpox cases in 11 African countries in the six weeks to 16 August, most in Madagascar. CDC says sustained clade Ib spread in the US is likely.",
       "updated": "2026-11-17T12:00:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Cases in Africa, last six weeks",
@@ -161,7 +161,7 @@
       },
       "headline": "WHO counts 275,284 cases and 2,601 deaths in 28 countries by 30 August, 43% fewer cases than a year earlier. 2025 had the most deaths since 1999.",
       "updated": "2026-11-12T06:50:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Cases in 2026 so far",
@@ -208,7 +208,7 @@
       },
       "headline": "Italy has 76 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
       "updated": "2026-11-07T18:45:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -302,7 +302,7 @@
       },
       "headline": "No further Marburg cases have been reported since Uganda's isolated case in late June. Ethiopia's first outbreak ended on 26 January with 14 confirmed cases and 9 deaths.",
       "updated": "2026-10-07T01:32:00Z",
-      "checked": "2026-11-20T12:00:00Z",
+      "checked": "2026-11-21T12:00:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
