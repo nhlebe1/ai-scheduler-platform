@@ -1,5 +1,5 @@
-ECDC's 16 Nov update counts 11,376 confirmed Ebola cases and 5,568 deaths in DR Congo (data to 14 Nov), up from 11,197 and 5,471 in its 12 Nov update. CDC's US entry suspension now runs through 10 Dec.
+CDC's situation summary lists 11,680 confirmed Ebola cases and 5,715 deaths in DR Congo as of 18 Nov. ECDC's 16 Nov update counted 11,376 and 5,568 (data to 14 Nov). Kenya's 42-day countdown runs from 11 Nov.
 
 https://nhlebe1.github.io/ai-scheduler-platform/ebola/
 
-Sources: ECDC update of 16 Nov (ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16); Erickson Immigration Group (https://eiglaw.com/cdc-extends-ebola-related-travel-restrictions-through-december-10-2026/); VisaVerge (https://www.visaverge.com/legal/cdc-keeps-entry-suspension-for-covered-aliens-over-bundibugyo-virus-risk/).
+Sources: CDC Ebola situation summary (https://www.cdc.gov/ebola/situation-summary/index.html); ECDC update of 16 Nov (https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-16).

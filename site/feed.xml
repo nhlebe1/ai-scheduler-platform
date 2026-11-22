@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-21T12:00:00Z</updated>
+  <updated>2026-11-22T12:00:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Measles · US: CDC: 5,838 cases, 426 more than last update</title>
@@ -24,6 +24,15 @@
     <category term="official"/>
     <summary>The state health department's update of 18 November counts 1,589 confirmed cases in 46 counties, with 315 hospitalisations. The department confirmed an eighth measles-associated death this year and reported 28 newly confirmed cases since 16 November.</summary>
     <content type="html">&lt;p&gt;The state health department's update of 18 November counts 1,589 confirmed cases in 46 counties, with 315 hospitalisations. The department confirmed an eighth measles-associated death this year and reported 28 newly confirmed cases since 16 November.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-eighth-measles-associated-death"&gt;Pennsylvania Department of Health (18 Nov)&lt;/a&gt;, &lt;a href="https://www.wfmz.com/news/area/pennsylvania/doh-confirms-8th-measles-associated-death-as-cases-reach-1-589-across-46-counties-in/article_84e545e0-e75b-48a1-a796-4a66b7314892.html"&gt;WFMZ&lt;/a&gt;, &lt;a href="https://www.abc27.com/pennsylvania/eighth-measles-associated-death-reported-in-pennsylvania/"&gt;abc27&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ebola · DR Congo: CDC: 11,680 confirmed cases and 5,715 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-18-cdc-11-680-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-18-cdc-11-680-confirmed-cases</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC's situation summary, with data as of 18 November, lists 11,680 confirmed cases and 5,715 confirmed deaths in DR Congo. CDC says case counts are expected to change as investigations continue. ECDC's update of 16 November, with data up to 14 November, counted 11,376 cases and 5,568 deaths.</summary>
+    <content type="html">&lt;p&gt;CDC's situation summary, with data as of 18 November, lists 11,680 confirmed cases and 5,715 confirmed deaths in DR Congo. CDC says case counts are expected to change as investigations continue. ECDC's update of 16 November, with data up to 14 November, counted 11,376 cases and 5,568 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;CDC: Ebola Outbreak: Current Situation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Measles · US: PAHO: US, Mexico and Bolivia lose measles elimination status</title>
@@ -294,15 +303,6 @@
     <category term="official"/>
     <summary>New York State health officials announced a measles-associated death in a rural county in northern New York, the state's first in more than 30 years. Officials asked that the family's privacy be respected. CDC's count of three deaths nationally, as of 29 October, was published before the announcement.</summary>
     <content type="html">&lt;p&gt;New York State health officials announced a measles-associated death in a rural county in northern New York, the state's first in more than 30 years. Officials asked that the family's privacy be respected. CDC's count of three deaths nationally, as of 29 October, was published before the announcement.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cnn.com/2026/11/02/health/new-york-measles-death"&gt;CNN&lt;/a&gt;, &lt;a href="https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/"&gt;STAT&lt;/a&gt;, &lt;a href="https://www.washingtonpost.com/health/2026/11/02/new-york-reports-its-first-measles-associated-death-more-than-30-years/"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: DR Congo institute: 10,414 cases and 5,372 deaths as of 30 October</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-01-dr-congo-institute-10-414-cases"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-01-dr-congo-institute-10-414-cases</id>
-    <updated>2026-11-01T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>A situation report from a DR Congo national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 October, a case fatality rate of 51.6%. Bloomberg names the National Institute of Public Health and Africanews the National Institute of Biomedical Research. Bloomberg reported that the rate rose above 50% after health authorities "added hundreds of previously unallocated fatalities to the official toll"; Africanews described the increase in deaths as "a retrospective adjustment of data between the local data processing team and the Ituri Province outbreak management team", not a single-day surge. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.</summary>
-    <content type="html">&lt;p&gt;A situation report from a DR Congo national health institute counts 10,414 confirmed cases and 5,372 deaths as of 30 October, a case fatality rate of 51.6%. Bloomberg names the National Institute of Public Health and Africanews the National Institute of Biomedical Research. Bloomberg reported that the rate rose above 50% after health authorities "added hundreds of previously unallocated fatalities to the official toll"; Africanews described the increase in deaths as "a retrospective adjustment of data between the local data processing team and the Ituri Province outbreak management team", not a single-day surge. ECDC's latest count, from data up to 28 October, is 10,274 confirmed cases and 4,992 deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.africanews.com/2026/11/02/ebola-fatality-rate-in-dr-congo-tops-50-as-death-toll-reaches-5372/"&gt;Africanews (2 Nov)&lt;/a&gt;, &lt;a href="https://www.bloomberg.com/news/articles/2026-11-01/dr-congo-ebola-outbreak-death-toll-tops-5-300-pushing-fatality-rate-above-50"&gt;Bloomberg (1 Nov)&lt;/a&gt;, &lt;a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"&gt;ECDC: Ebola disease, multi-country outbreak 2026&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Measles · US: CDC: 4,852 cases, 264 more than last update</title>
