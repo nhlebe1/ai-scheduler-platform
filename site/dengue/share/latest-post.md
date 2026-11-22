@@ -1,3 +1,3 @@
-Dengue in Europe: Italy's ISS counts 76 locally acquired cases (data to 3 Nov) and France 8 (to 2 Nov), 84 in all, against a record 304 in 2024. France's local chikungunya count is 208. https://nhlebe1.github.io/ai-scheduler-platform/dengue/
+Dengue in Europe: France's 18 Nov bulletin keeps local dengue at 8 cases (data to 16 Nov); with Italy's 76 (ISS, to 3 Nov), 84 in all, against a record 304 in 2024. France's local chikungunya count is 216. https://nhlebe1.github.io/ai-scheduler-platform/dengue/
 
-Sources: ISS update via Quotidiano Sanità (6 Nov); Santé publique France bulletin (4 Nov).
+Sources: Santé publique France bulletin of 18 Nov (https://www.santepubliquefrance.fr/maladies-a-transmission-vectorielle/chikungunya/bulletin-national/chikungunya-dengue-zika-et-30); ISS update via Quotidiano Sanità (https://www.quotidianosanita.it/cronache/arbovirosi-in-italia-790-casi-di-west-nile-e-61-decessi-dengue-376-contagi-e-76-autoctoni-il-nuovo-bollettino-iss/).

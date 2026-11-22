@@ -204,11 +204,11 @@
       "status": {
         "level": "active",
         "label": "Active · local cases in Italy and France",
-        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 76 local cases by 3 November, unchanged from 27 October (73 by 20 October). On 20 October they were linked to 5 outbreaks plus 2 cases not linked to the others, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October. Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 2 November), with no new episode since its previous bulletin. The total is well below the 2024 record of 304. ECDC reports weekly until November."
+        "summary": "Italy and France are the only EU/EEA countries with locally acquired dengue this year. Italy's national health institute (ISS) counted 76 local cases by 3 November, unchanged from 27 October (73 by 20 October). On 20 October they were linked to 5 outbreaks plus 2 cases not linked to the others, in places including the provinces of Livorno, Lecce and Milan and a cluster in Cartigliano (Vicenza) that had reached 8 cases by 2 October. Italy's National Blood Centre added Rome to its list of affected areas on 2 October. France counts 8 cases in 5 episodes (data to 16 November). The total is well below the 2024 record of 304. ECDC reports weekly until November."
       },
       "headline": "Italy has 76 locally acquired dengue cases this year and France 8, well below the 2024 record of 304.",
-      "updated": "2026-11-07T18:45:00Z",
-      "checked": "2026-11-22T18:42:05Z",
+      "updated": "2026-11-22T19:00:00Z",
+      "checked": "2026-11-22T19:00:00Z",
       "figures": [
         {
           "label": "Locally acquired cases",
@@ -224,21 +224,21 @@
         },
         {
           "label": "Local chikungunya cases (context)",
-          "value": 209,
+          "value": 217,
           "unit": "",
           "tone": "watch"
         }
       ],
       "latest": [
         {
+          "date": "2026-11-18",
+          "title": "France: dengue unchanged at 8 cases, chikungunya at 216",
+          "id": "2026-11-18-france-dengue-unchanged-at-8"
+        },
+        {
           "date": "2026-11-06",
           "title": "Italy: local dengue cases stay at 76",
           "id": "2026-11-06-italy-dengue-unchanged-at-76"
-        },
-        {
-          "date": "2026-11-04",
-          "title": "France: dengue unchanged at 8 cases, chikungunya at 208",
-          "id": "2026-11-04-france-208-local-chikungunya-cases"
         }
       ]
     },
