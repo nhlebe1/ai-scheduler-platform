@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-26T08:00:00Z</updated>
+  <updated>2026-11-26T14:00:00Z</updated>
   <author><name>Outbreak Ledger</name></author>
+  <entry>
+    <title>Ebola · DR Congo: DR Congo data: 12,021 confirmed cases and 5,904 deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-26-dr-congo-12-021-confirmed-cases"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-26-dr-congo-12-021-confirmed-cases</id>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <category term="media"/>
+    <summary>Government data show 12,021 confirmed Ebola cases, including 5,904 deaths, in DR Congo, Reuters and AP reported on 26 November. CDC's situation summary had listed 11,680 cases and 5,715 deaths as of 18 November.</summary>
+    <content type="html">&lt;p&gt;Government data show 12,021 confirmed Ebola cases, including 5,904 deaths, in DR Congo, Reuters and AP reported on 26 November. CDC's situation summary had listed 11,680 cases and 5,715 deaths as of 18 November.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45H02T:0-congo-s-ebola-cases-surpass-12-000-government-data-shows/"&gt;Reuters: Congo's Ebola cases surpass 12,000, government data shows&lt;/a&gt;, &lt;a href="https://whdh.com/news/ebola-outbreak-in-congo-reaches-12000-cases-as-violence-forces-some-responders-to-evacuate/"&gt;AP: Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Measles · US: CDC counts nine measles-related deaths</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-25-cdc-counts-nine-measles-related"/>
@@ -312,15 +321,6 @@
     <category term="official"/>
     <summary>Kenya's health ministry said 46 contacts completed monitoring without symptoms and were released from quarantine on 3 November, bringing the total released to 66, and that 52 remain, expected out by 11 November. Five patients were discharged after testing negative and two remain under treatment. Kenya's count stays at nine confirmed cases, two of them fatal. The ministry said the outbreak would not be declared over until a 42-day countdown is complete.</summary>
     <content type="html">&lt;p&gt;Kenya's health ministry said 46 contacts completed monitoring without symptoms and were released from quarantine on 3 November, bringing the total released to 66, and that 52 remain, expected out by 11 November. Five patients were discharged after testing negative and two remain under treatment. Kenya's count stays at nine confirmed cases, two of them fatal. The ministry said the outbreak would not be declared over until a 42-day countdown is complete.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.kenyanews.go.ke/five-ebola-patients-discharged-as-46-contacts-complete-quarantine/"&gt;Kenya News Agency&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/nov/3/kenya-releases-five-ebola-patients-negative-tests-two-remain/"&gt;Washington Times (3 Nov)&lt;/a&gt;, &lt;a href="https://english.news.cn/africa/20261104/5a29b63d60394aa7a8b4695693a1eb83/c.html"&gt;Xinhua (4 Nov)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Ebola · DR Congo: CDC Ebola attestation requirement takes effect for flights to the US</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-03-cdc-ebola-attestation-requirement-takes"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/ebola/#2026-11-03-cdc-ebola-attestation-requirement-takes</id>
-    <updated>2026-11-03T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>Under a CDC order signed on 22 October, passengers on international flights to the United States must attest that they have not been in DR Congo in the previous 21 days. The requirement took effect at 11:59 pm Eastern time on 3 November and runs to 18 December unless changed.</summary>
-    <content type="html">&lt;p&gt;Under a CDC order signed on 22 October, passengers on international flights to the United States must attest that they have not been in DR Congo in the previous 21 days. The requirement took effect at 11:59 pm Eastern time on 3 November and runs to 18 December unless changed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cdc.gov/port-health/media/pdfs/2026/10/CDC-Ebola-Attestation-Order-Signed.pdf"&gt;CDC order (22 Oct)&lt;/a&gt;, &lt;a href="https://newsweek.com/new-ebola-travel-rule-kicks-in-for-all-passengers-heading-to-us-12661056"&gt;Newsweek&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Measles · US: Pennsylvania: 1,433 cases in 44 counties</title>
