@@ -5,8 +5,17 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/measles/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/</id>
-  <updated>2026-11-26T12:00:00Z</updated>
+  <updated>2026-11-26T08:00:00Z</updated>
   <author><name>US Measles Tracker</name></author>
+  <entry>
+    <title>CDC counts nine measles-related deaths</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-25-cdc-counts-nine-measles-related"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-25-cdc-counts-nine-measles-related</id>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>CDC data showed nine measles-related deaths in the US in 2026 and 671 hospitalisations, Reuters reported on 25 November. An HHS spokesperson said CDC updated its tally after the National Center for Health Statistics received additional reports from states and verified the deaths.</summary>
+    <content type="html">&lt;p&gt;CDC data showed nine measles-related deaths in the US in 2026 and 671 hospitalisations, Reuters reported on 25 November. An HHS spokesperson said CDC updated its tally after the National Center for Health Statistics received additional reports from states and verified the deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://wkzo.com/2026/11/25/us-cdc-reports-nine-measles-related-deaths-in-2026/"&gt;Reuters via WKZO&lt;/a&gt;, &lt;a href="https://www.livenowfox.com/news/9-measles-related-deaths-reported-us-though-real-number-may-be-higher"&gt;LiveNOW from FOX&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>CDC: 6,039 cases as of 24 November</title>
     <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-24-cdc-6-039-cases"/>
@@ -23,7 +32,7 @@
     <updated>2026-11-23T12:00:00Z</updated>
     <category term="official"/>
     <summary>The state health department's update of 23 November counts 1,638 confirmed cases in 46 counties, with 330 hospitalisations. The department confirmed a ninth measles-associated death this year.</summary>
-    <content type="html">&lt;p&gt;The state health department's update of 23 November counts 1,638 confirmed cases in 46 counties, with 330 hospitalisations. The department confirmed a ninth measles-associated death this year.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pennsylvania-department-of-health-confirms-ninth-measles-associa"&gt;Pennsylvania Department of Health (23 Nov)&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The state health department's update of 23 November counts 1,638 confirmed cases in 46 counties, with 330 hospitalisations. The department confirmed a ninth measles-associated death this year.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pennsylvania-department-of-health-confirms-ninth-measles-associa"&gt;Pennsylvania Department of Health (23 Nov)&lt;/a&gt;, &lt;a href="https://fox56.com/news/local/pennsylvania-reports-ninth-measles-related-death-1638-cases-this-year"&gt;Fox 56&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>CDC: 5,838 cases, 426 more than last update</title>
@@ -267,14 +276,5 @@
     <category term="official"/>
     <summary>The weekly update, with data as of 8 October, counts 193 new cases, 42 new outbreaks this year and 414 hospitalisations. CDC counts 2 deaths; Pennsylvania reports 5 under its own definition. The total is the highest for a year since 1991.</summary>
     <content type="html">&lt;p&gt;The weekly update, with data as of 8 October, counts 193 new cases, 42 new outbreaks this year and 414 hospitalisations. CDC counts 2 deaths; Pennsylvania reports 5 under its own definition. The total is the highest for a year since 1991.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.usnews.com/news/us/articles/2026-10-09/us-measles-cases-rise-to-4-080-cdc-says"&gt;U.S. News (Reuters)&lt;/a&gt;, &lt;a href="https://stateline.org/2026/10/09/measles-cases-reach-4080-for-the-year-the-highest-in-decades/"&gt;Stateline&lt;/a&gt;, &lt;a href="https://www.contagionlive.com/view/measles-update-october-9-2026"&gt;Contagion Live&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Pennsylvania: 1,078 cases in 41 counties</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-07-pennsylvania-1-078-cases-in-41"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-10-07-pennsylvania-1-078-cases-in-41</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The state health department's Wednesday update counts 1,078 confirmed cases, 207 hospitalisations and 5 measles-associated deaths. Lancaster County has 401 cases and Mifflin County 153. About 40 of the 74 cases added since 5 October were older infections only recently confirmed, and the department said the update does not reflect a current surge in new infections.</summary>
-    <content type="html">&lt;p&gt;The state health department's Wednesday update counts 1,078 confirmed cases, 207 hospitalisations and 5 measles-associated deaths. Lancaster County has 401 cases and Mifflin County 153. About 40 of the 74 cases added since 5 October were older infections only recently confirmed, and the department said the update does not reflect a current surge in new infections.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out9"&gt;Pennsylvania Dept. of Health&lt;/a&gt;, &lt;a href="https://www.usnews.com/news/us/articles/2026-10-07/pennsylvania-measles-cases-rise-to-1-078-as-outbreak-spreads"&gt;U.S. News (Reuters)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

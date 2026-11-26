@@ -16,11 +16,11 @@
       "status": {
         "level": "growing",
         "label": "Growing · elimination status lost",
-        "summary": "CDC counted 6,039 confirmed cases as of 24 November (CDC; its page was updated on 25 November for the federal holiday, with data updates to resume on 4 December). Its figures for hospitalisations and deaths were 591 and six, as of 12 November, subject to change as reviews continue (Contagion Live; CDC). Pennsylvania's outbreak, centred on Lancaster County, has reached 1,638 cases in 46 counties, 330 hospitalisations and nine confirmed deaths by the state's count (23 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
+        "summary": "CDC counted 6,039 confirmed cases as of 24 November (CDC; its page was updated on 25 November for the federal holiday, with data updates to resume on 4 December). CDC data showed 671 hospitalisations and nine measles-related deaths, Reuters and LiveNOW reported on 25 November; CDC's count had been six as of 12 November. Pennsylvania's outbreak, centred on Lancaster County, has reached 1,638 cases in 46 counties, 330 hospitalisations and nine confirmed deaths by the state's count (23 November). On 2 November New York State health officials announced a measles-associated death in northern New York, the state's first in more than 30 years (CNN, STAT). On 17 November the Pan American Health Organization (PAHO) announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, and that all three have lost their measles elimination status; the US had held it since 2000."
       },
       "headline": "PAHO announced on 17 November that the US, Mexico and Bolivia have lost their measles elimination status. CDC counts 6,039 US cases in 2026 (as of 24 November), the highest annual total in 35 years. Pennsylvania reports 1,638 cases and nine measles-associated deaths (23 November).",
-      "updated": "2026-11-26T12:00:00Z",
-      "checked": "2026-11-26T12:30:00Z",
+      "updated": "2026-11-26T08:00:00Z",
+      "checked": "2026-11-26T08:00:00Z",
       "figures": [
         {
           "label": "Confirmed cases",
@@ -36,21 +36,21 @@
         },
         {
           "label": "Deaths (CDC count)",
-          "value": 6,
+          "value": 9,
           "unit": "",
           "tone": "critical"
         }
       ],
       "latest": [
         {
+          "date": "2026-11-25",
+          "title": "CDC counts nine measles-related deaths",
+          "id": "2026-11-25-cdc-counts-nine-measles-related"
+        },
+        {
           "date": "2026-11-24",
           "title": "CDC: 6,039 cases as of 24 November",
           "id": "2026-11-24-cdc-6-039-cases"
-        },
-        {
-          "date": "2026-11-23",
-          "title": "Pennsylvania: 1,638 cases in 46 counties, nine deaths",
-          "id": "2026-11-23-pennsylvania-1-638-cases-in"
         }
       ]
     },
