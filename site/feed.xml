@@ -5,7 +5,7 @@
   <link href="https://nhlebe1.github.io/ai-scheduler-platform/"/>
   <link rel="self" href="https://nhlebe1.github.io/ai-scheduler-platform/feed.xml"/>
   <id>https://nhlebe1.github.io/ai-scheduler-platform/</id>
-  <updated>2026-11-26T14:00:00Z</updated>
+  <updated>2026-11-27T18:42:29Z</updated>
   <author><name>Outbreak Ledger</name></author>
   <entry>
     <title>Ebola · DR Congo: DR Congo data: 12,021 confirmed cases and 5,904 deaths</title>
@@ -24,6 +24,15 @@
     <category term="official"/>
     <summary>CDC data showed nine measles-related deaths in the US in 2026 and 671 hospitalisations, Reuters reported on 25 November. An HHS spokesperson said CDC updated its tally after the National Center for Health Statistics received additional reports from states and verified the deaths.</summary>
     <content type="html">&lt;p&gt;CDC data showed nine measles-related deaths in the US in 2026 and 671 hospitalisations, Reuters reported on 25 November. An HHS spokesperson said CDC updated its tally after the National Center for Health Statistics received additional reports from states and verified the deaths.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://wkzo.com/2026/11/25/us-cdc-reports-nine-measles-related-deaths-in-2026/"&gt;Reuters via WKZO&lt;/a&gt;, &lt;a href="https://www.livenowfox.com/news/9-measles-related-deaths-reported-us-though-real-number-may-be-higher"&gt;LiveNOW from FOX&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Measles · US: Pennsylvania: 1,679 cases in 46 counties</title>
+    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-25-pennsylvania-1-679-cases-in"/>
+    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-25-pennsylvania-1-679-cases-in</id>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <category term="official"/>
+    <summary>The state health department's update of 25 November counts 1,679 confirmed measles cases in 46 counties, with 340 hospitalisations and nine measles-associated deaths this year.</summary>
+    <content type="html">&lt;p&gt;The state health department's update of 25 November counts 1,679 confirmed measles cases in 46 counties, with 340 hospitalisations and nine measles-associated deaths this year.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out19"&gt;Pennsylvania Department of Health (25 Nov)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Measles · US: CDC: 6,039 cases as of 24 November</title>
@@ -321,15 +330,6 @@
     <category term="official"/>
     <summary>Kenya's health ministry said 46 contacts completed monitoring without symptoms and were released from quarantine on 3 November, bringing the total released to 66, and that 52 remain, expected out by 11 November. Five patients were discharged after testing negative and two remain under treatment. Kenya's count stays at nine confirmed cases, two of them fatal. The ministry said the outbreak would not be declared over until a 42-day countdown is complete.</summary>
     <content type="html">&lt;p&gt;Kenya's health ministry said 46 contacts completed monitoring without symptoms and were released from quarantine on 3 November, bringing the total released to 66, and that 52 remain, expected out by 11 November. Five patients were discharged after testing negative and two remain under treatment. Kenya's count stays at nine confirmed cases, two of them fatal. The ministry said the outbreak would not be declared over until a 42-day countdown is complete.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.kenyanews.go.ke/five-ebola-patients-discharged-as-46-contacts-complete-quarantine/"&gt;Kenya News Agency&lt;/a&gt;, &lt;a href="https://www.washingtontimes.com/news/2026/nov/3/kenya-releases-five-ebola-patients-negative-tests-two-remain/"&gt;Washington Times (3 Nov)&lt;/a&gt;, &lt;a href="https://english.news.cn/africa/20261104/5a29b63d60394aa7a8b4695693a1eb83/c.html"&gt;Xinhua (4 Nov)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Measles · US: Pennsylvania: 1,433 cases in 44 counties</title>
-    <link href="https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-02-pennsylvania-1-433-cases-in"/>
-    <id>https://nhlebe1.github.io/ai-scheduler-platform/measles/#2026-11-02-pennsylvania-1-433-cases-in</id>
-    <updated>2026-11-02T12:00:00Z</updated>
-    <category term="official"/>
-    <summary>The state health department's update of 2 November counts 1,433 confirmed cases in 44 counties, with 269 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.</summary>
-    <content type="html">&lt;p&gt;The state health department's update of 2 November counts 1,433 confirmed cases in 44 counties, with 269 hospitalisations and 5 confirmed measles-associated deaths. Four of the cases were in vaccinated people, less than 1% of the total.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out15"&gt;Pennsylvania Dept. of Health (2 Nov)&lt;/a&gt;, &lt;a href="https://www.usnews.com/news/us/articles/2026-11-02/pennsylvania-measles-cases-rise-to-1-433-state-health-department-says"&gt;U.S. News (Reuters, 2 Nov)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Mpox · Africa &amp; world: Stanislaus County, California, reports four mpox cases, two clade I</title>
